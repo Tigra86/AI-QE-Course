@@ -1,0 +1,27 @@
+{
+    "sentence": "The book that Nik bought last week was fascinating.",
+    "focus_word": "fascinating",
+    "raw_scores": {
+        "the": -0.08,
+        "book": 0.0041,
+        "that": -0.0762,
+        "nik": 0.1259,
+        "bought": 0.127,
+        "last": -0.3048,
+        "week": -0.1835,
+        "was": 0.112,
+        "fascinating": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "book": 0.1245,
+        "that": 0.08,
+        "nik": 0.1407,
+        "bought": 0.1408,
+        "last": 0.0914,
+        "week": 0.1593,
+        "was": 0.08,
+        "fascinating": 0.1032
+    },
+    "softmax_sum": 1.0
+}

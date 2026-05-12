@@ -1,0 +1,42 @@
+# Error Documentation: Model Bias and Punctuation Sensitivity
+
+## Problem Description
+The intent classification model (trained using `TfidfVectorizer` and `LogisticRegression`) exhibits sensitivity to trailing punctuation, specifically question marks (`?`).
+
+### Symptoms
+- **Query without `?`**: Asking "what is the capital of Japan" returns information about **Paris**.
+- **Query with `?`**: Asking "what is the capital of Japan?" returns the correct information for **Tokyo**.
+
+## Root Cause Analysis
+1. **Tokenization Mismatch**: The default `TfidfVectorizer` token pattern may be treating the word "Japan" and the token "Japan?" differently, or it may be ignoring the `?` entirely, leaving the model to rely on broader statistical patterns.
+2. **Statistical Bias**: In small datasets, if the "Paris" entries were processed first or appear more frequently in a specific format, the model can develop a bias toward that class when encountering features common to multiple intents (like the phrase "what is the capital of").
+3. **Feature Weighting**: Without the question mark, the input vector aligns more closely with the "Paris" cluster. The addition of the `?` shifts the mathematical representation enough to cross the decision boundary into the "Japan" category.
+
+## Technical Constraints
+- The user has explicitly requested **not** to modify the `normalize` function in `generate_assets.py` at this time.
+- The issue persists because the raw training data and the runtime queries are not being stripped of punctuation before feature extraction.
+
+## Future Recommendations
+- **Robust Training Data**: Include variations of each question with and without punctuation in the source JSON files.
+- **Vectorizer Configuration**: Update `train.py` to use a more inclusive `token_pattern` or a custom preprocessor that handles punctuation consistently across training and inference.
+- **Synthetic Augmentation**: Programmatically generate "no-punctuation" variants during the asset generation phase without altering the core normalization logic.
+
+
+## Feature Uniqueness vs. Commonality
+
+### Case Study: Mount Everest (High Uniqueness)
+- **Observations**: Queries about Mount Everest work correctly both with and without a trailing question mark.
+- **Reasoning**: The term "Everest" is a highly unique and "heavy" feature within the dataset. It appears in very limited contexts (e.g., specific geography/science entries).
+- **Result**: The statistical weight of the word "Everest" is strong enough to pull the model's prediction toward the correct intent regardless of punctuation changes.
+
+### Case Study: Japan (High Commonality)
+- **Observations**: Queries about Japan work with "?" but fail (reverting to "Paris") without it.
+- **Reasoning**: The query "What is the capital of Japan" shares almost all its tokens ("What", "is", "the", "capital", "of") with dozens of other entries in the capitals dataset.
+- **Result**: Because the core phrase has low predictive power, the model relies on the specific keyword ("Japan") and punctuation. Without the "?", the model's mathematical vector aligns more closely with the first-learned or most frequent cluster in that category (in this case, "Paris").
+
+### Comparison Summary
+| Feature                | Mount Everest                 | Japan/Capitals                     |
+|------------------------|-------------------------------|------------------------------------|
+| **Keyword Uniqueness** | High (Everest is rare)        | Low (Shared "Capital of" prefix)   |
+| **Predictive Weight** | Concentrated in one word      | Spread across common tokens        |
+| **Sensitivity** | Low (Landmark feature)        | High (Requires tie-breaking punct) |

@@ -1,0 +1,40 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5.2
+model_context_window / token_budget: 128000
+input_tokens: 18
+output_tokens: 350
+total_tokens / billed_tokens: 368
+remaining_tokens / not_billed_tokens: 127632 (128000 - 368)
+available_for_output_at_start: 127982
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Explain the concept of 'temperature' in LLM generation.
+
+=== RAW OUTPUT ===
+In LLM text generation, **temperature** is a parameter that controls how *random* (vs. *deterministic*) the model’s next-token choices are.
+
+## What it acts on
+At each step, the model produces a probability distribution over possible next tokens. Temperature rescales that distribution **before sampling**:
+
+- **Low temperature (< 1.0):** makes the distribution *sharper* → the highest‑probability tokens become even more likely.
+- **High temperature (> 1.0):** makes the distribution *flatter* → lower‑probability tokens become more competitive.
+
+Mathematically, if a model outputs logits \(z_i\), temperature \(T\) is applied as:
+\[
+p_i = \frac{e^{z_i/T}}{\sum_j e^{z_j/T}}
+\]
+- \(T \to 0\): approaches “always pick the best token” (greedy behavior).
+- \(T = 1\): unchanged from the model’s native distribution.
+- Larger \(T\): more exploratory sampling.
+
+## Practical effects
+- **Temperature = 0 (or very close):** most consistent, repeatable outputs; good for factual or format-sensitive tasks, but can be repetitive or get “stuck” in common phrasing.
+- **Temperature ~ 0.7–1.0:** balanced—still coherent, with some variation.
+- **Temperature ~ 1.2–2.0:** more diverse/creative but higher risk of errors, incoherence, or hallucinations.
+
+## How it relates to other decoding controls
+Temperature is often used alongside:
+- **Top‑p (nucleus sampling):** restricts choices

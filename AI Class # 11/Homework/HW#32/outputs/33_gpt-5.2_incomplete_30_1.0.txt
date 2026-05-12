@@ -1,0 +1,17 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5.2
+model_context_window / token_budget: 128000
+input_tokens: 18
+output_tokens: 30
+total_tokens / billed_tokens: 48
+remaining_tokens / not_billed_tokens: 127952 (128000 - 48)
+available_for_output_at_start: 127982
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Explain the concept of 'temperature' in LLM generation.
+
+=== RAW OUTPUT ===
+In LLM text generation, **temperature** is a knob that controls how *random* or *deterministic* the model’s

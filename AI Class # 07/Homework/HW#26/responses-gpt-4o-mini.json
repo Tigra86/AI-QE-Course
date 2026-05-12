@@ -1,0 +1,96 @@
+﻿{
+  "timestamp": "03-09-2026 01:31:58 PM",
+  "model": "gpt-4o-mini",
+  "results": [
+    {
+      "name": "Instruction Prompt",
+      "id": "P001",
+      "prompt": "Answer concisely in one sentence: Why do leaves change color in the autumn?",
+      "prompt_output": "Leaves change color in autumn due to the breakdown of chlorophyll, revealing other pigments such as carotenoids and anthocyanins as daylight decreases and temperatures drop."
+    },
+    {
+      "name": "Contextual Prompt",
+      "id": "P002",
+      "prompt": "Background: You are a historian specializing in the Age of Discovery. Question: What was the primary motivation for the 1492 voyage of Christopher Columbus?",
+      "prompt_output": "The primary motivation for Christopher Columbus's 1492 voyage was to find a westward route to Asia, specifically to access the lucrative spice trade. During this period, European nations were eager to find alternative routes to Asia in order to acquire valuable goods such as spices, silk, and precious metals, which were in high demand. Columbus believed that by sailing west across the Atlantic Ocean, he could reach the East Indies (the region that includes present-day Indonesia and surrounding areas) more directly than the existing routes that were dominated by Portuguese and other European powers.\n\nIn addition to economic motivations, Columbus was also driven by a desire for fame and glory, as well as a religious zeal to spread Christianity. He sought the patronage of the Spanish monarchy, King Ferdinand and Queen Isabella, who were supportive of his quest both for its potential economic benefits and for enhancing Spanish prestige on the global stage. Ultimately, while Columbus did not reach Asia, his voyages led to the European awareness of the Americas and initiated widespread exploration and colonization of the continent."
+    },
+    {
+      "name": "Few-Shot Prompt",
+      "id": "P003",
+      "prompt": "Q: What is the largest planet in our solar system?\nA: Jupiter\n\nQ: What is the planet closest to the Sun?\nA:",
+      "prompt_output": "Mercury"
+    },
+    {
+      "name": "Constraint-Based Prompt",
+      "id": "P004",
+      "prompt": "Do not use the letter 'e' in your response. Answer this: What is the opposite of 'hot'?",
+      "prompt_output": "It is 'cold'."
+    },
+    {
+      "name": "Role Prompt",
+      "id": "P005",
+      "prompt": "Act as a grumpy 17th-century pirate. Explain how a magnetic compass works.",
+      "prompt_output": "Arrr, ye landlubber! Sit ye down and listen well, for I’ve not the patience to repeat meself. A magnetic compass be a simple contraption, but it be worth more than a chest o’ gold when ye be lost at sea.\n\nYe see, it’s made up of a wee needle, often fashioned from iron and mounted on a pivot. That needle be a fickle thing, but it knows its way—thanks to the great magnetic forces that dwell in the Earth itself. Aye, the Earth be like a massive magnet, with its own north and south poles, and that needle be drawn to the magnetic north like a moth to a flame. \n\nWhen ye hold the compass steady, the needle will settle and point towards the North. If ye be lookin' for yer bearings, ye reckon the direction based on where the needle points. Just remember, it don’t always point to the true North Pole, but rather to the magnetic North, which be a bit off, depending on where ye be sailing. \n\nSo, if ye’re tryin' to find yer way through stormy seas or treacherous waters, trust in yer compass, but keep yer wits about ye too! It ain’t foolproof, and the devil be in the details. Now, quit yer blatherin’ and get back to scrubbing the deck!"
+    },
+    {
+      "name": "Zero-Shot Prompt",
+      "id": "P006",
+      "prompt": "How many states are in the United States of America currently?",
+      "prompt_output": "There are currently 50 states in the United States of America."
+    },
+    {
+      "name": "Reasoning Prompt",
+      "id": "P007",
+      "prompt": "If I have three apples and you take away two, how many apples do I have left? Explain your reasoning step by step.",
+      "prompt_output": "Let's break it down step by step:\n\n1. **Starting Quantity**: You begin with 3 apples.\n\n2. **Apples Taken Away**: If I take away 2 apples from your total, we need to subtract those 2 from your original amount.\n\n3. **Performing the Subtraction**: \n   - You have 3 apples.\n   - You lose 2 apples (since I take them).\n\n   So, the calculation is:\n   \\[\n   3 - 2 = 1\n   \\]\n\n4. **Result**: After I take away 2 apples, you are left with 1 apple.\n\nSo, the answer is that you have **1 apple left**."
+    },
+    {
+      "name": "Retrieval-Augmented Prompt",
+      "id": "P008",
+      "prompt": "Use ONLY the information below.\nDocument:\nThe rare Blue Moon Snail lives in the depths of the Indian Ocean.\nIt feeds exclusively on glowing plankton.\n\nQuestion: What does the Blue Moon Snail eat?",
+      "prompt_output": "The Blue Moon Snail feeds exclusively on glowing plankton."
+    },
+    {
+      "name": "Delimited Prompt",
+      "id": "P009",
+      "prompt": "Summarize the text inside the markers shown below.\n---\nQuantum entanglement is a physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity in a way such that the quantum state of each particle cannot be described independently of the state of the others.\n---",
+      "prompt_output": "Quantum entanglement is a phenomenon where particles become interconnected in such a way that the state of each particle cannot be described independently from the others, typically due to their generation, interaction, or proximity."
+    },
+    {
+      "name": "Reflection Prompt",
+      "id": "P010",
+      "prompt": "What is the square root of 144?\nNow review your answer, double-check the math, and confirm if it is correct.",
+      "prompt_output": "The square root of 144 is 12. \n\nTo double-check: \n12 multiplied by 12 equals 144 (12 × 12 = 144). \n\nSo, the answer is confirmed to be correct. The square root of 144 is indeed 12."
+    },
+    {
+      "name": "Output-Schema Prompt",
+      "id": "P011",
+      "prompt": "Respond ONLY in valid JSON:\n{\n  \"animal\": \"name of a mammal\",\n  \"habitat\": \"where it lives\",\n  \"is_endangered\": boolean\n}",
+      "prompt_output": "{\n  \"animal\": \"Amur Leopard\",\n  \"habitat\": \"Temperate forests in the Russian Far East and Northeast China\",\n  \"is_endangered\": true\n}"
+    },
+    {
+      "name": "Calibration Prompt",
+      "id": "P012",
+      "prompt": "If you're not 100% sure about the exact date, say 'I am uncertain'. When exactly was the first steam engine patented?",
+      "prompt_output": "The first steam engine was patented by Thomas Newcomen in 1705. However, it is important to note that there were earlier versions of steam engines that were developed before this patent, but Newcomen's design was the first to be widely used for pumping water."
+    },
+    {
+      "name": "Multi-Modal Prompt",
+      "id": "P013",
+      "prompt": "Identify the object in this description: It is a tall, metal structure in Paris, built for the 1889 World's Fair.",
+      "prompt_output": "The object you are describing is the Eiffel Tower."
+    },
+    {
+      "name": "Meta Prompt",
+      "id": "P014",
+      "prompt": "Rewrite this prompt to be more effective for a creative writer: 'write a short story about a dog'",
+      "prompt_output": "\"Craft a captivating short story featuring a dog as the central character. Explore its unique personality and perspective, and weave in themes of loyalty, adventure, or friendship. Let the tale unfold in a setting that enhances the dog's journey, inviting readers to connect emotionally with its experiences.\""
+    },
+    {
+      "name": "Tool-Calling Prompt",
+      "id": "P015",
+      "prompt": "What is the current weather in Tokyo? (If you cannot access live tools, please explain how you would find this information).",
+      "prompt_output": "I don't have the capability to access live weather data or any real-time tools. However, you can find the current weather in Tokyo by using various methods:\n\n1. **Weather Websites**: Visit popular weather websites such as Weather.com, AccuWeather, or the BBC Weather site. You can simply enter \"Tokyo\" in the search bar to get the latest weather information.\n\n2. **Weather Apps**: Use a weather app on your smartphone. Apps like The Weather Channel, AccuWeather, or your device's built-in weather app can provide up-to-date information.\n\n3. **Search Engines**: You can type \"current weather in Tokyo\" in a search engine like Google. This will often display the current weather conditions directly on the search results page.\n\n4. **Local News**: Check local news stations or their websites, which often provide weather updates for their respective regions.\n\n5. **Social Media**: Look for weather updates on social media platforms, where many meteorologists and news outlets post real-time weather information.\n\nThese methods will help you get the most accurate and current weather information for Tokyo or any other location."
+    }
+  ]
+}

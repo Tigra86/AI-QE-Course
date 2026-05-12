@@ -1,0 +1,18 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4o-mini
+model_context_window / token_budget: 8192
+input_tokens: 17
+output_tokens: 20
+total_tokens / billed_tokens: 37
+remaining_tokens / not_billed_tokens: 8155 (8192 - 37)
+available_for_output_at_start: 8175
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Write a poem about the context window being full.
+
+=== RAW OUTPUT ===
+In the realm of thought where ideas flow,  
+A vast expanse where the mind can grow,

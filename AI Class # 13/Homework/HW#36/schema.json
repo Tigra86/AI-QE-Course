@@ -1,0 +1,151 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/Welcome7",
+    "definitions": {
+        "Welcome7": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": { "type": "string" },
+                "created_at": { "type": "number" },
+                "error": { "type": ["string", "number", "null"] },
+                "incomplete_details": { "type": ["string", "number", "null"] },
+                "instructions": { "type": ["string", "number", "null"] },
+                "metadata": { "$ref": "#/definitions/Metadata" },
+                "model": { "type": "string" },
+                "object": { "type": "string" },
+                "output": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/Output" }
+                },
+                "parallel_tool_calls": { "type": "boolean" },
+                "temperature": { "type": "number" },
+                "tool_choice": { "type": "string" },
+                "tools": { "type": "array", "items": {} },
+                "top_p": { "type": "number" },
+                "background": { "type": "boolean" },
+                "completed_at": { "type": "number" },
+                "conversation": { "type": ["string", "number", "null"] },
+                "max_output_tokens": { "type": "integer" },
+                "max_tool_calls": { "type": ["string", "number", "null"] },
+                "previous_response_id": { "type": ["string", "number", "null"] },
+                "prompt": { "type": ["string", "number", "null"] },
+                "prompt_cache_key": { "type": ["string", "number", "null"] },
+                "prompt_cache_retention": { "type": ["string", "number", "null"] },
+                "reasoning": { "$ref": "#/definitions/Reasoning" },
+                "safety_identifier": { "type": ["string", "number", "null"] },
+                "service_tier": { "type": "string" },
+                "status": { "type": "string" },
+                "text": { "$ref": "#/definitions/Text" },
+                "top_logprobs": { "type": "integer" },
+                "truncation": { "type": "string" },
+                "usage": { "$ref": "#/definitions/Usage" },
+                "user": { "type": ["string", "number", "null"] },
+                "billing": { "$ref": "#/definitions/Billing" },
+                "frequency_penalty": { "type": "number" },
+                "presence_penalty": { "type": "number" },
+                "store": { "type": "boolean" }
+            },
+            "required": [
+                "background", "billing", "completed_at", "conversation", "created_at",
+                "error", "frequency_penalty", "id", "incomplete_details", "instructions",
+                "max_output_tokens", "max_tool_calls", "metadata", "model", "object",
+                "output", "parallel_tool_calls", "presence_penalty", "previous_response_id",
+                "prompt", "prompt_cache_key", "prompt_cache_retention", "reasoning",
+                "safety_identifier", "service_tier", "status", "store", "temperature",
+                "text", "tool_choice", "tools", "top_logprobs", "top_p", "truncation",
+                "usage", "user"
+            ],
+            "title": "Welcome7"
+        },
+        "Billing": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": { "payer": { "type": "string" } },
+            "required": ["payer"],
+            "title": "Billing"
+        },
+        "Metadata": { "type": "object", "additionalProperties": false, "title": "Metadata" },
+        "Output": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "id": { "type": "string" },
+                "content": { "type": "array", "items": { "$ref": "#/definitions/Content" } },
+                "role": { "type": "string" },
+                "status": { "type": "string" },
+                "type": { "type": "string" },
+                "phase": { "type": ["string", "number", "null"] }
+            },
+            "required": ["content", "id", "role", "status", "type"],
+            "title": "Output"
+        },
+        "Content": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "annotations": { "type": "array", "items": {} },
+                "text": { "type": "string" },
+                "type": { "type": "string" },
+                "logprobs": { "type": "array", "items": {} }
+            },
+            "required": ["annotations", "logprobs", "text", "type"],
+            "title": "Content"
+        },
+        "Reasoning": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "effort": { "type": "string" },
+                "generate_summary": { "type": ["string", "number", "null"] },
+                "summary": { "type": ["string", "number", "null"] }
+            },
+            "required": ["effort", "generate_summary", "summary"],
+            "title": "Reasoning"
+        },
+        "Text": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "format": { "$ref": "#/definitions/Format" },
+                "verbosity": { "type": "string" }
+            },
+            "required": ["format", "verbosity"],
+            "title": "Text"
+        },
+        "Format": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": { "type": { "type": "string" } },
+            "required": ["type"],
+            "title": "Format"
+        },
+        "Usage": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "input_tokens": { "type": "integer" },
+                "input_tokens_details": { "$ref": "#/definitions/InputTokensDetails" },
+                "output_tokens": { "type": "integer" },
+                "output_tokens_details": { "$ref": "#/definitions/OutputTokensDetails" },
+                "total_tokens": { "type": "integer" }
+            },
+            "required": ["input_tokens", "input_tokens_details", "output_tokens", "output_tokens_details", "total_tokens"],
+            "title": "Usage"
+        },
+        "InputTokensDetails": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": { "cached_tokens": { "type": "integer" } },
+            "required": ["cached_tokens"],
+            "title": "InputTokensDetails"
+        },
+        "OutputTokensDetails": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": { "reasoning_tokens": { "type": "integer" } },
+            "required": ["reasoning_tokens"],
+            "title": "OutputTokensDetails"
+        }
+    }
+}

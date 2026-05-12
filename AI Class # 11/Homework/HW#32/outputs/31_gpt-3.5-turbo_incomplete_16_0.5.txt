@@ -1,0 +1,20 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-3.5-turbo
+model_context_window / token_budget: 4096
+input_tokens: 18
+output_tokens: 16
+total_tokens / billed_tokens: 34
+remaining_tokens / not_billed_tokens: 4062 (4096 - 34)
+available_for_output_at_start: 4078
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Give me a recipe for chocolate cake with detailed steps.
+
+=== RAW OUTPUT ===
+Sure! Here's a recipe for a classic chocolate cake:
+
+Ingredients:
+-

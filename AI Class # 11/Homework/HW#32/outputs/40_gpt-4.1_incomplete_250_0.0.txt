@@ -1,0 +1,39 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4.1
+model_context_window / token_budget: 128000
+input_tokens: 16
+output_tokens: 250
+total_tokens / billed_tokens: 266
+remaining_tokens / not_billed_tokens: 127734 (128000 - 266)
+available_for_output_at_start: 127984
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+What is the relationship between tokens and billing?
+
+=== RAW OUTPUT ===
+The relationship between **tokens** and **billing** is central to how most AI language models (like OpenAI's GPT models) charge for usage. Here’s a clear explanation:
+
+---
+
+### What is a Token?
+
+- A **token** is a chunk of text. It can be as short as one character or as long as one word (e.g., "a", "apple", "running").
+- For English, 1 token ≈ 4 characters or 0.75 words on average.
+- Example: The sentence "ChatGPT is great!" is **5 tokens**: ["Chat", "G", "PT", " is", " great!"]
+
+---
+
+### How Tokens Relate to Billing
+
+- **Billing is based on the number of tokens processed.**
+- Every time you send a prompt or receive a response, the total number of tokens (input + output) is counted.
+- **You are charged per token** according to the pricing of the model you use (e.g., GPT-3.5, GPT-4, etc.).
+
+#### Example
+
+Suppose the price is $0.002 per 1,000 tokens.
+
+- If your prompt is 100 tokens and the response is 200 tokens,

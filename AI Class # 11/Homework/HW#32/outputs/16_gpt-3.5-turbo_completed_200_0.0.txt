@@ -1,0 +1,17 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-3.5-turbo
+model_context_window / token_budget: 4096
+input_tokens: 18
+output_tokens: 88
+total_tokens / billed_tokens: 106
+remaining_tokens / not_billed_tokens: 3990 (4096 - 106)
+available_for_output_at_start: 4078
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+Define 'Parsing' in the context of computer science.
+
+=== RAW OUTPUT ===
+In computer science, parsing refers to the process of analyzing a sequence of symbols or characters according to the rules of a formal grammar. This process is commonly used in programming languages to understand and interpret the structure of code written by developers. Parsing involves breaking down the input into its component parts and determining how these parts relate to each other. This is an essential step in many applications, such as compilers, interpreters, and data processing systems.

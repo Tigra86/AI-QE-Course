@@ -1,0 +1,270 @@
+{
+  "metadata": {
+    "product": "Capitals",
+    "domain": "other",
+    "version": "1.0",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "category": "general",
+      "question": "What is the capital of France?",
+      "expected_answers": [
+        "The capital of France is Paris.",
+        "France's capital city is Paris.",
+        "The city of Paris is France's capital.",
+        "Paris is the capital city of France.",
+        "Paris serves as France's capital."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q002",
+      "category": "general",
+      "question": "What is the capital of Japan?",
+      "expected_answers": [
+        "Tokyo is the nation's capital.",
+        "The Japanese government is centered in Tokyo.",
+        "Tokyo stands as the capital of Japan.",
+        "Japan identifies Tokyo as its capital city.",
+        "The city of Tokyo is the heart of Japan's government."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q003",
+      "category": "general",
+      "question": "What is the capital of Germany?",
+      "expected_answers": [
+        "Berlin is where Germany's capital is located.",
+        "The official capital of Germany is Berlin.",
+        "Berlin represents the capital city of Germany.",
+        "Germany's central seat of power is Berlin.",
+        "Berlin is recognized as the German capital."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q004",
+      "category": "general",
+      "question": "What is the capital of Italy?",
+      "expected_answers": [
+        "Rome is the primary capital city of Italy.",
+        "The Italian capital is known as Rome.",
+        "Italy's administration is based in Rome.",
+        "Rome is the designated capital of the Italian Republic.",
+        "The city of Rome serves as the capital for Italy."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q005",
+      "category": "general",
+      "question": "What is the capital of the United Kingdom?",
+      "expected_answers": [
+        "London is the capital city of the UK.",
+        "The UK identifies London as its capital.",
+        "London acts as the capital of the United Kingdom.",
+        "The British capital is the city of London.",
+        "London is the official seat of the UK government."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q006",
+      "category": "general",
+      "question": "What is the capital of Canada?",
+      "expected_answers": [
+        "Ottawa is the federal capital of Canada.",
+        "The capital of Canada is the city of Ottawa.",
+        "Canada's seat of government is Ottawa.",
+        "Ottawa is officially the Canadian capital.",
+        "The city of Ottawa serves Canada as its capital."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q007",
+      "category": "general",
+      "question": "What is the capital of Australia?",
+      "expected_answers": [
+        "Canberra is Australia's capital city.",
+        "The Australian capital is located in Canberra.",
+        "Canberra serves as the capital of the Commonwealth of Australia.",
+        "Australia's government is based in Canberra.",
+        "The city of Canberra is the capital of Australia."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q008",
+      "category": "general",
+      "question": "What is the capital of Brazil?",
+      "expected_answers": [
+        "Brasilia is the current capital of Brazil.",
+        "The city of Brasilia is Brazil's capital.",
+        "Brazil's federal capital is Brasilia.",
+        "Brasilia serves as the seat of the Brazilian government.",
+        "The Brazilian capital city is Brasilia."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q009",
+      "category": "general",
+      "question": "What is the capital of Spain?",
+      "expected_answers": [
+        "Madrid is the capital of the Kingdom of Spain.",
+        "The Spanish capital city is Madrid.",
+        "Madrid serves as the center of Spain's government.",
+        "Spain's official capital is Madrid.",
+        "The city of Madrid is the capital of Spain."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q010",
+      "category": "general",
+      "question": "What is the capital of China?",
+      "expected_answers": [
+        "Beijing is the capital of the People's Republic of China.",
+        "The Chinese capital is the city of Beijing.",
+        "Beijing serves as China's political capital.",
+        "China's seat of power is located in Beijing.",
+        "Beijing is the official capital city of China."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q011",
+      "category": "general",
+      "question": "What is the capital of India?",
+      "expected_answers": [
+        "New Delhi is the capital city of India.",
+        "India's capital is located in New Delhi.",
+        "The city of New Delhi is the Indian capital.",
+        "New Delhi serves as the seat of India's government.",
+        "The official capital of India is New Delhi."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q012",
+      "category": "general",
+      "question": "What is the capital of Mexico?",
+      "expected_answers": [
+        "Mexico City is the capital of Mexico.",
+        "The Mexican capital is Mexico City.",
+        "Mexico City serves as the country's capital.",
+        "The seat of Mexico's government is Mexico City.",
+        "Mexico's capital city is Mexico City."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q013",
+      "category": "general",
+      "question": "What is the capital of South Korea?",
+      "expected_answers": [
+        "Seoul is the capital of South Korea.",
+        "The South Korean capital is Seoul.",
+        "Seoul serves as the seat of government for South Korea.",
+        "South Korea's capital city is Seoul.",
+        "The city of Seoul is the capital of South Korea."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q014",
+      "category": "general",
+      "question": "What is the capital of Egypt?",
+      "expected_answers": [
+        "Cairo is the capital of Egypt.",
+        "The Egyptian capital city is Cairo.",
+        "Cairo serves as the seat of Egypt's government.",
+        "Egypt's official capital is Cairo.",
+        "The city of Cairo is the capital of Egypt."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q015",
+      "category": "general",
+      "question": "What is the capital of Argentina?",
+      "expected_answers": [
+        "Buenos Aires is the capital of Argentina.",
+        "The Argentine capital is Buenos Aires.",
+        "Buenos Aires serves as the country's capital.",
+        "Argentina's seat of government is Buenos Aires.",
+        "The city of Buenos Aires is Argentina's capital."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q016",
+      "category": "general",
+      "question": "What is the capital of Turkey?",
+      "expected_answers": [
+        "Ankara is the capital of Turkey.",
+        "The Turkish capital city is Ankara.",
+        "Ankara serves as the seat of Turkey's government.",
+        "Turkey's official capital is Ankara.",
+        "The city of Ankara is the capital of Turkey."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q017",
+      "category": "general",
+      "question": "What is the capital of Thailand?",
+      "expected_answers": [
+        "Bangkok is the capital of Thailand.",
+        "The Thai capital city is Bangkok.",
+        "Bangkok serves as the seat of Thailand's government.",
+        "Thailand's official capital is Bangkok.",
+        "The city of Bangkok is the capital of Thailand."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q018",
+      "category": "general",
+      "question": "What is the capital of Greece?",
+      "expected_answers": [
+        "Athens is the capital of Greece.",
+        "The Greek capital city is Athens.",
+        "Athens serves as the seat of Greece's government.",
+        "Greece's official capital is Athens.",
+        "The city of Athens is the capital of Greece."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q019",
+      "category": "general",
+      "question": "What is the capital of Portugal?",
+      "expected_answers": [
+        "Lisbon is the capital of Portugal.",
+        "The Portuguese capital city is Lisbon.",
+        "Lisbon serves as the seat of Portugal's government.",
+        "Portugal's official capital is Lisbon.",
+        "The city of Lisbon is the capital of Portugal."
+      ],
+      "tags": ["general"]
+    },
+    {
+      "id": "Q020",
+      "category": "general",
+      "question": "What is the capital of Norway?",
+      "expected_answers": [
+        "Oslo is the capital of Norway.",
+        "The Norwegian capital city is Oslo.",
+        "Oslo serves as the seat of Norway's government.",
+        "Norway's official capital is Oslo.",
+        "The city of Oslo is the capital of Norway."
+      ],
+      "tags": ["general"]
+    }
+  ]
+}

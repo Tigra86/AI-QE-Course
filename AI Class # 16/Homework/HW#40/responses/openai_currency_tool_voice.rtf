@@ -1,0 +1,196 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red242\green242\blue242;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c95825;\csgray\c0\c80000;}
+\margl1440\margr1440\vieww38200\viewh19620\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf2 \cb3 \CocoaLigature0 Mac\'96mini:HW#40 Tigra$ python openai_currency_tool_voice.py voice\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_currency_tool_voice.py:40: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  filename = f"recordings/question_\{datetime.utcnow().strftime('%Y%m%d_%H%M%S')\}.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_currency_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:28:15.384246] VOICE MODE\
+============================================================\
+\
+"Recording question..."\
+Copy my Microsoft stop\
+============================================================\
+[2026-05-06T02:28:21.702319] AUDIO SAVED\
+============================================================\
+\
+"recordings/question_20260506_022815.wav"\
+\
+============================================================\
+[2026-05-06T02:28:21.702393] TRANSCRIBE REQUEST\
+============================================================\
+\
+"recordings/question_20260506_022815.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_currency_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:28:22.965750] TRANSCRIBE RESPONSE\
+============================================================\
+\
+"\\u041a\\u0443\\u043f\\u0438\\u043b \\u043c\\u0430\\u043c\\u0435 \\u043a\\u0440\\u043e\\u0441\\u0441\\u043e\\u0432\\u043a\\u0438 \\u0437\\u0430 150 \\u0434\\u043e\\u043b\\u043b\\u0430\\u0440\\u043e\\u0432, \\u0441\\u043a\\u043e\\u043b\\u044c\\u043a\\u043e \\u044d\\u0442\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432 \\u0435\\u0432\\u0440\\u043e?"\
+\
+============================================================\
+[2026-05-06T02:28:22.965834] USER QUESTION\
+============================================================\
+\
+"\\u041a\\u0443\\u043f\\u0438\\u043b \\u043c\\u0430\\u043c\\u0435 \\u043a\\u0440\\u043e\\u0441\\u0441\\u043e\\u0432\\u043a\\u0438 \\u0437\\u0430 150 \\u0434\\u043e\\u043b\\u043b\\u0430\\u0440\\u043e\\u0432, \\u0441\\u043a\\u043e\\u043b\\u044c\\u043a\\u043e \\u044d\\u0442\\u043e \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432 \\u0435\\u0432\\u0440\\u043e?"\
+\
+============================================================\
+[2026-05-06T02:28:25.601457] STEP 1 RESPONSE\
+============================================================\
+\
+[ResponseFunctionToolCall(arguments='\{"amount":150,"from_currency":"USD","to_currency":"EUR"\}', call_id='call_Im8w69DlOmVaDdYVtl521kAw', name='convert_currency', type='function_call', id='fc_0a0e505eaaf815670069faa748ac8081959b385b8248311193', namespace=None, status='completed')]\
+\
+============================================================\
+[2026-05-06T02:28:25.601542] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "amount": 150,\
+  "from_currency": "USD",\
+  "to_currency": "EUR"\
+\}\
+\
+============================================================\
+[2026-05-06T02:28:25.601568] FX API REQUEST\
+============================================================\
+\
+\{\
+  "amount": 150,\
+  "from": "USD",\
+  "to": "EUR"\
+\}\
+\
+============================================================\
+[2026-05-06T02:28:26.151737] FX API RESPONSE\
+============================================================\
+\
+\{\
+  "amount": 150,\
+  "from_currency": "USD",\
+  "to_currency": "EUR",\
+  "converted_amount": 128.36\
+\}\
+\
+============================================================\
+[2026-05-06T02:28:26.154935] TOOL EXECUTION RESULT\
+============================================================\
+\
+\{\
+  "amount": 150,\
+  "from_currency": "USD",\
+  "to_currency": "EUR",\
+  "converted_amount": 128.36\
+\}\
+\
+============================================================\
+[2026-05-06T02:28:27.710199] STEP 2 FINAL RESPONSE\
+============================================================\
+\
+[ResponseOutputMessage(id='msg_0a0e505eaaf815670069faa74af6588195a0a2b5a055c5ba33', content=[ResponseOutputText(annotations=[], text='150 \uc0\u1076 \u1086 \u1083 \u1083 \u1072 \u1088 \u1086 \u1074  \'97 \u1101 \u1090 \u1086  **128,36 \'80**.', type='output_text', logprobs=[])], role='assistant', status='completed', type='message', phase=None)]\
+\
+FINAL ANSWER:\
+150 \uc0\u1076 \u1086 \u1083 \u1083 \u1072 \u1088 \u1086 \u1074  \'97 \u1101 \u1090 \u1086  **128,36 \'80**.\
+Mac\'96mini:HW#40 Tigra$ python openai_currency_tool_voice.py voice\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_currency_tool_voice.py:40: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  filename = f"recordings/question_\{datetime.utcnow().strftime('%Y%m%d_%H%M%S')\}.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_currency_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:29:40.146590] VOICE MODE\
+============================================================\
+\
+"Recording question..."\
+How many pesos are in $100\
+============================================================\
+[2026-05-06T02:29:46.482079] AUDIO SAVED\
+============================================================\
+\
+"recordings/question_20260506_022940.wav"\
+\
+============================================================\
+[2026-05-06T02:29:46.482129] TRANSCRIBE REQUEST\
+============================================================\
+\
+"recordings/question_20260506_022940.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_currency_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:29:47.311031] TRANSCRIBE RESPONSE\
+============================================================\
+\
+"How many pesos are in one hundred dollars?"\
+\
+============================================================\
+[2026-05-06T02:29:47.311125] USER QUESTION\
+============================================================\
+\
+"How many pesos are in one hundred dollars?"\
+\
+============================================================\
+[2026-05-06T02:29:48.573274] STEP 1 RESPONSE\
+============================================================\
+\
+[ResponseFunctionToolCall(arguments='\{"amount":100,"from_currency":"USD","to_currency":"MXN"\}', call_id='call_QBwTP988yC7V3xllsexZ0hnn', name='convert_currency', type='function_call', id='fc_07864de4e85f17910069faa79bf52881969b1d3b1d99f93c9a', namespace=None, status='completed')]\
+\
+============================================================\
+[2026-05-06T02:29:48.573358] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "amount": 100,\
+  "from_currency": "USD",\
+  "to_currency": "MXN"\
+\}\
+\
+============================================================\
+[2026-05-06T02:29:48.573384] FX API REQUEST\
+============================================================\
+\
+\{\
+  "amount": 100,\
+  "from": "USD",\
+  "to": "MXN"\
+\}\
+\
+============================================================\
+[2026-05-06T02:29:49.178109] FX API RESPONSE\
+============================================================\
+\
+\{\
+  "amount": 100,\
+  "from_currency": "USD",\
+  "to_currency": "MXN",\
+  "converted_amount": 1744.13\
+\}\
+\
+============================================================\
+[2026-05-06T02:29:49.182107] TOOL EXECUTION RESULT\
+============================================================\
+\
+\{\
+  "amount": 100,\
+  "from_currency": "USD",\
+  "to_currency": "MXN",\
+  "converted_amount": 1744.13\
+\}\
+\
+============================================================\
+[2026-05-06T02:29:50.546838] STEP 2 FINAL RESPONSE\
+============================================================\
+\
+[ResponseOutputMessage(id='msg_07864de4e85f17910069faa79ddbec8196bcd78028b4bae8f1', content=[ResponseOutputText(annotations=[], text='100 USD is **1,744.13 Mexican pesos (MXN)**.', type='output_text', logprobs=[])], role='assistant', status='completed', type='message', phase=None)]\
+\
+FINAL ANSWER:\
+100 USD is **1,744.13 Mexican pesos (MXN)**.\
+Mac\'96mini:HW#40 Tigra$ }

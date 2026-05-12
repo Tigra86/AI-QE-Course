@@ -1,0 +1,16 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5-nano
+model_context_window / token_budget: 8192
+input_tokens: 16
+output_tokens: 384
+total_tokens / billed_tokens: 400
+remaining_tokens / not_billed_tokens: 7792 (8192 - 400)
+available_for_output_at_start: 8176
+limit_reason: none
+completion_status: None
+truncated: True
+
+=== PROMPT ===
+Describe a sunset using at least 100 words.
+
+=== RAW OUTPUT ===

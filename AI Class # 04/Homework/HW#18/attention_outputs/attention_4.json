@@ -1,0 +1,27 @@
+{
+    "sentence": "The movie Anna recommended turned out to be hilarious.",
+    "focus_word": "hilarious",
+    "raw_scores": {
+        "the": -0.0027,
+        "movie": -0.0128,
+        "anna": -0.0376,
+        "recommended": -0.1142,
+        "turned": 0.1097,
+        "out": -1.1774,
+        "to": 0.0011,
+        "be": -0.0254,
+        "hilarious": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "movie": 0.1353,
+        "anna": 0.132,
+        "recommended": 0.1223,
+        "turned": 0.153,
+        "out": 0.1751,
+        "to": 0.08,
+        "be": 0.08,
+        "hilarious": 0.0422
+    },
+    "softmax_sum": 1.0
+}

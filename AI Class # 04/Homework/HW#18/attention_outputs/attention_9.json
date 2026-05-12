@@ -1,0 +1,29 @@
+{
+    "sentence": "The gift Sophia received from her friend was very thoughtful.",
+    "focus_word": "thoughtful",
+    "raw_scores": {
+        "the": 0.0299,
+        "gift": 0.1027,
+        "sophia": -0.0806,
+        "received": -0.1117,
+        "from": 0.0329,
+        "her": -0.1926,
+        "friend": 0.0331,
+        "was": -0.1389,
+        "very": -0.1128,
+        "thoughtful": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "gift": 0.1242,
+        "sophia": 0.1034,
+        "received": 0.1002,
+        "from": 0.08,
+        "her": 0.0924,
+        "friend": 0.1439,
+        "was": 0.08,
+        "very": 0.08,
+        "thoughtful": 0.1158
+    },
+    "softmax_sum": 1.0
+}

@@ -1,0 +1,8 @@
+{
+  "site_name": "AcmeDocs",
+  "theme": "light",
+  "max_upload_mb": 50,
+  "maintenance_mode": false,
+  "default_language": "en-US",
+  "items_per_page": 25
+}

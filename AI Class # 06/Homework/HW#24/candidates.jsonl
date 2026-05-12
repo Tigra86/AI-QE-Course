@@ -1,0 +1,5 @@
+{"id": 1, "logits": {"Paris": 0.85, "London": 0.72, "Tokyo": 0.64, "Berlin": 0.51}}
+{"id": 2, "logits": {"pizza": 0.89, "pasta": 0.75, "sushi": 0.68, "tacos": 0.42}}
+{"id": 3, "logits": {"sunny": 0.92, "rainy": 0.78, "cloudy": 0.55, "windy": 0.48}}
+{"id": 4, "logits": {"guitar": 0.81, "piano": 0.77, "drums": 0.63, "violin": 0.44}}
+{"id": 5, "logits": {"Friday": 0.94, "Monday": 0.70, "Sunday": 0.82, "Tuesday": 0.35}}

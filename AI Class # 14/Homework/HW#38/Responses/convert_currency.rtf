@@ -1,0 +1,217 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fmodern\fcharset0 Courier;\f2\fmodern\fcharset0 Courier-Bold;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;\red255\green255\blue255;
+\red144\green1\blue18;\red9\green60\blue148;\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c0\c0\c0;\csgray\c0;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
+\margl1440\margr1440\vieww38200\viewh19620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1. Manually\
+\pard\pardeftab720\partightenfactor0
+
+\f1\b0\fs26 \cf0 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{\
+  "amount": 1,\
+  "base": "EUR",\
+  "date": "2026-04-24",\
+  "rates": \{\
+    "AUD": 1.6393,\
+    "BRL": 5.8567,\
+    "CAD": 1.6023,\
+    "CHF": 0.9199,\
+    "CNY": 8.0067,\
+    "CZK": 24.373,\
+    "DKK": 7.473,\
+    "GBP": 0.86803,\
+    "HKD": 9.1763,\
+    "HUF": 365.5,\
+    "IDR": 20195.76,\
+    "ILS": 3.49,\
+    "INR": 110.3885,\
+    "ISK": 143.8,\
+    "JPY": 186.71,\
+    "KRW": 1729.91,\
+    "MXN": 20.3646,\
+    "MYR": 4.6438,\
+    "NOK": 10.9525,\
+    "NZD": 1.9939,\
+    "PHP": 71.039,\
+    "PLN": 4.2403,\
+    "RON": 5.0915,\
+    "SEK": 10.82,\
+    "SGD": 1.4949,\
+    "THB": 37.918,\
+    "TRY": 52.731,\
+    "USD": 1.1712,\
+    "ZAR": 19.3974\
+  \}\
+\}\
+\
+
+\f2\b 2.
+\f0\fs24 \kerning1\expnd0\expndtw0 \outl0\strokewidth0  Python\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\b0\fs22 \cf3 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python convert_currency.py 150 EUR USD\
+\{\
+  "amount": 150.0,\
+  "from": "EUR",\
+  "to": "USD",\
+  "converted_amount": 175.68\
+\}\
+Mac\'96mini:HW#38 Tigra$ python convert_currency.py 100 EUR CAD\
+\{\
+  "amount": 100.0,\
+  "from": "EUR",\
+  "to": "CAD",\
+  "converted_amount": 160.23\
+\}\
+Mac\'96mini:HW#38 Tigra$ python convert_currency.py 100 EUR BRL\
+\{\
+  "amount": 100.0,\
+  "from": "EUR",\
+  "to": "BRL",\
+  "converted_amount": 585.67\
+\}\
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b\fs24 \cf0 \expnd0\expndtw0\kerning0
+\CocoaLigature1 3.\kerning1\expnd0\expndtw0  Postman\
+\pard\pardeftab720\partightenfactor0
+
+\f4\b0 \cf0 \cb4 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \{\cb1 \
+\cb4     \cf5 \strokec5 "id"\cf0 \strokec2 : \cf6 \strokec6 "resp_0596337758ccb3e80069ebeccfd40c8195b01c25f9c5fd9085"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "object"\cf0 \strokec2 : \cf6 \strokec6 "response"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "created_at"\cf0 \strokec2 : \cf7 \strokec7 1777069264\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "status"\cf0 \strokec2 : \cf6 \strokec6 "completed"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "background"\cf0 \strokec2 : \cf6 \strokec6 false\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "billing"\cf0 \strokec2 : \{\cb1 \
+\cb4         \cf5 \strokec5 "payer"\cf0 \strokec2 : \cf6 \strokec6 "developer"\cf0 \cb1 \strokec2 \
+\cb4     \},\cb1 \
+\cb4     \cf5 \strokec5 "completed_at"\cf0 \strokec2 : \cf7 \strokec7 1777069264\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "error"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "frequency_penalty"\cf0 \strokec2 : \cf7 \strokec7 0.0\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "incomplete_details"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "instructions"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "max_output_tokens"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "max_tool_calls"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "model"\cf0 \strokec2 : \cf6 \strokec6 "gpt-5.2-2025-12-11"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "moderation"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "output"\cf0 \strokec2 : [\cb1 \
+\cb4         \{\cb1 \
+\cb4             \cf5 \strokec5 "id"\cf0 \strokec2 : \cf6 \strokec6 "msg_0596337758ccb3e80069ebecd08e508195804a348ab8629a3f"\cf0 \strokec2 ,\cb1 \
+\cb4             \cf5 \strokec5 "type"\cf0 \strokec2 : \cf6 \strokec6 "message"\cf0 \strokec2 ,\cb1 \
+\cb4             \cf5 \strokec5 "status"\cf0 \strokec2 : \cf6 \strokec6 "completed"\cf0 \strokec2 ,\cb1 \
+\cb4             \cf5 \strokec5 "content"\cf0 \strokec2 : [\cb1 \
+\cb4                 \{\cb1 \
+\cb4                     \cf5 \strokec5 "type"\cf0 \strokec2 : \cf6 \strokec6 "output_text"\cf0 \strokec2 ,\cb1 \
+\cb4                     \cf5 \strokec5 "annotations"\cf0 \strokec2 : [],\cb1 \
+\cb4                     \cf5 \strokec5 "logprobs"\cf0 \strokec2 : [],\cb1 \
+\cb4                     \cf5 \strokec5 "text"\cf0 \strokec2 : \cf6 \strokec6 "111 EUR = **130.11 USD**."\cf0 \cb1 \strokec2 \
+\cb4                 \}\cb1 \
+\cb4             ],\cb1 \
+\cb4             \cf5 \strokec5 "role"\cf0 \strokec2 : \cf6 \strokec6 "assistant"\cf0 \cb1 \strokec2 \
+\cb4         \}\cb1 \
+\cb4     ],\cb1 \
+\cb4     \cf5 \strokec5 "parallel_tool_calls"\cf0 \strokec2 : \cf6 \strokec6 true\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "presence_penalty"\cf0 \strokec2 : \cf7 \strokec7 0.0\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "previous_response_id"\cf0 \strokec2 : \cf6 \strokec6 "resp_0596337758ccb3e80069ebebc8e56881958213e7d69ccae88d"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "prompt_cache_key"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "prompt_cache_retention"\cf0 \strokec2 : \cf6 \strokec6 "in_memory"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "reasoning"\cf0 \strokec2 : \{\cb1 \
+\cb4         \cf5 \strokec5 "effort"\cf0 \strokec2 : \cf6 \strokec6 "none"\cf0 \strokec2 ,\cb1 \
+\cb4         \cf5 \strokec5 "summary"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \cb1 \strokec2 \
+\cb4     \},\cb1 \
+\cb4     \cf5 \strokec5 "safety_identifier"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "service_tier"\cf0 \strokec2 : \cf6 \strokec6 "default"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "store"\cf0 \strokec2 : \cf6 \strokec6 true\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "temperature"\cf0 \strokec2 : \cf7 \strokec7 1.0\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "text"\cf0 \strokec2 : \{\cb1 \
+\cb4         \cf5 \strokec5 "format"\cf0 \strokec2 : \{\cb1 \
+\cb4             \cf5 \strokec5 "type"\cf0 \strokec2 : \cf6 \strokec6 "text"\cf0 \cb1 \strokec2 \
+\cb4         \},\cb1 \
+\cb4         \cf5 \strokec5 "verbosity"\cf0 \strokec2 : \cf6 \strokec6 "medium"\cf0 \cb1 \strokec2 \
+\cb4     \},\cb1 \
+\cb4     \cf5 \strokec5 "tool_choice"\cf0 \strokec2 : \cf6 \strokec6 "auto"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "tools"\cf0 \strokec2 : [],\cb1 \
+\cb4     \cf5 \strokec5 "top_logprobs"\cf0 \strokec2 : \cf7 \strokec7 0\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "top_p"\cf0 \strokec2 : \cf7 \strokec7 0.98\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "truncation"\cf0 \strokec2 : \cf6 \strokec6 "disabled"\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "usage"\cf0 \strokec2 : \{\cb1 \
+\cb4         \cf5 \strokec5 "input_tokens"\cf0 \strokec2 : \cf7 \strokec7 90\cf0 \strokec2 ,\cb1 \
+\cb4         \cf5 \strokec5 "input_tokens_details"\cf0 \strokec2 : \{\cb1 \
+\cb4             \cf5 \strokec5 "cached_tokens"\cf0 \strokec2 : \cf7 \strokec7 0\cf0 \cb1 \strokec2 \
+\cb4         \},\cb1 \
+\cb4         \cf5 \strokec5 "output_tokens"\cf0 \strokec2 : \cf7 \strokec7 14\cf0 \strokec2 ,\cb1 \
+\cb4         \cf5 \strokec5 "output_tokens_details"\cf0 \strokec2 : \{\cb1 \
+\cb4             \cf5 \strokec5 "reasoning_tokens"\cf0 \strokec2 : \cf7 \strokec7 0\cf0 \cb1 \strokec2 \
+\cb4         \},\cb1 \
+\cb4         \cf5 \strokec5 "total_tokens"\cf0 \strokec2 : \cf7 \strokec7 104\cf0 \cb1 \strokec2 \
+\cb4     \},\cb1 \
+\cb4     \cf5 \strokec5 "user"\cf0 \strokec2 : \cf6 \strokec6 null\cf0 \strokec2 ,\cb1 \
+\cb4     \cf5 \strokec5 "metadata"\cf0 \strokec2 : \{\}\cb1 \
+\cb4 \}\cb1 \
+\
+\pard\pardeftab720\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 4\expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 . End to end\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\b0\fs22 \cf3 \kerning1\expnd0\expndtw0 \CocoaLigature0 \outl0\strokewidth0 Mac\'96mini:HW#38 Tigra$ python openai_currency_tool.py "I bought shoes for 150 euros. How much is that in USD?"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_currency_tool.py:18: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-24T22:30:16.331124] USER QUESTION\
+============================================================\
+\
+"I bought shoes for 150 euros. How much is that in USD?"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_currency_tool.py:18: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-24T22:30:18.068997] STEP 1 RESPONSE (RAW)\
+============================================================\
+\
+[ResponseFunctionToolCall(arguments='\{"amount":150,"from_currency":"EUR","to_currency":"USD"\}', call_id='call_qROkqngj57sR0jsnsIIaga15', name='convert_currency', type='function_call', id='fc_09e738665cbf8e6a0069ebeef92fec819696a06b71f978ad6d', namespace=None, status='completed')]\
+\
+============================================================\
+[2026-04-24T22:30:18.069094] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "name": "convert_currency",\
+  "arguments": \{\
+    "amount": 150,\
+    "from_currency": "EUR",\
+    "to_currency": "USD"\
+  \},\
+  "call_id": "call_qROkqngj57sR0jsnsIIaga15",\
+  "previous_response_id": "resp_09e738665cbf8e6a0069ebeef89ca48196a388fac648ae0b25"\
+\}\
+\
+============================================================\
+[2026-04-24T22:30:18.725263] TOOL EXECUTION RESULT\
+============================================================\
+\
+\{\
+  "amount": 150,\
+  "from_currency": "EUR",\
+  "to_currency": "USD",\
+  "converted_amount": 175.68\
+\}\
+\
+============================================================\
+[2026-04-24T22:30:20.119905] STEP 2 FINAL RESPONSE (RAW)\
+============================================================\
+\
+[ResponseOutputMessage(id='msg_09e738665cbf8e6a0069ebeefb7b94819697de10de3094f52b', content=[ResponseOutputText(annotations=[], text='150 EUR is **175.68 USD**.', type='output_text', logprobs=[])], role='assistant', status='completed', type='message', phase=None)]\
+\
+FINAL ANSWER:\
+150 EUR is **175.68 USD**.\
+}

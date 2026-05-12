@@ -1,0 +1,480 @@
+{
+  "other": {
+    "what is the capital of france?": [
+      "France's capital is Paris.",
+      "Paris is the capital of France.",
+      "Paris serves as the capital of France.",
+      "The capital city of France is Paris.",
+      "The city of Paris is the capital of France."
+    ],
+    "what is the capital of japan?": [
+      "Japan's capital is Tokyo.",
+      "The capital city of Japan is Tokyo.",
+      "The city of Tokyo is the capital of Japan.",
+      "Tokyo is the capital of Japan.",
+      "Tokyo serves as the capital of Japan."
+    ],
+    "what is the capital of germany?": [
+      "Berlin is the capital of Germany.",
+      "Berlin serves as the capital of Germany.",
+      "Germany's capital is Berlin.",
+      "The capital city of Germany is Berlin.",
+      "The city of Berlin is the capital of Germany."
+    ],
+    "what is the capital of italy?": [
+      "Italy's capital is Rome.",
+      "Rome is the capital of Italy.",
+      "Rome serves as the capital of Italy.",
+      "The capital city of Italy is Rome.",
+      "The city of Rome is the capital of Italy."
+    ],
+    "what is the capital of the united kingdom?": [
+      "London is the capital of the UK.",
+      "London serves as the capital of the UK.",
+      "The UK's capital is London.",
+      "The capital city of the UK is London.",
+      "The city of London is the capital of the UK."
+    ],
+    "what is the capital of canada?": [
+      "Canada's capital is Ottawa.",
+      "Ottawa is the capital of Canada.",
+      "Ottawa serves as the capital of Canada.",
+      "The capital city of Canada is Ottawa.",
+      "The city of Ottawa is the capital of Canada."
+    ],
+    "what is the capital of australia?": [
+      "Australia's capital is Canberra.",
+      "Canberra is the capital of Australia.",
+      "Canberra serves as the capital of Australia.",
+      "The capital city of Australia is Canberra.",
+      "The city of Canberra is the capital of Australia."
+    ],
+    "what is the capital of brazil?": [
+      "Brasilia is the capital of Brazil.",
+      "Brasilia serves as the capital of Brazil.",
+      "Brazil's capital is Brasilia.",
+      "The capital city of Brazil is Brasilia.",
+      "The city of Brasilia is the capital of Brazil."
+    ],
+    "what is the capital of spain?": [
+      "Madrid is the capital of Spain.",
+      "Madrid serves as the capital of Spain.",
+      "Spain's capital is Madrid.",
+      "The capital city of Spain is Madrid.",
+      "The city of Madrid is the capital of Spain."
+    ],
+    "what is the capital of china?": [
+      "Beijing is the capital of China.",
+      "Beijing serves as the capital of China.",
+      "China's capital is Beijing.",
+      "The capital city of China is Beijing.",
+      "The city of Beijing is the capital of China."
+    ],
+    "what is the capital of india?": [
+      "India's capital is New Delhi.",
+      "New Delhi is the capital of India.",
+      "New Delhi serves as the capital of India.",
+      "The capital city of India is New Delhi.",
+      "The city of New Delhi is the capital of India."
+    ],
+    "what is the capital of mexico?": [
+      "Mexico City is the capital of Mexico.",
+      "Mexico City serves as the capital of Mexico.",
+      "Mexico's capital is Mexico City.",
+      "The capital city of Mexico is Mexico City.",
+      "The city of Mexico City is the capital of Mexico."
+    ],
+    "what is the capital of south korea?": [
+      "Seoul is the capital of South Korea.",
+      "Seoul serves as the capital of South Korea.",
+      "South Korea's capital is Seoul.",
+      "The capital city of South Korea is Seoul.",
+      "The city of Seoul is the capital of South Korea."
+    ],
+    "what is the capital of egypt?": [
+      "Cairo is the capital of Egypt.",
+      "Cairo serves as the capital of Egypt.",
+      "Egypt's capital is Cairo.",
+      "The capital city of Egypt is Cairo.",
+      "The city of Cairo is the capital of Egypt."
+    ],
+    "what is the capital of argentina?": [
+      "Argentina's capital is Buenos Aires.",
+      "Buenos Aires is the capital of Argentina.",
+      "Buenos Aires serves as the capital of Argentina.",
+      "The capital city of Argentina is Buenos Aires.",
+      "The city of Buenos Aires is the capital of Argentina."
+    ],
+    "what is the capital of turkey?": [
+      "Ankara is the capital of Turkey.",
+      "Ankara serves as the capital of Turkey.",
+      "The capital city of Turkey is Ankara.",
+      "The city of Ankara is the capital of Turkey.",
+      "Turkey's capital is Ankara."
+    ],
+    "what is the capital of thailand?": [
+      "Bangkok is the capital of Thailand.",
+      "Bangkok serves as the capital of Thailand.",
+      "Thailand's capital is Bangkok.",
+      "The capital city of Thailand is Bangkok.",
+      "The city of Bangkok is the capital of Thailand."
+    ],
+    "what is the capital of greece?": [
+      "Athens is the capital of Greece.",
+      "Athens serves as the capital of Greece.",
+      "Greece's capital is Athens.",
+      "The capital city of Greece is Athens.",
+      "The city of Athens is the capital of Greece."
+    ],
+    "what is the capital of portugal?": [
+      "Lisbon is the capital of Portugal.",
+      "Lisbon serves as the capital of Portugal.",
+      "Portugal's capital is Lisbon.",
+      "The capital city of Portugal is Lisbon.",
+      "The city of Lisbon is the capital of Portugal."
+    ],
+    "what is the capital of norway?": [
+      "Norway's capital is Oslo.",
+      "Oslo is the capital of Norway.",
+      "Oslo serves as the capital of Norway.",
+      "The capital city of Norway is Oslo.",
+      "The city of Oslo is the capital of Norway."
+    ],
+    "what is the capital of the empire?": [
+      "Trentor is the capital of the Galactic Empire.",
+      "Trentor is the capital of the Galactic Empire.",
+      "Trentor is the capital of the Galactic Empire.",
+      "Trentor is the capital of the Galactic Empire.",
+      "Trentor is the capital of the Galactic Empire."
+    ],
+    "what is the capital of armenia?": [
+      "Armenia's capital is Yerevan.",
+      "Yerevan is the capital of Armenia.",
+      "Yerevan serves as the capital of Armenia.",
+      "The capital city of Armenia is Yerevan.",
+      "The city of Yerevan is the capital of Armenia."
+    ]
+  },
+  "support_government": {
+    "what is the primary customer service email for the california dmv?": [
+      "Contact the DMV at dmvccsmail@dmv.ca.gov.",
+      "Reach California DMV via dmvccsmail@dmv.ca.gov.",
+      "Send inquiries to dmvccsmail@dmv.ca.gov.",
+      "The primary email is dmvccsmail@dmv.ca.gov.",
+      "Their support email is dmvccsmail@dmv.ca.gov."
+    ],
+    "what is the submission email for homework #35?": [
+      "Homework #35 goes to alex@alex.academy.",
+      "Send test data to alex@alex.academy.",
+      "Submit homework to alex@alex.academy.",
+      "The instructor's email is alex@alex.academy.",
+      "The submission email is alex@alex.academy."
+    ],
+    "what is the general contact email for the city of san francisco?": [
+      "Contact SF at feedback@sfgov.org.",
+      "Email the city at feedback@sfgov.org.",
+      "General inquiries go to feedback@sfgov.org.",
+      "The city email is feedback@sfgov.org.",
+      "Write to feedback@sfgov.org for help."
+    ],
+    "how do i email the irs for general questions?": [
+      "Contact the IRS through official secure messaging.",
+      "Direct email to the IRS is not supported.",
+      "The IRS does not provide a general public email.",
+      "There is no direct email address for the IRS.",
+      "Use the contact form on IRS.gov."
+    ],
+    "what is the support email for moomoo?": [
+      "Contact Moomoo at support@moomoo.com.",
+      "Email support@moomoo.com for account issues.",
+      "Reach Moomoo via support@moomoo.com.",
+      "The help desk email is support@moomoo.com.",
+      "Their email is support@moomoo.com."
+    ],
+    "what is the help email for coinbase?": [
+      "Contact support at trust@coinbase.com.",
+      "Email trust@coinbase.com for security help.",
+      "Reach Coinbase at trust@coinbase.com.",
+      "The help email is trust@coinbase.com.",
+      "Their support line is trust@coinbase.com."
+    ],
+    "what is the email for sf paratransit?": [
+      "Email mobility@sfmta.com for paratransit.",
+      "Reach SF Paratransit at mobility@sfmta.com.",
+      "Send paratransit queries to mobility@sfmta.com.",
+      "The SFMTA email is mobility@sfmta.com.",
+      "The contact email is mobility@sfmta.com."
+    ],
+    "what is the email for the us passport agency?": [
+      "Check status online at travel.state.gov.",
+      "Contact them through their web portal.",
+      "Email is not used for passport status.",
+      "There is no direct public email address.",
+      "They use the form at travel.state.gov."
+    ],
+    "what is the registrar email for alex academy?": [
+      "Contact the registrar at registrar@alex.academy.",
+      "Email registrar@alex.academy for records.",
+      "Reach the registrar via registrar@alex.academy.",
+      "The records office email is registrar@alex.academy.",
+      "The registrar email is registrar@alex.academy."
+    ],
+    "what is the email for the sf human services agency?": [
+      "Contact SFHSA at info@sfhsa.org.",
+      "Email info@sfhsa.org for service info.",
+      "Reach SFHSA via info@sfhsa.org.",
+      "The agency email is info@sfhsa.org.",
+      "The public email is info@sfhsa.org."
+    ],
+    "what is the email for the social security administration?": [
+      "Contact the SSA through their website.",
+      "Direct email to the SSA is unavailable.",
+      "The SSA does not offer a public email.",
+      "The SSA uses secure portal messaging only.",
+      "They do not use email for security reasons."
+    ],
+    "what is the email for tv time support?": [
+      "Contact TV Time at support@tvtime.com.",
+      "Email support at support@tvtime.com.",
+      "Reach out to support@tvtime.com.",
+      "Send feedback to support@tvtime.com.",
+      "Their help email is support@tvtime.com."
+    ],
+    "what is the email for the ca tax board?": [
+      "Contact the FTB through MyFTB account.",
+      "Email is not an option for the FTB.",
+      "No direct public email for tax questions.",
+      "The FTB does not provide a public email.",
+      "Use the secure chat at ftb.ca.gov."
+    ],
+    "what is the email for the us postal service?": [
+      "Contact USPS through their website portal.",
+      "Submit inquiries via the USPS web form.",
+      "There is no general public email address.",
+      "USPS does not use a direct email inbox.",
+      "Use the contact form at usps.com."
+    ],
+    "what is the email for the sf mayor's office?": [
+      "Contact the office at mayor@sfgov.org.",
+      "Email the mayor at mayor@sfgov.org.",
+      "Reach the SF Mayor at mayor@sfgov.org.",
+      "Send feedback to mayor@sfgov.org.",
+      "The mayor's email is mayor@sfgov.org."
+    ],
+    "what is the email for ryzen tech support?": [
+      "Contact AMD support at tech.support@amd.com.",
+      "Email AMD at tech.support@amd.com.",
+      "Reach Ryzen support via tech.support@amd.com.",
+      "The support email is tech.support@amd.com.",
+      "Use tech.support@amd.com for CPU issues."
+    ],
+    "what is the email for steam support?": [
+      "Contact Steam via help.steampowered.com.",
+      "Direct email to Steam is not available.",
+      "Steam uses a web-based ticket system.",
+      "Submit a ticket at help.steampowered.com.",
+      "There is no direct support email address."
+    ],
+    "what is the email for the national parks service?": [
+      "Contact nps_info@nps.gov for park info.",
+      "Email the NPS at nps_info@nps.gov.",
+      "Reach the NPS via nps_info@nps.gov.",
+      "The general email is nps_info@nps.gov.",
+      "The info line is nps_info@nps.gov."
+    ],
+    "what is the email for alex academy ai qe course?": [
+      "Contact the QE team at ai_qe@alex.academy.",
+      "Email the course at ai_qe@alex.academy.",
+      "Reach out to ai_qe@alex.academy.",
+      "Send QE questions to ai_qe@alex.academy.",
+      "The course email is ai_qe@alex.academy."
+    ],
+    "what is the email for the us census bureau?": [
+      "Contact info@census.gov for data help.",
+      "Email the bureau at info@census.gov.",
+      "Reach the Census via info@census.gov.",
+      "The Census info email is info@census.gov.",
+      "The contact email is info@census.gov."
+    ]
+  },
+  "metrics_science": {
+    "what is the height of mount everest in feet?": [
+      "Everest is 29,029 feet high.",
+      "Everest reaches 29,029 feet.",
+      "It stands at 29,029 feet.",
+      "The height is 29,029 feet.",
+      "The summit is 29,029 feet."
+    ],
+    "what is the depth of the challenger deep in meters?": [
+      "It is 10,935 meters deep.",
+      "It measures 10,935 meters deep.",
+      "It reaches 10,935 meters.",
+      "The bottom is at 10,935 meters.",
+      "The depth is 10,935 meters."
+    ],
+    "what is the population of vatican city?": [
+      "It has around 825 residents.",
+      "The count is approximately 825.",
+      "The population is about 825.",
+      "There are 825 people.",
+      "Vatican City has 825 citizens."
+    ],
+    "what is the length of the nile river in miles?": [
+      "It is 4,130 miles long.",
+      "It measures 4,130 miles.",
+      "It spans 4,130 miles.",
+      "The Nile is 4,130 miles.",
+      "The length is 4,130 miles."
+    ],
+    "what is the area of russia in square miles?": [
+      "It is 6.6 million square miles.",
+      "It spans 6.6 million square miles.",
+      "Russia is 6.6 million square miles.",
+      "The area is 6.6 million sq mi.",
+      "The size is 6.6 million sq mi."
+    ],
+    "what is the speed of light in meters per second?": [
+      "It is 299,792,458 m/s.",
+      "It measures 299,792,458 m/s.",
+      "Light travels at 299,792,458 m/s.",
+      "The speed is 299,792,458 m/s.",
+      "The velocity is 299,792,458 m/s."
+    ],
+    "what is the boiling point of water in celsius?": [
+      "Boiling occurs at 100C.",
+      "It is 100 degrees Celsius.",
+      "It reaches 100 degrees Celsius.",
+      "The point is 100 degrees C.",
+      "Water boils at 100 degrees C."
+    ],
+    "what is the population of tokyo?": [
+      "It houses 14 million residents.",
+      "It is about 14 million.",
+      "The count is 14 million.",
+      "The population is 14 million.",
+      "Tokyo has 14 million people."
+    ],
+    "what is the elevation of denver in feet?": [
+      "Denver is 5,280 feet.",
+      "It is 5,280 feet high.",
+      "It stands at 5,280 feet.",
+      "The city is 5,280 feet up.",
+      "The elevation is 5,280 feet."
+    ],
+    "how many planets are in the solar system?": [
+      "The count is 8 planets.",
+      "The system has 8 planets.",
+      "There are 8 planets.",
+      "There are eight planets.",
+      "We have 8 planets."
+    ],
+    "what is the average distance to the moon in miles?": [
+      "It is 238,855 miles.",
+      "It measures 238,855 miles.",
+      "It's about 238,855 miles.",
+      "The distance is 238,855 miles.",
+      "The moon is 238,855 miles away."
+    ],
+    "how many continents are there?": [
+      "The count is 7.",
+      "The total is 7.",
+      "There are 7 continents.",
+      "There are seven continents.",
+      "We have 7 continents."
+    ],
+    "what is the atomic number of gold?": [
+      "Gold is element 79.",
+      "Gold's number is 79.",
+      "It is 79.",
+      "The atomic number is 79.",
+      "The number for Gold is 79."
+    ],
+    "how many bones are in the human adult body?": [
+      "Adults have 206 bones.",
+      "The count is 206.",
+      "The total is 206 bones.",
+      "There are 206 adult bones.",
+      "There are 206 bones."
+    ],
+    "what is the population of the usa?": [
+      "Around 331 million people.",
+      "It is about 331 million.",
+      "It is roughly 331 million.",
+      "The USA has 331 million.",
+      "The population is 331 million."
+    ],
+    "what is the height of the eiffel tower in feet?": [
+      "It is 1,083 feet tall.",
+      "It reaches 1,083 feet.",
+      "It stands 1,083 feet high.",
+      "The height is 1,083 feet.",
+      "The tower is 1,083 feet."
+    ],
+    "what is the gravity on earth in m/s^2?": [
+      "Earth's gravity is 9.8.",
+      "Gravity is 9.8 m/s^2.",
+      "It is 9.8 m/s^2.",
+      "It measures 9.8 m/s^2.",
+      "The force is 9.8 m/s^2."
+    ],
+    "how many states are in the usa?": [
+      "The USA has 50 states.",
+      "The count is 50.",
+      "The total is 50.",
+      "There are 50 states.",
+      "There are fifty states."
+    ],
+    "what is the freezing point of water in fahrenheit?": [
+      "Freezing is at 32 degrees.",
+      "It is 32 Fahrenheit.",
+      "It is 32 degrees F.",
+      "The point is 32 degrees.",
+      "Water freezes at 32F."
+    ],
+    "what is the world population?": [
+      "Around 8 billion people.",
+      "It is about 8 billion.",
+      "It is roughly 8 billion.",
+      "The population is 8 billion.",
+      "The world has 8 billion."
+    ]
+  },
+  "product_specs": {},
+  "nhl_hockey": {
+    "which team has won the most stanley cups?": [
+      "The Montreal Canadiens have won the most Stanley Cups.",
+      "The most successful team in NHL history is the Montreal Canadiens.",
+      "The Montreal Canadiens hold the record for the most Stanley Cup championships.",
+      "With 24 titles, the Montreal Canadiens have the most Stanley Cup wins.",
+      "The record for most Stanley Cups is held by the Montreal Canadiens."
+    ],
+    "who is the all-time leading scorer in the nhl?": [
+      "Wayne Gretzky is the all-time leading scorer in the NHL.",
+      "The NHL's all-time points leader is Wayne Gretzky.",
+      "Wayne Gretzky holds the record for the most career points in the NHL.",
+      "The player with the most career NHL points is Wayne Gretzky.",
+      "Wayne Gretzky remains the leading point-scorer in NHL history."
+    ],
+    "what are the original six teams?": [
+      "The Original Six are the Bruins, Blackhawks, Red Wings, Canadiens, Rangers, and Maple Leafs.",
+      "The NHL's Original Six consists of Boston, Chicago, Detroit, Montreal, New York, and Toronto.",
+      "Boston, Chicago, Detroit, Montreal, New York, and Toronto make up the Original Six.",
+      "The Original Six teams are the Rangers, Red Wings, Blackhawks, Maple Leafs, Bruins, and Canadiens.",
+      "The Bruins, Blackhawks, Red Wings, Canadiens, Rangers, and Maple Leafs are the Original Six."
+    ],
+    "where is the hockey hall of fame located?": [
+      "The Hockey Hall of Fame is located in Toronto, Ontario.",
+      "Toronto is the home of the Hockey Hall of Fame.",
+      "The Hockey Hall of Fame is situated in Toronto, Canada.",
+      "You can find the Hockey Hall of Fame in Toronto.",
+      "The city of Toronto hosts the Hockey Hall of Fame."
+    ],
+    "how many players are on the ice for one team during regular play?": [
+      "There are six players on the ice for each team during regular play.",
+      "A standard NHL team has six players on the ice at once.",
+      "Six players per team are on the ice during normal play.",
+      "During regular play, each team has six players on the ice.",
+      "Standard NHL play features six players on the ice for each side."
+    ]
+  }
+}

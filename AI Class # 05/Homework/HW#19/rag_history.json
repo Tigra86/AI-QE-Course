@@ -1,0 +1,10 @@
+{
+  "category": "Ancient History",
+  "keywords": ["Rome", "Egypt", "Archeology", "Civilization"],
+  "sources": [
+    "https://www.britannica.com/history",
+    "https://www.ancient.eu",
+    "https://www.archaeology.org"
+  ],
+  "summary": "Ancient history covers the period from the beginning of recorded human history to the Early Middle Ages, focusing on the rise and fall of major civilizations."
+}

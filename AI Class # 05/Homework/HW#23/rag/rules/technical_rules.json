@@ -1,0 +1,26 @@
+{
+  "technical_how_to": {
+    "install": [
+      "To install a tool, download it from the official site and follow the setup instructions.",
+      "Installation issues are usually solved by reinstalling and checking system requirements."
+    ],
+    "install python": [
+      "Python 1: To install a tool, download it from the official site and follow the setup instructions.",
+      "Python 2: Installation issues are usually solved by reinstalling and checking system requirements."
+    ],
+
+    "error 404": [
+      "404 1: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "404 2: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "404 3: Try searching the exact error code in documentation — many issues have known fixes."
+    ],
+
+    "error 500": [
+      "500 1: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 2: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 3: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 4: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 5: Most errors can be fixed by checking logs and verifying configuration settings."
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "scenario": "C",
+  "user_message": "Is product XYZ in stock?",
+  "chatbot_response": "Product XYZ is currently available in limited quantities. We recommend placing your order soon.",
+  "action": "provide_accurate_stock_status",
+  "reward": 2.0,
+  "reason": "The chatbot provided a precise and timely answer regarding product availability, helping the user make a quick decision."
+}

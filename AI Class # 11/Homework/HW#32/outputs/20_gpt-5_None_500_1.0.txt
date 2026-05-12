@@ -1,0 +1,16 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5
+model_context_window / token_budget: 128000
+input_tokens: 21
+output_tokens: 448
+total_tokens / billed_tokens: 469
+remaining_tokens / not_billed_tokens: 127531 (128000 - 469)
+available_for_output_at_start: 127979
+limit_reason: none
+completion_status: None
+truncated: True
+
+=== PROMPT ===
+Return JSON only. Start with '{'. List 5 AI terminology definitions.
+
+=== RAW OUTPUT ===

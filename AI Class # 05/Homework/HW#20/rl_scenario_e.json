@@ -1,0 +1,8 @@
+{
+  "scenario": "E",
+  "user_message": "I need to speak to a human.",
+  "chatbot_response": "Okay, transferring you to a representative now. Please hold while I connect you.",
+  "action": "successful_escalation_to_human_agent",
+  "reward": 2.5,
+  "reason": "The chatbot recognized the user's clear intent to speak with a human and immediately initiated the transfer process, which is crucial for good customer service in such cases."
+}

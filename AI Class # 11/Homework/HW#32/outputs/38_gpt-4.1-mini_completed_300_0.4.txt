@@ -1,0 +1,34 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4.1-mini
+model_context_window / token_budget: 128000
+input_tokens: 16
+output_tokens: 236
+total_tokens / billed_tokens: 252
+remaining_tokens / not_billed_tokens: 127748 (128000 - 252)
+available_for_output_at_start: 127984
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+Explain how a model predicts the next token.
+
+=== RAW OUTPUT ===
+When a model predicts the next token, it follows a process based on the patterns it has learned during training. Here's a step-by-step explanation:
+
+1. **Input Representation**:  
+   The model takes the sequence of tokens generated so far (or provided as context) and converts them into numerical representations called embeddings.
+
+2. **Contextual Understanding**:  
+   Using its internal architecture (e.g., a Transformer), the model processes these embeddings to understand the context. It captures relationships between tokens, such as syntax, semantics, and long-range dependencies.
+
+3. **Probability Distribution Generation**:  
+   Based on the context, the model computes a probability distribution over the entire vocabulary for the next token. This distribution reflects how likely each possible token is to come next.
+
+4. **Token Selection**:  
+   The model selects the next token by sampling or choosing the token with the highest probability from this distribution.
+
+5. **Iteration**:  
+   The newly predicted token is appended to the sequence, and the process repeats to generate subsequent tokens.
+
+In essence, the model predicts the next token by estimating which token is most probable given all the tokens that came before it.

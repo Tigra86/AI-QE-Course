@@ -1,0 +1,604 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red242\green242\blue242;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgray\c95825;\csgray\c0\c80000;}
+\margl1440\margr1440\vieww38200\viewh19620\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\fs20 \cf2 \cb3 \CocoaLigature0 Mac\'96mini:HW#40 Tigra$ python openai_get_weather_tool_voice.py voice\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:49: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  filename = f"recordings/question_\{datetime.utcnow().strftime('%Y%m%d_%H%M%S')\}.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:18:35.457886] VOICE MODE\
+============================================================\
+\
+"Recording 6 seconds..."\
+\
+============================================================\
+[2026-05-06T02:18:41.808734] AUDIO SAVED\
+============================================================\
+\
+"recordings/question_20260506_021835.wav"\
+\
+============================================================\
+[2026-05-06T02:18:41.808807] TRANSCRIBE REQUEST\
+============================================================\
+\
+"recordings/question_20260506_021835.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:18:43.163222] TRANSCRIBE RESPONSE\
+============================================================\
+\
+"\\u041a\\u0430\\u043a\\u0430\\u044f \\u043f\\u043e\\u0433\\u043e\\u0434\\u0430 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432 \\u0415\\u0440\\u0435\\u0432\\u0430\\u043d\\u0435 \\u0432 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u0435?"\
+\
+============================================================\
+[2026-05-06T02:18:43.163282] USER QUESTION\
+============================================================\
+\
+"\\u041a\\u0430\\u043a\\u0430\\u044f \\u043f\\u043e\\u0433\\u043e\\u0434\\u0430 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432 \\u0415\\u0440\\u0435\\u0432\\u0430\\u043d\\u0435 \\u0432 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u0435?"\
+\
+============================================================\
+[2026-05-06T02:18:43.163320] REQUEST STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "input": "\\u041a\\u0430\\u043a\\u0430\\u044f \\u043f\\u043e\\u0433\\u043e\\u0434\\u0430 \\u0431\\u0443\\u0434\\u0435\\u0442 \\u0432 \\u0415\\u0440\\u0435\\u0432\\u0430\\u043d\\u0435 \\u0432 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u0435?",\
+  "tool_choice": "required",\
+  "tools": [\
+    \{\
+      "type": "function",\
+      "name": "get_weather",\
+      "description": "Get current temperature for a city. If user asks Fahrenheit return F, if Celsius return C.",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "city": \{\
+            "type": "string"\
+          \},\
+          "unit": \{\
+            "type": "string"\
+          \}\
+        \},\
+        "required": [\
+          "city",\
+          "unit"\
+        ],\
+        "additionalProperties": false\
+      \}\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:44.428510] RESPONSE STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_09736c2f82a06b440069faa503472881979dac2ac7a3686b8d",\
+  "status": "completed",\
+  "model": "gpt-5.2-2025-12-11",\
+  "output": [\
+    \{\
+      "arguments": "\{\\"city\\":\\"Yerevan\\",\\"unit\\":\\"C\\"\}",\
+      "call_id": "call_rMRmfZuxkcdxtPujC78h4YdR",\
+      "name": "get_weather",\
+      "type": "function_call",\
+      "id": "fc_09736c2f82a06b440069faa503eb808197a2ec97c3daa2e4bd",\
+      "namespace": null,\
+      "status": "completed"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:44.428577] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "tool_name": "get_weather",\
+  "arguments": \{\
+    "city": "Yerevan",\
+    "unit": "C"\
+  \}\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:45.433705] GEOCODING REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://nominatim.openstreetmap.org/search",\
+  "params": \{\
+    "q": "Yerevan",\
+    "format": "json",\
+    "limit": 1\
+  \}\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:45.514182] GEOCODING RESPONSE\
+============================================================\
+\
+\{\
+  "lat": 40.1777112,\
+  "lon": 44.5126233\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:45.514660] WEATHER API REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=40.1777112&longitude=44.5126233&current_weather=true&temperature_unit=celsius"\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:46.151498] WEATHER API RESPONSE\
+============================================================\
+\
+\{\
+  "temperature": 10.9,\
+  "unit": "C"\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:46.154017] TOOL RESULT (LOCAL EXECUTION)\
+============================================================\
+\
+\{\
+  "temperature": 10.9,\
+  "unit": "C"\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:46.154173] REQUEST STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "previous_response_id": "resp_09736c2f82a06b440069faa503472881979dac2ac7a3686b8d",\
+  "input": [\
+    \{\
+      "type": "function_call_output",\
+      "call_id": "call_rMRmfZuxkcdxtPujC78h4YdR",\
+      "output": "\{\\"temperature\\": 10.9, \\"unit\\": \\"C\\"\}"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:18:51.268324] RESPONSE STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_09736c2f82a06b440069faa50644a481979432f7ee005ae2c7",\
+  "status": "completed",\
+  "output": [\
+    \{\
+      "id": "msg_09736c2f82a06b440069faa506e13c8197a1e2e9e3640d1aaa",\
+      "content": [\
+        \{\
+          "annotations": [],\
+          "text": "\\u042f \\u043d\\u0435 \\u043c\\u043e\\u0433\\u0443 \\u043d\\u0430\\u0434\\u0451\\u0436\\u043d\\u043e \\u043f\\u0440\\u0435\\u0434\\u0441\\u043a\\u0430\\u0437\\u0430\\u0442\\u044c \\u043f\\u043e\\u0433\\u043e\\u0434\\u0443 \\u043d\\u0430 \\u043a\\u043e\\u043d\\u043a\\u0440\\u0435\\u0442\\u043d\\u044b\\u0435 \\u0434\\u0430\\u0442\\u044b \\u0432 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u0435 \\u0431\\u0435\\u0437 \\u043f\\u0440\\u043e\\u0433\\u043d\\u043e\\u0437\\u0430 \\u043d\\u0430 \\u043d\\u0443\\u0436\\u043d\\u044b\\u0439 \\u043f\\u0435\\u0440\\u0438\\u043e\\u0434, \\u043d\\u043e \\u043c\\u043e\\u0433\\u0443 \\u043e\\u043f\\u0438\\u0441\\u0430\\u0442\\u044c \\u0442\\u0438\\u043f\\u0438\\u0447\\u043d\\u0443\\u044e \\u043f\\u043e\\u0433\\u043e\\u0434\\u0443 \\u0432 \\u0415\\u0440\\u0435\\u0432\\u0430\\u043d\\u0435 \\u0432 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u0435:\\n\\n- **\\u0412 \\u0446\\u0435\\u043b\\u043e\\u043c:** \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u044c \\u043e\\u0431\\u044b\\u0447\\u043d\\u043e \\u0442\\u0451\\u043f\\u043b\\u044b\\u0439 \\u0438 \\u0441\\u0443\\u0445\\u043e\\u0439, \\u0441 \\u0431\\u043e\\u043b\\u044c\\u0448\\u0438\\u043c \\u043a\\u043e\\u043b\\u0438\\u0447\\u0435\\u0441\\u0442\\u0432\\u043e\\u043c \\u0441\\u043e\\u043b\\u043d\\u0435\\u0447\\u043d\\u044b\\u0445 \\u0434\\u043d\\u0435\\u0439.  \\n- **\\u0422\\u0435\\u043c\\u043f\\u0435\\u0440\\u0430\\u0442\\u0443\\u0440\\u0430 \\u0434\\u043d\\u0451\\u043c:** \\u0447\\u0430\\u0449\\u0435 \\u043e\\u043a\\u043e\\u043b\\u043e **+24\\u2026+30 \\u00b0C** \\u0432 \\u043f\\u0435\\u0440\\u0432\\u043e\\u0439 \\u043f\\u043e\\u043b\\u043e\\u0432\\u0438\\u043d\\u0435 \\u043c\\u0435\\u0441\\u044f\\u0446\\u0430, \\u043a \\u043a\\u043e\\u043d\\u0446\\u0443 \\u043c\\u0435\\u0441\\u044f\\u0446\\u0430 \\u043d\\u0435\\u0440\\u0435\\u0434\\u043a\\u043e **+20\\u2026+25 \\u00b0C**.  \\n- **\\u041d\\u043e\\u0447\\u044c\\u044e:** \\u043e\\u0431\\u044b\\u0447\\u043d\\u043e **+12\\u2026+18 \\u00b0C**, \\u0431\\u043b\\u0438\\u0436\\u0435 \\u043a \\u043a\\u043e\\u043d\\u0446\\u0443 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u044f \\u043c\\u043e\\u0436\\u0435\\u0442 \\u0431\\u044b\\u0442\\u044c \\u043f\\u0440\\u043e\\u0445\\u043b\\u0430\\u0434\\u043d\\u0435\\u0435.  \\n- **\\u041e\\u0441\\u0430\\u0434\\u043a\\u0438:** \\u043a\\u0430\\u043a \\u043f\\u0440\\u0430\\u0432\\u0438\\u043b\\u043e **\\u043c\\u0430\\u043b\\u043e \\u0434\\u043e\\u0436\\u0434\\u0435\\u0439**, \\u043d\\u043e \\u043a\\u0440\\u0430\\u0442\\u043a\\u043e\\u0432\\u0440\\u0435\\u043c\\u0435\\u043d\\u043d\\u044b\\u0435 \\u0434\\u043e\\u0436\\u0434\\u0438 \\u0432\\u043e\\u0437\\u043c\\u043e\\u0436\\u043d\\u044b, \\u043e\\u0441\\u043e\\u0431\\u0435\\u043d\\u043d\\u043e \\u0431\\u043b\\u0438\\u0436\\u0435 \\u043a \\u043a\\u043e\\u043d\\u0446\\u0443 \\u043c\\u0435\\u0441\\u044f\\u0446\\u0430.  \\n- **\\u041e\\u0449\\u0443\\u0449\\u0435\\u043d\\u0438\\u0435:** \\u0434\\u043d\\u0451\\u043c \\u043c\\u043e\\u0436\\u0435\\u0442 \\u0431\\u044b\\u0442\\u044c \\u0436\\u0430\\u0440\\u043a\\u043e \\u043d\\u0430 \\u0441\\u043e\\u043b\\u043d\\u0446\\u0435, \\u0432\\u0435\\u0447\\u0435\\u0440\\u043e\\u043c \\u043d\\u0443\\u0436\\u043d\\u0430 \\u043b\\u0451\\u0433\\u043a\\u0430\\u044f \\u043a\\u043e\\u0444\\u0442\\u0430/\\u0432\\u0435\\u0442\\u0440\\u043e\\u0432\\u043a\\u0430.\\n\\n\\u0415\\u0441\\u043b\\u0438 \\u0441\\u043a\\u0430\\u0436\\u0435\\u0442\\u0435 **\\u043a\\u043e\\u043d\\u043a\\u0440\\u0435\\u0442\\u043d\\u044b\\u0435 \\u0434\\u0430\\u0442\\u044b** (\\u043d\\u0430\\u043f\\u0440\\u0438\\u043c\\u0435\\u0440, 10\\u201315 \\u0441\\u0435\\u043d\\u0442\\u044f\\u0431\\u0440\\u044f) \\u0438 \\u0445\\u043e\\u0442\\u0438\\u0442\\u0435 \\u043b\\u0438 \\u0432\\u044b **\\u0434\\u043d\\u0435\\u0432\\u043d\\u043e\\u0439/\\u043d\\u043e\\u0447\\u043d\\u043e\\u0439** \\u0440\\u0430\\u0437\\u0431\\u0440\\u043e\\u0441, \\u0443\\u0442\\u043e\\u0447\\u043d\\u044e \\u0431\\u043e\\u043b\\u0435\\u0435 \\u043f\\u0440\\u0438\\u0446\\u0435\\u043b\\u044c\\u043d\\u043e \\u0438 \\u043f\\u043e\\u0434\\u0441\\u043a\\u0430\\u0436\\u0443, \\u0447\\u0442\\u043e \\u0432\\u0437\\u044f\\u0442\\u044c \\u0438\\u0437 \\u043e\\u0434\\u0435\\u0436\\u0434\\u044b.",\
+          "type": "output_text",\
+          "logprobs": []\
+        \}\
+      ],\
+      "role": "assistant",\
+      "status": "completed",\
+      "type": "message",\
+      "phase": null\
+    \}\
+  ]\
+\}\
+\
+FINAL ANSWER:\
+\uc0\u1071  \u1085 \u1077  \u1084 \u1086 \u1075 \u1091  \u1085 \u1072 \u1076 \u1105 \u1078 \u1085 \u1086  \u1087 \u1088 \u1077 \u1076 \u1089 \u1082 \u1072 \u1079 \u1072 \u1090 \u1100  \u1087 \u1086 \u1075 \u1086 \u1076 \u1091  \u1085 \u1072  \u1082 \u1086 \u1085 \u1082 \u1088 \u1077 \u1090 \u1085 \u1099 \u1077  \u1076 \u1072 \u1090 \u1099  \u1074  \u1089 \u1077 \u1085 \u1090 \u1103 \u1073 \u1088 \u1077  \u1073 \u1077 \u1079  \u1087 \u1088 \u1086 \u1075 \u1085 \u1086 \u1079 \u1072  \u1085 \u1072  \u1085 \u1091 \u1078 \u1085 \u1099 \u1081  \u1087 \u1077 \u1088 \u1080 \u1086 \u1076 , \u1085 \u1086  \u1084 \u1086 \u1075 \u1091  \u1086 \u1087 \u1080 \u1089 \u1072 \u1090 \u1100  \u1090 \u1080 \u1087 \u1080 \u1095 \u1085 \u1091 \u1102  \u1087 \u1086 \u1075 \u1086 \u1076 \u1091  \u1074  \u1045 \u1088 \u1077 \u1074 \u1072 \u1085 \u1077  \u1074  \u1089 \u1077 \u1085 \u1090 \u1103 \u1073 \u1088 \u1077 :\
+\
+- **\uc0\u1042  \u1094 \u1077 \u1083 \u1086 \u1084 :** \u1089 \u1077 \u1085 \u1090 \u1103 \u1073 \u1088 \u1100  \u1086 \u1073 \u1099 \u1095 \u1085 \u1086  \u1090 \u1105 \u1087 \u1083 \u1099 \u1081  \u1080  \u1089 \u1091 \u1093 \u1086 \u1081 , \u1089  \u1073 \u1086 \u1083 \u1100 \u1096 \u1080 \u1084  \u1082 \u1086 \u1083 \u1080 \u1095 \u1077 \u1089 \u1090 \u1074 \u1086 \u1084  \u1089 \u1086 \u1083 \u1085 \u1077 \u1095 \u1085 \u1099 \u1093  \u1076 \u1085 \u1077 \u1081 .  \
+- **\uc0\u1058 \u1077 \u1084 \u1087 \u1077 \u1088 \u1072 \u1090 \u1091 \u1088 \u1072  \u1076 \u1085 \u1105 \u1084 :** \u1095 \u1072 \u1097 \u1077  \u1086 \u1082 \u1086 \u1083 \u1086  **+24\'85+30 \'b0C** \u1074  \u1087 \u1077 \u1088 \u1074 \u1086 \u1081  \u1087 \u1086 \u1083 \u1086 \u1074 \u1080 \u1085 \u1077  \u1084 \u1077 \u1089 \u1103 \u1094 \u1072 , \u1082  \u1082 \u1086 \u1085 \u1094 \u1091  \u1084 \u1077 \u1089 \u1103 \u1094 \u1072  \u1085 \u1077 \u1088 \u1077 \u1076 \u1082 \u1086  **+20\'85+25 \'b0C**.  \
+- **\uc0\u1053 \u1086 \u1095 \u1100 \u1102 :** \u1086 \u1073 \u1099 \u1095 \u1085 \u1086  **+12\'85+18 \'b0C**, \u1073 \u1083 \u1080 \u1078 \u1077  \u1082  \u1082 \u1086 \u1085 \u1094 \u1091  \u1089 \u1077 \u1085 \u1090 \u1103 \u1073 \u1088 \u1103  \u1084 \u1086 \u1078 \u1077 \u1090  \u1073 \u1099 \u1090 \u1100  \u1087 \u1088 \u1086 \u1093 \u1083 \u1072 \u1076 \u1085 \u1077 \u1077 .  \
+- **\uc0\u1054 \u1089 \u1072 \u1076 \u1082 \u1080 :** \u1082 \u1072 \u1082  \u1087 \u1088 \u1072 \u1074 \u1080 \u1083 \u1086  **\u1084 \u1072 \u1083 \u1086  \u1076 \u1086 \u1078 \u1076 \u1077 \u1081 **, \u1085 \u1086  \u1082 \u1088 \u1072 \u1090 \u1082 \u1086 \u1074 \u1088 \u1077 \u1084 \u1077 \u1085 \u1085 \u1099 \u1077  \u1076 \u1086 \u1078 \u1076 \u1080  \u1074 \u1086 \u1079 \u1084 \u1086 \u1078 \u1085 \u1099 , \u1086 \u1089 \u1086 \u1073 \u1077 \u1085 \u1085 \u1086  \u1073 \u1083 \u1080 \u1078 \u1077  \u1082  \u1082 \u1086 \u1085 \u1094 \u1091  \u1084 \u1077 \u1089 \u1103 \u1094 \u1072 .  \
+- **\uc0\u1054 \u1097 \u1091 \u1097 \u1077 \u1085 \u1080 \u1077 :** \u1076 \u1085 \u1105 \u1084  \u1084 \u1086 \u1078 \u1077 \u1090  \u1073 \u1099 \u1090 \u1100  \u1078 \u1072 \u1088 \u1082 \u1086  \u1085 \u1072  \u1089 \u1086 \u1083 \u1085 \u1094 \u1077 , \u1074 \u1077 \u1095 \u1077 \u1088 \u1086 \u1084  \u1085 \u1091 \u1078 \u1085 \u1072  \u1083 \u1105 \u1075 \u1082 \u1072 \u1103  \u1082 \u1086 \u1092 \u1090 \u1072 /\u1074 \u1077 \u1090 \u1088 \u1086 \u1074 \u1082 \u1072 .\
+\
+\uc0\u1045 \u1089 \u1083 \u1080  \u1089 \u1082 \u1072 \u1078 \u1077 \u1090 \u1077  **\u1082 \u1086 \u1085 \u1082 \u1088 \u1077 \u1090 \u1085 \u1099 \u1077  \u1076 \u1072 \u1090 \u1099 ** (\u1085 \u1072 \u1087 \u1088 \u1080 \u1084 \u1077 \u1088 , 10\'9615 \u1089 \u1077 \u1085 \u1090 \u1103 \u1073 \u1088 \u1103 ) \u1080  \u1093 \u1086 \u1090 \u1080 \u1090 \u1077  \u1083 \u1080  \u1074 \u1099  **\u1076 \u1085 \u1077 \u1074 \u1085 \u1086 \u1081 /\u1085 \u1086 \u1095 \u1085 \u1086 \u1081 ** \u1088 \u1072 \u1079 \u1073 \u1088 \u1086 \u1089 , \u1091 \u1090 \u1086 \u1095 \u1085 \u1102  \u1073 \u1086 \u1083 \u1077 \u1077  \u1087 \u1088 \u1080 \u1094 \u1077 \u1083 \u1100 \u1085 \u1086  \u1080  \u1087 \u1086 \u1076 \u1089 \u1082 \u1072 \u1078 \u1091 , \u1095 \u1090 \u1086  \u1074 \u1079 \u1103 \u1090 \u1100  \u1080 \u1079  \u1086 \u1076 \u1077 \u1078 \u1076 \u1099 .\
+Mac\'96mini:HW#40 Tigra$ python openai_get_weather_tool_voice.py voice\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:49: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  filename = f"recordings/question_\{datetime.utcnow().strftime('%Y%m%d_%H%M%S')\}.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:20:46.440892] VOICE MODE\
+============================================================\
+\
+"Recording 6 seconds..."\
+What is the weather like today in Phuket Thailand\
+============================================================\
+[2026-05-06T02:20:52.775058] AUDIO SAVED\
+============================================================\
+\
+"recordings/question_20260506_022046.wav"\
+\
+============================================================\
+[2026-05-06T02:20:52.775128] TRANSCRIBE REQUEST\
+============================================================\
+\
+"recordings/question_20260506_022046.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:20:53.942573] TRANSCRIBE RESPONSE\
+============================================================\
+\
+"What's the weather like today in Phuket, Thailand?"\
+\
+============================================================\
+[2026-05-06T02:20:53.942628] USER QUESTION\
+============================================================\
+\
+"What's the weather like today in Phuket, Thailand?"\
+\
+============================================================\
+[2026-05-06T02:20:53.942663] REQUEST STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "input": "What's the weather like today in Phuket, Thailand?",\
+  "tool_choice": "required",\
+  "tools": [\
+    \{\
+      "type": "function",\
+      "name": "get_weather",\
+      "description": "Get current temperature for a city. If user asks Fahrenheit return F, if Celsius return C.",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "city": \{\
+            "type": "string"\
+          \},\
+          "unit": \{\
+            "type": "string"\
+          \}\
+        \},\
+        "required": [\
+          "city",\
+          "unit"\
+        ],\
+        "additionalProperties": false\
+      \}\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:55.296522] RESPONSE STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_016455c34774977e0069faa5863be8819588789853c8d13229",\
+  "status": "completed",\
+  "model": "gpt-5.2-2025-12-11",\
+  "output": [\
+    \{\
+      "arguments": "\{\\"city\\":\\"Phuket, Thailand\\",\\"unit\\":\\"C\\"\}",\
+      "call_id": "call_aZDq2OqavMpmZ8nrlfugVqEx",\
+      "name": "get_weather",\
+      "type": "function_call",\
+      "id": "fc_016455c34774977e0069faa586d39c8195b10cb042adbe96b3",\
+      "namespace": null,\
+      "status": "completed"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:55.296578] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "tool_name": "get_weather",\
+  "arguments": \{\
+    "city": "Phuket, Thailand",\
+    "unit": "C"\
+  \}\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:56.301724] GEOCODING REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://nominatim.openstreetmap.org/search",\
+  "params": \{\
+    "q": "Phuket, Thailand",\
+    "format": "json",\
+    "limit": 1\
+  \}\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:56.388204] GEOCODING RESPONSE\
+============================================================\
+\
+\{\
+  "lat": 7.9366015,\
+  "lon": 98.3529292\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:56.388764] WEATHER API REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=7.9366015&longitude=98.3529292&current_weather=true&temperature_unit=celsius"\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:57.036963] WEATHER API RESPONSE\
+============================================================\
+\
+\{\
+  "temperature": 28.7,\
+  "unit": "C"\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:57.038266] TOOL RESULT (LOCAL EXECUTION)\
+============================================================\
+\
+\{\
+  "temperature": 28.7,\
+  "unit": "C"\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:57.038343] REQUEST STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "previous_response_id": "resp_016455c34774977e0069faa5863be8819588789853c8d13229",\
+  "input": [\
+    \{\
+      "type": "function_call_output",\
+      "call_id": "call_aZDq2OqavMpmZ8nrlfugVqEx",\
+      "output": "\{\\"temperature\\": 28.7, \\"unit\\": \\"C\\"\}"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:20:58.580534] RESPONSE STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_016455c34774977e0069faa58920bc819591c0165f7fdbad61",\
+  "status": "completed",\
+  "output": [\
+    \{\
+      "id": "msg_016455c34774977e0069faa589e02481958b5a12b668cc8a57",\
+      "content": [\
+        \{\
+          "annotations": [],\
+          "text": "It\\u2019s about **28.7\\u202f\\u00b0C** in **Phuket, Thailand** right now.",\
+          "type": "output_text",\
+          "logprobs": []\
+        \}\
+      ],\
+      "role": "assistant",\
+      "status": "completed",\
+      "type": "message",\
+      "phase": null\
+    \}\
+  ]\
+\}\
+\
+FINAL ANSWER:\
+It\'92s about **28.7\uc0\u8239 \'b0C** in **Phuket, Thailand** right now.\
+Mac\'96mini:HW#40 Tigra$ python openai_get_weather_tool_voice.py voice\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:49: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  filename = f"recordings/question_\{datetime.utcnow().strftime('%Y%m%d_%H%M%S')\}.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:22:49.712615] VOICE MODE\
+============================================================\
+\
+"Recording 6 seconds..."\
+How cold is in Hawaii right now\
+============================================================\
+[2026-05-06T02:22:56.035142] AUDIO SAVED\
+============================================================\
+\
+"recordings/question_20260506_022249.wav"\
+\
+============================================================\
+[2026-05-06T02:22:56.035269] TRANSCRIBE REQUEST\
+============================================================\
+\
+"recordings/question_20260506_022249.wav"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 16/Homework/HW#40/openai_get_weather_tool_voice.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-05-06T02:22:56.998694] TRANSCRIBE RESPONSE\
+============================================================\
+\
+"How cold is in Hawaii right now?"\
+\
+============================================================\
+[2026-05-06T02:22:56.998751] USER QUESTION\
+============================================================\
+\
+"How cold is in Hawaii right now?"\
+\
+============================================================\
+[2026-05-06T02:22:56.998785] REQUEST STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "input": "How cold is in Hawaii right now?",\
+  "tool_choice": "required",\
+  "tools": [\
+    \{\
+      "type": "function",\
+      "name": "get_weather",\
+      "description": "Get current temperature for a city. If user asks Fahrenheit return F, if Celsius return C.",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "city": \{\
+            "type": "string"\
+          \},\
+          "unit": \{\
+            "type": "string"\
+          \}\
+        \},\
+        "required": [\
+          "city",\
+          "unit"\
+        ],\
+        "additionalProperties": false\
+      \}\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:22:58.254108] RESPONSE STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_0c3ea5d8ec032f4a0069faa6011eb48190b3aacd4d0156adb6",\
+  "status": "completed",\
+  "model": "gpt-5.2-2025-12-11",\
+  "output": [\
+    \{\
+      "arguments": "\{\\"city\\":\\"Honolulu, Hawaii\\",\\"unit\\":\\"F\\"\}",\
+      "call_id": "call_x5jeT7R3OuT7PSaU8G8vb84x",\
+      "name": "get_weather",\
+      "type": "function_call",\
+      "id": "fc_0c3ea5d8ec032f4a0069faa6017d8c8190ab0aebcdff612f59",\
+      "namespace": null,\
+      "status": "completed"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:22:58.254162] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "tool_name": "get_weather",\
+  "arguments": \{\
+    "city": "Honolulu, Hawaii",\
+    "unit": "F"\
+  \}\
+\}\
+\
+============================================================\
+[2026-05-06T02:22:59.259325] GEOCODING REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://nominatim.openstreetmap.org/search",\
+  "params": \{\
+    "q": "Honolulu, Hawaii",\
+    "format": "json",\
+    "limit": 1\
+  \}\
+\}\
+\
+============================================================\
+[2026-05-06T02:22:59.986228] GEOCODING RESPONSE\
+============================================================\
+\
+\{\
+  "lat": 21.304547,\
+  "lon": -157.855676\
+\}\
+\
+============================================================\
+[2026-05-06T02:22:59.988211] WEATHER API REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=21.304547&longitude=-157.855676&current_weather=true&temperature_unit=fahrenheit"\
+\}\
+\
+============================================================\
+[2026-05-06T02:23:00.689723] WEATHER API RESPONSE\
+============================================================\
+\
+\{\
+  "temperature": 79.2,\
+  "unit": "F"\
+\}\
+\
+============================================================\
+[2026-05-06T02:23:00.691100] TOOL RESULT (LOCAL EXECUTION)\
+============================================================\
+\
+\{\
+  "temperature": 79.2,\
+  "unit": "F"\
+\}\
+\
+============================================================\
+[2026-05-06T02:23:00.691206] REQUEST STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "previous_response_id": "resp_0c3ea5d8ec032f4a0069faa6011eb48190b3aacd4d0156adb6",\
+  "input": [\
+    \{\
+      "type": "function_call_output",\
+      "call_id": "call_x5jeT7R3OuT7PSaU8G8vb84x",\
+      "output": "\{\\"temperature\\": 79.2, \\"unit\\": \\"F\\"\}"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-05-06T02:23:02.149817] RESPONSE STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_0c3ea5d8ec032f4a0069faa604c8508190b570bdb87b884dea",\
+  "status": "completed",\
+  "output": [\
+    \{\
+      "id": "msg_0c3ea5d8ec032f4a0069faa60558e0819084e1dba67a17430b",\
+      "content": [\
+        \{\
+          "annotations": [],\
+          "text": "Right now in **Honolulu, Hawaii**, it\\u2019s about **79\\u00b0F**.",\
+          "type": "output_text",\
+          "logprobs": []\
+        \}\
+      ],\
+      "role": "assistant",\
+      "status": "completed",\
+      "type": "message",\
+      "phase": null\
+    \}\
+  ]\
+\}\
+\
+FINAL ANSWER:\
+Right now in **Honolulu, Hawaii**, it\'92s about **79\'b0F**.\
+Mac\'96mini:HW#40 Tigra$ }

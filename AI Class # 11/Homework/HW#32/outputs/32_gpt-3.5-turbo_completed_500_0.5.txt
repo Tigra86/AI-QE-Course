@@ -1,0 +1,55 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-3.5-turbo
+model_context_window / token_budget: 4096
+input_tokens: 18
+output_tokens: 485
+total_tokens / billed_tokens: 503
+remaining_tokens / not_billed_tokens: 3593 (4096 - 503)
+available_for_output_at_start: 4078
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+Give me a recipe for chocolate cake with detailed steps.
+
+=== RAW OUTPUT ===
+Sure! Here is a recipe for a classic chocolate cake:
+
+Ingredients:
+- 1 and 3/4 cups all-purpose flour
+- 1 and 1/2 cups granulated sugar
+- 3/4 cup unsweetened cocoa powder
+- 1 and 1/2 teaspoons baking powder
+- 1 and 1/2 teaspoons baking soda
+- 1 teaspoon salt
+- 2 large eggs
+- 1 cup whole milk
+- 1/2 cup vegetable oil
+- 2 teaspoons vanilla extract
+- 1 cup boiling water
+
+For the chocolate frosting:
+- 1 cup unsalted butter, softened
+- 2 and 1/2 cups powdered sugar
+- 1/2 cup unsweetened cocoa powder
+- 1/4 cup whole milk
+- 1 teaspoon vanilla extract
+
+Instructions:
+1. Preheat your oven to 350°F (180°C). Grease and flour two 9-inch round cake pans.
+2. In a large mixing bowl, sift together the flour, sugar, cocoa powder, baking powder, baking soda, and salt.
+3. Add the eggs, milk, oil, and vanilla extract to the dry ingredients. Beat on medium speed for 2 minutes.
+4. Stir in the boiling water. The batter will be thin, but that's okay.
+5. Pour the batter evenly into the prepared cake pans.
+6. Bake in the preheated oven for 30-35 minutes, or until a toothpick inserted into the center comes out clean.
+7. Allow the cakes to cool in the pans for 10 minutes, then remove them from the pans and transfer to a wire rack to cool completely.
+
+For the chocolate frosting:
+1. In a large mixing bowl, cream the butter until smooth.
+2. Gradually add the powdered sugar and cocoa powder, alternating with the milk and vanilla extract. Beat on medium speed until smooth and creamy.
+3. If the frosting is too thick, add more milk. If it's too thin, add more powdered sugar.
+4. Once the cakes are completely cooled, frost the top of one cake layer, then place the second cake layer on top. Frost the top and sides of the cake with the remaining frosting.
+5. Decorate with chocolate shavings, sprinkles, or any other toppings of your choice.
+
+Enjoy your delicious homemade chocolate cake!

@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2026-04-27T23:10:53.298112",
+    "question": "How many students do we have?",
+    "runs": 100,
+    "metrics": {
+      "llm_step1": {
+        "total_runs": 100,
+        "average": 2.277,
+        "p50": 2.15,
+        "p95": 3.395,
+        "p99": 4.104,
+        "trimmed_mean_5": 2.213,
+        "min": 1.635,
+        "max": 4.638,
+        "std_dev": 0.531,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 98.0,
+        "sla_threshold": 4.0
+      },
+      "tool": {
+        "total_runs": 100,
+        "average": 0.503,
+        "p50": 0.504,
+        "p95": 0.505,
+        "p99": 0.505,
+        "trimmed_mean_5": 0.504,
+        "min": 0.5,
+        "max": 0.505,
+        "std_dev": 0.001,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 100.0,
+        "sla_threshold": 4.0
+      },
+      "llm_step2": {
+        "total_runs": 100,
+        "average": 2.383,
+        "p50": 2.321,
+        "p95": 3.369,
+        "p99": 4.08,
+        "trimmed_mean_5": 2.345,
+        "min": 1.338,
+        "max": 4.192,
+        "std_dev": 0.546,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 98.0,
+        "sla_threshold": 4.0
+      },
+      "total": {
+        "total_runs": 100,
+        "average": 5.164,
+        "p50": 4.996,
+        "p95": 6.867,
+        "p99": 7.169,
+        "trimmed_mean_5": 5.114,
+        "min": 3.887,
+        "max": 7.295,
+        "std_dev": 0.741,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 2.0,
+        "sla_threshold": 4.0
+      }
+    }
+  }
+]

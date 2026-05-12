@@ -1,0 +1,22 @@
+{
+  "updates": [
+    {
+      "id": "U-001",
+      "date": "2025-11-15",
+      "changes": [
+        "theme: dark -> light",
+        "added_user_profile",
+        "fixed_login_bug"
+      ]
+    },
+    {
+      "id": "U-002",
+      "date": "2026-01-10",
+      "changes": [
+        "increased_max_upload: 25 -> 50",
+        "improved_search"
+      ],
+      "notes": []
+    }
+  ]
+}

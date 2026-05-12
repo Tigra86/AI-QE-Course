@@ -1,0 +1,66 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/Welcome7",
+    "definitions": {
+        "Welcome7": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+                "id": { "type": "string" },
+                "created_at": { "type": "number" },
+                "error": { "type": ["string", "number", "null"] },
+                "incomplete_details": { "type": ["string", "number", "null"] },
+                "instructions": { "type": ["string", "number", "null"] },
+                "metadata": { "type": "object", "additionalProperties": true },
+                "model": { "type": "string" },
+                "object": { "type": "string" },
+                "output": {
+                    "type": "array",
+                    "items": { "$ref": "#/definitions/Output" }
+                },
+                "parallel_tool_calls": { "type": "boolean" },
+                "temperature": { "type": "number" },
+                "tool_choice": { "type": ["string", "number", "null"] },
+                "tools": { "type": "array", "items": {} },
+                "top_p": { "type": "number" },
+                "background": { "type": "boolean" },
+                "completed_at": { "type": "number" },
+                "conversation": { "type": ["string", "number", "null"] },
+                "max_output_tokens": { "type": "number" },
+                "max_tool_calls": { "type": ["string", "number", "null"] },
+                "previous_response_id": { "type": ["string", "number", "null"] },
+                "prompt": { "type": ["string", "number", "null"] },
+                "prompt_cache_key": { "type": ["string", "number", "null"] },
+                "prompt_cache_retention": { "type": ["string", "number", "null"] },
+                "reasoning": { "type": ["object", "string", "null"], "additionalProperties": true },
+                "safety_identifier": { "type": ["string", "number", "null"] },
+                "service_tier": { "type": "string" },
+                "status": { "type": "string" },
+                "text": { "type": ["object", "string", "null"], "additionalProperties": true },
+                "top_logprobs": { "type": ["integer", "null"] },
+                "truncation": { "type": ["string", "null"] },
+                "usage": { "type": "object", "additionalProperties": true },
+                "user": { "type": ["string", "number", "null"] },
+                "billing": { "type": "object", "additionalProperties": true },
+                "frequency_penalty": { "type": "number" },
+                "presence_penalty": { "type": "number" },
+                "store": { "type": "boolean" }
+            },
+            "required": ["id", "object", "status", "model"],
+            "title": "Welcome7"
+        },
+        "Output": {
+            "type": "object",
+            "additionalProperties": true,
+            "properties": {
+                "id": { "type": "string" },
+                "content": { "type": "array" },
+                "role": { "type": "string" },
+                "status": { "type": "string" },
+                "type": { "type": "string" },
+                "phase": { "type": ["string", "number", "null"] }
+            },
+            "title": "Output"
+        }
+    }
+}

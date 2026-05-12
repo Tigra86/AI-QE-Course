@@ -1,0 +1,128 @@
+[
+  {
+    "timestamp": "2026-04-27T22:50:40.802460",
+    "question": "Who completed all assignments?",
+    "runs": 100,
+    "metrics": {
+      "llm_step1": {
+        "total_runs": 100,
+        "average": 2.217,
+        "p50": 2.026,
+        "p95": 3.074,
+        "p99": 4.119,
+        "trimmed_mean_5": 2.157,
+        "min": 1.601,
+        "max": 5.015,
+        "std_dev": 0.571,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 97.0,
+        "sla_threshold": 4.0
+      },
+      "tool": {
+        "total_runs": 100,
+        "average": 0.504,
+        "p50": 0.505,
+        "p95": 0.505,
+        "p99": 0.505,
+        "trimmed_mean_5": 0.504,
+        "min": 0.5,
+        "max": 0.505,
+        "std_dev": 0.002,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 100.0,
+        "sla_threshold": 4.0
+      },
+      "llm_step2": {
+        "total_runs": 100,
+        "average": 2.204,
+        "p50": 2.09,
+        "p95": 3.38,
+        "p99": 4.145,
+        "trimmed_mean_5": 2.158,
+        "min": 1.32,
+        "max": 4.558,
+        "std_dev": 0.618,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 98.0,
+        "sla_threshold": 4.0
+      },
+      "total": {
+        "total_runs": 100,
+        "average": 4.924,
+        "p50": 4.675,
+        "p95": 6.563,
+        "p99": 7.46,
+        "trimmed_mean_5": 4.857,
+        "min": 3.583,
+        "max": 8.756,
+        "std_dev": 0.937,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 13.0,
+        "sla_threshold": 4.0
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-27T23:02:09.222843",
+    "question": "Students with completed assignments under 20?",
+    "runs": 100,
+    "metrics": {
+      "llm_step1": {
+        "total_runs": 100,
+        "average": 3.574,
+        "p50": 3.598,
+        "p95": 5.015,
+        "p99": 5.457,
+        "trimmed_mean_5": 3.552,
+        "min": 1.951,
+        "max": 6.234,
+        "std_dev": 0.8,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 73.0,
+        "sla_threshold": 4.0
+      },
+      "tool": {
+        "total_runs": 100,
+        "average": 0.503,
+        "p50": 0.504,
+        "p95": 0.505,
+        "p99": 0.505,
+        "trimmed_mean_5": 0.503,
+        "min": 0.5,
+        "max": 0.505,
+        "std_dev": 0.001,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 100.0,
+        "sla_threshold": 4.0
+      },
+      "llm_step2": {
+        "total_runs": 100,
+        "average": 2.271,
+        "p50": 2.147,
+        "p95": 3.085,
+        "p99": 4.22,
+        "trimmed_mean_5": 2.21,
+        "min": 1.509,
+        "max": 5.477,
+        "std_dev": 0.574,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 98.0,
+        "sla_threshold": 4.0
+      },
+      "total": {
+        "total_runs": 100,
+        "average": 6.349,
+        "p50": 6.357,
+        "p95": 7.934,
+        "p99": 9.057,
+        "trimmed_mean_5": 6.318,
+        "min": 4.375,
+        "max": 9.319,
+        "std_dev": 0.963,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 0.0,
+        "sla_threshold": 4.0
+      }
+    }
+  }
+]

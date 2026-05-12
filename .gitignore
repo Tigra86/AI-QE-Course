@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.pkl
+
+# macOS system files
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+
+# Temp/Output files
+*.wav
+*.csv
+*.html

@@ -1,0 +1,33 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4.1-mini
+model_context_window / token_budget: 128000
+input_tokens: 20
+output_tokens: 151
+total_tokens / billed_tokens: 171
+remaining_tokens / not_billed_tokens: 127829 (128000 - 171)
+available_for_output_at_start: 127980
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+Explain output tokens in the style of a Shakespearean sonnet.
+
+=== RAW OUTPUT ===
+When words do flow from circuits deep and bright,  
+Each token born, a fragment of the whole,  
+A piece of thought that dances into light,  
+Constructing meaning, stitching soul to soul.  
+
+These tokens, like the bricks of speech and rhyme,  
+Compose the verse that models do declare,  
+From prompts they rise, in sequence and in time,  
+To form the answers crafted with such care.  
+
+Each output token, thus, a step and part,  
+A note within the melody of tongue,  
+That builds the voice and language of the heart,  
+Till all the tale is told and song is sung.  
+
+So tokens weave the fabric of our speech,  
+The threads through which our thoughts and dreams do reach.

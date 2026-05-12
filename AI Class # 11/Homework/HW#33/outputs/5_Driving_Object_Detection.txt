@@ -1,0 +1,15 @@
+OPTIMIZATION LOG: Driving_Object_Detection
+========================================
+Step  0 | Loss: 1.0459 | Probs: [STOP_SIGN: 0.351, YIELD: 0.388, SPEED_LIMIT: 0.260]
+Step  1 | Loss: 0.9208 | Probs: [STOP_SIGN: 0.398, YIELD: 0.360, SPEED_LIMIT: 0.242]
+Step  2 | Loss: 0.8053 | Probs: [STOP_SIGN: 0.447, YIELD: 0.331, SPEED_LIMIT: 0.222]
+Step  3 | Loss: 0.6997 | Probs: [STOP_SIGN: 0.497, YIELD: 0.301, SPEED_LIMIT: 0.202]
+Step  4 | Loss: 0.6040 | Probs: [STOP_SIGN: 0.547, YIELD: 0.271, SPEED_LIMIT: 0.182]
+Step  5 | Loss: 0.5183 | Probs: [STOP_SIGN: 0.596, YIELD: 0.242, SPEED_LIMIT: 0.162]
+Step  6 | Loss: 0.4421 | Probs: [STOP_SIGN: 0.643, YIELD: 0.214, SPEED_LIMIT: 0.143]
+Step  7 | Loss: 0.3752 | Probs: [STOP_SIGN: 0.687, YIELD: 0.187, SPEED_LIMIT: 0.126]
+Step  8 | Loss: 0.3168 | Probs: [STOP_SIGN: 0.728, YIELD: 0.163, SPEED_LIMIT: 0.109]
+Step  9 | Loss: 0.2663 | Probs: [STOP_SIGN: 0.766, YIELD: 0.140, SPEED_LIMIT: 0.094]
+Step 10 | Loss: 0.2230 | Probs: [STOP_SIGN: 0.800, YIELD: 0.120, SPEED_LIMIT: 0.080]
+
+Final Prediction: STOP_SIGN

@@ -1,0 +1,22 @@
+{
+  "attention": {
+    "sentence": "She placed old photograph on table.",
+    "focus_word": "photograph",
+    "similarity_scores": {
+      "She": 0.03,
+      "placed": 0.4,
+      "old": 0.55,
+      "photograph": 0.15,
+      "on": 0.08,
+      "table.": 0.6
+    },
+    "attention_weights": {
+      "She": 0.02,
+      "placed": 0.22,
+      "old": 0.3,
+      "photograph": 0.08,
+      "on": 0.04,
+      "table.": 0.33
+    }
+  }
+}

@@ -1,0 +1,17 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4o
+model_context_window / token_budget: 128000
+input_tokens: 18
+output_tokens: 20
+total_tokens / billed_tokens: 38
+remaining_tokens / not_billed_tokens: 127962 (128000 - 38)
+available_for_output_at_start: 127982
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Describe the process of tokenization from start to finish.
+
+=== RAW OUTPUT ===
+Tokenization is the process of converting a sequence of text into smaller, manageable units called tokens. These

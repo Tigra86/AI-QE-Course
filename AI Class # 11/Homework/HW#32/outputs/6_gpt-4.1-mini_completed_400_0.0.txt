@@ -1,0 +1,30 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4.1-mini
+model_context_window / token_budget: 128000
+input_tokens: 20
+output_tokens: 156
+total_tokens / billed_tokens: 176
+remaining_tokens / not_billed_tokens: 127824 (128000 - 176)
+available_for_output_at_start: 127980
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+Return JSON only. List ten different colors and their hex codes.
+
+=== RAW OUTPUT ===
+```json
+[
+  {"color": "Red", "hex": "#FF0000"},
+  {"color": "Green", "hex": "#008000"},
+  {"color": "Blue", "hex": "#0000FF"},
+  {"color": "Yellow", "hex": "#FFFF00"},
+  {"color": "Cyan", "hex": "#00FFFF"},
+  {"color": "Magenta", "hex": "#FF00FF"},
+  {"color": "Orange", "hex": "#FFA500"},
+  {"color": "Purple", "hex": "#800080"},
+  {"color": "Brown", "hex": "#A52A2A"},
+  {"color": "Pink", "hex": "#FFC0CB"}
+]
+```

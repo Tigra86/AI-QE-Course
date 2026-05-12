@@ -1,0 +1,37 @@
+# Semantic Report Issues & Fixes - April 2026
+
+## Overview
+- **Tests Performed:** 300
+- **Failures:** 196
+- **Primary Failure Modes:** Semantic Mismatch and Hallucination
+
+## Identified Issues
+
+### 1. Metadata Noise in Expected Answers
+The most significant issue identified was the presence of "Variation X:" prefixes in the `expected_answer` field of the JSONL evaluation files.
+- **Example:** Expected "Variation 3: 8 billion" but Model Output "It is about 8 billion."
+- **Impact:** The semantic model (Sentence Transformer) calculates similarity based on the entire string. The "Variation" prefix adds significant semantic weight that the model does not generate, dragging similarity scores down below the pass threshold.
+
+### 2. Low Similarity Thresholds
+Many answers were factually correct but linguistically diverse, resulting in cosine similarity scores between 0.45 and 0.55.
+- **Example:** Q399 showed a 49.62% similarity score.
+- **Impact:** If the `PASS_THRESHOLD` in `system.config` is set too high (e.g., 0.7 or 0.8), these valid but differently-phrased answers are marked as "Semantic Mismatch" or "Hallucination."
+
+### 3. False Positives for Hallucination
+The evaluation script flags a "Hallucination" when the similarity score is exceptionally low.
+- **Impact:** Because of the metadata noise and phrasing differences, many correct answers were incorrectly labeled as hallucinations simply because they didn't match the specific linguistic structure of the "Variation" strings.
+
+## How to Fix These Issues
+
+### Step 1: Clean Evaluation Data
+Strip all "Variation X:" and other non-factual prefixes from the `.jsonl` files. The `expected_answer` should be pure data.
+- **Before:** `{"expected_answer": "Variation 1: 8 billion"}`
+- **After:** `{"expected_answer": "8 billion"}`
+
+### Step 2: Adjust System Configuration
+Modify the `system.config` file to better accommodate natural language variations.
+- **Recommendation:** Lower the `PASS_THRESHOLD` to **0.65 or 0.70**. This allows for linguistic flexibility while still catching actual factual errors.
+
+### Step 3: Model Prompting (Inference)
+Ensure the model is prompted to be concise. If the model adds too much conversational "fluff," it can dilute the semantic similarity to a short expected answer.
+- **Prompting Tip:** Use "Answer in a single sentence" or "Provide only the factual answer" in the system prompt.

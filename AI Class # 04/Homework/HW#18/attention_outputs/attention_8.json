@@ -1,0 +1,27 @@
+{
+    "sentence": "The phone Lily found on the street wasn't working.",
+    "focus_word": "working",
+    "raw_scores": {
+        "the": -0.0668,
+        "phone": 0.2229,
+        "lily": -0.1578,
+        "found": -0.096,
+        "on": 0.026,
+        "street": -0.2086,
+        "wasn": -0.1914,
+        "t": 0.1105,
+        "working": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "phone": 0.1347,
+        "lily": 0.0921,
+        "found": 0.0979,
+        "on": 0.08,
+        "street": 0.0875,
+        "wasn": 0.089,
+        "t": 0.1384,
+        "working": 0.1204
+    },
+    "softmax_sum": 1.0
+}

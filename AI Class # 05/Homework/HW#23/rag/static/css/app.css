@@ -1,0 +1,223 @@
+ body {
+  font-family: system-ui, -apple-system, Arial;
+  background: #f5f5f5;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+}
+
+:root {
+  --panel-bg: #ffffff;
+  --header-bg: #f0f0f0;
+  --block-bg: #fafafa;
+  --text: #111;
+  --border: #ddd;
+  --btn-bg: #007bff;
+  --btn-text: #fff;
+  --chat-bg: #f8f8f8;
+}
+[data-theme="dark"] {
+  --panel-bg: #222;
+  --header-bg: #333;
+  --block-bg: #2b2b2b;
+  --text: #f0f0f0;
+  --border: #444;
+  --btn-bg: #d98328;
+  --btn-text: #000;
+  --chat-bg: #1e1e1e;
+}
+
+#app {
+  flex: 1;
+  display: flex;
+}
+
+/* CHAT SECTION */
+.chat-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background: white;
+  border-right: 1px solid #ddd;
+}
+
+.header {
+  padding: 12px 16px;
+  font-size: 14px;
+  background: var(--panel-bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Header controls */
+.header-right {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.header button {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+#theme-toggle {
+  background: #555;
+  color: #fff;
+}
+
+#debug-button {
+  background: var(--btn-bg);
+  color: var(--btn-text);
+}
+
+/* Chat window */
+#chat-window {
+  flex: 1;
+  padding: 16px;
+  overflow-y: auto;
+  background: var(--chat-bg);
+}
+
+/* Messages */
+.message {
+  margin-bottom: 12px;
+  line-height: 1.4;
+  white-space: pre-wrap;
+  max-width: 80%;
+}
+
+.message.user {
+  text-align: left;
+  color: #005bbb;
+  background: #e8f3ff;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+.message.bot {
+  text-align: left;
+  color: var(--text);
+  background: #f1f1f1;
+  padding: 8px 10px;
+  border-radius: 6px;
+}
+
+[data-theme="dark"] .message.bot {
+  background: #3a3a3a;
+}
+
+.meta {
+  font-size: 11px;
+  color: #777;
+  margin-top: 4px;
+}
+
+/* Input bar */
+.input-bar {
+  display: flex;
+  padding: 8px;
+  border-top: 1px solid var(--border);
+  background: var(--panel-bg);
+  gap: 8px;
+}
+.input-bar input {
+  flex: 1;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.input-bar button {
+  padding: 10px 16px;
+  font-size: 16px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+.send-btn { background: #10a37f; color: white; }
+.clear-btn { background: #e53935; color: white; }
+
+/* DEBUG DRAWER — part of flex layout, not overlapping */
+#debug-drawer {
+  height: 100vh;
+  flex-shrink: 0;
+  width: 0;                 /* closed by default */
+  overflow: hidden;
+  background: var(--panel-bg);
+  color: var(--text);
+  border-left: 1px solid var(--border);
+  transition: width 0.35s cubic-bezier(.25,.8,.25,1);
+}
+
+/* When open, drawer occupies 360px and pushes chat left */
+#debug-drawer.open {
+  width: 360px;
+}
+
+/* Inner wrapper so content doesn't shrink when width animates */
+#debug-inner {
+  width: 360px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header of debug */
+#debug-header {
+  padding: 12px 14px;
+  background: var(--header-bg);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#drawer-close {
+  background: #e53935;
+  color: #fff;
+  border: none;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* Debug content */
+#debug-content {
+  flex: 1;
+  padding: 14px;
+  overflow-y: auto;
+  font-size: 14px;
+}
+
+/* Blocks */
+.debug-block {
+  padding: 10px;
+  margin: 7px 0 15px;
+  background: var(--block-bg);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+}
+
+/* Logs */
+.logs-results {
+  max-height: 140px;
+  overflow-y: auto;
+  border: 1px solid var(--border);
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 12px;
+}
+.log-entry {
+  border-bottom: 1px dashed var(--border);
+  margin-bottom: 6px;
+  padding-bottom: 6px;
+}
+.log-entry:last-child { border-bottom: none; }

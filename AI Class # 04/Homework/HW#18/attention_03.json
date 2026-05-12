@@ -1,0 +1,22 @@
+{
+  "attention": {
+    "sentence": "Cool breeze carries pine scent campsite.",
+    "focus_word": "breeze",
+    "similarity_scores": {
+      "Cool": 0.7,
+      "breeze": 0.15,
+      "carries": 0.48,
+      "pine": 0.89,
+      "scent": 0.75,
+      "campsite.": 0.82
+    },
+    "attention_weights": {
+      "Cool": 0.19,
+      "breeze": 0.04,
+      "carries": 0.13,
+      "pine": 0.22,
+      "scent": 0.2,
+      "campsite.": 0.22
+    }
+  }
+}

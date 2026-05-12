@@ -1,0 +1,22 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4.1
+model_context_window / token_budget: 128000
+input_tokens: 19
+output_tokens: 30
+total_tokens / billed_tokens: 49
+remaining_tokens / not_billed_tokens: 127951 (128000 - 49)
+available_for_output_at_start: 127981
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Write a formal letter to a professor explaining why tokens matter.
+
+=== RAW OUTPUT ===
+Certainly! Below is a formal letter template explaining why tokens matter, suitable for addressing a professor.
+
+---
+
+[Your Name]  
+[Your Address]

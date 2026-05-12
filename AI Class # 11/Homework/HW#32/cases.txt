@@ -1,0 +1,41 @@
+id|model|max_token|temperature|prompt
+1|gpt-4o|20|0.0|Explain output tokens in a very long, detailed paragraph.
+2|gpt-4o|500|0.0|Explain output tokens in a very long, detailed paragraph.
+3|gpt-5|16|1.0|Tell me a 50-word story about a robot learning to count tokens.
+4|gpt-5|300|1.0|Tell me a 50-word story about a robot learning to count tokens.
+5|gpt-4.1-mini|25|0.0|Return JSON only. List ten different colors and their hex codes.
+6|gpt-4.1-mini|400|0.0|Return JSON only. List ten different colors and their hex codes.
+7|gpt-4.1|30|0.7|Write a formal letter to a professor explaining why tokens matter.
+8|gpt-4.1|500|0.7|Write a formal letter to a professor explaining why tokens matter.
+9|gpt-4o|20|0.2|Describe the process of tokenization from start to finish.
+10|gpt-4o|400|0.2|Describe the process of tokenization from start to finish.
+11|gpt-5-nano|16|1.0|Explain the difference between input and output tokens.
+12|gpt-5-nano|250|1.0|Explain the difference between input and output tokens.
+13|gpt-4o-mini|20|0.8|Write a poem about the context window being full.
+14|gpt-4o-mini|300|0.8|Write a poem about the context window being full.
+15|gpt-3.5-turbo|16|0.0|Define 'Parsing' in the context of computer science.
+16|gpt-3.5-turbo|200|0.0|Define 'Parsing' in the context of computer science.
+17|gpt-5.2|32|1.0|What happens when a model reaches its max_output_tokens?
+18|gpt-5.2|500|1.0|What happens when a model reaches its max_output_tokens?
+19|gpt-5|20|1.0|Return JSON only. Start with '{'. List 5 AI terminology definitions.
+20|gpt-5|500|1.0|Return JSON only. Start with '{'. List 5 AI terminology definitions.
+21|gpt-4.1-mini|16|0.5|Explain output tokens in the style of a Shakespearean sonnet.
+22|gpt-4.1-mini|400|0.5|Explain output tokens in the style of a Shakespearean sonnet.
+23|gpt-4.1|25|0.3|Compare a token to a piece of a puzzle in a long essay.
+24|gpt-4.1|500|0.3|Compare a token to a piece of a puzzle in a long essay.
+25|gpt-4o|18|0.0|Why is truncation dangerous for structured data like JSON?
+26|gpt-4o|300|0.0|Why is truncation dangerous for structured data like JSON?
+27|gpt-5-nano|16|1.0|Describe a sunset using at least 100 words.
+28|gpt-5-nano|400|1.0|Describe a sunset using at least 100 words.
+29|gpt-4o-mini|20|0.0|List the top 5 benefits of using small LLM models.
+30|gpt-4o-mini|300|0.0|List the top 5 benefits of using small LLM models.
+31|gpt-3.5-turbo|16|0.5|Give me a recipe for chocolate cake with detailed steps.
+32|gpt-3.5-turbo|500|0.5|Give me a recipe for chocolate cake with detailed steps.
+33|gpt-5.2|30|1.0|Explain the concept of 'temperature' in LLM generation.
+34|gpt-5.2|350|1.0|Explain the concept of 'temperature' in LLM generation.
+35|gpt-5|24|1.0|Return JSON. Create a schema for a user profile with 10 fields.
+36|gpt-5|500|1.0|Return JSON. Create a schema for a user profile with 10 fields.
+37|gpt-4.1-mini|20|0.4|Explain how a model predicts the next token.
+38|gpt-4.1-mini|300|0.4|Explain how a model predicts the next token.
+39|gpt-4.1|16|0.0|What is the relationship between tokens and billing?
+40|gpt-4.1|250|0.0|What is the relationship between tokens and billing?

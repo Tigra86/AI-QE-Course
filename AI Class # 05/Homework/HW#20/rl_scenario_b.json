@@ -1,0 +1,8 @@
+{
+  "scenario": "B",
+  "user_message": "What's the weather like in New York City today?",
+  "chatbot_response": "I can only answer questions related to our products and services. Please check a weather app for that information.",
+  "action": "out_of_scope_rejection",
+  "reward": -0.5,
+  "reason": "The chatbot correctly identified the query as out-of-scope but did not offer a helpful redirection within its capabilities (e.g., 'I am an assistant for [company name] products; I cannot provide weather updates.'). A simple rejection can be mildly frustrating."
+}

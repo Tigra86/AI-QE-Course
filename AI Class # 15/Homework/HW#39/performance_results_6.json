@@ -1,0 +1,65 @@
+[
+  {
+    "timestamp": "2026-04-28T01:29:41.212108",
+    "question": "Who completed all assignments?",
+    "runs": 100,
+    "metrics": {
+      "llm_step1": {
+        "total_runs": 100,
+        "average": 1.754,
+        "p50": 1.664,
+        "p95": 2.768,
+        "p99": 3.341,
+        "trimmed_mean_5": 1.698,
+        "min": 1.146,
+        "max": 3.383,
+        "std_dev": 0.431,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 100.0,
+        "sla_threshold": 7.0
+      },
+      "tool": {
+        "total_runs": 100,
+        "average": 0.504,
+        "p50": 0.504,
+        "p95": 0.505,
+        "p99": 0.505,
+        "trimmed_mean_5": 0.504,
+        "min": 0.5,
+        "max": 0.505,
+        "std_dev": 0.002,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 100.0,
+        "sla_threshold": 7.0
+      },
+      "llm_step2": {
+        "total_runs": 100,
+        "average": 2.064,
+        "p50": 2.0,
+        "p95": 3.095,
+        "p99": 3.698,
+        "trimmed_mean_5": 2.018,
+        "min": 1.233,
+        "max": 4.149,
+        "std_dev": 0.565,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 100.0,
+        "sla_threshold": 7.0
+      },
+      "total": {
+        "total_runs": 100,
+        "average": 4.322,
+        "p50": 4.177,
+        "p95": 5.392,
+        "p99": 7.381,
+        "trimmed_mean_5": 4.251,
+        "min": 3.268,
+        "max": 7.463,
+        "std_dev": 0.774,
+        "error_rate_pct": 0.0,
+        "sla_pass_rate_pct": 98.0,
+        "sla_threshold": 7.0
+      }
+    }
+  }
+]

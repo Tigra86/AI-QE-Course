@@ -1,0 +1,195 @@
+{
+  "generated_at": "2026-03-09 01:32 PM",
+  "results": [
+    {
+      "id": "P001",
+      "name": "Instruction Prompt",
+      "status": "MINOR_VARIATION",
+      "similarity": 0.9602,
+      "length_delta": 0.0,
+      "diff": [
+        {
+          "base": "Leaves change color in autumn due to the breakdown of chlorophyll revealing other pigments such as carotenoids and anthocyanins as daylight decreases and temperatures drop",
+          "current": "Leaves change color in autumn because shorter days and cooler temperatures stop chlorophyll production revealing other pigments like carotenoids and anthocyanins that were previously masked"
+        }
+      ]
+    },
+    {
+      "id": "P002",
+      "name": "Contextual Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.9118,
+      "length_delta": 0.464,
+      "diff": [
+        {
+          "base": "The primary motivation for Christopher Columbuss 1492 voyage was to find a westward route to Asia specifically to access the lucrative spice trade During this period European nations were eager to find alternative routes to Asia in order to acquire valuable goods such as spices silk and precious metals which were in high demand Columbus believed that by sailing west across the Atlantic Ocean he could reach the East Indies the region that includes presentday Indonesia and surrounding areas more directly than the existing routes that were dominated by Portuguese and other European powers In addition to economic motivations Columbus was also driven by a desire for fame and glory as well as a religious zeal to spread Christianity He sought the patronage of the Spanish monarchy King Ferdinand and Queen Isabella who were supportive of his quest both for its potential economic benefits and for enhancing Spanish prestige on the global stage Ultimately while Columbus did not reach Asia his voyages led to the European awareness of the Americas and initiated widespread exploration and colonization of the continent",
+          "current": "The primary motivation for Christopher Columbuss 1492 voyage was economic to find a direct westward sea route to Asia especially the markets of India China and the Spice Islands in order to access lucrative trade in spices silks and other highvalue goods without relying on the long costly and politically complicated overland and eastern Mediterranean routes dominated by rival powers and intermediaries Spains Crown also expected secondary benefitsprestige strategic advantage over Portugal and opportunities to spread Christianitybut the central driver behind funding the expedition was the promise of profitable commerce through a new route to Asia"
+        }
+      ]
+    },
+    {
+      "id": "P003",
+      "name": "Few-Shot Prompt",
+      "status": "OK",
+      "similarity": 1.0,
+      "length_delta": 0.0,
+      "diff": []
+    },
+    {
+      "id": "P004",
+      "name": "Constraint-Based Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.7922,
+      "length_delta": 0.667,
+      "diff": [
+        {
+          "base": "It is cold",
+          "current": "cold"
+        }
+      ]
+    },
+    {
+      "id": "P005",
+      "name": "Role Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.8134,
+      "length_delta": 0.157,
+      "diff": [
+        {
+          "base": "Arrr ye landlubber Sit ye down and listen well for Ive not the patience to repeat meself A magnetic compass be a simple contraption but it be worth more than a chest o gold when ye be lost at sea Ye see its made up of a wee needle often fashioned from iron and mounted on a pivot That needle be a fickle thing but it knows its waythanks to the great magnetic forces that dwell in the Earth itself Aye the Earth be like a massive magnet with its own north and south poles and that needle be drawn to the magnetic north like a moth to a flame When ye hold the compass steady the needle will settle and point towards the North If ye be lookin for yer bearings ye reckon the direction based on where the needle points Just remember it dont always point to the true North Pole but rather to the magnetic North which be a bit off depending on where ye be sailing So if yere tryin to find yer way through stormy seas or treacherous waters trust in yer compass but keep yer wits about ye too It aint foolproof and the devil be in the details Now quit yer blatherin and get back to scrubbing the deck",
+          "current": "Arrr listen close ye landaddled whelp A magnetic compass be not witchcraft nor mermaids trickerytis a bit o clever iron obeyin the Earth like a sailor obeys the lash The Earth be a great lodestone This whole worlds got a magnetic field runnin through it like invisible currents in the sea It pulls on certain metalsmost of all magnetized iron or steel The needle be a tiny magnet Inside the compass sits a needle or card thats been magnetized meaning its got two ends northseekin and southseekin It turns till it settles The needles set on a sharp point or floatin so it can spin easy When ye stop jostlin it the Earths pull makes it line up with the magnetic field so one end points toward magnetic north and the other toward magnetic south Magnetic north aint true north Dont go gettin smug The needle points to magnetic north which aint the same as the North Stars direction The difference be called declination some call it variation and it changes dependin where ye be sailin And mind the ships own iron Big hunks o metal cannons nails even certain rocks can drag the needle off course That error be deviation and a wise navigator keeps the compass away from troubleor corrects for it So there ye have it a humble needle bewitched by the very bones of the Earth always tryin to face the same wayunless ye let yer ships iron or yer own foolish hands meddle with it"
+        }
+      ]
+    },
+    {
+      "id": "P006",
+      "name": "Zero-Shot Prompt",
+      "status": "MINOR_VARIATION",
+      "similarity": 0.9718,
+      "length_delta": 0.091,
+      "diff": [
+        {
+          "base": "There are currently 50 states in the United States of America",
+          "current": "There are 50 states in the United States of America"
+        }
+      ]
+    },
+    {
+      "id": "P007",
+      "name": "Reasoning Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.8273,
+      "length_delta": 0.576,
+      "diff": [
+        {
+          "base": "Lets break it down step by step 1 Starting Quantity You begin with 3 apples 2 Apples Taken Away If I take away 2 apples from your total we need to subtract those 2 from your original amount 3 Performing the Subtraction You have 3 apples You lose 2 apples since I take them So the calculation is 3 2 1 4 Result After I take away 2 apples you are left with 1 apple So the answer is that you have 1 apple left",
+          "current": "1 Start with 3 apples that you have 2 I take away 2 apples from you meaning those 2 are no longer in your possession 3 Subtract 3 2 1 So you have 1 apple left"
+        }
+      ]
+    },
+    {
+      "id": "P008",
+      "name": "Retrieval-Augmented Prompt",
+      "status": "MINOR_VARIATION",
+      "similarity": 0.9544,
+      "length_delta": 0.111,
+      "diff": [
+        {
+          "base": "The Blue Moon Snail feeds exclusively on glowing plankton",
+          "current": "The Blue Moon Snail eats glowing plankton exclusively"
+        }
+      ]
+    },
+    {
+      "id": "P009",
+      "name": "Delimited Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.8669,
+      "length_delta": 0.235,
+      "diff": [
+        {
+          "base": "Quantum entanglement is a phenomenon where particles become interconnected in such a way that the state of each particle cannot be described independently from the others typically due to their generation interaction or proximity",
+          "current": "Quantum entanglement occurs when particles become linked so that each particles quantum state cant be fully described on its own only in relation to the others"
+        }
+      ]
+    },
+    {
+      "id": "P010",
+      "name": "Reflection Prompt",
+      "status": "MINOR_VARIATION",
+      "similarity": 0.9265,
+      "length_delta": 0.147,
+      "diff": [
+        {
+          "base": "The square root of 144 is 12 To doublecheck 12 multiplied by 12 equals 144 12 12 144 So the answer is confirmed to be correct The square root of 144 is indeed 12",
+          "current": "The square root of 144 is 12 Doublecheck 12 times 12 144 so the answer is correct The principal square root is 12 though 12 also squares to 144"
+        }
+      ]
+    },
+    {
+      "id": "P011",
+      "name": "Output-Schema Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.7763,
+      "length_delta": 0.125,
+      "diff": [
+        {
+          "base": "animal Amur Leopard habitat Temperate forests in the Russian Far East and Northeast China isendangered true",
+          "current": "animal Snow leopard habitat Highaltitude mountainous regions of Central and South Asia isendangered true"
+        }
+      ]
+    },
+    {
+      "id": "P012",
+      "name": "Calibration Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.7009,
+      "length_delta": 0.636,
+      "diff": [
+        {
+          "base": "The first steam engine was patented by Thomas Newcomen in 1705 However it is important to note that there were earlier versions of steam engines that were developed before this patent but Newcomens design was the first to be widely used for pumping water",
+          "current": "I am uncertain The first widely cited steamengine patent is Thomas Saverys granted in 1698 England"
+        }
+      ]
+    },
+    {
+      "id": "P013",
+      "name": "Multi-Modal Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.816,
+      "length_delta": 0.222,
+      "diff": [
+        {
+          "base": "The object you are describing is the Eiffel Tower",
+          "current": "The description refers to the Eiffel Tower"
+        }
+      ]
+    },
+    {
+      "id": "P014",
+      "name": "Meta Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.7077,
+      "length_delta": 1.979,
+      "diff": [
+        {
+          "base": "Craft a captivating short story featuring a dog as the central character Explore its unique personality and perspective and weave in themes of loyalty adventure or friendship Let the tale unfold in a setting that enhances the dogs journey inviting readers to connect emotionally with its experiences",
+          "current": "Write a 15002500 word short story in thirdperson limited about a rescue dog who unexpectedly changes the course of their new owners life over the span of a single day Set it in a specific vividly described location choose a small town a subway system a coastal neighborhood etc Give the dog a distinct personality habits and a small fear and let those traits drive the plot rather than coincidence Include A clear inciting incident within the first 300 words A meaningful choice the owner must make because of the dog At least two sensoryrich scenes sound smell texture Dialogue that reveals character without exposition An ending that feels earnedbittersweet or hopeful but not sentimental Aim for fresh imagery emotional honesty and a unique premise avoid clichés like the dog saves the child from a fire unless you subvert it"
+        }
+      ]
+    },
+    {
+      "id": "P015",
+      "name": "Tool-Calling Prompt",
+      "status": "SEMANTIC_DRIFT",
+      "similarity": 0.8165,
+      "length_delta": 0.092,
+      "diff": [
+        {
+          "base": "I dont have the capability to access live weather data or any realtime tools However you can find the current weather in Tokyo by using various methods 1 Weather Websites Visit popular weather websites such as Weathercom AccuWeather or the BBC Weather site You can simply enter Tokyo in the search bar to get the latest weather information 2 Weather Apps Use a weather app on your smartphone Apps like The Weather Channel AccuWeather or your devices builtin weather app can provide uptodate information 3 Search Engines You can type current weather in Tokyo in a search engine like Google This will often display the current weather conditions directly on the search results page 4 Local News Check local news stations or their websites which often provide weather updates for their respective regions 5 Social Media Look for weather updates on social media platforms where many meteorologists and news outlets post realtime weather information These methods will help you get the most accurate and current weather information for Tokyo or any other location",
+          "current": "I cant access live weather data directly from here so I cant tell you Tokyos current conditions in real time Here are the quickest ways Id find it 1 Japan Meteorological Agency JMA most authoritative Go to httpswwwjmagojp Navigate to weather forecastsobservations and select Tokyo 東京都 Youll typically see current observations temperature wind precipitation and shortterm forecasts 2 Common weather appssites Google search Tokyo weather it shows current temp precipitation chance hourly Weathercom AccuWeather Windy or your phones builtin Weather app Confirm the location is Tokyo 23 wards vs Tokyo Prefecture which includes outlying areasislands 3 What Id check specifically Current temperature and feels like Precipitation rain now radar Wind and any weather advisorieswarnings Hourly forecast for the next 612 hours useful for plans If you tell me your preferred source JMA vs Google vs an app or share a screenshotlink of what you see I can help interpret it eg rain timing what mmh means etc"
+        }
+      ]
+    }
+  ]
+}

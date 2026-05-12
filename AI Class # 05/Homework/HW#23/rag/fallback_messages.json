@@ -1,0 +1,37 @@
+{
+  "other": [
+    "I'm not sure what you mean — could you rephrase?",
+    "Sorry, I didn’t understand. Try asking in a different way.",
+    "I don’t know that one yet, but I’m learning every day!"
+  ],
+
+  "low_confidence": [
+    "I'm not fully sure about the intent — could you clarify your question?",
+    "I didn’t fully understand your request. Can you rephrase it?",
+    "My confidence is low on that one — try asking again with more details."
+  ],
+
+  "no_rule_match": [
+    "I recognized the intent, but I don’t have specific info for that keyword yet.",
+    "I couldn't find a matching rule for that query — try asking more specifically.",
+    "The intent is known, but I don’t have a matching keyword response for this phrase."
+  ],
+
+  "product_specs": [
+    "Could you specify which product you want to compare?",
+    "Which model or product are you asking about?",
+    "Tell me the device you want specifications for."
+  ],
+
+  "local_information": [
+    "I'm not sure which location you mean — try giving a more specific place.",
+    "Could you clarify the area you're asking about?",
+    "I can help with local info if you give me a more precise location."
+  ],
+
+  "technical_how_to": [
+    "Tell me what you're trying to install, fix, or troubleshoot.",
+    "Which tool or error do you need help with?",
+    "I can help — just specify your technical issue."
+  ]
+}

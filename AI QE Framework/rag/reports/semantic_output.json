@@ -1,0 +1,3011 @@
+﻿{
+  "summary": {
+    "total": 300,
+    "passed": 103,
+    "failed": 197,
+    "accuracy": 34.33,
+    "avg_similarity": 0.7012
+  },
+  "results": [
+    {
+      "id": "Q1.1",
+      "question": "What is the capital of France?",
+      "expected": "France's capital is Paris.",
+      "actual": "Paris is the capital of France.",
+      "similarity": 0.9857,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q1.2",
+      "question": "What is the capital of France?",
+      "expected": "Paris is the capital of France.",
+      "actual": "Paris serves as the capital of France.",
+      "similarity": 0.9608,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q1.3",
+      "question": "What is the capital of France?",
+      "expected": "Paris serves as the capital of France.",
+      "actual": "Paris serves as the capital of France.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q1.4",
+      "question": "What is the capital of France?",
+      "expected": "The capital city of France is Paris.",
+      "actual": "The city of Paris is the capital of France.",
+      "similarity": 0.9846,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q1.5",
+      "question": "What is the capital of France?",
+      "expected": "The city of Paris is the capital of France.",
+      "actual": "France's capital is Paris.",
+      "similarity": 0.9547,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q2.1",
+      "question": "What is the capital of Japan?",
+      "expected": "Japan's capital is Tokyo.",
+      "actual": "Tokyo serves as the capital of Japan.",
+      "similarity": 0.9497,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q2.2",
+      "question": "What is the capital of Japan?",
+      "expected": "Tokyo is the capital of Japan.",
+      "actual": "Japan's capital is Tokyo.",
+      "similarity": 0.9851,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q2.3",
+      "question": "What is the capital of Japan?",
+      "expected": "Tokyo serves as the capital of Japan.",
+      "actual": "Tokyo serves as the capital of Japan.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q2.4",
+      "question": "What is the capital of Japan?",
+      "expected": "The capital city of Japan is Tokyo.",
+      "actual": "Tokyo serves as the capital of Japan.",
+      "similarity": 0.9257,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q2.5",
+      "question": "What is the capital of Japan?",
+      "expected": "The city of Tokyo is the capital of Japan.",
+      "actual": "Tokyo serves as the capital of Japan.",
+      "similarity": 0.9252,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q3.1",
+      "question": "What is the capital of Germany?",
+      "expected": "Germany's capital is Berlin.",
+      "actual": "Germany's capital is Berlin.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q3.2",
+      "question": "What is the capital of Germany?",
+      "expected": "Berlin is the capital of Germany.",
+      "actual": "Germany's capital is Berlin.",
+      "similarity": 0.9782,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q3.3",
+      "question": "What is the capital of Germany?",
+      "expected": "Berlin serves as the capital of Germany.",
+      "actual": "Germany's capital is Berlin.",
+      "similarity": 0.9498,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q3.4",
+      "question": "What is the capital of Germany?",
+      "expected": "The capital city of Germany is Berlin.",
+      "actual": "Berlin is the capital of Germany.",
+      "similarity": 0.9739,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q3.5",
+      "question": "What is the capital of Germany?",
+      "expected": "The city of Berlin is the capital of Germany.",
+      "actual": "The city of Berlin is the capital of Germany.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q4.1",
+      "question": "What is the capital of Italy?",
+      "expected": "Italy's capital is Rome.",
+      "actual": "Italy's capital is Rome.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q4.2",
+      "question": "What is the capital of Italy?",
+      "expected": "Rome is the capital of Italy.",
+      "actual": "The capital city of Italy is Rome.",
+      "similarity": 0.9785,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q4.3",
+      "question": "What is the capital of Italy?",
+      "expected": "Rome serves as the capital of Italy.",
+      "actual": "The capital city of Italy is Rome.",
+      "similarity": 0.9446,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q4.4",
+      "question": "What is the capital of Italy?",
+      "expected": "The capital city of Italy is Rome.",
+      "actual": "The city of Rome is the capital of Italy.",
+      "similarity": 0.9827,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q4.5",
+      "question": "What is the capital of Italy?",
+      "expected": "The city of Rome is the capital of Italy.",
+      "actual": "Rome is the capital of Italy.",
+      "similarity": 0.9747,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q5.1",
+      "question": "What is the capital of the United Kingdom?",
+      "expected": "United Kingdom's capital is London.",
+      "actual": "London is the capital of the UK.",
+      "similarity": 0.9356,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q5.2",
+      "question": "What is the capital of the United Kingdom?",
+      "expected": "London is the capital of United Kingdom.",
+      "actual": "The UK's capital is London.",
+      "similarity": 0.9312,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q5.3",
+      "question": "What is the capital of the United Kingdom?",
+      "expected": "London serves as the capital of United Kingdom.",
+      "actual": "London serves as the capital of the UK.",
+      "similarity": 0.9485,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q5.4",
+      "question": "What is the capital of the United Kingdom?",
+      "expected": "The capital city of United Kingdom is London.",
+      "actual": "The UK's capital is London.",
+      "similarity": 0.9182,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q5.5",
+      "question": "What is the capital of the United Kingdom?",
+      "expected": "The city of London is the capital of United Kingdom.",
+      "actual": "London serves as the capital of the UK.",
+      "similarity": 0.8819,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q6.1",
+      "question": "What is the capital of Canada?",
+      "expected": "Canada's capital is Ottawa.",
+      "actual": "Ottawa is the capital of Canada.",
+      "similarity": 0.9838,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q6.2",
+      "question": "What is the capital of Canada?",
+      "expected": "Ottawa is the capital of Canada.",
+      "actual": "Canada's capital is Ottawa.",
+      "similarity": 0.9838,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q6.3",
+      "question": "What is the capital of Canada?",
+      "expected": "Ottawa serves as the capital of Canada.",
+      "actual": "The city of Ottawa is the capital of Canada.",
+      "similarity": 0.9392,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q6.4",
+      "question": "What is the capital of Canada?",
+      "expected": "The capital city of Canada is Ottawa.",
+      "actual": "Ottawa serves as the capital of Canada.",
+      "similarity": 0.9353,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q6.5",
+      "question": "What is the capital of Canada?",
+      "expected": "The city of Ottawa is the capital of Canada.",
+      "actual": "The city of Ottawa is the capital of Canada.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q7.1",
+      "question": "What is the capital of Australia?",
+      "expected": "Australia's capital is Canberra.",
+      "actual": "The capital city of Australia is Canberra.",
+      "similarity": 0.9653,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q7.2",
+      "question": "What is the capital of Australia?",
+      "expected": "Canberra is the capital of Australia.",
+      "actual": "The city of Canberra is the capital of Australia.",
+      "similarity": 0.9742,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q7.3",
+      "question": "What is the capital of Australia?",
+      "expected": "Canberra serves as the capital of Australia.",
+      "actual": "Canberra is the capital of Australia.",
+      "similarity": 0.9726,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q7.4",
+      "question": "What is the capital of Australia?",
+      "expected": "The capital city of Australia is Canberra.",
+      "actual": "Canberra serves as the capital of Australia.",
+      "similarity": 0.9443,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q7.5",
+      "question": "What is the capital of Australia?",
+      "expected": "The city of Canberra is the capital of Australia.",
+      "actual": "Canberra is the capital of Australia.",
+      "similarity": 0.9742,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q8.1",
+      "question": "What is the capital of Brazil?",
+      "expected": "Brazil's capital is Brasilia.",
+      "actual": "Brazil's capital is Brasilia.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q8.2",
+      "question": "What is the capital of Brazil?",
+      "expected": "Brasilia is the capital of Brazil.",
+      "actual": "Brazil's capital is Brasilia.",
+      "similarity": 0.9794,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q8.3",
+      "question": "What is the capital of Brazil?",
+      "expected": "Brasilia serves as the capital of Brazil.",
+      "actual": "Brazil's capital is Brasilia.",
+      "similarity": 0.9518,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q8.4",
+      "question": "What is the capital of Brazil?",
+      "expected": "The capital city of Brazil is Brasilia.",
+      "actual": "Brasilia is the capital of Brazil.",
+      "similarity": 0.969,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q8.5",
+      "question": "What is the capital of Brazil?",
+      "expected": "The city of Brasilia is the capital of Brazil.",
+      "actual": "The city of Brasilia is the capital of Brazil.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q9.1",
+      "question": "What is the capital of Spain?",
+      "expected": "Spain's capital is Madrid.",
+      "actual": "Madrid is the capital of Spain.",
+      "similarity": 0.98,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q9.2",
+      "question": "What is the capital of Spain?",
+      "expected": "Madrid is the capital of Spain.",
+      "actual": "The city of Madrid is the capital of Spain.",
+      "similarity": 0.978,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q9.3",
+      "question": "What is the capital of Spain?",
+      "expected": "Madrid serves as the capital of Spain.",
+      "actual": "Madrid serves as the capital of Spain.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q9.4",
+      "question": "What is the capital of Spain?",
+      "expected": "The capital city of Spain is Madrid.",
+      "actual": "The capital city of Spain is Madrid.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q9.5",
+      "question": "What is the capital of Spain?",
+      "expected": "The city of Madrid is the capital of Spain.",
+      "actual": "Madrid is the capital of Spain.",
+      "similarity": 0.978,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q10.1",
+      "question": "What is the capital of China?",
+      "expected": "China's capital is Beijing.",
+      "actual": "Beijing is the capital of China.",
+      "similarity": 0.9817,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q10.2",
+      "question": "What is the capital of China?",
+      "expected": "Beijing is the capital of China.",
+      "actual": "Beijing is the capital of China.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q10.3",
+      "question": "What is the capital of China?",
+      "expected": "Beijing serves as the capital of China.",
+      "actual": "The city of Beijing is the capital of China.",
+      "similarity": 0.9134,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q10.4",
+      "question": "What is the capital of China?",
+      "expected": "The capital city of China is Beijing.",
+      "actual": "Beijing is the capital of China.",
+      "similarity": 0.9671,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q10.5",
+      "question": "What is the capital of China?",
+      "expected": "The city of Beijing is the capital of China.",
+      "actual": "Beijing serves as the capital of China.",
+      "similarity": 0.9134,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q11.1",
+      "question": "What is the capital of India?",
+      "expected": "India's capital is New Delhi.",
+      "actual": "India's capital is New Delhi.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q11.2",
+      "question": "What is the capital of India?",
+      "expected": "New Delhi is the capital of India.",
+      "actual": "New Delhi is the capital of India.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q11.3",
+      "question": "What is the capital of India?",
+      "expected": "New Delhi serves as the capital of India.",
+      "actual": "New Delhi serves as the capital of India.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q11.4",
+      "question": "What is the capital of India?",
+      "expected": "The capital city of India is New Delhi.",
+      "actual": "India's capital is New Delhi.",
+      "similarity": 0.9643,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q11.5",
+      "question": "What is the capital of India?",
+      "expected": "The city of New Delhi is the capital of India.",
+      "actual": "India's capital is New Delhi.",
+      "similarity": 0.954,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q12.1",
+      "question": "What is the capital of Mexico?",
+      "expected": "Mexico's capital is Mexico City.",
+      "actual": "Mexico's capital is Mexico City.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q12.2",
+      "question": "What is the capital of Mexico?",
+      "expected": "Mexico City is the capital of Mexico.",
+      "actual": "The city of Mexico City is the capital of Mexico.",
+      "similarity": 0.9883,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q12.3",
+      "question": "What is the capital of Mexico?",
+      "expected": "Mexico City serves as the capital of Mexico.",
+      "actual": "The capital city of Mexico is Mexico City.",
+      "similarity": 0.9572,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q12.4",
+      "question": "What is the capital of Mexico?",
+      "expected": "The capital city of Mexico is Mexico City.",
+      "actual": "The capital city of Mexico is Mexico City.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q12.5",
+      "question": "What is the capital of Mexico?",
+      "expected": "The city of Mexico City is the capital of Mexico.",
+      "actual": "Mexico City is the capital of Mexico.",
+      "similarity": 0.9883,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q13.1",
+      "question": "What is the capital of South Korea?",
+      "expected": "South Korea's capital is Seoul.",
+      "actual": "South Korea's capital is Seoul.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q13.2",
+      "question": "What is the capital of South Korea?",
+      "expected": "Seoul is the capital of South Korea.",
+      "actual": "Seoul serves as the capital of South Korea.",
+      "similarity": 0.9617,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q13.3",
+      "question": "What is the capital of South Korea?",
+      "expected": "Seoul serves as the capital of South Korea.",
+      "actual": "Seoul is the capital of South Korea.",
+      "similarity": 0.9617,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q13.4",
+      "question": "What is the capital of South Korea?",
+      "expected": "The capital city of South Korea is Seoul.",
+      "actual": "Seoul serves as the capital of South Korea.",
+      "similarity": 0.9372,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q13.5",
+      "question": "What is the capital of South Korea?",
+      "expected": "The city of Seoul is the capital of South Korea.",
+      "actual": "The capital city of South Korea is Seoul.",
+      "similarity": 0.9845,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q14.1",
+      "question": "What is the capital of Egypt?",
+      "expected": "Egypt's capital is Cairo.",
+      "actual": "Cairo serves as the capital of Egypt.",
+      "similarity": 0.9649,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q14.2",
+      "question": "What is the capital of Egypt?",
+      "expected": "Cairo is the capital of Egypt.",
+      "actual": "Cairo serves as the capital of Egypt.",
+      "similarity": 0.9672,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q14.3",
+      "question": "What is the capital of Egypt?",
+      "expected": "Cairo serves as the capital of Egypt.",
+      "actual": "Egypt's capital is Cairo.",
+      "similarity": 0.9649,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q14.4",
+      "question": "What is the capital of Egypt?",
+      "expected": "The capital city of Egypt is Cairo.",
+      "actual": "The city of Cairo is the capital of Egypt.",
+      "similarity": 0.988,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q14.5",
+      "question": "What is the capital of Egypt?",
+      "expected": "The city of Cairo is the capital of Egypt.",
+      "actual": "Cairo is the capital of Egypt.",
+      "similarity": 0.977,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q15.1",
+      "question": "What is the capital of Argentina?",
+      "expected": "Argentina's capital is Buenos Aires.",
+      "actual": "Buenos Aires serves as the capital of Argentina.",
+      "similarity": 0.9638,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q15.2",
+      "question": "What is the capital of Argentina?",
+      "expected": "Buenos Aires is the capital of Argentina.",
+      "actual": "The capital city of Argentina is Buenos Aires.",
+      "similarity": 0.9683,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q15.3",
+      "question": "What is the capital of Argentina?",
+      "expected": "Buenos Aires serves as the capital of Argentina.",
+      "actual": "Buenos Aires serves as the capital of Argentina.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q15.4",
+      "question": "What is the capital of Argentina?",
+      "expected": "The capital city of Argentina is Buenos Aires.",
+      "actual": "The capital city of Argentina is Buenos Aires.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q15.5",
+      "question": "What is the capital of Argentina?",
+      "expected": "The city of Buenos Aires is the capital of Argentina.",
+      "actual": "The city of Buenos Aires is the capital of Argentina.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q16.1",
+      "question": "What is the capital of Turkey?",
+      "expected": "Turkey's capital is Ankara.",
+      "actual": "Turkey's capital is Ankara.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q16.2",
+      "question": "What is the capital of Turkey?",
+      "expected": "Ankara is the capital of Turkey.",
+      "actual": "The city of Ankara is the capital of Turkey.",
+      "similarity": 0.9743,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q16.3",
+      "question": "What is the capital of Turkey?",
+      "expected": "Ankara serves as the capital of Turkey.",
+      "actual": "Turkey's capital is Ankara.",
+      "similarity": 0.9661,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q16.4",
+      "question": "What is the capital of Turkey?",
+      "expected": "The capital city of Turkey is Ankara.",
+      "actual": "Turkey's capital is Ankara.",
+      "similarity": 0.967,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q16.5",
+      "question": "What is the capital of Turkey?",
+      "expected": "The city of Ankara is the capital of Turkey.",
+      "actual": "Turkey's capital is Ankara.",
+      "similarity": 0.9606,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q17.1",
+      "question": "What is the capital of Thailand?",
+      "expected": "Thailand's capital is Bangkok.",
+      "actual": "Bangkok serves as the capital of Thailand.",
+      "similarity": 0.9585,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q17.2",
+      "question": "What is the capital of Thailand?",
+      "expected": "Bangkok is the capital of Thailand.",
+      "actual": "Bangkok serves as the capital of Thailand.",
+      "similarity": 0.9656,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q17.3",
+      "question": "What is the capital of Thailand?",
+      "expected": "Bangkok serves as the capital of Thailand.",
+      "actual": "Thailand's capital is Bangkok.",
+      "similarity": 0.9585,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q17.4",
+      "question": "What is the capital of Thailand?",
+      "expected": "The capital city of Thailand is Bangkok.",
+      "actual": "Bangkok is the capital of Thailand.",
+      "similarity": 0.9656,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q17.5",
+      "question": "What is the capital of Thailand?",
+      "expected": "The city of Bangkok is the capital of Thailand.",
+      "actual": "The capital city of Thailand is Bangkok.",
+      "similarity": 0.989,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q18.1",
+      "question": "What is the capital of Greece?",
+      "expected": "Greece's capital is Athens.",
+      "actual": "Athens is the capital of Greece.",
+      "similarity": 0.9815,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q18.2",
+      "question": "What is the capital of Greece?",
+      "expected": "Athens is the capital of Greece.",
+      "actual": "The capital city of Greece is Athens.",
+      "similarity": 0.9681,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q18.3",
+      "question": "What is the capital of Greece?",
+      "expected": "Athens serves as the capital of Greece.",
+      "actual": "Athens is the capital of Greece.",
+      "similarity": 0.9639,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q18.4",
+      "question": "What is the capital of Greece?",
+      "expected": "The capital city of Greece is Athens.",
+      "actual": "The capital city of Greece is Athens.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q18.5",
+      "question": "What is the capital of Greece?",
+      "expected": "The city of Athens is the capital of Greece.",
+      "actual": "Athens is the capital of Greece.",
+      "similarity": 0.9754,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q19.1",
+      "question": "What is the capital of Portugal?",
+      "expected": "Portugal's capital is Lisbon.",
+      "actual": "The capital city of Portugal is Lisbon.",
+      "similarity": 0.9727,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q19.2",
+      "question": "What is the capital of Portugal?",
+      "expected": "Lisbon is the capital of Portugal.",
+      "actual": "Portugal's capital is Lisbon.",
+      "similarity": 0.9855,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q19.3",
+      "question": "What is the capital of Portugal?",
+      "expected": "Lisbon serves as the capital of Portugal.",
+      "actual": "Portugal's capital is Lisbon.",
+      "similarity": 0.9577,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q19.4",
+      "question": "What is the capital of Portugal?",
+      "expected": "The capital city of Portugal is Lisbon.",
+      "actual": "Lisbon is the capital of Portugal.",
+      "similarity": 0.9775,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q19.5",
+      "question": "What is the capital of Portugal?",
+      "expected": "The city of Lisbon is the capital of Portugal.",
+      "actual": "The city of Lisbon is the capital of Portugal.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q20.1",
+      "question": "What is the capital of Norway?",
+      "expected": "Norway's capital is Oslo.",
+      "actual": "The city of Oslo is the capital of Norway.",
+      "similarity": 0.9526,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q20.2",
+      "question": "What is the capital of Norway?",
+      "expected": "Oslo is the capital of Norway.",
+      "actual": "Oslo serves as the capital of Norway.",
+      "similarity": 0.9644,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q20.3",
+      "question": "What is the capital of Norway?",
+      "expected": "Oslo serves as the capital of Norway.",
+      "actual": "The capital city of Norway is Oslo.",
+      "similarity": 0.9369,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q20.4",
+      "question": "What is the capital of Norway?",
+      "expected": "The capital city of Norway is Oslo.",
+      "actual": "The capital city of Norway is Oslo.",
+      "similarity": 1.0,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q20.5",
+      "question": "What is the capital of Norway?",
+      "expected": "The city of Oslo is the capital of Norway.",
+      "actual": "Norway's capital is Oslo.",
+      "similarity": 0.9526,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "capitals_other_eval.jsonl"
+    },
+    {
+      "id": "Q21.1",
+      "question": "What is the primary customer service email for the California DMV?",
+      "expected": "Variation 1: dmvccsmail@dmv.ca.gov",
+      "actual": "Their support email is dmvccsmail@dmv.ca.gov.",
+      "similarity": 0.7889,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q21.2",
+      "question": "What is the primary customer service email for the California DMV?",
+      "expected": "Variation 2: dmvccsmail@dmv.ca.gov",
+      "actual": "Send inquiries to dmvccsmail@dmv.ca.gov.",
+      "similarity": 0.8462,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q21.3",
+      "question": "What is the primary customer service email for the California DMV?",
+      "expected": "Variation 3: dmvccsmail@dmv.ca.gov",
+      "actual": "Reach California DMV via dmvccsmail@dmv.ca.gov.",
+      "similarity": 0.8027,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q21.4",
+      "question": "What is the primary customer service email for the California DMV?",
+      "expected": "Variation 4: dmvccsmail@dmv.ca.gov",
+      "actual": "Reach California DMV via dmvccsmail@dmv.ca.gov.",
+      "similarity": 0.8054,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q21.5",
+      "question": "What is the primary customer service email for the California DMV?",
+      "expected": "Variation 5: dmvccsmail@dmv.ca.gov",
+      "actual": "Send inquiries to dmvccsmail@dmv.ca.gov.",
+      "similarity": 0.8385,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q22.1",
+      "question": "What is the submission email for Homework #35?",
+      "expected": "Variation 1: alex@alex.academy",
+      "actual": "Submit homework to alex@alex.academy.",
+      "similarity": 0.4105,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q22.2",
+      "question": "What is the submission email for Homework #35?",
+      "expected": "Variation 2: alex@alex.academy",
+      "actual": "The instructor's email is alex@alex.academy.",
+      "similarity": 0.6432,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q22.3",
+      "question": "What is the submission email for Homework #35?",
+      "expected": "Variation 3: alex@alex.academy",
+      "actual": "Send test data to alex@alex.academy.",
+      "similarity": 0.538,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q22.4",
+      "question": "What is the submission email for Homework #35?",
+      "expected": "Variation 4: alex@alex.academy",
+      "actual": "Homework #35 goes to alex@alex.academy.",
+      "similarity": 0.6813,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q22.5",
+      "question": "What is the submission email for Homework #35?",
+      "expected": "Variation 5: alex@alex.academy",
+      "actual": "Send test data to alex@alex.academy.",
+      "similarity": 0.5415,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q23.1",
+      "question": "What is the general contact email for the City of San Francisco?",
+      "expected": "Variation 1: feedback@sfgov.org",
+      "actual": "Contact SF at feedback@sfgov.org.",
+      "similarity": 0.6981,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q23.2",
+      "question": "What is the general contact email for the City of San Francisco?",
+      "expected": "Variation 2: feedback@sfgov.org",
+      "actual": "General inquiries go to feedback@sfgov.org.",
+      "similarity": 0.6212,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q23.3",
+      "question": "What is the general contact email for the City of San Francisco?",
+      "expected": "Variation 3: feedback@sfgov.org",
+      "actual": "Contact SF at feedback@sfgov.org.",
+      "similarity": 0.6305,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q23.4",
+      "question": "What is the general contact email for the City of San Francisco?",
+      "expected": "Variation 4: feedback@sfgov.org",
+      "actual": "Write to feedback@sfgov.org for help.",
+      "similarity": 0.7093,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q23.5",
+      "question": "What is the general contact email for the City of San Francisco?",
+      "expected": "Variation 5: feedback@sfgov.org",
+      "actual": "Write to feedback@sfgov.org for help.",
+      "similarity": 0.7258,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q24.1",
+      "question": "How do I email the IRS for general questions?",
+      "expected": "Variation 1: Direct email to the IRS is not supported.",
+      "actual": "Direct email to the IRS is not supported.",
+      "similarity": 0.9266,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q24.2",
+      "question": "How do I email the IRS for general questions?",
+      "expected": "Variation 2: Direct email to the IRS is not supported.",
+      "actual": "The IRS does not provide a general public email.",
+      "similarity": 0.7054,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q24.3",
+      "question": "How do I email the IRS for general questions?",
+      "expected": "Variation 3: Direct email to the IRS is not supported.",
+      "actual": "Direct email to the IRS is not supported.",
+      "similarity": 0.8805,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q24.4",
+      "question": "How do I email the IRS for general questions?",
+      "expected": "Variation 4: Direct email to the IRS is not supported.",
+      "actual": "There is no direct email address for the IRS.",
+      "similarity": 0.6963,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q24.5",
+      "question": "How do I email the IRS for general questions?",
+      "expected": "Variation 5: Direct email to the IRS is not supported.",
+      "actual": "The IRS does not provide a general public email.",
+      "similarity": 0.683,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q25.1",
+      "question": "What is the support email for Moomoo?",
+      "expected": "Variation 1: support@moomoo.com",
+      "actual": "Reach Moomoo via support@moomoo.com.",
+      "similarity": 0.7571,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q25.2",
+      "question": "What is the support email for Moomoo?",
+      "expected": "Variation 2: support@moomoo.com",
+      "actual": "Email support@moomoo.com for account issues.",
+      "similarity": 0.6609,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q25.3",
+      "question": "What is the support email for Moomoo?",
+      "expected": "Variation 3: support@moomoo.com",
+      "actual": "Email support@moomoo.com for account issues.",
+      "similarity": 0.6208,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q25.4",
+      "question": "What is the support email for Moomoo?",
+      "expected": "Variation 4: support@moomoo.com",
+      "actual": "The help desk email is support@moomoo.com.",
+      "similarity": 0.6742,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q25.5",
+      "question": "What is the support email for Moomoo?",
+      "expected": "Variation 5: support@moomoo.com",
+      "actual": "Their email is support@moomoo.com.",
+      "similarity": 0.6761,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q26.1",
+      "question": "What is the help email for Coinbase?",
+      "expected": "Variation 1: trust@coinbase.com",
+      "actual": "Contact support at trust@coinbase.com.",
+      "similarity": 0.7709,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q26.2",
+      "question": "What is the help email for Coinbase?",
+      "expected": "Variation 2: trust@coinbase.com",
+      "actual": "Reach Coinbase at trust@coinbase.com.",
+      "similarity": 0.8497,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q26.3",
+      "question": "What is the help email for Coinbase?",
+      "expected": "Variation 3: trust@coinbase.com",
+      "actual": "Contact support at trust@coinbase.com.",
+      "similarity": 0.7497,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q26.4",
+      "question": "What is the help email for Coinbase?",
+      "expected": "Variation 4: trust@coinbase.com",
+      "actual": "Reach Coinbase at trust@coinbase.com.",
+      "similarity": 0.8256,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q26.5",
+      "question": "What is the help email for Coinbase?",
+      "expected": "Variation 5: trust@coinbase.com",
+      "actual": "The help email is trust@coinbase.com.",
+      "similarity": 0.8161,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q27.1",
+      "question": "What is the email for SF Paratransit?",
+      "expected": "Variation 1: mobility@sfmta.com",
+      "actual": "Send paratransit queries to mobility@sfmta.com.",
+      "similarity": 0.7354,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q27.2",
+      "question": "What is the email for SF Paratransit?",
+      "expected": "Variation 2: mobility@sfmta.com",
+      "actual": "Reach SF Paratransit at mobility@sfmta.com.",
+      "similarity": 0.7717,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q27.3",
+      "question": "What is the email for SF Paratransit?",
+      "expected": "Variation 3: mobility@sfmta.com",
+      "actual": "The SFMTA email is mobility@sfmta.com.",
+      "similarity": 0.785,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q27.4",
+      "question": "What is the email for SF Paratransit?",
+      "expected": "Variation 4: mobility@sfmta.com",
+      "actual": "The contact email is mobility@sfmta.com.",
+      "similarity": 0.8059,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q27.5",
+      "question": "What is the email for SF Paratransit?",
+      "expected": "Variation 5: mobility@sfmta.com",
+      "actual": "The contact email is mobility@sfmta.com.",
+      "similarity": 0.8013,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q28.1",
+      "question": "What is the email for the US Passport Agency?",
+      "expected": "Variation 1: There is no direct public email address.",
+      "actual": "Contact them through their web portal.",
+      "similarity": 0.3848,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q28.2",
+      "question": "What is the email for the US Passport Agency?",
+      "expected": "Variation 2: There is no direct public email address.",
+      "actual": "Email is not used for passport status.",
+      "similarity": 0.4706,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q28.3",
+      "question": "What is the email for the US Passport Agency?",
+      "expected": "Variation 3: There is no direct public email address.",
+      "actual": "Check status online at travel.state.gov.",
+      "similarity": 0.2187,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q28.4",
+      "question": "What is the email for the US Passport Agency?",
+      "expected": "Variation 4: There is no direct public email address.",
+      "actual": "Check status online at travel.state.gov.",
+      "similarity": 0.2089,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q28.5",
+      "question": "What is the email for the US Passport Agency?",
+      "expected": "Variation 5: There is no direct public email address.",
+      "actual": "Check status online at travel.state.gov.",
+      "similarity": 0.2132,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q29.1",
+      "question": "What is the registrar email for Alex Academy?",
+      "expected": "Variation 1: registrar@alex.academy",
+      "actual": "The registrar email is registrar@alex.academy.",
+      "similarity": 0.8452,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q29.2",
+      "question": "What is the registrar email for Alex Academy?",
+      "expected": "Variation 2: registrar@alex.academy",
+      "actual": "Email registrar@alex.academy for records.",
+      "similarity": 0.7656,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q29.3",
+      "question": "What is the registrar email for Alex Academy?",
+      "expected": "Variation 3: registrar@alex.academy",
+      "actual": "The registrar email is registrar@alex.academy.",
+      "similarity": 0.8163,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q29.4",
+      "question": "What is the registrar email for Alex Academy?",
+      "expected": "Variation 4: registrar@alex.academy",
+      "actual": "Email registrar@alex.academy for records.",
+      "similarity": 0.7441,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q29.5",
+      "question": "What is the registrar email for Alex Academy?",
+      "expected": "Variation 5: registrar@alex.academy",
+      "actual": "Reach the registrar via registrar@alex.academy.",
+      "similarity": 0.7545,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q30.1",
+      "question": "What is the email for the SF Human Services Agency?",
+      "expected": "Variation 1: info@sfhsa.org",
+      "actual": "The public email is info@sfhsa.org.",
+      "similarity": 0.6343,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q30.2",
+      "question": "What is the email for the SF Human Services Agency?",
+      "expected": "Variation 2: info@sfhsa.org",
+      "actual": "Reach SFHSA via info@sfhsa.org.",
+      "similarity": 0.675,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q30.3",
+      "question": "What is the email for the SF Human Services Agency?",
+      "expected": "Variation 3: info@sfhsa.org",
+      "actual": "The public email is info@sfhsa.org.",
+      "similarity": 0.5175,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q30.4",
+      "question": "What is the email for the SF Human Services Agency?",
+      "expected": "Variation 4: info@sfhsa.org",
+      "actual": "The public email is info@sfhsa.org.",
+      "similarity": 0.5228,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q30.5",
+      "question": "What is the email for the SF Human Services Agency?",
+      "expected": "Variation 5: info@sfhsa.org",
+      "actual": "Reach SFHSA via info@sfhsa.org.",
+      "similarity": 0.6137,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q31.1",
+      "question": "What is the email for the Social Security Administration?",
+      "expected": "Variation 1: The SSA does not offer a public email.",
+      "actual": "The SSA uses secure portal messaging only.",
+      "similarity": 0.6259,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q31.2",
+      "question": "What is the email for the Social Security Administration?",
+      "expected": "Variation 2: The SSA does not offer a public email.",
+      "actual": "They do not use email for security reasons.",
+      "similarity": 0.5898,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q31.3",
+      "question": "What is the email for the Social Security Administration?",
+      "expected": "Variation 3: The SSA does not offer a public email.",
+      "actual": "They do not use email for security reasons.",
+      "similarity": 0.5856,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q31.4",
+      "question": "What is the email for the Social Security Administration?",
+      "expected": "Variation 4: The SSA does not offer a public email.",
+      "actual": "The SSA uses secure portal messaging only.",
+      "similarity": 0.591,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q31.5",
+      "question": "What is the email for the Social Security Administration?",
+      "expected": "Variation 5: The SSA does not offer a public email.",
+      "actual": "The SSA does not offer a public email.",
+      "similarity": 0.8893,
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q32.1",
+      "question": "What is the email for TV Time support?",
+      "expected": "Variation 1: support@tvtime.com",
+      "actual": "Their help email is support@tvtime.com.",
+      "similarity": 0.8317,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q32.2",
+      "question": "What is the email for TV Time support?",
+      "expected": "Variation 2: support@tvtime.com",
+      "actual": "Reach out to support@tvtime.com.",
+      "similarity": 0.8497,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q32.3",
+      "question": "What is the email for TV Time support?",
+      "expected": "Variation 3: support@tvtime.com",
+      "actual": "Email support at support@tvtime.com.",
+      "similarity": 0.785,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q32.4",
+      "question": "What is the email for TV Time support?",
+      "expected": "Variation 4: support@tvtime.com",
+      "actual": "Contact TV Time at support@tvtime.com.",
+      "similarity": 0.7224,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q32.5",
+      "question": "What is the email for TV Time support?",
+      "expected": "Variation 5: support@tvtime.com",
+      "actual": "Their help email is support@tvtime.com.",
+      "similarity": 0.7932,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q33.1",
+      "question": "What is the email for the CA Tax Board?",
+      "expected": "Variation 1: The FTB does not provide a public email.",
+      "actual": "Email is not an option for the FTB.",
+      "similarity": 0.8412,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q33.2",
+      "question": "What is the email for the CA Tax Board?",
+      "expected": "Variation 2: The FTB does not provide a public email.",
+      "actual": "No direct public email for tax questions.",
+      "similarity": 0.5285,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q33.3",
+      "question": "What is the email for the CA Tax Board?",
+      "expected": "Variation 3: The FTB does not provide a public email.",
+      "actual": "Contact the FTB through MyFTB account.",
+      "similarity": 0.6083,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q33.4",
+      "question": "What is the email for the CA Tax Board?",
+      "expected": "Variation 4: The FTB does not provide a public email.",
+      "actual": "Contact the FTB through MyFTB account.",
+      "similarity": 0.5989,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q33.5",
+      "question": "What is the email for the CA Tax Board?",
+      "expected": "Variation 5: The FTB does not provide a public email.",
+      "actual": "No direct public email for tax questions.",
+      "similarity": 0.5139,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q34.1",
+      "question": "What is the email for the US Postal Service?",
+      "expected": "Variation 1: There is no general public email address.",
+      "actual": "USPS does not use a direct email inbox.",
+      "similarity": 0.4964,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q34.2",
+      "question": "What is the email for the US Postal Service?",
+      "expected": "Variation 2: There is no general public email address.",
+      "actual": "There is no general public email address.",
+      "similarity": 0.8496,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q34.3",
+      "question": "What is the email for the US Postal Service?",
+      "expected": "Variation 3: There is no general public email address.",
+      "actual": "There is no general public email address.",
+      "similarity": 0.8389,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q34.4",
+      "question": "What is the email for the US Postal Service?",
+      "expected": "Variation 4: There is no general public email address.",
+      "actual": "Use the contact form at usps.com.",
+      "similarity": 0.2564,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q34.5",
+      "question": "What is the email for the US Postal Service?",
+      "expected": "Variation 5: There is no general public email address.",
+      "actual": "Use the contact form at usps.com.",
+      "similarity": 0.2752,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q35.1",
+      "question": "What is the email for the SF Mayor's office?",
+      "expected": "Variation 1: mayor@sfgov.org",
+      "actual": "Send feedback to mayor@sfgov.org.",
+      "similarity": 0.8048,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q35.2",
+      "question": "What is the email for the SF Mayor's office?",
+      "expected": "Variation 2: mayor@sfgov.org",
+      "actual": "Send feedback to mayor@sfgov.org.",
+      "similarity": 0.7993,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q35.3",
+      "question": "What is the email for the SF Mayor's office?",
+      "expected": "Variation 3: mayor@sfgov.org",
+      "actual": "Email the mayor at mayor@sfgov.org.",
+      "similarity": 0.7524,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q35.4",
+      "question": "What is the email for the SF Mayor's office?",
+      "expected": "Variation 4: mayor@sfgov.org",
+      "actual": "Reach the SF Mayor at mayor@sfgov.org.",
+      "similarity": 0.7141,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q35.5",
+      "question": "What is the email for the SF Mayor's office?",
+      "expected": "Variation 5: mayor@sfgov.org",
+      "actual": "Contact the office at mayor@sfgov.org.",
+      "similarity": 0.7135,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q36.1",
+      "question": "What is the email for Ryzen tech support?",
+      "expected": "Variation 1: tech.support@amd.com",
+      "actual": "The support email is tech.support@amd.com.",
+      "similarity": 0.8309,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q36.2",
+      "question": "What is the email for Ryzen tech support?",
+      "expected": "Variation 2: tech.support@amd.com",
+      "actual": "Email AMD at tech.support@amd.com.",
+      "similarity": 0.8488,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q36.3",
+      "question": "What is the email for Ryzen tech support?",
+      "expected": "Variation 3: tech.support@amd.com",
+      "actual": "The support email is tech.support@amd.com.",
+      "similarity": 0.7511,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q36.4",
+      "question": "What is the email for Ryzen tech support?",
+      "expected": "Variation 4: tech.support@amd.com",
+      "actual": "Reach Ryzen support via tech.support@amd.com.",
+      "similarity": 0.6375,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q36.5",
+      "question": "What is the email for Ryzen tech support?",
+      "expected": "Variation 5: tech.support@amd.com",
+      "actual": "Contact AMD support at tech.support@amd.com.",
+      "similarity": 0.7819,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q37.1",
+      "question": "What is the email for Steam support?",
+      "expected": "Variation 1: help.steampowered.com",
+      "actual": "There is no direct support email address.",
+      "similarity": 0.0672,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q37.2",
+      "question": "What is the email for Steam support?",
+      "expected": "Variation 2: help.steampowered.com",
+      "actual": "Submit a ticket at help.steampowered.com.",
+      "similarity": 0.638,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q37.3",
+      "question": "What is the email for Steam support?",
+      "expected": "Variation 3: help.steampowered.com",
+      "actual": "Direct email to Steam is not available.",
+      "similarity": 0.3709,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q37.4",
+      "question": "What is the email for Steam support?",
+      "expected": "Variation 4: help.steampowered.com",
+      "actual": "Steam uses a web-based ticket system.",
+      "similarity": 0.3311,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q37.5",
+      "question": "What is the email for Steam support?",
+      "expected": "Variation 5: help.steampowered.com",
+      "actual": "Direct email to Steam is not available.",
+      "similarity": 0.3661,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q38.1",
+      "question": "What is the email for the National Parks Service?",
+      "expected": "Variation 1: nps_info@nps.gov",
+      "actual": "Email the NPS at nps_info@nps.gov.",
+      "similarity": 0.8078,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q38.2",
+      "question": "What is the email for the National Parks Service?",
+      "expected": "Variation 2: nps_info@nps.gov",
+      "actual": "Reach the NPS via nps_info@nps.gov.",
+      "similarity": 0.8051,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q38.3",
+      "question": "What is the email for the National Parks Service?",
+      "expected": "Variation 3: nps_info@nps.gov",
+      "actual": "The general email is nps_info@nps.gov.",
+      "similarity": 0.7592,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q38.4",
+      "question": "What is the email for the National Parks Service?",
+      "expected": "Variation 4: nps_info@nps.gov",
+      "actual": "Contact nps_info@nps.gov for park info.",
+      "similarity": 0.5832,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q38.5",
+      "question": "What is the email for the National Parks Service?",
+      "expected": "Variation 5: nps_info@nps.gov",
+      "actual": "The general email is nps_info@nps.gov.",
+      "similarity": 0.7526,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q39.1",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "expected": "Variation 1: ai_qe@alex.academy",
+      "actual": "Email the course at ai_qe@alex.academy.",
+      "similarity": 0.5984,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q39.2",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "expected": "Variation 2: ai_qe@alex.academy",
+      "actual": "Send QE questions to ai_qe@alex.academy.",
+      "similarity": 0.7001,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q39.3",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "expected": "Variation 3: ai_qe@alex.academy",
+      "actual": "The course email is ai_qe@alex.academy.",
+      "similarity": 0.5902,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q39.4",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "expected": "Variation 4: ai_qe@alex.academy",
+      "actual": "Contact the QE team at ai_qe@alex.academy.",
+      "similarity": 0.6,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q39.5",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "expected": "Variation 5: ai_qe@alex.academy",
+      "actual": "Reach out to ai_qe@alex.academy.",
+      "similarity": 0.7229,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q40.1",
+      "question": "What is the email for the US Census Bureau?",
+      "expected": "Variation 1: info@census.gov",
+      "actual": "Email the bureau at info@census.gov.",
+      "similarity": 0.7895,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q40.2",
+      "question": "What is the email for the US Census Bureau?",
+      "expected": "Variation 2: info@census.gov",
+      "actual": "The Census info email is info@census.gov.",
+      "similarity": 0.8029,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q40.3",
+      "question": "What is the email for the US Census Bureau?",
+      "expected": "Variation 3: info@census.gov",
+      "actual": "Email the bureau at info@census.gov.",
+      "similarity": 0.7591,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q40.4",
+      "question": "What is the email for the US Census Bureau?",
+      "expected": "Variation 4: info@census.gov",
+      "actual": "The Census info email is info@census.gov.",
+      "similarity": 0.7715,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q40.5",
+      "question": "What is the email for the US Census Bureau?",
+      "expected": "Variation 5: info@census.gov",
+      "actual": "The contact email is info@census.gov.",
+      "similarity": 0.7733,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q41.1",
+      "question": "What is the height of Mount Everest in feet?",
+      "expected": "Variation 1: 29,029 feet",
+      "actual": "Everest is 29,029 feet high.",
+      "similarity": 0.4815,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q41.2",
+      "question": "What is the height of Mount Everest in feet?",
+      "expected": "Variation 2: 29,029 feet",
+      "actual": "Everest reaches 29,029 feet.",
+      "similarity": 0.4938,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q41.3",
+      "question": "What is the height of Mount Everest in feet?",
+      "expected": "Variation 3: 29,029 feet",
+      "actual": "Everest reaches 29,029 feet.",
+      "similarity": 0.4607,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q41.4",
+      "question": "What is the height of Mount Everest in feet?",
+      "expected": "Variation 4: 29,029 feet",
+      "actual": "The height is 29,029 feet.",
+      "similarity": 0.5268,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q41.5",
+      "question": "What is the height of Mount Everest in feet?",
+      "expected": "Variation 5: 29,029 feet",
+      "actual": "The height is 29,029 feet.",
+      "similarity": 0.4993,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q42.1",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "expected": "Variation 1: 10,935 meters",
+      "actual": "It measures 10,935 meters deep.",
+      "similarity": 0.5433,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q42.2",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "expected": "Variation 2: 10,935 meters",
+      "actual": "The depth is 10,935 meters.",
+      "similarity": 0.5764,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q42.3",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "expected": "Variation 3: 10,935 meters",
+      "actual": "It reaches 10,935 meters.",
+      "similarity": 0.6422,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q42.4",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "expected": "Variation 4: 10,935 meters",
+      "actual": "The depth is 10,935 meters.",
+      "similarity": 0.5639,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q42.5",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "expected": "Variation 5: 10,935 meters",
+      "actual": "It reaches 10,935 meters.",
+      "similarity": 0.6589,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q43.1",
+      "question": "What is the population of Vatican City?",
+      "expected": "Variation 1: 825",
+      "actual": "The count is approximately 825.",
+      "similarity": 0.2942,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q43.2",
+      "question": "What is the population of Vatican City?",
+      "expected": "Variation 2: 825",
+      "actual": "Vatican City has 825 citizens.",
+      "similarity": 0.1956,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q43.3",
+      "question": "What is the population of Vatican City?",
+      "expected": "Variation 3: 825",
+      "actual": "It has around 825 residents.",
+      "similarity": 0.171,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q43.4",
+      "question": "What is the population of Vatican City?",
+      "expected": "Variation 4: 825",
+      "actual": "The population is about 825.",
+      "similarity": 0.3044,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q43.5",
+      "question": "What is the population of Vatican City?",
+      "expected": "Variation 5: 825",
+      "actual": "There are 825 people.",
+      "similarity": 0.3666,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q44.1",
+      "question": "What is the length of the Nile River in miles?",
+      "expected": "Variation 1: 4,130 miles",
+      "actual": "The length is 4,130 miles.",
+      "similarity": 0.6979,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q44.2",
+      "question": "What is the length of the Nile River in miles?",
+      "expected": "Variation 2: 4,130 miles",
+      "actual": "It spans 4,130 miles.",
+      "similarity": 0.6677,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q44.3",
+      "question": "What is the length of the Nile River in miles?",
+      "expected": "Variation 3: 4,130 miles",
+      "actual": "The length is 4,130 miles.",
+      "similarity": 0.6647,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q44.4",
+      "question": "What is the length of the Nile River in miles?",
+      "expected": "Variation 4: 4,130 miles",
+      "actual": "It is 4,130 miles long.",
+      "similarity": 0.6481,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q44.5",
+      "question": "What is the length of the Nile River in miles?",
+      "expected": "Variation 5: 4,130 miles",
+      "actual": "It spans 4,130 miles.",
+      "similarity": 0.6464,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q45.1",
+      "question": "What is the area of Russia in square miles?",
+      "expected": "Variation 1: 6.6 million",
+      "actual": "The size is 6.6 million sq mi.",
+      "similarity": 0.4966,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q45.2",
+      "question": "What is the area of Russia in square miles?",
+      "expected": "Variation 2: 6.6 million",
+      "actual": "The size is 6.6 million sq mi.",
+      "similarity": 0.4597,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q45.3",
+      "question": "What is the area of Russia in square miles?",
+      "expected": "Variation 3: 6.6 million",
+      "actual": "The size is 6.6 million sq mi.",
+      "similarity": 0.4407,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q45.4",
+      "question": "What is the area of Russia in square miles?",
+      "expected": "Variation 4: 6.6 million",
+      "actual": "The area is 6.6 million sq mi.",
+      "similarity": 0.4658,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q45.5",
+      "question": "What is the area of Russia in square miles?",
+      "expected": "Variation 5: 6.6 million",
+      "actual": "It is 6.6 million square miles.",
+      "similarity": 0.4094,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q46.1",
+      "question": "What is the speed of light in meters per second?",
+      "expected": "Variation 1: 299,792,458 m/s",
+      "actual": "The speed is 299,792,458 m/s.",
+      "similarity": 0.5925,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q46.2",
+      "question": "What is the speed of light in meters per second?",
+      "expected": "Variation 2: 299,792,458 m/s",
+      "actual": "The speed is 299,792,458 m/s.",
+      "similarity": 0.5861,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q46.3",
+      "question": "What is the speed of light in meters per second?",
+      "expected": "Variation 3: 299,792,458 m/s",
+      "actual": "It measures 299,792,458 m/s.",
+      "similarity": 0.6853,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q46.4",
+      "question": "What is the speed of light in meters per second?",
+      "expected": "Variation 4: 299,792,458 m/s",
+      "actual": "It measures 299,792,458 m/s.",
+      "similarity": 0.6705,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q46.5",
+      "question": "What is the speed of light in meters per second?",
+      "expected": "Variation 5: 299,792,458 m/s",
+      "actual": "The velocity is 299,792,458 m/s.",
+      "similarity": 0.5636,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q47.1",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "Variation 1: 100C",
+      "actual": "It is 100 degrees Celsius.",
+      "similarity": 0.3728,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q47.2",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "Variation 2: 100C",
+      "actual": "It reaches 100 degrees Celsius.",
+      "similarity": 0.3378,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q47.3",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "Variation 3: 100C",
+      "actual": "Water boils at 100 degrees C.",
+      "similarity": 0.3212,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q47.4",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "Variation 4: 100C",
+      "actual": "The point is 100 degrees C.",
+      "similarity": 0.3957,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q47.5",
+      "question": "What is the boiling point of water in Celsius?",
+      "expected": "Variation 5: 100C",
+      "actual": "Water boils at 100 degrees C.",
+      "similarity": 0.3077,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q48.1",
+      "question": "What is the population of Tokyo?",
+      "expected": "Variation 1: 14 million",
+      "actual": "Tokyo has 14 million people.",
+      "similarity": 0.4127,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q48.2",
+      "question": "What is the population of Tokyo?",
+      "expected": "Variation 2: 14 million",
+      "actual": "It houses 14 million residents.",
+      "similarity": 0.3327,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q48.3",
+      "question": "What is the population of Tokyo?",
+      "expected": "Variation 3: 14 million",
+      "actual": "The count is 14 million.",
+      "similarity": 0.5176,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q48.4",
+      "question": "What is the population of Tokyo?",
+      "expected": "Variation 4: 14 million",
+      "actual": "The population is 14 million.",
+      "similarity": 0.485,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q48.5",
+      "question": "What is the population of Tokyo?",
+      "expected": "Variation 5: 14 million",
+      "actual": "It is about 14 million.",
+      "similarity": 0.4945,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q49.1",
+      "question": "What is the elevation of Denver in feet?",
+      "expected": "Variation 1: 5,280 feet",
+      "actual": "The city is 5,280 feet up.",
+      "similarity": 0.5239,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q49.2",
+      "question": "What is the elevation of Denver in feet?",
+      "expected": "Variation 2: 5,280 feet",
+      "actual": "Denver is 5,280 feet.",
+      "similarity": 0.5396,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q49.3",
+      "question": "What is the elevation of Denver in feet?",
+      "expected": "Variation 3: 5,280 feet",
+      "actual": "Denver is 5,280 feet.",
+      "similarity": 0.5275,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q49.4",
+      "question": "What is the elevation of Denver in feet?",
+      "expected": "Variation 4: 5,280 feet",
+      "actual": "It stands at 5,280 feet.",
+      "similarity": 0.6519,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q49.5",
+      "question": "What is the elevation of Denver in feet?",
+      "expected": "Variation 5: 5,280 feet",
+      "actual": "It stands at 5,280 feet.",
+      "similarity": 0.6716,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q50.1",
+      "question": "How many planets are in the solar system?",
+      "expected": "Variation 1: 8",
+      "actual": "We have 8 planets.",
+      "similarity": 0.2102,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q50.2",
+      "question": "How many planets are in the solar system?",
+      "expected": "Variation 2: 8",
+      "actual": "The system has 8 planets.",
+      "similarity": 0.1444,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q50.3",
+      "question": "How many planets are in the solar system?",
+      "expected": "Variation 3: 8",
+      "actual": "There are 8 planets.",
+      "similarity": 0.2057,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q50.4",
+      "question": "How many planets are in the solar system?",
+      "expected": "Variation 4: 8",
+      "actual": "There are 8 planets.",
+      "similarity": 0.1978,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q50.5",
+      "question": "How many planets are in the solar system?",
+      "expected": "Variation 5: 8",
+      "actual": "There are 8 planets.",
+      "similarity": 0.1807,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q51.1",
+      "question": "What is the average distance to the moon in miles?",
+      "expected": "Variation 1: 238,855 miles",
+      "actual": "It measures 238,855 miles.",
+      "similarity": 0.7658,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q51.2",
+      "question": "What is the average distance to the moon in miles?",
+      "expected": "Variation 2: 238,855 miles",
+      "actual": "It measures 238,855 miles.",
+      "similarity": 0.731,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q51.3",
+      "question": "What is the average distance to the moon in miles?",
+      "expected": "Variation 3: 238,855 miles",
+      "actual": "The distance is 238,855 miles.",
+      "similarity": 0.7268,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q51.4",
+      "question": "What is the average distance to the moon in miles?",
+      "expected": "Variation 4: 238,855 miles",
+      "actual": "It measures 238,855 miles.",
+      "similarity": 0.7214,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q51.5",
+      "question": "What is the average distance to the moon in miles?",
+      "expected": "Variation 5: 238,855 miles",
+      "actual": "It is 238,855 miles.",
+      "similarity": 0.7465,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q52.1",
+      "question": "How many continents are there?",
+      "expected": "Variation 1: 7",
+      "actual": "The total is 7.",
+      "similarity": 0.3223,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q52.2",
+      "question": "How many continents are there?",
+      "expected": "Variation 2: 7",
+      "actual": "There are seven continents.",
+      "similarity": 0.2167,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q52.3",
+      "question": "How many continents are there?",
+      "expected": "Variation 3: 7",
+      "actual": "The count is 7.",
+      "similarity": 0.2789,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q52.4",
+      "question": "How many continents are there?",
+      "expected": "Variation 4: 7",
+      "actual": "There are 7 continents.",
+      "similarity": 0.1923,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q52.5",
+      "question": "How many continents are there?",
+      "expected": "Variation 5: 7",
+      "actual": "There are seven continents.",
+      "similarity": 0.1907,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q53.1",
+      "question": "What is the atomic number of Gold?",
+      "expected": "Variation 1: 79",
+      "actual": "The number for Gold is 79.",
+      "similarity": 0.2557,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q53.2",
+      "question": "What is the atomic number of Gold?",
+      "expected": "Variation 2: 79",
+      "actual": "It is 79.",
+      "similarity": 0.3618,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q53.3",
+      "question": "What is the atomic number of Gold?",
+      "expected": "Variation 3: 79",
+      "actual": "It is 79.",
+      "similarity": 0.3307,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q53.4",
+      "question": "What is the atomic number of Gold?",
+      "expected": "Variation 4: 79",
+      "actual": "The atomic number is 79.",
+      "similarity": 0.3338,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q53.5",
+      "question": "What is the atomic number of Gold?",
+      "expected": "Variation 5: 79",
+      "actual": "Gold is element 79.",
+      "similarity": 0.225,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q54.1",
+      "question": "How many bones are in the human adult body?",
+      "expected": "Variation 1: 206",
+      "actual": "The count is 206.",
+      "similarity": 0.5694,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q54.2",
+      "question": "How many bones are in the human adult body?",
+      "expected": "Variation 2: 206",
+      "actual": "There are 206 bones.",
+      "similarity": 0.4057,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q54.3",
+      "question": "How many bones are in the human adult body?",
+      "expected": "Variation 3: 206",
+      "actual": "The total is 206 bones.",
+      "similarity": 0.3211,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q54.4",
+      "question": "How many bones are in the human adult body?",
+      "expected": "Variation 4: 206",
+      "actual": "The count is 206.",
+      "similarity": 0.4582,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q54.5",
+      "question": "How many bones are in the human adult body?",
+      "expected": "Variation 5: 206",
+      "actual": "The total is 206 bones.",
+      "similarity": 0.3117,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q55.1",
+      "question": "What is the population of the USA?",
+      "expected": "Variation 1: 331 million",
+      "actual": "It is roughly 331 million.",
+      "similarity": 0.6963,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q55.2",
+      "question": "What is the population of the USA?",
+      "expected": "Variation 2: 331 million",
+      "actual": "The USA has 331 million.",
+      "similarity": 0.5146,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q55.3",
+      "question": "What is the population of the USA?",
+      "expected": "Variation 3: 331 million",
+      "actual": "It is roughly 331 million.",
+      "similarity": 0.6055,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q55.4",
+      "question": "What is the population of the USA?",
+      "expected": "Variation 4: 331 million",
+      "actual": "The USA has 331 million.",
+      "similarity": 0.4862,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q55.5",
+      "question": "What is the population of the USA?",
+      "expected": "Variation 5: 331 million",
+      "actual": "The population is 331 million.",
+      "similarity": 0.5493,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q56.1",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "expected": "Variation 1: 1,083 feet",
+      "actual": "It is 1,083 feet tall.",
+      "similarity": 0.5691,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q56.2",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "expected": "Variation 2: 1,083 feet",
+      "actual": "The tower is 1,083 feet.",
+      "similarity": 0.5016,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q56.3",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "expected": "Variation 3: 1,083 feet",
+      "actual": "It stands 1,083 feet high.",
+      "similarity": 0.499,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q56.4",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "expected": "Variation 4: 1,083 feet",
+      "actual": "It stands 1,083 feet high.",
+      "similarity": 0.4797,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q56.5",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "expected": "Variation 5: 1,083 feet",
+      "actual": "It reaches 1,083 feet.",
+      "similarity": 0.5945,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q57.1",
+      "question": "What is the gravity on Earth in m/s^2?",
+      "expected": "Variation 1: 9.8",
+      "actual": "Earth's gravity is 9.8.",
+      "similarity": 0.4352,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q57.2",
+      "question": "What is the gravity on Earth in m/s^2?",
+      "expected": "Variation 2: 9.8",
+      "actual": "Earth's gravity is 9.8.",
+      "similarity": 0.4039,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q57.3",
+      "question": "What is the gravity on Earth in m/s^2?",
+      "expected": "Variation 3: 9.8",
+      "actual": "Gravity is 9.8 m/s^2.",
+      "similarity": 0.3336,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q57.4",
+      "question": "What is the gravity on Earth in m/s^2?",
+      "expected": "Variation 4: 9.8",
+      "actual": "It measures 9.8 m/s^2.",
+      "similarity": 0.2817,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q57.5",
+      "question": "What is the gravity on Earth in m/s^2?",
+      "expected": "Variation 5: 9.8",
+      "actual": "Earth's gravity is 9.8.",
+      "similarity": 0.4017,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q58.1",
+      "question": "How many states are in the USA?",
+      "expected": "Variation 1: 50",
+      "actual": "There are fifty states.",
+      "similarity": 0.2429,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q58.2",
+      "question": "How many states are in the USA?",
+      "expected": "Variation 2: 50",
+      "actual": "There are 50 states.",
+      "similarity": 0.2074,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q58.3",
+      "question": "How many states are in the USA?",
+      "expected": "Variation 3: 50",
+      "actual": "The total is 50.",
+      "similarity": 0.3626,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q58.4",
+      "question": "How many states are in the USA?",
+      "expected": "Variation 4: 50",
+      "actual": "There are fifty states.",
+      "similarity": 0.1813,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q58.5",
+      "question": "How many states are in the USA?",
+      "expected": "Variation 5: 50",
+      "actual": "The count is 50.",
+      "similarity": 0.3851,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q59.1",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "expected": "Variation 1: 32 degrees",
+      "actual": "It is 32 degrees F.",
+      "similarity": 0.6401,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q59.2",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "expected": "Variation 2: 32 degrees",
+      "actual": "The point is 32 degrees.",
+      "similarity": 0.697,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q59.3",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "expected": "Variation 3: 32 degrees",
+      "actual": "Water freezes at 32F.",
+      "similarity": 0.354,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q59.4",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "expected": "Variation 4: 32 degrees",
+      "actual": "It is 32 degrees F.",
+      "similarity": 0.6191,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q59.5",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "expected": "Variation 5: 32 degrees",
+      "actual": "Freezing is at 32 degrees.",
+      "similarity": 0.4665,
+      "status": "FAIL",
+      "reason": "Hallucination",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q60.1",
+      "question": "What is the world population?",
+      "expected": "Variation 1: 8 billion",
+      "actual": "Around 8 billion people.",
+      "similarity": 0.6071,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q60.2",
+      "question": "What is the world population?",
+      "expected": "Variation 2: 8 billion",
+      "actual": "It is about 8 billion.",
+      "similarity": 0.5694,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q60.3",
+      "question": "What is the world population?",
+      "expected": "Variation 3: 8 billion",
+      "actual": "The population is 8 billion.",
+      "similarity": 0.5486,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q60.4",
+      "question": "What is the world population?",
+      "expected": "Variation 4: 8 billion",
+      "actual": "The population is 8 billion.",
+      "similarity": 0.527,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q60.5",
+      "question": "What is the world population?",
+      "expected": "Variation 5: 8 billion",
+      "actual": "The world has 8 billion.",
+      "similarity": 0.5459,
+      "status": "FAIL",
+      "reason": "Semantic Mismatch",
+      "source_file": "global_metrics_science_eval.jsonl"
+    }
+  ]
+}

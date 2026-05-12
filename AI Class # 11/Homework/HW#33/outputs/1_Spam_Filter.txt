@@ -1,0 +1,15 @@
+OPTIMIZATION LOG: Spam_Filter
+========================================
+Step  0 | Loss: 1.1711 | Probs: [SPAM: 0.310, NOT_SPAM: 0.690]
+Step  1 | Loss: 1.0375 | Probs: [SPAM: 0.354, NOT_SPAM: 0.646]
+Step  2 | Loss: 0.9130 | Probs: [SPAM: 0.401, NOT_SPAM: 0.599]
+Step  3 | Loss: 0.7981 | Probs: [SPAM: 0.450, NOT_SPAM: 0.550]
+Step  4 | Loss: 0.6931 | Probs: [SPAM: 0.500, NOT_SPAM: 0.500]
+Step  5 | Loss: 0.5981 | Probs: [SPAM: 0.550, NOT_SPAM: 0.450]
+Step  6 | Loss: 0.5130 | Probs: [SPAM: 0.599, NOT_SPAM: 0.401]
+Step  7 | Loss: 0.4375 | Probs: [SPAM: 0.646, NOT_SPAM: 0.354]
+Step  8 | Loss: 0.3711 | Probs: [SPAM: 0.690, NOT_SPAM: 0.310]
+Step  9 | Loss: 0.3133 | Probs: [SPAM: 0.731, NOT_SPAM: 0.269]
+Step 10 | Loss: 0.2633 | Probs: [SPAM: 0.769, NOT_SPAM: 0.231]
+
+Final Prediction: SPAM

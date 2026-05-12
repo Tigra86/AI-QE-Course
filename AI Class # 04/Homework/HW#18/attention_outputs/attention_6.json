@@ -1,0 +1,27 @@
+{
+    "sentence": "The painting Emma described in her essay was breathtaking.",
+    "focus_word": "breathtaking",
+    "raw_scores": {
+        "the": -0.0454,
+        "painting": 0.1914,
+        "emma": 0.3147,
+        "described": 0.0805,
+        "in": -0.0049,
+        "her": -0.0842,
+        "essay": 0.8143,
+        "was": 0.0338,
+        "breathtaking": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "painting": 0.1133,
+        "emma": 0.1281,
+        "described": 0.1014,
+        "in": 0.08,
+        "her": 0.086,
+        "essay": 0.2112,
+        "was": 0.08,
+        "breathtaking": 0.1201
+    },
+    "softmax_sum": 1.0
+}

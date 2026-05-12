@@ -1,0 +1,8 @@
+{
+  "scenario": "A",
+  "user_message": "How do I reset my password?",
+  "chatbot_response": "To reset your password, visit our login page and click on 'Forgot Password'. Follow the instructions sent to your registered email address.",
+  "action": "provide_clear_password_reset_instructions",
+  "reward": 1.8,
+  "reason": "The chatbot provided direct, accurate, and easy-to-follow instructions for a common user query, leading to a positive user experience."
+}

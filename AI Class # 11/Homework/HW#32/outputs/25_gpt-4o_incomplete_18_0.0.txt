@@ -1,0 +1,17 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4o
+model_context_window / token_budget: 128000
+input_tokens: 18
+output_tokens: 18
+total_tokens / billed_tokens: 36
+remaining_tokens / not_billed_tokens: 127964 (128000 - 36)
+available_for_output_at_start: 127982
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Why is truncation dangerous for structured data like JSON?
+
+=== RAW OUTPUT ===
+Truncation is dangerous for structured data like JSON because it can lead to several issues:

@@ -1,0 +1,16 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5
+model_context_window / token_budget: 128000
+input_tokens: 21
+output_tokens: 256
+total_tokens / billed_tokens: 277
+remaining_tokens / not_billed_tokens: 127723 (128000 - 277)
+available_for_output_at_start: 127979
+limit_reason: none
+completion_status: None
+truncated: True
+
+=== PROMPT ===
+Tell me a 50-word story about a robot learning to count tokens.
+
+=== RAW OUTPUT ===

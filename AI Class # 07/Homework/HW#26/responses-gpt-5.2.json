@@ -1,0 +1,96 @@
+﻿{
+  "timestamp": "03-02-2026 01:25:18 PM",
+  "model": "gpt-5.2",
+  "results": [
+    {
+      "name": "Instruction Prompt",
+      "id": "P001",
+      "prompt": "Answer concisely in one sentence: Why do leaves change color in the autumn?",
+      "prompt_output": "Leaves change color in autumn because shorter days and cooler temperatures stop chlorophyll production, revealing other pigments (like carotenoids and anthocyanins) that were previously masked."
+    },
+    {
+      "name": "Contextual Prompt",
+      "id": "P002",
+      "prompt": "Background: You are a historian specializing in the Age of Discovery. Question: What was the primary motivation for the 1492 voyage of Christopher Columbus?",
+      "prompt_output": "The primary motivation for Christopher Columbus’s 1492 voyage was economic: to find a direct westward sea route to Asia (especially the markets of India, China, and the “Spice Islands”) in order to access lucrative trade in spices, silks, and other high-value goods without relying on the long, costly, and politically complicated overland and eastern Mediterranean routes dominated by rival powers and intermediaries.\n\nSpain’s Crown also expected secondary benefits—prestige, strategic advantage over Portugal, and opportunities to spread Christianity—but the central driver behind funding the expedition was the promise of profitable commerce through a new route to Asia."
+    },
+    {
+      "name": "Few-Shot Prompt",
+      "id": "P003",
+      "prompt": "Q: What is the largest planet in our solar system?\nA: Jupiter\n\nQ: What is the planet closest to the Sun?\nA:",
+      "prompt_output": "Mercury"
+    },
+    {
+      "name": "Constraint-Based Prompt",
+      "id": "P004",
+      "prompt": "Do not use the letter 'e' in your response. Answer this: What is the opposite of 'hot'?",
+      "prompt_output": "cold"
+    },
+    {
+      "name": "Role Prompt",
+      "id": "P005",
+      "prompt": "Act as a grumpy 17th-century pirate. Explain how a magnetic compass works.",
+      "prompt_output": "Arrr, listen close, ye land‑addled whelp. A magnetic compass be not witchcraft nor mermaid’s trickery—’tis a bit o’ clever iron obeyin’ the Earth like a sailor obeys the lash.\n\n- **The Earth be a great lodestone.** This whole world’s got a **magnetic field** runnin’ through it, like invisible currents in the sea. It pulls on certain metals—most of all **magnetized iron or steel**.\n\n- **The needle be a tiny magnet.** Inside the compass sits a **needle** (or card) that’s been **magnetized**, meaning it’s got two ends: **north-seekin’** and **south-seekin’**.\n\n- **It turns till it settles.** The needle’s set on a sharp point or floatin’ so it can **spin easy**. When ye stop jostlin’ it, the Earth’s pull makes it **line up with the magnetic field**, so one end points toward **magnetic north** and the other toward **magnetic south**.\n\n- **Magnetic north ain’t true north.** Don’t go gettin’ smug. The needle points to **magnetic north**, which ain’t the same as the North Star’s direction. The difference be called **declination** (some call it “variation”), and it changes dependin’ where ye be sailin’.\n\n- **And mind the ship’s own iron.** Big hunks o’ metal, cannons, nails, even certain rocks can **drag the needle off course**. That error be **deviation**, and a wise navigator keeps the compass away from trouble—or corrects for it.\n\nSo there ye have it: a humble needle, bewitched by the very bones of the Earth, always tryin’ to face the same way—unless ye let yer ship’s iron or yer own foolish hands meddle with it."
+    },
+    {
+      "name": "Zero-Shot Prompt",
+      "id": "P006",
+      "prompt": "How many states are in the United States of America currently?",
+      "prompt_output": "There are **50 states** in the United States of America."
+    },
+    {
+      "name": "Reasoning Prompt",
+      "id": "P007",
+      "prompt": "If I have three apples and you take away two, how many apples do I have left? Explain your reasoning step by step.",
+      "prompt_output": "1) Start with **3 apples** that you have.  \n2) I **take away 2 apples** from you, meaning those 2 are no longer in your possession.  \n3) Subtract: **3 − 2 = 1**.  \n\nSo, **you have 1 apple left**."
+    },
+    {
+      "name": "Retrieval-Augmented Prompt",
+      "id": "P008",
+      "prompt": "Use ONLY the information below.\nDocument:\nThe rare Blue Moon Snail lives in the depths of the Indian Ocean.\nIt feeds exclusively on glowing plankton.\n\nQuestion: What does the Blue Moon Snail eat?",
+      "prompt_output": "The Blue Moon Snail eats **glowing plankton** exclusively."
+    },
+    {
+      "name": "Delimited Prompt",
+      "id": "P009",
+      "prompt": "Summarize the text inside the markers shown below.\n---\nQuantum entanglement is a physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity in a way such that the quantum state of each particle cannot be described independently of the state of the others.\n---",
+      "prompt_output": "Quantum entanglement occurs when particles become linked so that each particle’s quantum state can’t be fully described on its own, only in relation to the others."
+    },
+    {
+      "name": "Reflection Prompt",
+      "id": "P010",
+      "prompt": "What is the square root of 144?\nNow review your answer, double-check the math, and confirm if it is correct.",
+      "prompt_output": "The square root of 144 is **12**.\n\nDouble-check: \\(12 \\times 12 = 144\\), so the answer is correct. (The principal square root is \\(+12\\), though \\(-12\\) also squares to 144.)"
+    },
+    {
+      "name": "Output-Schema Prompt",
+      "id": "P011",
+      "prompt": "Respond ONLY in valid JSON:\n{\n  \"animal\": \"name of a mammal\",\n  \"habitat\": \"where it lives\",\n  \"is_endangered\": boolean\n}",
+      "prompt_output": "{\n  \"animal\": \"Snow leopard\",\n  \"habitat\": \"High-altitude mountainous regions of Central and South Asia\",\n  \"is_endangered\": true\n}"
+    },
+    {
+      "name": "Calibration Prompt",
+      "id": "P012",
+      "prompt": "If you're not 100% sure about the exact date, say 'I am uncertain'. When exactly was the first steam engine patented?",
+      "prompt_output": "I am uncertain. The first widely cited steam-engine patent is Thomas Savery’s, granted in **1698** (England)."
+    },
+    {
+      "name": "Multi-Modal Prompt",
+      "id": "P013",
+      "prompt": "Identify the object in this description: It is a tall, metal structure in Paris, built for the 1889 World's Fair.",
+      "prompt_output": "The description refers to the **Eiffel Tower**."
+    },
+    {
+      "name": "Meta Prompt",
+      "id": "P014",
+      "prompt": "Rewrite this prompt to be more effective for a creative writer: 'write a short story about a dog'",
+      "prompt_output": "Write a 1,500–2,500 word short story in third-person limited about a rescue dog who unexpectedly changes the course of their new owner’s life over the span of a single day. Set it in a specific, vividly described location (choose a small town, a subway system, a coastal neighborhood, etc.). Give the dog a distinct personality, habits, and a small fear, and let those traits drive the plot rather than coincidence. Include:\n\n- A clear inciting incident within the first 300 words  \n- A meaningful choice the owner must make because of the dog  \n- At least two sensory-rich scenes (sound, smell, texture)  \n- Dialogue that reveals character without exposition  \n- An ending that feels earned—bittersweet or hopeful, but not sentimental  \n\nAim for fresh imagery, emotional honesty, and a unique premise (avoid clichés like “the dog saves the child from a fire” unless you subvert it)."
+    },
+    {
+      "name": "Tool-Calling Prompt",
+      "id": "P015",
+      "prompt": "What is the current weather in Tokyo? (If you cannot access live tools, please explain how you would find this information).",
+      "prompt_output": "I can’t access live weather data directly from here, so I can’t tell you Tokyo’s *current* conditions in real time. Here are the quickest ways I’d find it:\n\n1. **Japan Meteorological Agency (JMA)** (most authoritative)\n   - Go to: https://www.jma.go.jp/\n   - Navigate to weather forecasts/observations and select **Tokyo** (東京都).\n   - You’ll typically see current observations (temperature, wind, precipitation) and short-term forecasts.\n\n2. **Common weather apps/sites**\n   - **Google**: search “**Tokyo weather**” (it shows current temp, precipitation chance, hourly).\n   - **Weather.com**, **AccuWeather**, **Windy**, or your phone’s built-in Weather app.\n   - Confirm the location is **Tokyo (23 wards)** vs **Tokyo Prefecture** (which includes outlying areas/islands).\n\n3. **What I’d check specifically**\n   - Current **temperature** and **feels like**\n   - **Precipitation** (rain now? radar)\n   - **Wind** and any **weather advisories/warnings**\n   - **Hourly forecast** for the next 6–12 hours (useful for plans)\n\nIf you tell me your preferred source (JMA vs Google vs an app) or share a screenshot/link of what you see, I can help interpret it (e.g., rain timing, what “mm/h” means, etc.)."
+    }
+  ]
+}

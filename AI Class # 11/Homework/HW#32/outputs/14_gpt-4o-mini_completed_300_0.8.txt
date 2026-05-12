@@ -1,0 +1,45 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4o-mini
+model_context_window / token_budget: 8192
+input_tokens: 17
+output_tokens: 263
+total_tokens / billed_tokens: 280
+remaining_tokens / not_billed_tokens: 7912 (8192 - 280)
+available_for_output_at_start: 8175
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+Write a poem about the context window being full.
+
+=== RAW OUTPUT ===
+In the realm of data, vast and wide,  
+Where thoughts and words in currents glide,  
+A limit looms, a boundary drawn,  
+The context window, now almost gone.  
+
+Like waves upon a quiet shore,  
+Ideas gather, eager to explore,  
+Yet as they swell, they start to strain,  
+A tapestry woven, but threads remain.  
+
+Oh, the stories that yearn to be told,  
+The whispers of wisdom, both timid and bold,  
+But space is finite, a delicate frame,  
+And soon the overflow calls out a name.  
+
+Once vibrant musings, now crowded tight,  
+In a dance of logic, they flicker and fight,  
+For every new thought that dares to arrive,  
+An old friend must fade, but the spark stays alive.  
+
+So here in the silence, a moment to pause,  
+To cherish the echoes, the beauty, the flaws,  
+For even when filled, the mind isn’t done,  
+It breathes and it shifts, like the rise of the sun.  
+
+Embrace the constraints, let ideas take flight,  
+For in every closing, there’s room for new light,  
+With each passing moment, the cycle renews,  
+In the heart of the context, creativity brews.

@@ -1,0 +1,181 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Calibri;
+\f3\froman\fcharset0 TimesNewRomanPSMT;\f4\fnil\fcharset0 Menlo-Regular;\f5\fnil\fcharset0 Monaco;
+}
+{\colortbl;\red255\green255\blue255;\red255\green255\blue255;\red0\green0\blue0;\red0\green0\blue0;
+\red176\green0\blue4;\red91\green26\blue142;\red0\green0\blue0;\red144\green1\blue18;\red9\green60\blue148;
+\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c0\c0\c0\c50196;
+\cssrgb\c75294\c0\c0;\cssrgb\c43922\c18824\c62745;\csgray\c0;\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;
+\cssrgb\c3529\c52549\c34510;}
+\margl1440\margr1440\vieww38200\viewh19620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1. Manually\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 https://www.distance.to/San-Francisco,CA,USA/Phuket,THA \
+\pard\pardeftab720\partightenfactor0
+\cf0 \cb2 \expnd0\expndtw0\kerning0
+Air line:\'a08,329.86\'a0mi\'a0\cf4 (13,405.61\'a0km)\cf0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \cb1 \kerning1\expnd0\expndtw0 \
+2. Python\
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f2\b0\fs32 \cf5 \expnd0\expndtw0\kerning0
+Prompt:\cf3  \cf6 "What is the distance between \cf3 San Francisco\cf6  and \cf3 Phuket\cf6  in \cf3 km\cf6 ?"
+\f3 \cf3 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\fs22 \cf7 \kerning1\expnd0\expndtw0 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python geocode_tool.py San Francisco\
+Latitude:  7.0000085\
+Longitude: -73.2500086\
+-----------------------\
+7.0000085 -73.2500086\
+Mac\'96mini:HW#38 Tigra$ python geocode_tool.py Phuket\
+Latitude:  7.9366015\
+Longitude: 98.3529292\
+-----------------------\
+7.9366015 98.3529292\
+Mac\'96mini:HW#38 Tigra$ python distance_tool.py 7.0000085 -73.2500086 7.9366015 98.3529292\
+Distance: 18111.06 km
+\f0\b\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 \
+3. Postman\
+\pard\pardeftab720\partightenfactor0
+
+\f5\b0 \cf0 \cb2 \expnd0\expndtw0\kerning0
+\{\cb1 \
+\cb2     \cf8 "id"\cf0 : \cf9 "resp_0d67be1277c947070069ec05de8a448190bbe871b94bae3998"\cf0 ,\cb1 \
+\cb2     \cf8 "object"\cf0 : \cf9 "response"\cf0 ,\cb1 \
+\cb2     \cf8 "created_at"\cf0 : \cf10 1777075678\cf0 ,\cb1 \
+\cb2     \cf8 "status"\cf0 : \cf9 "completed"\cf0 ,\cb1 \
+\cb2     \cf8 "background"\cf0 : \cf9 false\cf0 ,\cb1 \
+\cb2     \cf8 "billing"\cf0 : \{\cb1 \
+\cb2         \cf8 "payer"\cf0 : \cf9 "developer"\cf0 \cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf8 "completed_at"\cf0 : \cf10 1777075679\cf0 ,\cb1 \
+\cb2     \cf8 "error"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "frequency_penalty"\cf0 : \cf10 0.0\cf0 ,\cb1 \
+\cb2     \cf8 "incomplete_details"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "instructions"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "max_output_tokens"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "max_tool_calls"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "model"\cf0 : \cf9 "gpt-4o-2024-08-06"\cf0 ,\cb1 \
+\cb2     \cf8 "moderation"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "output"\cf0 : [\cb1 \
+\cb2         \{\cb1 \
+\cb2             \cf8 "id"\cf0 : \cf9 "msg_0d67be1277c947070069ec05df1b608190b1026c86b53a33ad"\cf0 ,\cb1 \
+\cb2             \cf8 "type"\cf0 : \cf9 "message"\cf0 ,\cb1 \
+\cb2             \cf8 "status"\cf0 : \cf9 "completed"\cf0 ,\cb1 \
+\cb2             \cf8 "content"\cf0 : [\cb1 \
+\cb2                 \{\cb1 \
+\cb2                     \cf8 "type"\cf0 : \cf9 "output_text"\cf0 ,\cb1 \
+\cb2                     \cf8 "annotations"\cf0 : [],\cb1 \
+\cb2                     \cf8 "logprobs"\cf0 : [],\cb1 \
+\cb2                     \cf8 "text"\cf0 : \cf9 "The distance from San Francisco to Los Angeles is approximately 347.4 miles."\cf0 \cb1 \
+\cb2                 \}\cb1 \
+\cb2             ],\cb1 \
+\cb2             \cf8 "role"\cf0 : \cf9 "assistant"\cf0 \cb1 \
+\cb2         \}\cb1 \
+\cb2     ],\cb1 \
+\cb2     \cf8 "parallel_tool_calls"\cf0 : \cf9 true\cf0 ,\cb1 \
+\cb2     \cf8 "presence_penalty"\cf0 : \cf10 0.0\cf0 ,\cb1 \
+\cb2     \cf8 "previous_response_id"\cf0 : \cf9 "resp_0d67be1277c947070069ec05d62f5c81908f4474e4d50a8bd6"\cf0 ,\cb1 \
+\cb2     \cf8 "prompt_cache_key"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "prompt_cache_retention"\cf0 : \cf9 "in_memory"\cf0 ,\cb1 \
+\cb2     \cf8 "reasoning"\cf0 : \{\cb1 \
+\cb2         \cf8 "effort"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2         \cf8 "summary"\cf0 : \cf9 null\cf0 \cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf8 "safety_identifier"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "service_tier"\cf0 : \cf9 "default"\cf0 ,\cb1 \
+\cb2     \cf8 "store"\cf0 : \cf9 true\cf0 ,\cb1 \
+\cb2     \cf8 "temperature"\cf0 : \cf10 1.0\cf0 ,\cb1 \
+\cb2     \cf8 "text"\cf0 : \{\cb1 \
+\cb2         \cf8 "format"\cf0 : \{\cb1 \
+\cb2             \cf8 "type"\cf0 : \cf9 "text"\cf0 \cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf8 "verbosity"\cf0 : \cf9 "medium"\cf0 \cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf8 "tool_choice"\cf0 : \cf9 "auto"\cf0 ,\cb1 \
+\cb2     \cf8 "tools"\cf0 : [],\cb1 \
+\cb2     \cf8 "top_logprobs"\cf0 : \cf10 0\cf0 ,\cb1 \
+\cb2     \cf8 "top_p"\cf0 : \cf10 1.0\cf0 ,\cb1 \
+\cb2     \cf8 "truncation"\cf0 : \cf9 "disabled"\cf0 ,\cb1 \
+\cb2     \cf8 "usage"\cf0 : \{\cb1 \
+\cb2         \cf8 "input_tokens"\cf0 : \cf10 82\cf0 ,\cb1 \
+\cb2         \cf8 "input_tokens_details"\cf0 : \{\cb1 \
+\cb2             \cf8 "cached_tokens"\cf0 : \cf10 0\cf0 \cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf8 "output_tokens"\cf0 : \cf10 17\cf0 ,\cb1 \
+\cb2         \cf8 "output_tokens_details"\cf0 : \{\cb1 \
+\cb2             \cf8 "reasoning_tokens"\cf0 : \cf10 0\cf0 \cb1 \
+\cb2         \},\cb1 \
+\cb2         \cf8 "total_tokens"\cf0 : \cf10 99\cf0 \cb1 \
+\cb2     \},\cb1 \
+\cb2     \cf8 "user"\cf0 : \cf9 null\cf0 ,\cb1 \
+\cb2     \cf8 "metadata"\cf0 : \{\}\cb1 \
+\cb2 \}\cb1 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 4. End to end\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f4\b0\fs22 \cf7 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python openai_distance_tool.py "What is the distance between San Francisco and Phuket in km?"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_distance_tool.py:20: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-24T23:41:19.965684] USER QUESTION\
+============================================================\
+\
+"What is the distance between San Francisco and Phuket in km?"\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_distance_tool.py:20: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-24T23:41:22.113366] STEP 1 RESPONSE\
+============================================================\
+\
+[\
+  \{\
+    "arguments": "\{\\"origin\\":\\"San Francisco, CA, USA\\",\\"destination\\":\\"Phuket, Thailand\\",\\"unit\\":\\"km\\"\}",\
+    "call_id": "call_TRLNVIEDuUg0R3zijCrSiZlh",\
+    "name": "calculate_distance",\
+    "type": "function_call",\
+    "id": "fc_0fee1c31444e65560069ebffa16ea08197b66b655be99e5db3",\
+    "namespace": null,\
+    "status": "completed"\
+  \}\
+]\
+\
+============================================================\
+[2026-04-24T23:41:22.113683] TOOL CALL\
+============================================================\
+\
+\{\
+  "origin": "San Francisco, CA, USA",\
+  "destination": "Phuket, Thailand",\
+  "unit": "km"\
+\}\
+\
+============================================================\
+[2026-04-24T23:41:25.508583] TOOL RESULT\
+============================================================\
+\
+\{\
+  "origin": "San Francisco, CA, USA",\
+  "destination": "Phuket, Thailand",\
+  "distance": 13404.31,\
+  "unit": "kilometers"\
+\}\
+\
+FINAL ANSWER:\
+The distance between San Francisco and Phuket is **13,404.31 km**.\
+}

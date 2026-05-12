@@ -1,0 +1,138 @@
+{
+  "technical_how_to": {
+    "install": [
+      "To install a tool, download it from the official site and follow the setup instructions.",
+      "Installation issues are usually solved by reinstalling and checking system requirements."
+    ],
+    "install python": [
+      "Python 1: To install a tool, download it from the official site and follow the setup instructions.",
+      "Python 2: Installation issues are usually solved by reinstalling and checking system requirements."
+    ],
+    "error 404": [
+      "404 1: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "404 2: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "404 3: Try searching the exact error code in documentation — many issues have known fixes."
+    ],
+    "error 500": [
+      "500 1: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 2: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 3: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 4: Most errors can be fixed by checking logs and verifying configuration settings.",
+      "500 5: Most errors can be fixed by checking logs and verifying configuration settings."
+    ]
+  },
+  "product_specs": {
+    "garmin fenix 8": [
+      "Garmin Fenix 8  Specifications:\n• Display: 1.3\" MIP\n• Battery: Up to 30 days smartwatch, 80 hours GPS\n• Sensors: Multi-band GNSS, HRV, SpO2, Barometer, Compass\n• Features: Offline maps, training readiness, advanced performance metrics\n• Build: Fiber-reinforced polymer with metal bezel"
+    ],
+    "garmin fenix 8 pro": [
+      "What are the specifications of Garmin Fenix 8 Pro?:\n• Display: 1.4\" AMOLED sunlight-visible\n• Battery: Up to 29 days smartwatch, 89 hours GPS\n• Sensors: Multi-band GNSS, Heart Rate, Pulse Ox, Altimeter, Barometer, Compass\n• Features: Triathlon metrics, Advanced Training, Maps, Music, Garmin Pay\n• Build: Fiber-reinforced polymer with titanium bezel"
+    ],
+    "garmin forerunner 970": [
+      "Garmin Forerunner 970 Specifications:\n• Display: 1.4\" AMOLED\n• Battery: Up to 20 days smartwatch, 60 hours GPS\n• Sensors: Multi-band GNSS, Heart Rate, Pulse Ox, Running Dynamics\n• Features: Advanced triathlon metrics, Recovery advisor, AMOLED maps\n• Build: Lightweight polymer for peak performance"
+    ],
+    "iphone 17": [
+      "Apple iPhone 17  Specifications:\n• Display: 6.1\" ProMotion OLED\n• Chip: A19 Bionic\n• Camera: 48MP main, improved low-light processing, 8K capture\n• Battery: 20–24 hours real-world video playback\n• Features: USB-C, satellite messaging 2.0, Face ID Gen3"
+    ],
+    "iphone 17 max": [
+      "Apple iPhone 17 Max Specifications:\n• Display: 6.7\" ProMotion OLED\n• Chip: A19 Bionic\n• Camera: 48MP main + periscope telephoto\n• Battery: 28–30 hours video playback\n• Features: USB-C, improved thermal design, satellite messaging 2.0"
+    ],
+    "bmw m850i": [
+      "BMW M850i Specifications:\n• Engine: 4.4L Twin-Turbo V8\n• Power: ~523 hp / 553 lb-ft torque\n• 0–60 mph: ~3.6 seconds\n• Drivetrain: xDrive AWD\n• Features: Adaptive M suspension, Harman Kardon audio, digital cockpit\n• Build: Luxury grand touring coupe with high-speed stability"
+    ],
+    "bmw m8": [
+      "BMW M8 Specifications:\n• Engine: 4.4L Twin-Turbo V8 (high-output)\n• Power: ~617 hp / 553 lb-ft\n• 0–60 mph: 3.0 seconds\n• Drivetrain: M xDrive with RWD mode\n• Features: M Carbon seats, track mode, upgraded braking and cooling\n• Build: Track-capable super-GT flagship"
+    ],
+    "apple macbook pro m3": [
+      "Apple MacBook Pro M3 technical specifications:\n• Display: 14\" or 16\" Liquid Retina XDR\n• Chip: Apple M3, 8–12 cores CPU, 10–20 cores GPU\n• Memory: 16–64 GB unified RAM\n• Storage: 512 GB – 8 TB SSD\n• Battery: Up to 22 hours video playback\n• Ports: 3× Thunderbolt 4, HDMI, SDXC card slot, MagSafe 3\n• Features: macOS Sonoma, advanced thermal design, studio-quality microphones\n• Build: Aluminum unibody, lightweight and durable"
+    ],
+    "apple watch series 9": [
+      "Apple Watch Series 9 features and specs:\n• Display: Always-On Retina LTPO OLED, 41mm or 45mm\n• Chip: S9 SiP with 64-bit dual-core processor\n• Sensors: Blood Oxygen, ECG, Heart Rate, Sleep Tracking, Accelerometer, Gyroscope, GPS\n• Battery: Up to 18 hours daily usage\n• Features: watchOS 11, Fitness+ integration, Workout tracking, Fall Detection, Swimproof\n• Connectivity: LTE (optional), Wi-Fi, Bluetooth 5.3\n• Build: Aluminum, Stainless Steel, or Titanium case options\n• Colors & Straps: Multiple finishes and interchangeable bands"
+    ],
+    "apple watch ultra 2": [
+      "Apple Watch Ultra 2 technical specifications:\n• Display: 49mm Always-On Retina OLED\n• Chip: S9 SiP\n• Sensors: ECG, Blood Oxygen, Heart Rate, GPS, Compass, Depth\n• Battery: Up to 36 hours normal, 60 hours low power\n• Features: watchOS 11, Extreme Sports metrics, Dive-ready, GPS+LTE\n• Build: Titanium case, rugged design, interchangeable bands"
+    ],
+    "garmin fenix 8 and garmin fenix 8 pro": [
+      "Compare Garmin Fenix 8 and Garmin Fenix 8 Pro:\n• Display: 1.3\" or 1.4\" sunlight-visible AMOLED\n• Battery: Up to 29 days smartwatch, 89 hours GPS\n• Sensors: Multi-band GNSS, Heart Rate, Pulse Ox, Altimeter, Barometer, Compass\n• Features: Triathlon metrics, Advanced Training, Maps (Pro version), Music, Garmin Pay\n• Build: Durable fiber-reinforced polymer with stainless steel or titanium bezel"
+    ],
+    "coros apex 2 pro": [
+      "Coros Apex 2 Pro specifications:\n• Display: 1.2\" AMOLED touchscreen\n• Battery: Up to 28 days smartwatch, 80 hours GPS\n• Sensors: Heart Rate, SpO2, GPS, Barometer, Compass\n• Features: Advanced running dynamics, Triathlon mode, Recovery advisor, Music storage\n• Build: Lightweight titanium bezel, rugged sport design"
+    ],
+    "coros vertix 2": [
+      "Coros Vertix 2 specs and battery life:\n• Display: 1.4\" AMOLED touchscreen\n• Battery: Up to 60 days smartwatch, 140 hours GPS\n• Sensors: Heart Rate, SpO2, GPS, Barometer, Compass\n• Features: Extreme endurance metrics, Multi-sport modes, Offline maps\n• Build: Titanium frame, sapphire glass, ultra-durable design"
+    ],
+    "dell xps 15": [
+      "Dell XPS 15 hardware specifications:\n• Display: 15.6\" OLED or FHD+ touchscreen\n• CPU: Intel Core i7/i9 13th Gen\n• GPU: NVIDIA RTX 4050/4060\n• Memory: 16–64 GB RAM\n• Storage: 512 GB – 4 TB SSD\n• Ports: Thunderbolt 4, USB-C, SD card, HDMI 2.0\n• Battery: Up to 12 hours\n• Build: Aluminum chassis, premium carbon fiber palm rest"
+    ],
+    "dji mini 4 pro": [
+      "DJI Mini 4 Pro drone specifications:\n• Camera: 1/1.3\" CMOS, 48MP, 4K/60fps video\n• Flight Time: Up to 34 minutes\n• Sensors: GPS, Obstacle Avoidance, Vision Sensors\n• Features: ActiveTrack, QuickShots, FocusTrack\n• Weight: <249g, portable and foldable design"
+    ],
+    "garmin epix pro gen 2": [
+      "Garmin Epix Pro Gen 2 display and battery specs:\n• Display: 1.3\" AMOLED touchscreen\n• Battery: Up to 16 days smartwatch, 42 hours GPS\n• Sensors: Multi-band GNSS, Heart Rate, Pulse Ox, Altimeter, Compass\n• Features: Triathlon metrics, Maps, Music, Garmin Pay\n• Build: Fiber-reinforced polymer with stainless steel or titanium bezel"
+    ],
+    "garmin fenix 7": [
+      "Garmin Fenix 7 battery life and display specs:\n• Display: 1.3\" sunlight-visible transflective\n• Battery: Up to 18 days smartwatch, 57 hours GPS\n• Sensors: Multi-band GNSS, Heart Rate, Pulse Ox, Altimeter, Compass\n• Features: Training metrics, Maps, Music, Garmin Pay\n• Build: Durable polymer with stainless steel bezel"
+    ],
+    "garmin instinct 2x solar": [
+      "Garmin Instinct 2X Solar specifications:\n• Display: 1.4\" sunlight-visible\n• Battery: Up to 28 days smartwatch, solar charging extends battery life\n• Sensors: GPS, Heart Rate, Pulse Ox, Altimeter, Barometer, Compass\n• Features: Multi-sport modes, Training, Recovery, Solar-powered\n• Build: Rugged fiber-reinforced polymer, military standard durability"
+    ],
+    "google pixel 8 pro": [
+      "Google Pixel 8 Pro technical specifications:\n• Display: 6.7\" LTPO OLED, 120Hz\n• CPU: Google Tensor G3\n• Camera: 50MP wide, 48MP telephoto, 48MP ultrawide\n• Battery: 5000 mAh, fast charging\n• OS: Android 15\n• Features: Face unlock, AI features, Google Assistant\n• Build: Aluminum frame, Gorilla Glass Victus, IP68 water resistance"
+    ],
+    "google pixel watch 2": [
+      "Google Pixel Watch 2 hardware specs:\n• Display: 1.36\" AMOLED, touchscreen\n• Battery: Up to 24 hours\n• Sensors: Heart Rate, ECG, SpO2, GPS\n• Features: Wear OS 4, Google Assistant, Fitness tracking, NFC payments\n• Build: Stainless steel case, multiple straps available"
+    ],
+    "gopro hero 12 black": [
+      "GoPro Hero 12 Black camera specs:\n• Camera: 27MP, 5.3K/60fps video, 4K/120fps slow motion\n• Battery: Rechargeable, 1720 mAh, up to 90 min recording\n• Features: HyperSmooth stabilization, Waterproof to 10m, TimeWarp, Live streaming\n• Connectivity: Wi-Fi, Bluetooth\n• Build: Rugged, compact design"
+    ],
+    "iphone 17 pro max": [
+      "Apple iPhone 17 Pro Max full specifications:\n• Display: 6.7\" ProMotion OLED, 120Hz\n• Chip: A19 Bionic\n• Camera: 48MP main + periscope telephoto + ultrawide\n• Battery: 28–30 hours video playback\n• Features: iOS 20, USB-C, Satellite messaging 2, Face ID\n• Build: Ceramic Shield front, stainless steel frame, IP68 water resistance"
+    ],
+    "lenovo thinkpad x1 carbon gen 11": [
+      "Lenovo ThinkPad X1 Carbon Gen 11 specs:\n• Display: 14\" UHD+ or FHD+ IPS\n• CPU: Intel Core i7/i9 13th Gen\n• Memory: 16–32 GB RAM\n• Storage: 512 GB – 2 TB SSD\n• Battery: Up to 15 hours\n• Ports: Thunderbolt 4, USB-A, HDMI, Audio jack\n• Build: Carbon fiber reinforced chassis, lightweight business laptop"
+    ],
+    "polar vantage v3": [
+      "Polar Vantage V3 features and sencors:\n• Display: 1.2\" color touchscreen\n• Battery: Up to 40 hours GPS, 7 days smartwatch mode\n• Sensors: Heart Rate, GPS, SpO2, Barometer, Accelerometer\n• Features: Running dynamics, Recovery metrics, Multi-sport tracking\n• Build: Lightweight aluminum frame, durable sport design"
+    ],
+    "samsung galaxy s24 ultra": [
+      "Samsung Galaxy S24 Ultra hardware specs:\n• Display: 6.8\" Dynamic AMOLED 2X, 120Hz\n• CPU: Snapdragon 8 Gen 3 / Exynos 2400\n• Camera: 200MP wide, 12MP ultrawide, 10MP periscope telephoto\n• Battery: 5000 mAh, fast charging\n• Features: Android 15, S Pen support, 8K video, IP68\n• Build: Armor aluminum frame, Gorilla Glass Victus 3"
+    ],
+    "samsung galaxy watch 5": [
+      "Samsung Galaxy Watch 5 battery and sensors:\n• Display: 1.4\" Super AMOLED\n• Battery: 410 mAh, up to 50 hours\n• Sensors: Heart Rate, SpO2, ECG, BioActive Sensor\n• Features: Wear OS, Fitness tracking, Sleep tracking, NFC payments\n• Build: Aluminum case, multiple straps available"
+    ],
+    "samsung galaxy watch 6 pro": [
+      "Samsung Galaxy Watch 6 Pro specifications:\n• Display: 1.5\" Super AMOLED, 60Hz\n• Battery: 590 mAh, up to 80 hours\n• Sensors: Heart Rate, ECG, SpO2, GPS\n• Features: Wear OS 4, Advanced fitness tracking, NFC, GPS navigation\n• Build: Titanium case, rugged design, premium strap options"
+    ],
+    "suunto 9 peak pro": [
+      "Suunto 9 Peak Pro technical details:\n• Display: 1.2\" AMOLED touchscreen\n• Battery: Up to 170 hours GPS, 14 days smartwatch\n• Sensors: Heart Rate, GPS, Altimeter, Barometer, Compass\n• Features: Multi-sport tracking, Sleep & recovery, Weather functions\n• Build: Stainless steel or titanium bezel, durable sport design"
+    ],
+    "suunto vertical solar": [
+      "Suunto Vertical Solar specifications:\n• Display: 1.3\" AMOLED touchscreen\n• Battery: Up to 21 days smartwatch, solar charging extends battery\n• Sensors: Heart Rate, GPS, Barometer, Compass\n• Features: Multi-sport modes, Navigation, Recovery advisor\n• Build: Lightweight aluminum case, rugged design"
+    ],
+    "default": [
+      "You can check official product specifications for detailed hardware, software, and performance data."
+    ]
+  },
+  "local_information": {
+    "halibut_spots_alameda": [
+      "The Alameda Rock Wall stands out as a prime early-season spot with sandy bottoms ideal for halibut ambush."
+    ],
+    "halibut_spots_general": [
+      "Homer claims the title of 'Halibut Capital of the World' due to landing more halibut than any other port over recent years, offering catches from Kachemak Bay to deep-water giants over 400 pounds. "
+    ],
+    "striped_bass_spots_bay": [
+      "The south tower is a common Striped Bass spot, as well as rocky structures off Alcatraz and Treasure Islands."
+    ]
+  },
+  "sport_info": {
+    "olympic_hockey": [
+      "The United States and Canada played in the men's Olympic hockey final at the 2026 Milano Cortina Winter Olympics. The U.S. defeated Canada 2-1 in overtime on February 22, 2026, to win their first gold medal since 1980. Key players included Jack Hughes (USA) who scored the winning goal, and standout goaltenders Connor Hellebuyck (USA) and Jordan Binnington (CAN)."
+    ],
+    "world_cup_98": [
+      "France won the 1998 FIFA World Cup, defeating Brazil 3-0 in the final on July 12, 1998, at the Stade de France in Saint-Denis. This was France's first World Cup title, secured by two goals from Zinedine Zidane and one from Emmanuel Petit."
+    ],
+    "best_chess_player": [
+      "Magnus Carlsen is widely recognized as the best chess player in the world, maintaining his position as the top-rated player for over a decade. A five-time World Champion and dominant force in classical, rapid, and blitz formats, he holds the highest peak rating in history (2882)."
+    ]
+  }
+}

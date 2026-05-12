@@ -1,0 +1,22 @@
+{
+  "attention": {
+    "sentence": "Sun rises over small quiet town.",
+    "focus_word": "Sun",
+    "similarity_scores": {
+      "Sun": 0.15,
+      "rises": 0.88,
+      "over": 0.1,
+      "small": 0.6,
+      "quiet": 0.65,
+      "town.": 0.55
+    },
+    "attention_weights": {
+      "Sun": 0.05,
+      "rises": 0.31,
+      "over": 0.03,
+      "small": 0.2,
+      "quiet": 0.22,
+      "town.": 0.19
+    }
+  }
+}

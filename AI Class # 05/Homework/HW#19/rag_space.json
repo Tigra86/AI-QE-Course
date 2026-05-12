@@ -1,0 +1,10 @@
+{
+  "category": "Space Exploration",
+  "keywords": ["NASA", "Mars", "Rockets", "Exoplanets"],
+  "sources": [
+    "https://www.nasa.gov/missions",
+    "https://www.spacex.com",
+    "https://esa.int/Science_Exploration/Space_Science"
+  ],
+  "summary": "Space exploration involves the use of astronomy and space technology to explore outer space, including the study of celestial bodies and the search for extraterrestrial life."
+}

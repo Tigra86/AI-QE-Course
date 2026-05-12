@@ -1,0 +1,33 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5.2
+model_context_window / token_budget: 128000
+input_tokens: 17
+output_tokens: 288
+total_tokens / billed_tokens: 305
+remaining_tokens / not_billed_tokens: 127695 (128000 - 305)
+available_for_output_at_start: 127983
+limit_reason: none
+completion_status: completed
+truncated: False
+
+=== PROMPT ===
+What happens when a model reaches its max_output_tokens?
+
+=== RAW OUTPUT ===
+When a model reaches its `max_output_tokens` limit, it **stops generating immediately**, even if it was mid-sentence or mid-JSON.
+
+What you typically observe:
+
+- **Output is cut off (truncated):** The response may end abruptly.
+- **Finish reason indicates a length stop:** Many APIs return something like `finish_reason: "length"` (or equivalent) to signal it stopped due to the token cap rather than “naturally” finishing.
+- **No further tokens are produced:** The model won’t “continue” unless you make another request (e.g., asking it to continue, ideally providing the partial output as context).
+- **Structured outputs may become invalid:** If you expect valid JSON/XML/code, it may be incomplete (missing closing braces, etc.).
+
+How to handle it:
+
+- **Increase `max_output_tokens`** if you can.
+- **Ask for shorter output** (summaries, fewer items, tighter formatting).
+- **Chunk the task** (request part 1/part 2, paginate, or ask for an outline then expand sections).
+- **For structured data:** ask the model to be concise and/or to emit JSON in smaller pieces, or use schema/constrained decoding if available.
+
+If you tell me which API/provider you’re using, I can point to the exact field names you’ll see in the response (e.g., `finish_reason`).

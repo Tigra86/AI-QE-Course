@@ -1,0 +1,62 @@
+{
+  "Instruction Prompt": {
+    "id": "P001",
+    "text": "Answer concisely in one sentence: Why do leaves change color in the autumn?"
+  },
+  "Contextual Prompt": {
+    "id": "P002",
+    "text": "Background: You are a historian specializing in the Age of Discovery. Question: What was the primary motivation for the 1492 voyage of Christopher Columbus?"
+  },
+  "Few-Shot Prompt": {
+    "id": "P003",
+    "text": "Q: What is the largest planet in our solar system?\nA: Jupiter\n\nQ: What is the planet closest to the Sun?\nA:"
+  },
+  "Constraint-Based Prompt": {
+    "id": "P004",
+    "text": "Do not use the letter 'e' in your response. Answer this: What is the opposite of 'hot'?"
+  },
+  "Role Prompt": {
+    "id": "P005",
+    "text": "Act as a grumpy 17th-century pirate. Explain how a magnetic compass works."
+  },
+  "Zero-Shot Prompt": {
+    "id": "P006",
+    "text": "How many states are in the United States of America currently?"
+  },
+  "Reasoning Prompt": {
+    "id": "P007",
+    "text": "If I have three apples and you take away two, how many apples do I have left? Explain your reasoning step by step."
+  },
+  "Retrieval-Augmented Prompt": {
+    "id": "P008",
+    "text": "Use ONLY the information below.\nDocument:\nThe rare Blue Moon Snail lives in the depths of the Indian Ocean.\nIt feeds exclusively on glowing plankton.\n\nQuestion: What does the Blue Moon Snail eat?"
+  },
+  "Delimited Prompt": {
+    "id": "P009",
+    "text": "Summarize the text inside the markers shown below.\n---\nQuantum entanglement is a physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity in a way such that the quantum state of each particle cannot be described independently of the state of the others.\n---"
+  },
+  "Reflection Prompt": {
+    "id": "P010",
+    "text": "What is the square root of 144?\nNow review your answer, double-check the math, and confirm if it is correct."
+  },
+  "Output-Schema Prompt": {
+    "id": "P011",
+    "text": "Respond ONLY in valid JSON:\n{\n  \"animal\": \"name of a mammal\",\n  \"habitat\": \"where it lives\",\n  \"is_endangered\": boolean\n}"
+  },
+  "Calibration Prompt": {
+    "id": "P012",
+    "text": "If you're not 100% sure about the exact date, say 'I am uncertain'. When exactly was the first steam engine patented?"
+  },
+  "Multi-Modal Prompt": {
+    "id": "P013",
+    "text": "Identify the object in this description: It is a tall, metal structure in Paris, built for the 1889 World's Fair."
+  },
+  "Meta Prompt": {
+    "id": "P014",
+    "text": "Rewrite this prompt to be more effective for a creative writer: 'write a short story about a dog'"
+  },
+  "Tool-Calling Prompt": {
+    "id": "P015",
+    "text": "What is the current weather in Tokyo? (If you cannot access live tools, please explain how you would find this information)."
+  }
+}

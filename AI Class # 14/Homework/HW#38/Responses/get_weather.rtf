@@ -1,0 +1,288 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fswiss\fcharset0 Helvetica;\f2\fnil\fcharset0 Menlo-Regular;
+\f3\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red242\green242\blue242;\red0\green0\blue0;
+\red255\green255\blue255;\red0\green0\blue0;\red144\green1\blue18;\red9\green60\blue148;\red19\green118\blue70;
+}
+{\*\expandedcolortbl;;\csgray\c0;\csgray\c95825;\csgray\c0\c80000;
+\cssrgb\c100000\c100000\c100000;\cssrgb\c0\c0\c0;\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;
+}
+\margl1440\margr1440\vieww38200\viewh19620\viewkind0
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1. Manually\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1\b0 \cf0 San Francisco \'96 59 F\
+Los Angeles \'96 72 F\
+San Diego \'96 67 F\
+\
+
+\f0\b 2. Python\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\b0\fs22 \cf2 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python temp_tool.py "San Francisco, CA" -F \
+"output": "\{\\"temperature\\": 58.6, \\"unit\\": \\"F\\"\}"\
+Mac\'96mini:HW#38 Tigra$ python temp_tool.py "Los Angeles, CA" -F\
+"output": "\{\\"temperature\\": 75.9, \\"unit\\": \\"F\\"\}"\
+Mac\'96mini:HW#38 Tigra$ python temp_tool.py "San Diego, CA" -F \
+"output": "\{\\"temperature\\": 69.2, \\"unit\\": \\"F\\"\}"\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f3\fs20 \cf3 \cb4 \
+
+\f0\b\fs24 \cf0 \cb1 \CocoaLigature1 3. Postman\
+\pard\pardeftab720\partightenfactor0
+
+\f3\b0 \cf0 \cb5 \expnd0\expndtw0\kerning0
+\{\cb1 \
+\cb5     \cf7 "id"\cf0 : \cf8 "resp_0c04b3786cc16fea0069ebd370a98481968e16aafb7edef1cd"\cf0 ,\cb1 \
+\cb5     \cf7 "object"\cf0 : \cf8 "response"\cf0 ,\cb1 \
+\cb5     \cf7 "created_at"\cf0 : \cf9 1777062768\cf0 ,\cb1 \
+\cb5     \cf7 "status"\cf0 : \cf8 "completed"\cf0 ,\cb1 \
+\cb5     \cf7 "background"\cf0 : \cf8 false\cf0 ,\cb1 \
+\cb5     \cf7 "billing"\cf0 : \{\cb1 \
+\cb5         \cf7 "payer"\cf0 : \cf8 "developer"\cf0 \cb1 \
+\cb5     \},\cb1 \
+\cb5     \cf7 "completed_at"\cf0 : \cf9 1777062769\cf0 ,\cb1 \
+\cb5     \cf7 "error"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "frequency_penalty"\cf0 : \cf9 0.0\cf0 ,\cb1 \
+\cb5     \cf7 "incomplete_details"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "instructions"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "max_output_tokens"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "max_tool_calls"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "model"\cf0 : \cf8 "gpt-5.2-2025-12-11"\cf0 ,\cb1 \
+\cb5     \cf7 "moderation"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "output"\cf0 : [\cb1 \
+\cb5         \{\cb1 \
+\cb5             \cf7 "id"\cf0 : \cf8 "msg_0c04b3786cc16fea0069ebd371339c81969d818d90351e05e6"\cf0 ,\cb1 \
+\cb5             \cf7 "type"\cf0 : \cf8 "message"\cf0 ,\cb1 \
+\cb5             \cf7 "status"\cf0 : \cf8 "completed"\cf0 ,\cb1 \
+\cb5             \cf7 "content"\cf0 : [\cb1 \
+\cb5                 \{\cb1 \
+\cb5                     \cf7 "type"\cf0 : \cf8 "output_text"\cf0 ,\cb1 \
+\cb5                     \cf7 "annotations"\cf0 : [],\cb1 \
+\cb5                     \cf7 "logprobs"\cf0 : [],\cb1 \
+\cb5                     \cf7 "text"\cf0 : \cf8 "The current temperature in San Francisco is **10.4\uc0\u8239 \'b0C**."\cf0 \cb1 \
+\cb5                 \}\cb1 \
+\cb5             ],\cb1 \
+\cb5             \cf7 "role"\cf0 : \cf8 "assistant"\cf0 \cb1 \
+\cb5         \}\cb1 \
+\cb5     ],\cb1 \
+\cb5     \cf7 "parallel_tool_calls"\cf0 : \cf8 true\cf0 ,\cb1 \
+\cb5     \cf7 "presence_penalty"\cf0 : \cf9 0.0\cf0 ,\cb1 \
+\cb5     \cf7 "previous_response_id"\cf0 : \cf8 "resp_0c04b3786cc16fea0069ebd362a8b88196907fbfaaa36c5a37"\cf0 ,\cb1 \
+\cb5     \cf7 "prompt_cache_key"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "prompt_cache_retention"\cf0 : \cf8 "in_memory"\cf0 ,\cb1 \
+\cb5     \cf7 "reasoning"\cf0 : \{\cb1 \
+\cb5         \cf7 "effort"\cf0 : \cf8 "none"\cf0 ,\cb1 \
+\cb5         \cf7 "summary"\cf0 : \cf8 null\cf0 \cb1 \
+\cb5     \},\cb1 \
+\cb5     \cf7 "safety_identifier"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "service_tier"\cf0 : \cf8 "default"\cf0 ,\cb1 \
+\cb5     \cf7 "store"\cf0 : \cf8 true\cf0 ,\cb1 \
+\cb5     \cf7 "temperature"\cf0 : \cf9 1.0\cf0 ,\cb1 \
+\cb5     \cf7 "text"\cf0 : \{\cb1 \
+\cb5         \cf7 "format"\cf0 : \{\cb1 \
+\cb5             \cf7 "type"\cf0 : \cf8 "text"\cf0 \cb1 \
+\cb5         \},\cb1 \
+\cb5         \cf7 "verbosity"\cf0 : \cf8 "medium"\cf0 \cb1 \
+\cb5     \},\cb1 \
+\cb5     \cf7 "tool_choice"\cf0 : \cf8 "auto"\cf0 ,\cb1 \
+\cb5     \cf7 "tools"\cf0 : [],\cb1 \
+\cb5     \cf7 "top_logprobs"\cf0 : \cf9 0\cf0 ,\cb1 \
+\cb5     \cf7 "top_p"\cf0 : \cf9 0.98\cf0 ,\cb1 \
+\cb5     \cf7 "truncation"\cf0 : \cf8 "disabled"\cf0 ,\cb1 \
+\cb5     \cf7 "usage"\cf0 : \{\cb1 \
+\cb5         \cf7 "input_tokens"\cf0 : \cf9 74\cf0 ,\cb1 \
+\cb5         \cf7 "input_tokens_details"\cf0 : \{\cb1 \
+\cb5             \cf7 "cached_tokens"\cf0 : \cf9 0\cf0 \cb1 \
+\cb5         \},\cb1 \
+\cb5         \cf7 "output_tokens"\cf0 : \cf9 19\cf0 ,\cb1 \
+\cb5         \cf7 "output_tokens_details"\cf0 : \{\cb1 \
+\cb5             \cf7 "reasoning_tokens"\cf0 : \cf9 0\cf0 \cb1 \
+\cb5         \},\cb1 \
+\cb5         \cf7 "total_tokens"\cf0 : \cf9 93\cf0 \cb1 \
+\cb5     \},\cb1 \
+\cb5     \cf7 "user"\cf0 : \cf8 null\cf0 ,\cb1 \
+\cb5     \cf7 "metadata"\cf0 : \{\}\cb1 \
+\cb5 \}\cb1 \
+\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 4. End to end\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f2\b0\fs22 \cf2 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python openai_get_weather_tool.py "What is the current temperature in San Francisco?" -F\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_get_weather_tool.py:20: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-24T20:48:12.869273] USER QUESTION\
+============================================================\
+\
+"What is the current temperature in San Francisco in Fahrenheit?"\
+\
+============================================================\
+[2026-04-24T20:48:12.869663] REQUEST STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "input": "What is the current temperature in San Francisco in Fahrenheit?",\
+  "tool_choice": "required",\
+  "tools": [\
+    \{\
+      "type": "function",\
+      "name": "get_weather",\
+      "description": "Get current temperature for a city",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "city": \{\
+            "type": "string"\
+          \},\
+          "unit": \{\
+            "type": "string"\
+          \}\
+        \},\
+        "required": [\
+          "city",\
+          "unit"\
+        ],\
+        "additionalProperties": false\
+      \}\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_get_weather_tool.py:20: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-24T20:48:16.343933] RESPONSE STEP 1 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_0fd32d3b38c5d20b0069ebd70da7e88196803dfd981d849614",\
+  "status": "completed",\
+  "model": "gpt-5.2-2025-12-11",\
+  "output": [\
+    \{\
+      "arguments": "\{\\"city\\":\\"San Francisco\\",\\"unit\\":\\"F\\"\}",\
+      "call_id": "call_2NWrMsiypFmQxOSYHhWlvGAC",\
+      "name": "get_weather",\
+      "type": "function_call",\
+      "id": "fc_0fd32d3b38c5d20b0069ebd70e30a88196a0439a811b364346",\
+      "namespace": null,\
+      "status": "completed"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:16.343998] TOOL CALL DETECTED\
+============================================================\
+\
+\{\
+  "tool_name": "get_weather",\
+  "arguments": \{\
+    "city": "San Francisco",\
+    "unit": "F"\
+  \},\
+  "call_id": "call_2NWrMsiypFmQxOSYHhWlvGAC",\
+  "previous_response_id": "resp_0fd32d3b38c5d20b0069ebd70da7e88196803dfd981d849614"\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:17.349255] GEOCODING REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://nominatim.openstreetmap.org/search",\
+  "params": \{\
+    "q": "San Francisco",\
+    "format": "json",\
+    "limit": 1\
+  \}\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:17.461525] GEOCODING RESPONSE\
+============================================================\
+\
+\{\
+  "lat": 37.7879363,\
+  "lon": -122.4075201\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:17.462527] WEATHER API REQUEST\
+============================================================\
+\
+\{\
+  "url": "https://api.open-meteo.com/v1/forecast?latitude=37.7879363&longitude=-122.4075201&current_weather=true&temperature_unit=fahrenheit"\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:18.112501] WEATHER API RESPONSE\
+============================================================\
+\
+\{\
+  "temperature": 58.2,\
+  "unit": "F"\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:18.114794] TOOL RESULT (LOCAL EXECUTION)\
+============================================================\
+\
+\{\
+  "temperature": 58.2,\
+  "unit": "F"\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:18.114903] REQUEST STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "model": "gpt-5.2",\
+  "previous_response_id": "resp_0fd32d3b38c5d20b0069ebd70da7e88196803dfd981d849614",\
+  "input": [\
+    \{\
+      "type": "function_call_output",\
+      "call_id": "call_2NWrMsiypFmQxOSYHhWlvGAC",\
+      "output": "\{\\"temperature\\": 58.2, \\"unit\\": \\"F\\"\}"\
+    \}\
+  ]\
+\}\
+\
+============================================================\
+[2026-04-24T20:48:19.804937] RESPONSE STEP 2 (OPENAI)\
+============================================================\
+\
+\{\
+  "response_id": "resp_0fd32d3b38c5d20b0069ebd712a0788196a23d2913855a519d",\
+  "status": "completed",\
+  "output": [\
+    \{\
+      "id": "msg_0fd32d3b38c5d20b0069ebd7134bf481969e23f39f93953c75",\
+      "content": [\
+        \{\
+          "annotations": [],\
+          "text": "The current temperature in San Francisco is **58.2\\u00b0F**.",\
+          "type": "output_text",\
+          "logprobs": []\
+        \}\
+      ],\
+      "role": "assistant",\
+      "status": "completed",\
+      "type": "message",\
+      "phase": null\
+    \}\
+  ]\
+\}\
+\
+FINAL ANSWER:\
+The current temperature in San Francisco is **58.2\'b0F**.\
+}

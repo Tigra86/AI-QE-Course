@@ -1,0 +1,25 @@
+{
+    "sentence": "The laptop David ordered online arrived completely broken.",
+    "focus_word": "completely",
+    "raw_scores": {
+        "the": -0.0159,
+        "laptop": 0.0867,
+        "david": 0.2511,
+        "ordered": 0.127,
+        "online": -0.0459,
+        "arrived": -0.8051,
+        "completely": 0.25,
+        "broken": 0.0583
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "laptop": 0.1393,
+        "david": 0.0571,
+        "ordered": 0.145,
+        "online": 0.122,
+        "arrived": 0.1642,
+        "completely": 0.1569,
+        "broken": 0.1354
+    },
+    "softmax_sum": 1.0
+}

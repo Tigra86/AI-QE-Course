@@ -1,0 +1,15 @@
+OPTIMIZATION LOG: Medical_Diagnosis
+========================================
+Step  0 | Loss: 1.0986 | Probs: [FLU: 0.333, COVID: 0.333, COLD: 0.333]
+Step  1 | Loss: 1.0298 | Probs: [FLU: 0.379, COVID: 0.310, COLD: 0.310]
+Step  2 | Loss: 0.9704 | Probs: [FLU: 0.427, COVID: 0.286, COLD: 0.286]
+Step  3 | Loss: 0.9208 | Probs: [FLU: 0.477, COVID: 0.262, COLD: 0.262]
+Step  4 | Loss: 0.8811 | Probs: [FLU: 0.527, COVID: 0.237, COLD: 0.237]
+Step  5 | Loss: 0.8514 | Probs: [FLU: 0.576, COVID: 0.212, COLD: 0.212]
+Step  6 | Loss: 0.8315 | Probs: [FLU: 0.624, COVID: 0.188, COLD: 0.188]
+Step  7 | Loss: 0.8168 | Probs: [FLU: 0.646, COVID: 0.195, COLD: 0.159]
+Step  8 | Loss: 0.8075 | Probs: [FLU: 0.665, COVID: 0.200, COLD: 0.134]
+Step  9 | Loss: 0.8049 | Probs: [FLU: 0.708, COVID: 0.175, COLD: 0.117]
+Step 10 | Loss: 0.8029 | Probs: [FLU: 0.682, COVID: 0.205, COLD: 0.113]
+
+Final Prediction: FLU

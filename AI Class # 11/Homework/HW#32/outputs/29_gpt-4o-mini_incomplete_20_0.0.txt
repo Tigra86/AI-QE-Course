@@ -1,0 +1,19 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4o-mini
+model_context_window / token_budget: 8192
+input_tokens: 20
+output_tokens: 20
+total_tokens / billed_tokens: 40
+remaining_tokens / not_billed_tokens: 8152 (8192 - 40)
+available_for_output_at_start: 8172
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+List the top 5 benefits of using small LLM models.
+
+=== RAW OUTPUT ===
+Here are the top five benefits of using small LLM (Large Language Model) models:
+
+1.

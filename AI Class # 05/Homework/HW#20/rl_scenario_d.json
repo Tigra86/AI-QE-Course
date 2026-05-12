@@ -1,0 +1,8 @@
+{
+  "scenario": "D",
+  "user_message": "I'm having trouble logging in, I keep getting an error message.",
+  "chatbot_response": "Can you tell me more about the error message you are seeing, and what steps you've already tried?",
+  "action": "request_for_clarification_and_additional_details",
+  "reward": 1.0,
+  "reason": "The chatbot appropriately asked for more information to diagnose the user's login issue, showing an attempt to help rather than giving a generic answer."
+}

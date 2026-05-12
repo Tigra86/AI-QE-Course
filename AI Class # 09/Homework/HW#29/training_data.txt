@@ -1,0 +1,41 @@
+BILLING|I was billed twice for my subscription
+BILLING|Why is there a double charge on my card?
+BILLING|I need a refund for an incorrect payment
+BILLING|Where is my invoice for this month?
+BILLING|Money was taken from my account incorrectly
+BILLING|У меня списали деньги дважды за месяц
+BILLING|Мне нужен возврат средств за оплату
+BILLING|Почему мой платеж не прошел?
+BILLING|Я хочу изменить данные моей кредитной карты
+BILLING|Payment failed but the money is gone
+
+TECH_SUPPORT|The application keeps crashing on my computer
+TECH_SUPPORT|The website is not loading and shows an error
+TECH_SUPPORT|I cannot log in to the system
+TECH_SUPPORT|The app screen is black and frozen
+TECH_SUPPORT|There is a bug in the latest update
+TECH_SUPPORT|Приложение постоянно вылетает и не работает
+TECH_SUPPORT|Сайт выдает ошибку при входе
+TECH_SUPPORT|У меня не открывается главная страница
+TECH_SUPPORT|Система тормозит и зависает
+TECH_SUPPORT|Technical issue with the mobile interface
+
+ACCOUNT|How do I reset my account password?
+ACCOUNT|I want to delete my profile and all data
+ACCOUNT|Please update my email address in the settings
+ACCOUNT|I forgot my login credentials for the account
+ACCOUNT|How can I close my account permanently?
+ACCOUNT|Как мне сбросить пароль от аккаунта?
+ACCOUNT|Я хочу удалить свой профиль навсегда
+ACCOUNT|Измените мой адрес электронной почты
+ACCOUNT|Я не могу зайти в свой личный кабинет
+ACCOUNT|Where are my account security settings?
+
+SECURITY|Someone else logged into my account
+SECURITY|I received a suspicious login alert
+SECURITY|How do I enable two-factor authentication?
+SECURITY|My account has been hacked or compromised
+SECURITY|Я заметил подозрительную активность в аккаунте
+SECURITY|Как включить двухфакторную аутентификацию?
+SECURITY|Кто-то сменил мой пароль без разрешения
+SECURITY|Protect my account from unauthorized access

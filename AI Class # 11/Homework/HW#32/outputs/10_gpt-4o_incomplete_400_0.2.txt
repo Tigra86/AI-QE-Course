@@ -1,0 +1,40 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4o
+model_context_window / token_budget: 128000
+input_tokens: 18
+output_tokens: 400
+total_tokens / billed_tokens: 418
+remaining_tokens / not_billed_tokens: 127582 (128000 - 418)
+available_for_output_at_start: 127982
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Describe the process of tokenization from start to finish.
+
+=== RAW OUTPUT ===
+Tokenization is the process of converting a piece of text into smaller units called tokens. These tokens can be words, phrases, or even characters, depending on the application. Here's a step-by-step overview of the tokenization process:
+
+1. **Input Text**: 
+   - Begin with a block of text that you want to tokenize. This could be a sentence, paragraph, or entire document.
+
+2. **Preprocessing**:
+   - **Normalization**: Convert the text to a consistent format, such as lowercasing all letters to ensure uniformity.
+   - **Cleaning**: Remove unwanted characters, such as punctuation, special symbols, or numbers, if they are not needed for your analysis.
+
+3. **Tokenization**:
+   - **Word Tokenization**: Split the text into individual words. This is the most common form of tokenization and can be done using spaces and punctuation as delimiters.
+   - **Subword Tokenization**: Break words into smaller units, such as prefixes, suffixes, or even characters. This is useful for handling unknown words or languages with complex morphology.
+   - **Sentence Tokenization**: Divide the text into sentences. This is often a preliminary step before word tokenization.
+
+4. **Handling Edge Cases**:
+   - Address contractions (e.g., "don't" to "do" and "not") and compound words.
+   - Manage special cases like hyphenated words or abbreviations.
+
+5. **Post-processing**:
+   - **Stemming**: Reduce words to their base or root form (e.g., "running" to "run").
+   - **Lemmatization**: Similar to stemming, but more sophisticated, reducing words to their dictionary form (e.g., "better" to "good").
+
+6. **Output Tokens**:
+   - The final output is a list or array of tokens that can be used for further processing, such as analysis, modeling, or natural language processing tasks.

@@ -1,0 +1,16 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-5-nano
+model_context_window / token_budget: 8192
+input_tokens: 15
+output_tokens: 192
+total_tokens / billed_tokens: 207
+remaining_tokens / not_billed_tokens: 7985 (8192 - 207)
+available_for_output_at_start: 8177
+limit_reason: none
+completion_status: None
+truncated: True
+
+=== PROMPT ===
+Explain the difference between input and output tokens.
+
+=== RAW OUTPUT ===

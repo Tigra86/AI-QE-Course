@@ -1,0 +1,629 @@
+{\rtf1\ansi\ansicpg1252\cocoartf2868
+\cocoatextscaling0\cocoaplatform0{\fonttbl\f0\fswiss\fcharset0 Helvetica-Bold;\f1\fnil\fcharset0 Calibri;\f2\froman\fcharset0 TimesNewRomanPSMT;
+\f3\fmodern\fcharset0 Courier;\f4\fmodern\fcharset0 CourierNewPS-BoldMT;\f5\fmodern\fcharset0 CourierNewPSMT;
+\f6\fnil\fcharset0 Menlo-Regular;\f7\fnil\fcharset0 Monaco;}
+{\colortbl;\red255\green255\blue255;\red109\green109\blue109;\red0\green0\blue0;\red1\green21\blue77;
+\red91\green26\blue142;\red176\green0\blue4;\red22\green165\blue63;\red0\green0\blue0;\red255\green255\blue255;
+\red144\green1\blue18;\red9\green60\blue148;\red19\green118\blue70;}
+{\*\expandedcolortbl;;\cssrgb\c50196\c50196\c50196;\cssrgb\c0\c0\c0;\cssrgb\c0\c12549\c37647;
+\cssrgb\c43922\c18824\c62745;\cssrgb\c75294\c0\c0;\cssrgb\c0\c69020\c31373;\csgray\c0;\cssrgb\c100000\c100000\c100000;
+\cssrgb\c63922\c8235\c8235;\cssrgb\c1569\c31765\c64706;\cssrgb\c3529\c52549\c34510;}
+\margl1440\margr1440\vieww38200\viewh19620\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 1. Manually\
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1\b0\fs32 \cf2 \expnd0\expndtw0\kerning0
+https://alex.academy/ai/score
+\f2 \cf3 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+2. Browser\
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1\b0\fs32 \cf4 \expnd0\expndtw0\kerning0
+Prompt: \cf5 "How many assignments has \cf6 Tigran\cf5  completed?"
+\f2 \cf3 \
+
+\f1 \cf4 https://alex.academy/ai/score/api.php?\cf7 action=student_search&name=\cf6 Tigran
+\f2 \cf3 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \outl0\strokewidth0 \strokec3 \{"status":"success","data":[\{"name":"Tigran Azaryan","completed":26\}]\}\
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1\fs13\fsmilli6667 \cf4 \outl0\strokewidth0 \'a0
+\f2\fs32 \cf3 \
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1 \cf4 Prompt: \cf5 "How many students do we have?"
+\f2 \cf3 \
+
+\f1 \cf4 https://alex.academy/ai/score/api.php?\cf7 action=student_count
+\f2 \cf3 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \outl0\strokewidth0 \strokec3 \{"status":"success","data":[\{"total_students":23\}]\}\
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1\fs13\fsmilli6667 \cf4 \outl0\strokewidth0 \'a0
+\f2\fs32 \cf3 \
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1 \cf4 Prompt: \cf5 "How many assignments should the students have completed?"
+\f2 \cf3 \
+
+\f1 \cf4 https://alex.academy/ai/score/api.php?\cf7 action=expected_total
+\f2 \cf3 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \outl0\strokewidth0 \strokec3 \{"status":"success","data":[\{"expected_total":897\}]\}\
+\pard\pardeftab720\partightenfactor0
+
+\f1\fs13\fsmilli6667 \cf4 \outl0\strokewidth0 \'a0
+\f2\fs32 \cf3 \
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1 \cf4 Prompt: \cf5 "Who completed all assignments?"
+\f2 \cf3 \
+
+\f1 \cf4 https://alex.academy/ai/score/api.php?\cf7 action=completed_all
+\f2 \cf3 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \outl0\strokewidth0 \strokec3 \{"status":"success","data":[\{"name":"Andrii Bondarenko"\},\{"name":"Daniiar Turgunaly"\},\{"name":"Irina Ivanushkina"\},\{"name":"Kira Nakostenko"\}]\}\
+\pard\pardeftab720\partightenfactor0
+
+\f4\b\fs13\fsmilli6667 \cf3 \outl0\strokewidth0 \'a0
+\f5\b0\fs26\fsmilli13333 \
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1\fs32 \cf4 Prompt: \cf5 "Which students have completion above the standard deviation?"
+\f2 \cf3 \
+
+\f1 \cf4 https://alex.academy/ai/score/api.php?\cf7 action=above_stddev
+\f2 \cf3 \
+\pard\pardeftab720\partightenfactor0
+
+\f3\fs26 \cf0 \outl0\strokewidth0 \strokec3 \{"status":"success","data":[\{"name":"Irina Ivanushkina","completed":39\},\{"name":"Kira Nakostenko","completed":39\},\{"name":"Andrii Bondarenko","completed":39\},\{"name":"Daniiar Turgunaly","completed":39\},\{"name":"Olga Kaplonskaia","completed":38\},\{"name":"Dima Vitko","completed":35\}]\}\
+\pard\pardeftab720\li840\fi-840\partightenfactor0
+
+\f1\fs13\fsmilli6667 \cf4 \outl0\strokewidth0 \'a0
+\f2\fs32 \cf3 \
+
+\f1\fs13\fsmilli6667 \cf4 \'a0
+\f0\b\fs24 \cf0 \kerning1\expnd0\expndtw0 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 3. Python\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f6\b0\fs22 \cf8 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python query_tool.py student_search Yuri\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "name": "Yuri Desankovs",\
+      "completed": 17\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py student_count\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "total_students": 23\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py expected_total\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "expected_total": 897\
+    \}\
+  ]\
+\} \
+Mac\'96mini:HW#38 Tigra$ python query_tool.py total_completed\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "total_completed": 487\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py completed_all\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "name": "Andrii Bondarenko"\
+    \},\
+    \{\
+      "name": "Daniiar Turgunaly"\
+    \},\
+    \{\
+      "name": "Irina Ivanushkina"\
+    \},\
+    \{\
+      "name": "Kira Nakostenko"\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py above_stddev\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "name": "Irina Ivanushkina",\
+      "completed": 39\
+    \},\
+    \{\
+      "name": "Kira Nakostenko",\
+      "completed": 39\
+    \},\
+    \{\
+      "name": "Andrii Bondarenko",\
+      "completed": 39\
+    \},\
+    \{\
+      "name": "Daniiar Turgunaly",\
+      "completed": 39\
+    \},\
+    \{\
+      "name": "Olga Kaplonskaia",\
+      "completed": 38\
+    \},\
+    \{\
+      "name": "Dima Vitko",\
+      "completed": 35\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py below_stddev\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "name": "Serhii Zabolotnyi",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Elkhan Agamirza",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Kuzma Orlov",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Anton Kazachenka",\
+      "completed": 4\
+    \},\
+    \{\
+      "name": "Nick Beyli",\
+      "completed": 6\
+    \},\
+    \{\
+      "name": "Sergei Svistelnikov",\
+      "completed": 8\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py completed_less_than 5\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "name": "Anton Kazachenka",\
+      "completed": 4\
+    \},\
+    \{\
+      "name": "Serhii Zabolotnyi",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Elkhan Agamirza",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Kuzma Orlov",\
+      "completed": 3\
+    \}\
+  ]\
+\}\
+Mac\'96mini:HW#38 Tigra$ python query_tool.py completed_under_percent 50\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "name": "Bakhtiyor Makhsimov",\
+      "completed": 18\
+    \},\
+    \{\
+      "name": "Yuri Desankovs",\
+      "completed": 17\
+    \},\
+    \{\
+      "name": "Yana Marisova",\
+      "completed": 15\
+    \},\
+    \{\
+      "name": "Nadiya Zyabirova",\
+      "completed": 13\
+    \},\
+    \{\
+      "name": "Natalia Grusetschi",\
+      "completed": 12\
+    \},\
+    \{\
+      "name": "Sergei Svistelnikov",\
+      "completed": 8\
+    \},\
+    \{\
+      "name": "Nick Beyli",\
+      "completed": 6\
+    \},\
+    \{\
+      "name": "Anton Kazachenka",\
+      "completed": 4\
+    \},\
+    \{\
+      "name": "Serhii Zabolotnyi",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Elkhan Agamirza",\
+      "completed": 3\
+    \},\
+    \{\
+      "name": "Kuzma Orlov",\
+      "completed": 3\
+    \}\
+  ]\
+\}\
+
+\f0\b\fs24 \cf0 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+\cf0 4. Postman\
+\pard\pardeftab720\partightenfactor0
+
+\f7\b0 \cf0 \cb9 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec3 \{\cb1 \
+\cb9     \cf10 \strokec10 "id"\cf0 \strokec3 : \cf11 \strokec11 "resp_0036ba9b8482cb4c0069ec336fd6b88196806610802a7051ed"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "object"\cf0 \strokec3 : \cf11 \strokec11 "response"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "created_at"\cf0 \strokec3 : \cf12 \strokec12 1777087343\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "status"\cf0 \strokec3 : \cf11 \strokec11 "completed"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "background"\cf0 \strokec3 : \cf11 \strokec11 false\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "billing"\cf0 \strokec3 : \{\cb1 \
+\cb9         \cf10 \strokec10 "payer"\cf0 \strokec3 : \cf11 \strokec11 "developer"\cf0 \cb1 \strokec3 \
+\cb9     \},\cb1 \
+\cb9     \cf10 \strokec10 "completed_at"\cf0 \strokec3 : \cf12 \strokec12 1777087344\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "error"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "frequency_penalty"\cf0 \strokec3 : \cf12 \strokec12 0.0\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "incomplete_details"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "instructions"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "max_output_tokens"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "max_tool_calls"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "model"\cf0 \strokec3 : \cf11 \strokec11 "gpt-5.2-2025-12-11"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "moderation"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "output"\cf0 \strokec3 : [\cb1 \
+\cb9         \{\cb1 \
+\cb9             \cf10 \strokec10 "id"\cf0 \strokec3 : \cf11 \strokec11 "msg_0036ba9b8482cb4c0069ec3370909c819680784115a0ccf4ce"\cf0 \strokec3 ,\cb1 \
+\cb9             \cf10 \strokec10 "type"\cf0 \strokec3 : \cf11 \strokec11 "message"\cf0 \strokec3 ,\cb1 \
+\cb9             \cf10 \strokec10 "status"\cf0 \strokec3 : \cf11 \strokec11 "completed"\cf0 \strokec3 ,\cb1 \
+\cb9             \cf10 \strokec10 "content"\cf0 \strokec3 : [\cb1 \
+\cb9                 \{\cb1 \
+\cb9                     \cf10 \strokec10 "type"\cf0 \strokec3 : \cf11 \strokec11 "output_text"\cf0 \strokec3 ,\cb1 \
+\cb9                     \cf10 \strokec10 "annotations"\cf0 \strokec3 : [],\cb1 \
+\cb9                     \cf10 \strokec10 "logprobs"\cf0 \strokec3 : [],\cb1 \
+\cb9                     \cf10 \strokec10 "text"\cf0 \strokec3 : \cf11 \strokec11 "Kira and Andrey completed all assignments."\cf0 \cb1 \strokec3 \
+\cb9                 \}\cb1 \
+\cb9             ],\cb1 \
+\cb9             \cf10 \strokec10 "role"\cf0 \strokec3 : \cf11 \strokec11 "assistant"\cf0 \cb1 \strokec3 \
+\cb9         \}\cb1 \
+\cb9     ],\cb1 \
+\cb9     \cf10 \strokec10 "parallel_tool_calls"\cf0 \strokec3 : \cf11 \strokec11 true\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "presence_penalty"\cf0 \strokec3 : \cf12 \strokec12 0.0\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "previous_response_id"\cf0 \strokec3 : \cf11 \strokec11 "resp_0036ba9b8482cb4c0069ec3366e0d88196b6aae708da5cd520"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "prompt_cache_key"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "prompt_cache_retention"\cf0 \strokec3 : \cf11 \strokec11 "in_memory"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "reasoning"\cf0 \strokec3 : \{\cb1 \
+\cb9         \cf10 \strokec10 "effort"\cf0 \strokec3 : \cf11 \strokec11 "none"\cf0 \strokec3 ,\cb1 \
+\cb9         \cf10 \strokec10 "summary"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \cb1 \strokec3 \
+\cb9     \},\cb1 \
+\cb9     \cf10 \strokec10 "safety_identifier"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "service_tier"\cf0 \strokec3 : \cf11 \strokec11 "default"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "store"\cf0 \strokec3 : \cf11 \strokec11 true\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "temperature"\cf0 \strokec3 : \cf12 \strokec12 1.0\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "text"\cf0 \strokec3 : \{\cb1 \
+\cb9         \cf10 \strokec10 "format"\cf0 \strokec3 : \{\cb1 \
+\cb9             \cf10 \strokec10 "type"\cf0 \strokec3 : \cf11 \strokec11 "text"\cf0 \cb1 \strokec3 \
+\cb9         \},\cb1 \
+\cb9         \cf10 \strokec10 "verbosity"\cf0 \strokec3 : \cf11 \strokec11 "medium"\cf0 \cb1 \strokec3 \
+\cb9     \},\cb1 \
+\cb9     \cf10 \strokec10 "tool_choice"\cf0 \strokec3 : \cf11 \strokec11 "auto"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "tools"\cf0 \strokec3 : [],\cb1 \
+\cb9     \cf10 \strokec10 "top_logprobs"\cf0 \strokec3 : \cf12 \strokec12 0\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "top_p"\cf0 \strokec3 : \cf12 \strokec12 0.98\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "truncation"\cf0 \strokec3 : \cf11 \strokec11 "disabled"\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "usage"\cf0 \strokec3 : \{\cb1 \
+\cb9         \cf10 \strokec10 "input_tokens"\cf0 \strokec3 : \cf12 \strokec12 54\cf0 \strokec3 ,\cb1 \
+\cb9         \cf10 \strokec10 "input_tokens_details"\cf0 \strokec3 : \{\cb1 \
+\cb9             \cf10 \strokec10 "cached_tokens"\cf0 \strokec3 : \cf12 \strokec12 0\cf0 \cb1 \strokec3 \
+\cb9         \},\cb1 \
+\cb9         \cf10 \strokec10 "output_tokens"\cf0 \strokec3 : \cf12 \strokec12 13\cf0 \strokec3 ,\cb1 \
+\cb9         \cf10 \strokec10 "output_tokens_details"\cf0 \strokec3 : \{\cb1 \
+\cb9             \cf10 \strokec10 "reasoning_tokens"\cf0 \strokec3 : \cf12 \strokec12 0\cf0 \cb1 \strokec3 \
+\cb9         \},\cb1 \
+\cb9         \cf10 \strokec10 "total_tokens"\cf0 \strokec3 : \cf12 \strokec12 67\cf0 \cb1 \strokec3 \
+\cb9     \},\cb1 \
+\cb9     \cf10 \strokec10 "user"\cf0 \strokec3 : \cf11 \strokec11 null\cf0 \strokec3 ,\cb1 \
+\cb9     \cf10 \strokec10 "metadata"\cf0 \strokec3 : \{\}\cb1 \
+\cb9 \}\cb1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\b \cf0 \kerning1\expnd0\expndtw0 \outl0\strokewidth0 \
+5. End to end\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f6\b0\fs22 \cf8 \CocoaLigature0 Mac\'96mini:HW#38 Tigra$ python openai_db_tool.py "How many students do we have?"\
+\
+======================================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_db_tool.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-25T03:29:49.520788] USER QUESTION\
+======================================================================\
+"How many students do we have?"\
+\
+======================================================================\
+[2026-04-25T03:29:49.521129] REQUEST STEP 1 (OPENAI)\
+======================================================================\
+\{\
+  "model": "gpt-5.2",\
+  "tool_choice": "required",\
+  "input": [\
+    \{\
+      "role": "system",\
+      "content": "You must answer database questions strictly by calling the most appropriate tool. Never answer from memory."\
+    \},\
+    \{\
+      "role": "user",\
+      "content": "How many students do we have?"\
+    \}\
+  ],\
+  "tools": [\
+    \{\
+      "type": "function",\
+      "name": "student_count",\
+      "description": "Get total number of students",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "total_completed",\
+      "description": "Get total completed assignments",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "expected_total",\
+      "description": "Get expected total assignments (students \\u00d7 assignments)",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "search_student",\
+      "description": "Search student by name",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "name": \{\
+            "type": "string"\
+          \}\
+        \},\
+        "required": [\
+          "name"\
+        ]\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "get_mean",\
+      "description": "Get mean completed assignments",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "get_stddev",\
+      "description": "Get standard deviation",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "completed_all",\
+      "description": "Students who completed all assignments",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "above_stddev",\
+      "description": "Students above standard deviation",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "below_stddev",\
+      "description": "Students below standard deviation",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\}\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "completed_less_than",\
+      "description": "Students with completed assignments less than value",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "value": \{\
+            "type": "integer"\
+          \}\
+        \},\
+        "required": [\
+          "value"\
+        ]\
+      \}\
+    \},\
+    \{\
+      "type": "function",\
+      "name": "completed_under_percent",\
+      "description": "Students below percent completion",\
+      "parameters": \{\
+        "type": "object",\
+        "properties": \{\
+          "value": \{\
+            "type": "number"\
+          \}\
+        \},\
+        "required": [\
+          "value"\
+        ]\
+      \}\
+    \}\
+  ]\
+\}\
+\
+======================================================================\
+/Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 14/Homework/HW#38/openai_db_tool.py:22: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).\
+  print(f"[\{datetime.utcnow().isoformat()\}] \{title\}")\
+[2026-04-25T03:29:51.755419] RESPONSE STEP 1 (OPENAI)\
+======================================================================\
+\{\
+  "response_id": "resp_0e7293e99037254b0069ec352e7fe0819687238a6d75790cde",\
+  "status": "completed",\
+  "model": "gpt-5.2-2025-12-11",\
+  "output": [\
+    \{\
+      "arguments": "\{\}",\
+      "call_id": "call_b6h0s0YpOeukfz4H5jQCU7fV",\
+      "name": "student_count",\
+      "type": "function_call",\
+      "id": "fc_0e7293e99037254b0069ec352f13b08196b3e8f2c52546f18e",\
+      "namespace": null,\
+      "status": "completed"\
+    \}\
+  ]\
+\}\
+\
+======================================================================\
+[2026-04-25T03:29:51.755471] TOOL CALL DETECTED\
+======================================================================\
+\{\
+  "tool_name": "student_count",\
+  "arguments": \{\},\
+  "call_id": "call_b6h0s0YpOeukfz4H5jQCU7fV",\
+  "previous_response_id": "resp_0e7293e99037254b0069ec352e7fe0819687238a6d75790cde"\
+\}\
+\
+======================================================================\
+[2026-04-25T03:29:51.755494] DATABASE API REQUEST\
+======================================================================\
+\{\
+  "action": "student_count"\
+\}\
+\
+======================================================================\
+[2026-04-25T03:29:52.333634] DATABASE API RESPONSE\
+======================================================================\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "total_students": 23\
+    \}\
+  ]\
+\}\
+\
+======================================================================\
+[2026-04-25T03:29:52.335143] TOOL RESULT (DATABASE)\
+======================================================================\
+\{\
+  "status": "success",\
+  "data": [\
+    \{\
+      "total_students": 23\
+    \}\
+  ]\
+\}\
+\
+======================================================================\
+[2026-04-25T03:29:52.335257] REQUEST STEP 2 (OPENAI)\
+======================================================================\
+\{\
+  "model": "gpt-5.2",\
+  "previous_response_id": "resp_0e7293e99037254b0069ec352e7fe0819687238a6d75790cde",\
+  "input": [\
+    \{\
+      "type": "function_call_output",\
+      "call_id": "call_b6h0s0YpOeukfz4H5jQCU7fV",\
+      "output": "\{\\"status\\": \\"success\\", \\"data\\": [\{\\"total_students\\": 23\}]\}"\
+    \}\
+  ]\
+\}\
+\
+======================================================================\
+[2026-04-25T03:29:54.153555] RESPONSE STEP 2 (OPENAI)\
+======================================================================\
+\{\
+  "response_id": "resp_0e7293e99037254b0069ec35306b4c8196af5bafd6389f8233",\
+  "status": "completed",\
+  "output": [\
+    \{\
+      "id": "msg_0e7293e99037254b0069ec353197fc81969b870e72abe29931",\
+      "content": [\
+        \{\
+          "annotations": [],\
+          "text": "We have **23 students**.",\
+          "type": "output_text",\
+          "logprobs": []\
+        \}\
+      ],\
+      "role": "assistant",\
+      "status": "completed",\
+      "type": "message",\
+      "phase": null\
+    \}\
+  ]\
+\}\
+\
+FINAL ANSWER:\
+We have **23 students**.\
+\
+}

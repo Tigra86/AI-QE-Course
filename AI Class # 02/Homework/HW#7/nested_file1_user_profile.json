@@ -1,0 +1,12 @@
+{
+  "user": {
+    "id": 1001,
+    "username": "jdoe",
+    "email": "jdoe@example.com",
+    "active": true
+  },
+  "metadata": {
+    "signup_date": "2024-09-12",
+    "role": "editor"
+  }
+}

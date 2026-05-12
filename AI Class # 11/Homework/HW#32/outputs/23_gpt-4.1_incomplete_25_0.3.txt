@@ -1,0 +1,21 @@
+﻿=== TOKEN ACCOUNTING ===
+model: gpt-4.1
+model_context_window / token_budget: 128000
+input_tokens: 21
+output_tokens: 25
+total_tokens / billed_tokens: 46
+remaining_tokens / not_billed_tokens: 127954 (128000 - 46)
+available_for_output_at_start: 127979
+limit_reason: max_output_tokens
+completion_status: incomplete
+truncated: True
+
+=== PROMPT ===
+Compare a token to a piece of a puzzle in a long essay.
+
+=== RAW OUTPUT ===
+Certainly! Here is a long essay comparing a token to a piece of a puzzle:
+
+---
+
+**Tokens and Puzzle Pieces: A

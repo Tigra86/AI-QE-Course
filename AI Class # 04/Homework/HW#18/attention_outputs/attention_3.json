@@ -1,0 +1,25 @@
+{
+    "sentence": "The dog that the children adopted became very friendly.",
+    "focus_word": "friendly",
+    "raw_scores": {
+        "the": 0.0061,
+        "dog": -0.0008,
+        "that": -0.0067,
+        "children": 0.1461,
+        "adopted": 0.05,
+        "became": -0.5592,
+        "very": -0.0498,
+        "friendly": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "dog": 0.1342,
+        "that": 0.08,
+        "children": 0.1554,
+        "adopted": 0.1412,
+        "became": 0.1724,
+        "very": 0.08,
+        "friendly": 0.0768
+    },
+    "softmax_sum": 1.0
+}

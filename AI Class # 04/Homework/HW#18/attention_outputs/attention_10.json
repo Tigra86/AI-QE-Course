@@ -1,0 +1,25 @@
+{
+    "sentence": "The meal Brian cooked for the party smelled incredible.",
+    "focus_word": "smelled",
+    "raw_scores": {
+        "the": 0.0799,
+        "meal": -0.3172,
+        "brian": -0.2592,
+        "cooked": -0.0521,
+        "for": 0.0534,
+        "party": 0.6622,
+        "smelled": 0.25,
+        "incredible": 0.2773
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "meal": 0.0792,
+        "brian": 0.0839,
+        "cooked": 0.1032,
+        "for": 0.08,
+        "party": 0.2108,
+        "smelled": 0.1396,
+        "incredible": 0.1434
+    },
+    "softmax_sum": 1.0
+}

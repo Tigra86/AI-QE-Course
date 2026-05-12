@@ -1,0 +1,23 @@
+{
+    "sentence": "The car Michael repaired ran smoothly afterwards.",
+    "focus_word": "smoothly",
+    "raw_scores": {
+        "the": -0.0695,
+        "car": -0.0393,
+        "michael": -0.0184,
+        "repaired": -0.1985,
+        "ran": -0.8623,
+        "smoothly": 0.25,
+        "afterwards": -0.0851
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "car": 0.1772,
+        "michael": 0.0778,
+        "repaired": 0.1511,
+        "ran": 0.1809,
+        "smoothly": 0.1638,
+        "afterwards": 0.1692
+    },
+    "softmax_sum": 1.0
+}

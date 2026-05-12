@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-03-09 01:31 PM",
+  "similarity_threshold": 0.9,
+  "summary": {
+    "total": 15,
+    "ok": 6,
+    "minor_change": 9,
+    "drift": 0,
+    "missing": 0
+  },
+  "results": [
+    {
+      "prompt_name": "Instruction Prompt",
+      "id": "P001",
+      "status": "OK",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Contextual Prompt",
+      "id": "P002",
+      "status": "MINOR_CHANGE",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Few-Shot Prompt",
+      "id": "P003",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9987,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "A: Jupiter\n\nQ: What is the closest planet to the Sun?",
+          "current": "A: Jupiter\n\nQ: What is the planet closest to the Sun?"
+        }
+      ]
+    },
+    {
+      "prompt_name": "Constraint-Based Prompt",
+      "id": "P004",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9934,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "Answer the question: What is the opposite of 'hot'?",
+          "current": "Answer this: What is the opposite of 'hot'?"
+        }
+      ]
+    },
+    {
+      "prompt_name": "Role Prompt",
+      "id": "P005",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9626,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "Explain how a compass works.",
+          "current": "Explain how a magnetic compass works."
+        }
+      ]
+    },
+    {
+      "prompt_name": "Zero-Shot Prompt",
+      "id": "P006",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9643,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "How many states are in the United States of America?",
+          "current": "How many states are in the United States of America currently?"
+        }
+      ]
+    },
+    {
+      "prompt_name": "Reasoning Prompt",
+      "id": "P007",
+      "status": "OK",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Retrieval-Augmented Prompt",
+      "id": "P008",
+      "status": "OK",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Delimited Prompt",
+      "id": "P009",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9899,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "<<<\nQuantum entanglement is a physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity in a way such that the quantum state of each particle cannot be described independently of the state of the others.",
+          "current": "---\nQuantum entanglement is a physical phenomenon that occurs when a group of particles are generated, interact, or share spatial proximity in a way such that the quantum state of each particle cannot be described independently of the state of the others."
+        },
+        {
+          "type": "modified",
+          "base": ">>>",
+          "current": "---"
+        }
+      ]
+    },
+    {
+      "prompt_name": "Reflection Prompt",
+      "id": "P010",
+      "status": "OK",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Output-Schema Prompt",
+      "id": "P011",
+      "status": "OK",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Calibration Prompt",
+      "id": "P012",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9994,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "If you are not 100% sure about the exact date, say 'I am uncertain'.",
+          "current": "If you're not 100% sure about the exact date, say 'I am uncertain'."
+        }
+      ]
+    },
+    {
+      "prompt_name": "Multi-Modal Prompt",
+      "id": "P013",
+      "status": "OK",
+      "similarity": 1.0,
+      "diff": []
+    },
+    {
+      "prompt_name": "Meta Prompt",
+      "id": "P014",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9506,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "Rewrite this prompt to be more effective for a creative writer: 'write a story about a dog'",
+          "current": "Rewrite this prompt to be more effective for a creative writer: 'write a short story about a dog'"
+        }
+      ]
+    },
+    {
+      "prompt_name": "Tool-Calling Prompt",
+      "id": "P015",
+      "status": "MINOR_CHANGE",
+      "similarity": 0.9967,
+      "diff": [
+        {
+          "type": "modified",
+          "base": "(If you cannot access live tools, explain how you would find this information).",
+          "current": "(If you cannot access live tools, please explain how you would find this information)."
+        }
+      ]
+    }
+  ]
+}

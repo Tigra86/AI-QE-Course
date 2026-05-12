@@ -1,0 +1,15 @@
+OPTIMIZATION LOG: Sentiment_Analysis
+========================================
+Step  0 | Loss: 1.2497 | Probs: [POSITIVE: 0.502, NEUTRAL: 0.249, NEGATIVE: 0.249]
+Step  1 | Loss: 1.1834 | Probs: [POSITIVE: 0.475, NEUTRAL: 0.288, NEGATIVE: 0.236]
+Step  2 | Loss: 1.1253 | Probs: [POSITIVE: 0.447, NEUTRAL: 0.331, NEGATIVE: 0.222]
+Step  3 | Loss: 1.0761 | Probs: [POSITIVE: 0.416, NEUTRAL: 0.377, NEGATIVE: 0.207]
+Step  4 | Loss: 1.0362 | Probs: [POSITIVE: 0.384, NEUTRAL: 0.425, NEGATIVE: 0.191]
+Step  5 | Loss: 1.0040 | Probs: [POSITIVE: 0.338, NEUTRAL: 0.457, NEGATIVE: 0.205]
+Step  6 | Loss: 0.9803 | Probs: [POSITIVE: 0.307, NEUTRAL: 0.506, NEGATIVE: 0.186]
+Step  7 | Loss: 0.9630 | Probs: [POSITIVE: 0.266, NEUTRAL: 0.536, NEGATIVE: 0.197]
+Step  8 | Loss: 0.9535 | Probs: [POSITIVE: 0.229, NEUTRAL: 0.564, NEGATIVE: 0.207]
+Step  9 | Loss: 0.9511 | Probs: [POSITIVE: 0.204, NEUTRAL: 0.612, NEGATIVE: 0.184]
+Step 10 | Loss: 0.9511 | Probs: [POSITIVE: 0.196, NEUTRAL: 0.588, NEGATIVE: 0.216]
+
+Final Prediction: NEUTRAL

@@ -1,0 +1,23 @@
+{
+    "sentence": "The cake Christina baked yesterday tasted amazing.",
+    "focus_word": "amazing",
+    "raw_scores": {
+        "the": 0.0202,
+        "cake": -0.2435,
+        "christina": -0.1764,
+        "baked": -0.2101,
+        "yesterday": -0.1264,
+        "tasted": -0.1776,
+        "amazing": 0.25
+    },
+    "softmax_attention_weights": {
+        "the": 0.08,
+        "cake": 0.1424,
+        "christina": 0.1523,
+        "baked": 0.1473,
+        "yesterday": 0.1601,
+        "tasted": 0.1658,
+        "amazing": 0.1521
+    },
+    "softmax_sum": 1.0
+}
