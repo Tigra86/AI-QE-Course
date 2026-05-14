@@ -1,0 +1,110 @@
+Execution Timestamp: 20260513_175700
+================================================================================
+Statement #1
+SQL: -- 01.DDL DELETE TABLE customer
+DROP TABLE IF EXISTS customer
+Success: True
+Message: Statement executed successfully
+Row count: -1
+--------------------------------------------------------------------------------
+Statement #2
+SQL: -- 02.DDL DELETE TABLE credit_card
+DROP TABLE IF EXISTS credit_card
+Success: True
+Message: Statement executed successfully
+Row count: -1
+--------------------------------------------------------------------------------
+Statement #3
+SQL: -- 03.DDL CREATE TABLE customer
+CREATE TABLE IF NOT EXISTS customer (id, name)
+Success: True
+Message: Statement executed successfully
+Row count: -1
+--------------------------------------------------------------------------------
+Statement #4
+SQL: -- 04.DDL CREATE TABLE credit_card
+CREATE TABLE IF NOT EXISTS credit_card (id, cc_type, cc_number, cc_exp)
+Success: True
+Message: Statement executed successfully
+Row count: -1
+--------------------------------------------------------------------------------
+Statement #5
+SQL: -- 05.DML INSERT DATA
+INSERT INTO customer VALUES (1,'John Smith')
+Success: True
+Message: Statement executed successfully
+Row count: 1
+--------------------------------------------------------------------------------
+Statement #6
+SQL: INSERT INTO credit_card VALUES (1, 'VISA', '4532547106994816', '02/29')
+Success: True
+Message: Statement executed successfully
+Row count: 1
+--------------------------------------------------------------------------------
+Statement #7
+SQL: INSERT INTO credit_card VALUES (1, 'MasterCard', '5584398929973080', '10/29')
+Success: True
+Message: Statement executed successfully
+Row count: 1
+--------------------------------------------------------------------------------
+Statement #8
+SQL: -- 06.DDL SHOW TABLES
+SELECT tbl_name FROM sqlite_master WHERE type = 'table'
+Success: True
+Message: SELECT executed successfully
+Row count: 2
+Result:
+tbl_name
+--------
+customer
+credit_card
+--------------------------------------------------------------------------------
+Statement #9
+SQL: -- 07.DDL SHOW COLUMNS
+PRAGMA table_info('customer')
+Success: True
+Message: SELECT executed successfully
+Row count: 2
+Result:
+cid | name | type | notnull | dflt_value | pk
+---------------------------------------------
+0 | id |  | 0 |  | 0
+1 | name |  | 0 |  | 0
+--------------------------------------------------------------------------------
+Statement #10
+SQL: -- 08.DQL RETRIEVE DATA FROM TABLE customer
+SELECT * FROM customer
+Success: True
+Message: SELECT executed successfully
+Row count: 1
+Result:
+id | name
+---------
+1 | John Smith
+--------------------------------------------------------------------------------
+Statement #11
+SQL: -- 09.DQL RETRIEVE DATA FROM TABLE credit_card
+SELECT * FROM credit_card
+Success: True
+Message: SELECT executed successfully
+Row count: 2
+Result:
+id | cc_type | cc_number | cc_exp
+---------------------------------
+1 | VISA | 4532547106994816 | 02/29
+1 | MasterCard | 5584398929973080 | 10/29
+--------------------------------------------------------------------------------
+Statement #12
+SQL: -- 10.DQL RETRIEVE DATA FROM TABLES customer AND credit_card USING JOIN CLAUSE
+SELECT customer.id, name, cc_type, cc_number, cc_exp
+FROM   customer JOIN credit_card 
+ON     customer.id = credit_card.id
+Success: True
+Message: SELECT executed successfully
+Row count: 2
+Result:
+id | name | cc_type | cc_number | cc_exp
+----------------------------------------
+1 | John Smith | MasterCard | 5584398929973080 | 10/29
+1 | John Smith | VISA | 4532547106994816 | 02/29
+--------------------------------------------------------------------------------

@@ -1,0 +1,63 @@
+SQL: DROP TABLE IF EXISTS tbl_salary;
+STATUS: SUCCESS
+----------------------------------------
+SQL: CREATE TABLE tbl_salary (empid, empname, mgrid, salary);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_salary VALUES (1, 'John Loomis', NULL, 200000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_salary VALUES (2, 'James Johnson', 1, 180000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_salary VALUES (3, 'Sophia Yates', 2, 160000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_salary VALUES (4, 'Arnold Wise', 3, 170000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_salary VALUES (5, 'Eleanora Finlay', 4, 150000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: SELECT B.empid AS `EMPLOYEE ID`, B.empname AS `EMPLOYEE NAME`, A.empname AS `MANAGER NAME`, B.salary AS `SALLARY` FROM tbl_salary A JOIN tbl_salary B ON A.empid = B.mgrid WHERE A.salary < B.salary;
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: DROP TABLE IF EXISTS emp;
+STATUS: SUCCESS
+----------------------------------------
+SQL: CREATE TABLE IF NOT EXISTS emp (empid, empname, mgrid, deptid, dob);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO emp VALUES (1, 'John Smith',   null, 10, '1970-01-14'), (2, 'Mike Loomis', 1, 10, '1965-10-20'), (3, 'Sam Martinez', 2, 10, '1968-03-08'), (4, 'Ann Moore', 2, 10, '1994-02-18'), (5, 'Jose Ganzales', 2, 10, '1983-03-20'), (6, 'Ann Morisen', 3, 20, '1972-11-25'), (7, 'Susan Noulden', 6, 20, '1981-09-11'), (8, 'Nikolas Bonjovi', 7, 20, '1986-02-28'), (9, 'Alvaro Nova', 7, 20, '1980-07-27'), (10,'Dav McGrooven', 7, 20, '1979-03-04'), (11,'Jemmy Bouly', 10, 30, '1982-11-25'), (12,'Mark Lay', 11, 30, '1989-03-04'), (13,'Andy Davis', 12, 30, '1989-03-04'), (14,'Sam Short', 12, 30, '1989-03-04'), (15,'Dack Demmel', 12, 30, '1989-03-04');
+STATUS: SUCCESS
+----------------------------------------
+SQL: DROP TABLE IF EXISTS dept;
+STATUS: SUCCESS
+----------------------------------------
+SQL: CREATE TABLE dept (deptid, deptname);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO dept VALUES (10,'QA'), (20,'DEV'), (30,'IT');
+STATUS: SUCCESS
+----------------------------------------
+SQL: SELECT empname AS 'EMPLOYEE', dob AS 'DOB', deptname AS 'DEPARTMENT' FROM emp JOIN dept ON emp.deptid = dept.deptid AND deptname = 'QA' ORDER BY empname;
+STATUS: SUCCESS
+ROWS: 5
+----------------------------------------
+SQL: SELECT empname AS 'EMPLOYEE', (STRFTIME('%s','now') - STRFTIME('%s', dob)) / 31557600 AS AGE, deptname AS 'DEPARTMENT' FROM emp JOIN dept ON emp.deptid = dept.deptid ORDER BY AGE DESC;
+STATUS: SUCCESS
+ROWS: 15
+----------------------------------------
+SQL: SELECT deptname AS 'DEPARTMENT', COUNT(empname) AS 'EMPLOYEES' FROM emp JOIN dept ON emp.deptid = dept.deptid GROUP BY deptname HAVING COUNT(empname) > 0;
+STATUS: SUCCESS
+ROWS: 3
+----------------------------------------
+SQL: SELECT B.empname AS 'EMPLOYEE',A.empname AS 'MANAGER', C.deptname AS 'DEPARTMENT' FROM emp AS A JOIN emp AS B ON A.empid = B.mgrid JOIN dept AS C ON B.deptid = C.deptid;
+STATUS: SUCCESS
+ROWS: 14
+----------------------------------------
+SQL: SELECT A.empname AS 'MANAGER WITH MORE THAN 1 EMPLOYEE', C.empname AS 'MANAGER' FROM emp AS A JOIN emp AS B ON A.empid = B.mgrid JOIN emp AS C ON A.mgrid = C.empid GROUP BY A.empid HAVING COUNT(A.empname) > 1 ORDER BY A.empid ASC;
+STATUS: SUCCESS
+ROWS: 3
+----------------------------------------

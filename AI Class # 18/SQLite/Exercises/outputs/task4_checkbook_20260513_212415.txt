@@ -1,0 +1,67 @@
+SQL: DROP TABLE IF EXISTS checkbook;
+STATUS: SUCCESS
+----------------------------------------
+SQL: CREATE TABLE IF NOT EXISTS checkbook (id INTEGER PRIMARY KEY AUTOINCREMENT, name, transDate, debit, credit);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('John Loomis','2025-03-03', 1000 ,0);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('Mike Stevenson', '2025-01-14', 0, 0650);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('Alex Moore', '2025-02-11', 100, 100);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('Nikita Smith', '2025-03-03', 2000, 1000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('Boris Goodwell', '2025-04-12', 0, 3000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('Steve Aaron', '2025-02-02', 500, 1500);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO checkbook (name, transDate, debit, credit) VALUES ('Jordan Bloom', '2025-04-29', 0, 6000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: SELECT COUNT(*) FROM checkbook;
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM checkbook;
+STATUS: SUCCESS
+ROWS: 7
+----------------------------------------
+SQL: SELECT * FROM checkbook WHERE transDate = (SELECT MIN(transDate) FROM checkbook);
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM checkbook WHERE transDate = (SELECT MAX(transDate) FROM checkbook);
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM checkbook WHERE credit = 0;
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM checkbook WHERE (debit - credit) = 0;
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM checkbook WHERE (debit - credit) < 0;
+STATUS: SUCCESS
+ROWS: 4
+----------------------------------------
+SQL: SELECT * FROM checkbook WHERE (debit - credit) > 0;
+STATUS: SUCCESS
+ROWS: 2
+----------------------------------------
+SQL: SELECT id, name, (credit - debit) AS `Balance` FROM checkbook WHERE (debit - credit) < 0;
+STATUS: SUCCESS
+ROWS: 4
+----------------------------------------
+SQL: SELECT id, name, (credit - debit) AS `Balance` FROM checkbook WHERE (credit - debit) >= 1000;
+STATUS: SUCCESS
+ROWS: 3
+----------------------------------------

@@ -1,0 +1,7 @@
+#!/bin/bash
+# Run this command from the main 'Exercises' directory on your Mac mini
+
+for file in inputs/task*.sql; do
+    filename=$(basename "$file")
+    python sqlite.py -d my.db -s "$filename" -r "${filename%.sql}_report.html"
+done

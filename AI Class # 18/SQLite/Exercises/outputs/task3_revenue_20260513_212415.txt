@@ -1,0 +1,35 @@
+SQL: DROP TABLE IF EXISTS tbl_revenue;
+STATUS: SUCCESS
+----------------------------------------
+SQL: CREATE TABLE tbl_revenue (id, name, revenue);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Alex', 100);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Ben',   50);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Alex',  35);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Chris', 40);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Chris', 70);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Ben',   55);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_revenue (name,revenue) VALUES ('Ben',   65);
+STATUS: SUCCESS
+----------------------------------------
+SQL: SELECT name, SUM(revenue) AS total FROM tbl_revenue GROUP BY name ORDER BY total DESC LIMIT 1;
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT name, total FROM (SELECT name, SUM(revenue) AS total FROM tbl_revenue GROUP BY name) AS gross WHERE total = (SELECT MAX(mg.total) FROM (SELECT name, SUM(revenue) AS total FROM tbl_revenue GROUP BY name) AS mg);
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------

@@ -1,0 +1,30 @@
+SQL: DROP TABLE IF EXISTS tbl_2salary;
+STATUS: SUCCESS
+----------------------------------------
+SQL: CREATE TABLE tbl_2salary (id, name, salary);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_2salary VALUES (1, 'Alex',  275000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_2salary VALUES (2, 'Ben',   175000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_2salary VALUES (3, 'Chris', 205000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: INSERT INTO tbl_2salary VALUES (4, 'Nik',   150000);
+STATUS: SUCCESS
+----------------------------------------
+SQL: SELECT * FROM tbl_2salary ORDER BY salary DESC LIMIT 1,1;
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM tbl_2salary WHERE salary = (SELECT max(a.salary) FROM tbl_2salary  a, tbl_2salary  b WHERE a.salary < b.salary);
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
+SQL: SELECT * FROM tbl_2salary WHERE salary = (SELECT max(salary) FROM tbl_2salary WHERE salary < (SELECT max(salary) FROM tbl_2salary));
+STATUS: SUCCESS
+ROWS: 1
+----------------------------------------
