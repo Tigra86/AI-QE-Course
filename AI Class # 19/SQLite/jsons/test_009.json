@@ -1,0 +1,13 @@
+{
+  "id": "Q009",
+  "category": "linguistics",
+  "intent": "grammar_identification",
+  "question": "Identify the conjunction in this sentence: 'I wanted to go for a walk, but it started raining.'",
+  "expected_answer": "but",
+  "regex": "\\bbut\\b",
+  "tags": [
+    "grammar",
+    "english",
+    "parts_of_speech"
+  ]
+}

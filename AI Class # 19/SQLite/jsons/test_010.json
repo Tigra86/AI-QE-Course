@@ -1,0 +1,13 @@
+{
+  "id": "Q010",
+  "category": "systems",
+  "intent": "cli_commands",
+  "question": "Which Unix/Linux command is used to display the current working directory path in the terminal?",
+  "expected_answer": "pwd",
+  "regex": "^pwd$",
+  "tags": [
+    "cli",
+    "bash",
+    "linux"
+  ]
+}

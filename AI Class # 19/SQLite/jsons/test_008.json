@@ -1,0 +1,13 @@
+{
+  "id": "Q008",
+  "category": "science",
+  "intent": "biology_definitions",
+  "question": "What is known as the powerhouse of the cell?",
+  "expected_answer": "mitochondria",
+  "regex": "mitochondria(n)?",
+  "tags": [
+    "biology",
+    "cells",
+    "anatomy"
+  ]
+}

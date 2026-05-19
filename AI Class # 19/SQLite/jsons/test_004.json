@@ -1,0 +1,13 @@
+{
+  "id": "Q004",
+  "category": "programming",
+  "intent": "file_io_modes",
+  "question": "Which file open mode character is used in Python to append data to an existing file?",
+  "expected_answer": "a",
+  "regex": "^['\"]?a['\"]?$",
+  "tags": [
+    "python",
+    "file_io",
+    "syntax"
+  ]
+}

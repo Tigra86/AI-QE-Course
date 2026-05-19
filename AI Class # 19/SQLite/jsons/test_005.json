@@ -1,0 +1,13 @@
+{
+  "id": "Q005",
+  "category": "geography",
+  "intent": "locate_landmark",
+  "question": "In which country can you find the ancient Pyramids of Giza?",
+  "expected_answer": "Egypt",
+  "regex": "Egypt",
+  "tags": [
+    "geography",
+    "history",
+    "landmarks"
+  ]
+}

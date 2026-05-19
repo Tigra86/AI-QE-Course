@@ -1,0 +1,13 @@
+{
+  "id": "Q001",
+  "category": "mathematics",
+  "intent": "basic_arithmetic",
+  "question": "What is 7 multiplied by 8?",
+  "expected_answer": "56",
+  "regex": "^56$",
+  "tags": [
+    "math",
+    "multiplication",
+    "core"
+  ]
+}

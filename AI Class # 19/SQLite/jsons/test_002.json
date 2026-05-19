@@ -1,0 +1,13 @@
+{
+  "id": "Q002",
+  "category": "mathematics",
+  "intent": "algebra_concepts",
+  "question": "If 2x = 10, what is the value of x?",
+  "expected_answer": "5",
+  "regex": "\\b5\\b",
+  "tags": [
+    "math",
+    "algebra",
+    "equations"
+  ]
+}

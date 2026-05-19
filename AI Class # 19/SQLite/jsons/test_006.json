@@ -1,0 +1,13 @@
+{
+  "id": "Q006",
+  "category": "geography",
+  "intent": "identify_ocean",
+  "question": "What is the largest and deepest ocean on Earth?",
+  "expected_answer": "Pacific Ocean",
+  "regex": "Pacific",
+  "tags": [
+    "geography",
+    "oceans",
+    "earth"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "Q003",
+  "category": "programming",
+  "intent": "identify_data_structure",
+  "question": "What built-in Python data structure uses curly braces to store unique keys mapped to values?",
+  "expected_answer": "dictionary",
+  "regex": "dict(ionary)?",
+  "tags": [
+    "python",
+    "data_structures",
+    "basics"
+  ]
+}
