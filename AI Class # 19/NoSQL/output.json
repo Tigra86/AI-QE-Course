@@ -1,0 +1,11 @@
+[
+  {
+    "_id": {
+      "$oid": "6a0fbfcf1183096dbafc014d"
+    },
+    "first_name": "Mike",
+    "last_name": "Loomis",
+    "phone": "408 875-5033",
+    "email": "mike_loomis@gmail.com"
+  }
+]
