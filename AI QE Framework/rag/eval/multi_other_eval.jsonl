@@ -1,0 +1,15 @@
+{"id": "Q399", "category": "other", "intent": "other", "question": "What is the weather today?", "expected_answer": "This question is not related to Garmin products.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q400", "category": "other", "intent": "other", "question": "Tell me a joke.", "expected_answer": "This request is unrelated to Garmin product specifications.", "tags": [], "regex": ".*"}
+{"id": "Q401", "category": "other", "intent": "other", "question": "How do I bake a cake?", "expected_answer": "Cooking instructions are outside the Garmin product domain.", "tags": [], "regex": ".*"}
+{"id": "Q402", "category": "other", "intent": "other", "question": "Who won the World Cup?", "expected_answer": "Sports event results are not related to Garmin specifications.", "tags": [], "regex": ".*"}
+{"id": "Q403", "category": "other", "intent": "other", "question": "Translate hello into Spanish.", "expected_answer": "Translation requests are outside Garmin product specifications.", "tags": [], "regex": ".*"}
+{"id": "Q404", "category": "other", "intent": "other", "question": "What is 5 plus 7?", "expected_answer": "Basic math questions are not related to Garmin products.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q405", "category": "other", "intent": "other", "question": "Write a short story about mountains.", "expected_answer": "Creative writing requests are outside the Garmin domain.", "tags": [], "regex": ".*"}
+{"id": "Q406", "category": "other", "intent": "other", "question": "Explain quantum physics.", "expected_answer": "Physics explanations are unrelated to Garmin product specifications.", "tags": [], "regex": ".*"}
+{"id": "Q407", "category": "other", "intent": "other", "question": "Give me investment advice.", "expected_answer": "Financial advice is outside the Garmin product domain.", "tags": [], "regex": ".*"}
+{"id": "Q408", "category": "other", "intent": "other", "question": "Is this product good?", "expected_answer": "This is a general opinion request, not a product specification question.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q409", "category": "other", "intent": "other", "question": "Should I buy this watch?", "expected_answer": "Purchase advice is outside the product specifications scope.", "tags": [], "regex": ".*"}
+{"id": "Q410", "category": "other", "intent": "other", "question": "Which one is better for me?", "expected_answer": "This is a recommendation request, not a specification question.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q411", "category": "other", "intent": "other", "question": "Can you recommend something?", "expected_answer": "General recommendations are outside structured product specifications.", "tags": [], "regex": ".*"}
+{"id": "Q412", "category": "other", "intent": "other", "question": "Is it worth the money?", "expected_answer": "Value judgments are outside factual product specifications.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q413", "category": "other", "intent": "other", "question": "Tell me something interesting.", "expected_answer": "This request is not related to Garmin product information.", "tags": [], "regex": ".*"}

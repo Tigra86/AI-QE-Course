@@ -1,0 +1,5 @@
+{"id": "Q394", "category": "general", "intent": "other", "question": "What is the highest peak of Mont Blanc?", "expected_answer": "Mont Blanc reaches a height of 4,810 meters above sea level at its summit.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q395", "category": "general", "intent": "other", "question": "What is the highest peak of Mont Blanc?", "expected_answer": "Mont Blanc stands at an elevation of 4,810 meters above sea level.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q396", "category": "general", "intent": "other", "question": "What is the highest peak of Mont Blanc?", "expected_answer": "Mont Blanc's summit is 4,810 meters above sea level.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q397", "category": "general", "intent": "other", "question": "What is the highest peak of Mont Blanc?", "expected_answer": "Mont Blanc’s highest point sits 4,810 meters above sea level.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q398", "category": "general", "intent": "other", "question": "What is the highest peak of Mont Blanc?", "expected_answer": "The summit of Mont Blanc stands at 4,810 meters above sea level.", "tags": ["fact"], "regex": ".*"}

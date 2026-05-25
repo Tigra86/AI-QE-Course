@@ -1,100 +1,100 @@
-{"id": "Q41.1", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Variation 1: 29,029 feet", "tags": ["fact"], "regex": "29,029 feet"}
-{"id": "Q41.2", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Variation 2: 29,029 feet", "tags": ["fact"], "regex": "29,029 feet"}
-{"id": "Q41.3", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Variation 3: 29,029 feet", "tags": ["fact"], "regex": "29,029 feet"}
-{"id": "Q41.4", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Variation 4: 29,029 feet", "tags": ["fact"], "regex": "29,029 feet"}
-{"id": "Q41.5", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Variation 5: 29,029 feet", "tags": ["fact"], "regex": "29,029 feet"}
-{"id": "Q42.1", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "Variation 1: 10,935 meters", "tags": ["fact"], "regex": "10,935 meters"}
-{"id": "Q42.2", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "Variation 2: 10,935 meters", "tags": ["fact"], "regex": "10,935 meters"}
-{"id": "Q42.3", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "Variation 3: 10,935 meters", "tags": ["fact"], "regex": "10,935 meters"}
-{"id": "Q42.4", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "Variation 4: 10,935 meters", "tags": ["fact"], "regex": "10,935 meters"}
-{"id": "Q42.5", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "Variation 5: 10,935 meters", "tags": ["fact"], "regex": "10,935 meters"}
-{"id": "Q43.1", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "Variation 1: 825", "tags": ["fact"], "regex": "825"}
-{"id": "Q43.2", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "Variation 2: 825", "tags": ["fact"], "regex": "825"}
-{"id": "Q43.3", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "Variation 3: 825", "tags": ["fact"], "regex": "825"}
-{"id": "Q43.4", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "Variation 4: 825", "tags": ["fact"], "regex": "825"}
-{"id": "Q43.5", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "Variation 5: 825", "tags": ["fact"], "regex": "825"}
-{"id": "Q44.1", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "Variation 1: 4,130 miles", "tags": ["fact"], "regex": "4,130\\ miles"}
-{"id": "Q44.2", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "Variation 2: 4,130 miles", "tags": ["fact"], "regex": "4,130\\ miles"}
-{"id": "Q44.3", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "Variation 3: 4,130 miles", "tags": ["fact"], "regex": "4,130\\ miles"}
-{"id": "Q44.4", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "Variation 4: 4,130 miles", "tags": ["fact"], "regex": "4,130\\ miles"}
-{"id": "Q44.5", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "Variation 5: 4,130 miles", "tags": ["fact"], "regex": "4,130\\ miles"}
-{"id": "Q45.1", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "Variation 1: 6.6 million", "tags": ["fact"], "regex": "6\\.6\\ million"}
-{"id": "Q45.2", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "Variation 2: 6.6 million", "tags": ["fact"], "regex": "6\\.6\\ million"}
-{"id": "Q45.3", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "Variation 3: 6.6 million", "tags": ["fact"], "regex": "6\\.6\\ million"}
-{"id": "Q45.4", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "Variation 4: 6.6 million", "tags": ["fact"], "regex": "6\\.6\\ million"}
-{"id": "Q45.5", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "Variation 5: 6.6 million", "tags": ["fact"], "regex": "6\\.6\\ million"}
-{"id": "Q46.1", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "Variation 1: 299,792,458 m/s", "tags": ["fact"], "regex": "299,792,458\\ m/s"}
-{"id": "Q46.2", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "Variation 2: 299,792,458 m/s", "tags": ["fact"], "regex": "299,792,458\\ m/s"}
-{"id": "Q46.3", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "Variation 3: 299,792,458 m/s", "tags": ["fact"], "regex": "299,792,458\\ m/s"}
-{"id": "Q46.4", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "Variation 4: 299,792,458 m/s", "tags": ["fact"], "regex": "299,792,458\\ m/s"}
-{"id": "Q46.5", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "Variation 5: 299,792,458 m/s", "tags": ["fact"], "regex": "299,792,458\\ m/s"}
-{"id": "Q47.1", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Variation 1: 100C", "tags": ["fact"], "regex": "100C"}
-{"id": "Q47.2", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Variation 2: 100C", "tags": ["fact"], "regex": "100C"}
-{"id": "Q47.3", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Variation 3: 100C", "tags": ["fact"], "regex": "100C"}
-{"id": "Q47.4", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Variation 4: 100C", "tags": ["fact"], "regex": "100C"}
-{"id": "Q47.5", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Variation 5: 100C", "tags": ["fact"], "regex": "100C"}
-{"id": "Q48.1", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "Variation 1: 14 million", "tags": ["fact"], "regex": "14\\ million"}
-{"id": "Q48.2", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "Variation 2: 14 million", "tags": ["fact"], "regex": "14\\ million"}
-{"id": "Q48.3", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "Variation 3: 14 million", "tags": ["fact"], "regex": "14\\ million"}
-{"id": "Q48.4", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "Variation 4: 14 million", "tags": ["fact"], "regex": "14\\ million"}
-{"id": "Q48.5", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "Variation 5: 14 million", "tags": ["fact"], "regex": "14\\ million"}
-{"id": "Q49.1", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "Variation 1: 5,280 feet", "tags": ["fact"], "regex": "5,280 feet"}
-{"id": "Q49.2", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "Variation 2: 5,280 feet", "tags": ["fact"], "regex": "5,280 feet"}
-{"id": "Q49.3", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "Variation 3: 5,280 feet", "tags": ["fact"], "regex": "5,280 feet"}
-{"id": "Q49.4", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "Variation 4: 5,280 feet", "tags": ["fact"], "regex": "5,280 feet"}
-{"id": "Q49.5", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "Variation 5: 5,280 feet", "tags": ["fact"], "regex": "5,280 feet"}
-{"id": "Q50.1", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "Variation 1: 8", "tags": ["fact"], "regex": "8"}
-{"id": "Q50.2", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "Variation 2: 8", "tags": ["fact"], "regex": "8"}
-{"id": "Q50.3", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "Variation 3: 8", "tags": ["fact"], "regex": "8"}
-{"id": "Q50.4", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "Variation 4: 8", "tags": ["fact"], "regex": "8"}
-{"id": "Q50.5", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "Variation 5: 8", "tags": ["fact"], "regex": "8"}
-{"id": "Q51.1", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "Variation 1: 238,855 miles", "tags": ["fact"], "regex": "238,855\\ miles"}
-{"id": "Q51.2", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "Variation 2: 238,855 miles", "tags": ["fact"], "regex": "238,855\\ miles"}
-{"id": "Q51.3", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "Variation 3: 238,855 miles", "tags": ["fact"], "regex": "238,855\\ miles"}
-{"id": "Q51.4", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "Variation 4: 238,855 miles", "tags": ["fact"], "regex": "238,855\\ miles"}
-{"id": "Q51.5", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "Variation 5: 238,855 miles", "tags": ["fact"], "regex": "238,855\\ miles"}
-{"id": "Q52.1", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "Variation 1: 7", "tags": ["fact"], "regex": "7"}
-{"id": "Q52.2", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "Variation 2: 7", "tags": ["fact"], "regex": "7"}
-{"id": "Q52.3", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "Variation 3: 7", "tags": ["fact"], "regex": "7"}
-{"id": "Q52.4", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "Variation 4: 7", "tags": ["fact"], "regex": "7"}
-{"id": "Q52.5", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "Variation 5: 7", "tags": ["fact"], "regex": "7"}
-{"id": "Q53.1", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Variation 1: 79", "tags": ["fact"], "regex": "79"}
-{"id": "Q53.2", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Variation 2: 79", "tags": ["fact"], "regex": "79"}
-{"id": "Q53.3", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Variation 3: 79", "tags": ["fact"], "regex": "79"}
-{"id": "Q53.4", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Variation 4: 79", "tags": ["fact"], "regex": "79"}
-{"id": "Q53.5", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Variation 5: 79", "tags": ["fact"], "regex": "79"}
-{"id": "Q54.1", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "Variation 1: 206", "tags": ["fact"], "regex": "206"}
-{"id": "Q54.2", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "Variation 2: 206", "tags": ["fact"], "regex": "206"}
-{"id": "Q54.3", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "Variation 3: 206", "tags": ["fact"], "regex": "206"}
-{"id": "Q54.4", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "Variation 4: 206", "tags": ["fact"], "regex": "206"}
-{"id": "Q54.5", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "Variation 5: 206", "tags": ["fact"], "regex": "206"}
-{"id": "Q55.1", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "Variation 1: 331 million", "tags": ["fact"], "regex": "331\\ million"}
-{"id": "Q55.2", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "Variation 2: 331 million", "tags": ["fact"], "regex": "331\\ million"}
-{"id": "Q55.3", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "Variation 3: 331 million", "tags": ["fact"], "regex": "331\\ million"}
-{"id": "Q55.4", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "Variation 4: 331 million", "tags": ["fact"], "regex": "331\\ million"}
-{"id": "Q55.5", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "Variation 5: 331 million", "tags": ["fact"], "regex": "331\\ million"}
-{"id": "Q56.1", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "Variation 1: 1,083 feet", "tags": ["fact"], "regex": "1,083 feet"}
-{"id": "Q56.2", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "Variation 2: 1,083 feet", "tags": ["fact"], "regex": "1,083 feet"}
-{"id": "Q56.3", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "Variation 3: 1,083 feet", "tags": ["fact"], "regex": "1,083 feet"}
-{"id": "Q56.4", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "Variation 4: 1,083 feet", "tags": ["fact"], "regex": "1,083 feet"}
-{"id": "Q56.5", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "Variation 5: 1,083 feet", "tags": ["fact"], "regex": "1,083 feet"}
-{"id": "Q57.1", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Variation 1: 9.8", "tags": ["fact"], "regex": "9\\.8"}
-{"id": "Q57.2", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Variation 2: 9.8", "tags": ["fact"], "regex": "9\\.8"}
-{"id": "Q57.3", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Variation 3: 9.8", "tags": ["fact"], "regex": "9\\.8"}
-{"id": "Q57.4", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Variation 4: 9.8", "tags": ["fact"], "regex": "9\\.8"}
-{"id": "Q57.5", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Variation 5: 9.8", "tags": ["fact"], "regex": "9\\.8"}
-{"id": "Q58.1", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "Variation 1: 50", "tags": ["fact"], "regex": "50"}
-{"id": "Q58.2", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "Variation 2: 50", "tags": ["fact"], "regex": "50"}
-{"id": "Q58.3", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "Variation 3: 50", "tags": ["fact"], "regex": "50"}
-{"id": "Q58.4", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "Variation 4: 50", "tags": ["fact"], "regex": "50"}
-{"id": "Q58.5", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "Variation 5: 50", "tags": ["fact"], "regex": "50"}
-{"id": "Q59.1", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Variation 1: 32 degrees", "tags": ["fact"], "regex": "32\\ degrees"}
-{"id": "Q59.2", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Variation 2: 32 degrees", "tags": ["fact"], "regex": "32\\ degrees"}
-{"id": "Q59.3", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Variation 3: 32 degrees", "tags": ["fact"], "regex": "32\\ degrees"}
-{"id": "Q59.4", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Variation 4: 32 degrees", "tags": ["fact"], "regex": "32\\ degrees"}
-{"id": "Q59.5", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Variation 5: 32 degrees", "tags": ["fact"], "regex": "32\\ degrees"}
-{"id": "Q60.1", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "Variation 1: 8 billion", "tags": ["fact"], "regex": "8\\ billion"}
-{"id": "Q60.2", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "Variation 2: 8 billion", "tags": ["fact"], "regex": "8\\ billion"}
-{"id": "Q60.3", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "Variation 3: 8 billion", "tags": ["fact"], "regex": "8\\ billion"}
-{"id": "Q60.4", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "Variation 4: 8 billion", "tags": ["fact"], "regex": "8\\ billion"}
-{"id": "Q60.5", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "Variation 5: 8 billion", "tags": ["fact"], "regex": "8\\ billion"}
+{"id": "Q288", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Everest is 29,029 feet high.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q289", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "Everest reaches 29,029 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q290", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "It stands at 29,029 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q291", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "The height is 29,029 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q292", "category": "geography", "intent": "science", "question": "What is the height of Mount Everest in feet?", "expected_answer": "The summit is 29,029 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q293", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "It is 10,935 meters deep.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q294", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "It measures 10,935 meters deep.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q295", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "It reaches 10,935 meters.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q296", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "The bottom is at 10,935 meters.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q297", "category": "science", "intent": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answer": "The depth is 10,935 meters.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q298", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "It has around 825 residents.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q299", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "The count is approximately 825.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q300", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "The population is about 825.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q301", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "There are 825 people.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q302", "category": "demographics", "intent": "science", "question": "What is the population of Vatican City?", "expected_answer": "Vatican City has 825 citizens.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q303", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "It is 4,130 miles long.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q304", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "It measures 4,130 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q305", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "It spans 4,130 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q306", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "The Nile is 4,130 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q307", "category": "geography", "intent": "science", "question": "What is the length of the Nile River in miles?", "expected_answer": "The length is 4,130 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q308", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "It is 6.6 million square miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q309", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "It spans 6.6 million square miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q310", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "Russia is 6.6 million square miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q311", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "The area is 6.6 million sq mi.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q312", "category": "geography", "intent": "science", "question": "What is the area of Russia in square miles?", "expected_answer": "The size is 6.6 million sq mi.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q313", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "It is 299,792,458 m/s.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q314", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "It measures 299,792,458 m/s.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q315", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "Light travels at 299,792,458 m/s.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q316", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "The speed is 299,792,458 m/s.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q317", "category": "science", "intent": "science", "question": "What is the speed of light in meters per second?", "expected_answer": "The velocity is 299,792,458 m/s.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q318", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Boiling occurs at 100C.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q319", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "It is 100 degrees Celsius.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q320", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "It reaches 100 degrees Celsius.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q321", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "The point is 100 degrees C.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q322", "category": "science", "intent": "science", "question": "What is the boiling point of water in Celsius?", "expected_answer": "Water boils at 100 degrees C.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q323", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "It houses 14 million residents.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q324", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "It is about 14 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q325", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "The count is 14 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q326", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "The population is 14 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q327", "category": "demographics", "intent": "science", "question": "What is the population of Tokyo?", "expected_answer": "Tokyo has 14 million people.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q328", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "Denver is 5,280 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q329", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "It is 5,280 feet high.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q330", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "It stands at 5,280 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q331", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "The city is 5,280 feet up.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q332", "category": "geography", "intent": "science", "question": "What is the elevation of Denver in feet?", "expected_answer": "The elevation is 5,280 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q333", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "The count is 8 planets.", "tags": [], "regex": ".*"}
+{"id": "Q334", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "The system has 8 planets.", "tags": [], "regex": ".*"}
+{"id": "Q335", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "There are 8 planets.", "tags": [], "regex": ".*"}
+{"id": "Q336", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "There are eight planets.", "tags": [], "regex": ".*"}
+{"id": "Q337", "category": "science", "intent": "science", "question": "How many planets are in the solar system?", "expected_answer": "We have 8 planets.", "tags": [], "regex": ".*"}
+{"id": "Q338", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "It is 238,855 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q339", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "It measures 238,855 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q340", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "It's about 238,855 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q341", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "The distance is 238,855 miles.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q342", "category": "science", "intent": "science", "question": "What is the average distance to the moon in miles?", "expected_answer": "The moon is 238,855 miles away.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q343", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "The count is 7.", "tags": [], "regex": ".*"}
+{"id": "Q344", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "The total is 7.", "tags": [], "regex": ".*"}
+{"id": "Q345", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "There are 7 continents.", "tags": [], "regex": ".*"}
+{"id": "Q346", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "There are seven continents.", "tags": [], "regex": ".*"}
+{"id": "Q347", "category": "geography", "intent": "science", "question": "How many continents are there?", "expected_answer": "We have 7 continents.", "tags": [], "regex": ".*"}
+{"id": "Q348", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Gold is element 79.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q349", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "Gold's number is 79.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q350", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "It is 79.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q351", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "The atomic number is 79.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q352", "category": "science", "intent": "science", "question": "What is the atomic number of Gold?", "expected_answer": "The number for Gold is 79.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q353", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "Adults have 206 bones.", "tags": [], "regex": ".*"}
+{"id": "Q354", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "The count is 206.", "tags": [], "regex": ".*"}
+{"id": "Q355", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "The total is 206 bones.", "tags": [], "regex": ".*"}
+{"id": "Q356", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "There are 206 adult bones.", "tags": [], "regex": ".*"}
+{"id": "Q357", "category": "science", "intent": "science", "question": "How many bones are in the human adult body?", "expected_answer": "There are 206 bones.", "tags": [], "regex": ".*"}
+{"id": "Q358", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "Around 331 million people.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q359", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "It is about 331 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q360", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "It is roughly 331 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q361", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "The USA has 331 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q362", "category": "demographics", "intent": "science", "question": "What is the population of the USA?", "expected_answer": "The population is 331 million.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q363", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "It is 1,083 feet tall.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q364", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "It reaches 1,083 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q365", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "It stands 1,083 feet high.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q366", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "The height is 1,083 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q367", "category": "geography", "intent": "science", "question": "What is the height of the Eiffel Tower in feet?", "expected_answer": "The tower is 1,083 feet.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q368", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Earth's gravity is 9.8.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q369", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "Gravity is 9.8 m/s^2.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q370", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "It is 9.8 m/s^2.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q371", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "It measures 9.8 m/s^2.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q372", "category": "science", "intent": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answer": "The force is 9.8 m/s^2.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q373", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "The USA has 50 states.", "tags": [], "regex": ".*"}
+{"id": "Q374", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "The count is 50.", "tags": [], "regex": ".*"}
+{"id": "Q375", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "The total is 50.", "tags": [], "regex": ".*"}
+{"id": "Q376", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "There are 50 states.", "tags": [], "regex": ".*"}
+{"id": "Q377", "category": "geography", "intent": "science", "question": "How many states are in the USA?", "expected_answer": "There are fifty states.", "tags": [], "regex": ".*"}
+{"id": "Q378", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Freezing is at 32 degrees.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q379", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "It is 32 Fahrenheit.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q380", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "It is 32 degrees F.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q381", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "The point is 32 degrees.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q382", "category": "science", "intent": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answer": "Water freezes at 32F.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q383", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "Around 8 billion people.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q384", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "It is about 8 billion.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q385", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "It is roughly 8 billion.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q386", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "The population is 8 billion.", "tags": ["fact"], "regex": ".*"}
+{"id": "Q387", "category": "demographics", "intent": "science", "question": "What is the world population?", "expected_answer": "The world has 8 billion.", "tags": ["fact"], "regex": ".*"}

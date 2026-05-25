@@ -227,17 +227,32 @@ def write_json(results, reason_counter):
 # HTML REPORT
 # ============================================================
 
+def sort_by_id_numeric(item):
+    """Sort function to handle IDs like Q101, Q001, etc. numerically by number only"""
+    id_str = item["id"]
+    # Extract just the number part, ignoring prefix
+    if len(id_str) > 1 and id_str[0].isalpha():
+        try:
+            number = int(id_str[1:])
+            return number
+        except ValueError:
+            return 999999  # fallback for non-standard IDs (put at end)
+    return 999999
+
 def write_html_report(results, reason_counter):
 
     if not TEMPLATE_HTML.exists():
         raise FileNotFoundError("Missing templates/partial_match_report.html")
 
+    # Sort results by ID numerically
+    results_sorted = sorted(results, key=sort_by_id_numeric)
+
     grouped = defaultdict(list)
-    for r in results:
+    for r in results_sorted:
         grouped[r["_source"]].append(r)
 
-    total = len(results)
-    passed = sum(1 for r in results if r["status"] == "PASS")
+    total = len(results_sorted)
+    passed = sum(1 for r in results_sorted if r["status"] == "PASS")
     failed = total - passed
 
     blocks_html = ""

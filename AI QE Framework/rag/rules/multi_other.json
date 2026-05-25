@@ -1,0 +1,49 @@
+{
+  "other": {
+    "what is the weather today?": [
+      "This question is not related to Garmin products."
+    ],
+    "tell me a joke.": [
+      "This request is unrelated to Garmin product specifications."
+    ],
+    "how do i bake a cake?": [
+      "Cooking instructions are outside the Garmin product domain."
+    ],
+    "who won the world cup?": [
+      "Sports event results are not related to Garmin specifications."
+    ],
+    "translate hello into spanish.": [
+      "Translation requests are outside Garmin product specifications."
+    ],
+    "what is 5 plus 7?": [
+      "Basic math questions are not related to Garmin products."
+    ],
+    "write a short story about mountains.": [
+      "Creative writing requests are outside the Garmin domain."
+    ],
+    "explain quantum physics.": [
+      "Physics explanations are unrelated to Garmin product specifications."
+    ],
+    "give me investment advice.": [
+      "Financial advice is outside the Garmin product domain."
+    ],
+    "is this product good?": [
+      "This is a general opinion request, not a product specification question."
+    ],
+    "should i buy this watch?": [
+      "Purchase advice is outside the product specifications scope."
+    ],
+    "which one is better for me?": [
+      "This is a recommendation request, not a specification question."
+    ],
+    "can you recommend something?": [
+      "General recommendations are outside structured product specifications."
+    ],
+    "is it worth the money?": [
+      "Value judgments are outside factual product specifications."
+    ],
+    "tell me something interesting.": [
+      "This request is not related to Garmin product information."
+    ]
+  }
+}

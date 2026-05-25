@@ -1,2713 +1,3728 @@
 ﻿{
   "summary": {
-    "total": 300,
-    "passed": 273,
-    "failed": 27,
-    "accuracy": 91.0,
-    "reason_distribution": {
-      "Regex Mismatch": 27
-    }
+    "total": 413,
+    "passed": 413,
+    "failed": 0,
+    "accuracy": 100.0,
+    "reason_distribution": {}
   },
   "results": [
     {
-      "id": "Q1.1",
+      "id": "Q001",
+      "question": "Where is Alameda?",
+      "actual": "Alameda is in the San Francisco Bay Area of California, situated between Oakland and the San Francisco Bay.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "alameda_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q002",
+      "question": "Where is Alameda?",
+      "actual": "Alameda is a city located in Alameda County, California, on Alameda Island in the San Francisco Bay.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "alameda_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q003",
+      "question": "Where is Alameda?",
+      "actual": "Alameda is a city located in Alameda County, California, on Alameda Island in the San Francisco Bay.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "alameda_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q004",
+      "question": "Where is San Mateo?",
+      "actual": "San Mateo is situated between San Francisco and Silicon Valley along the western shore of the San Francisco Bay.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "alameda_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q005",
+      "question": "Where is San Mateo?",
+      "actual": "San Mateo is a city located in San Mateo County, California, on the San Francisco Peninsula.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "alameda_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q006",
+      "question": "Where is San Mateo?",
+      "actual": "San Mateo is a city located in San Mateo County, California, on the San Francisco Peninsula.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "alameda_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q007",
       "question": "What is the capital of France?",
-      "actual": "Paris serves as the capital of France.",
-      "regex": "paris",
+      "actual": "Paris serves as France's capital.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "capitals_other_eval.jsonl"
     },
     {
-      "id": "Q1.2",
+      "id": "Q008",
       "question": "What is the capital of France?",
-      "actual": "The capital city of France is Paris.",
-      "regex": "paris",
+      "actual": "The city of Paris is France's capital.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "capitals_other_eval.jsonl"
     },
     {
-      "id": "Q1.3",
+      "id": "Q009",
       "question": "What is the capital of France?",
-      "actual": "The capital city of France is Paris.",
-      "regex": "paris",
+      "actual": "The capital of France is Paris.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "capitals_other_eval.jsonl"
     },
     {
-      "id": "Q1.4",
+      "id": "Q010",
       "question": "What is the capital of France?",
-      "actual": "Paris is the capital of France.",
-      "regex": "paris",
+      "actual": "The capital of France is Paris.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "capitals_other_eval.jsonl"
     },
     {
-      "id": "Q1.5",
+      "id": "Q011",
       "question": "What is the capital of France?",
-      "actual": "France's capital is Paris.",
-      "regex": "paris",
+      "actual": "The capital of France is Paris.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "capitals_other_eval.jsonl"
     },
     {
-      "id": "Q2.1",
-      "question": "What is the capital of Japan?",
-      "actual": "The city of Tokyo is the capital of Japan.",
-      "regex": "tokyo",
+      "id": "Q012",
+      "question": "What is the phone number for La Dolce Vita in Chicago?",
+      "actual": "Dial 773.261.8284 for the restaurant.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q2.2",
-      "question": "What is the capital of Japan?",
-      "actual": "Tokyo serves as the capital of Japan.",
-      "regex": "tokyo",
+      "id": "Q013",
+      "question": "What is the phone number for La Dolce Vita in Chicago?",
+      "actual": "The number is 773-261-8284.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q2.3",
-      "question": "What is the capital of Japan?",
-      "actual": "The city of Tokyo is the capital of Japan.",
-      "regex": "tokyo",
+      "id": "Q014",
+      "question": "What is the phone number for La Dolce Vita in Chicago?",
+      "actual": "Reach them at 773 261 8284.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q2.4",
-      "question": "What is the capital of Japan?",
-      "actual": "Tokyo is the capital of Japan.",
-      "regex": "tokyo",
+      "id": "Q015",
+      "question": "What is the phone number for La Dolce Vita in Chicago?",
+      "actual": "Reach them at 773 261 8284.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q2.5",
-      "question": "What is the capital of Japan?",
-      "actual": "The city of Tokyo is the capital of Japan.",
-      "regex": "tokyo",
+      "id": "Q016",
+      "question": "What is the phone number for La Dolce Vita in Chicago?",
+      "actual": "Call La Dolce Vita at (773) 261-8284.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q3.1",
-      "question": "What is the capital of Germany?",
-      "actual": "The city of Berlin is the capital of Germany.",
-      "regex": "berlin",
+      "id": "Q017",
+      "question": "What is the contact number for the Alex Academy admissions office?",
+      "actual": "Call admissions at 415-555-0199.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q3.2",
-      "question": "What is the capital of Germany?",
-      "actual": "Germany's capital is Berlin.",
-      "regex": "berlin",
+      "id": "Q018",
+      "question": "What is the contact number for the Alex Academy admissions office?",
+      "actual": "The number is (415) 555-0199.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q3.3",
-      "question": "What is the capital of Germany?",
-      "actual": "The capital city of Germany is Berlin.",
-      "regex": "berlin",
+      "id": "Q019",
+      "question": "What is the contact number for the Alex Academy admissions office?",
+      "actual": "Dial 415.555.0199 for Alex Academy.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q3.4",
-      "question": "What is the capital of Germany?",
-      "actual": "Berlin is the capital of Germany.",
-      "regex": "berlin",
+      "id": "Q020",
+      "question": "What is the contact number for the Alex Academy admissions office?",
+      "actual": "Dial 415.555.0199 for Alex Academy.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q3.5",
-      "question": "What is the capital of Germany?",
-      "actual": "Berlin is the capital of Germany.",
-      "regex": "berlin",
+      "id": "Q021",
+      "question": "What is the contact number for the Alex Academy admissions office?",
+      "actual": "The office line is (415) 555 0199.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q4.1",
-      "question": "What is the capital of Italy?",
-      "actual": "Italy's capital is Rome.",
-      "regex": "rome",
+      "id": "Q022",
+      "question": "What is the support line for San Francisco Paratransit?",
+      "actual": "The help line is (415) 351 7000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q4.2",
-      "question": "What is the capital of Italy?",
-      "actual": "The city of Rome is the capital of Italy.",
-      "regex": "rome",
+      "id": "Q023",
+      "question": "What is the support line for San Francisco Paratransit?",
+      "actual": "The number is 415-351-7000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q4.3",
-      "question": "What is the capital of Italy?",
-      "actual": "Rome is the capital of Italy.",
-      "regex": "rome",
+      "id": "Q024",
+      "question": "What is the support line for San Francisco Paratransit?",
+      "actual": "The number is 415-351-7000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q4.4",
-      "question": "What is the capital of Italy?",
-      "actual": "Italy's capital is Rome.",
-      "regex": "rome",
+      "id": "Q025",
+      "question": "What is the support line for San Francisco Paratransit?",
+      "actual": "Dial 415.351.7000 for SF service.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q4.5",
-      "question": "What is the capital of Italy?",
-      "actual": "Italy's capital is Rome.",
-      "regex": "rome",
+      "id": "Q026",
+      "question": "What is the support line for San Francisco Paratransit?",
+      "actual": "The help line is (415) 351 7000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q5.1",
-      "question": "What is the capital of the United Kingdom?",
-      "actual": "The UK's capital is London.",
-      "regex": "london",
+      "id": "Q027",
+      "question": "What is the number for the California DMV help desk?",
+      "actual": "Reach the DMV at 800 777 0133.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q5.2",
-      "question": "What is the capital of the United Kingdom?",
-      "actual": "The city of London is the capital of the UK.",
-      "regex": "london",
+      "id": "Q028",
+      "question": "What is the number for the California DMV help desk?",
+      "actual": "Call the DMV at (800) 777-0133.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q5.3",
-      "question": "What is the capital of the United Kingdom?",
-      "actual": "London serves as the capital of the UK.",
-      "regex": "london",
+      "id": "Q029",
+      "question": "What is the number for the California DMV help desk?",
+      "actual": "Dial 800.777.0133 for DMV help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q5.4",
-      "question": "What is the capital of the United Kingdom?",
-      "actual": "London serves as the capital of the UK.",
-      "regex": "london",
+      "id": "Q030",
+      "question": "What is the number for the California DMV help desk?",
+      "actual": "Dial 800.777.0133 for DMV help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q5.5",
-      "question": "What is the capital of the United Kingdom?",
-      "actual": "The city of London is the capital of the UK.",
-      "regex": "london",
+      "id": "Q031",
+      "question": "What is the number for the California DMV help desk?",
+      "actual": "The number is 800-777-0133.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q6.1",
-      "question": "What is the capital of Canada?",
-      "actual": "The capital city of Canada is Ottawa.",
-      "regex": "ottawa",
+      "id": "Q032",
+      "question": "What is the non-emergency number for the SFPD?",
+      "actual": "Call SFPD at (415) 553-0123.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q6.2",
-      "question": "What is the capital of Canada?",
-      "actual": "Ottawa is the capital of Canada.",
-      "regex": "ottawa",
+      "id": "Q033",
+      "question": "What is the non-emergency number for the SFPD?",
+      "actual": "Call SFPD at (415) 553-0123.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q6.3",
-      "question": "What is the capital of Canada?",
-      "actual": "Canada's capital is Ottawa.",
-      "regex": "ottawa",
+      "id": "Q034",
+      "question": "What is the non-emergency number for the SFPD?",
+      "actual": "The police line is (415) 553-0123.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q6.4",
-      "question": "What is the capital of Canada?",
-      "actual": "Ottawa serves as the capital of Canada.",
-      "regex": "ottawa",
+      "id": "Q035",
+      "question": "What is the non-emergency number for the SFPD?",
+      "actual": "Reach SFPD at 415 553 0123.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q6.5",
-      "question": "What is the capital of Canada?",
-      "actual": "Ottawa is the capital of Canada.",
-      "regex": "ottawa",
+      "id": "Q036",
+      "question": "What is the non-emergency number for the SFPD?",
+      "actual": "The police line is (415) 553-0123.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q7.1",
-      "question": "What is the capital of Australia?",
-      "actual": "The city of Canberra is the capital of Australia.",
-      "regex": "canberra",
+      "id": "Q037",
+      "question": "What is the number for the Social Security Administration?",
+      "actual": "The SSA line is (800) 772 1213.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q7.2",
-      "question": "What is the capital of Australia?",
-      "actual": "Canberra serves as the capital of Australia.",
-      "regex": "canberra",
+      "id": "Q038",
+      "question": "What is the number for the Social Security Administration?",
+      "actual": "The SSA line is (800) 772 1213.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q7.3",
-      "question": "What is the capital of Australia?",
-      "actual": "Canberra is the capital of Australia.",
-      "regex": "canberra",
+      "id": "Q039",
+      "question": "What is the number for the Social Security Administration?",
+      "actual": "Reach the SSA at 800 772 1213.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q7.4",
-      "question": "What is the capital of Australia?",
-      "actual": "The city of Canberra is the capital of Australia.",
-      "regex": "canberra",
+      "id": "Q040",
+      "question": "What is the number for the Social Security Administration?",
+      "actual": "The SSA line is (800) 772 1213.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q7.5",
-      "question": "What is the capital of Australia?",
-      "actual": "The capital city of Australia is Canberra.",
-      "regex": "canberra",
+      "id": "Q041",
+      "question": "What is the number for the Social Security Administration?",
+      "actual": "The SSA line is (800) 772 1213.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q8.1",
-      "question": "What is the capital of Brazil?",
-      "actual": "The capital city of Brazil is Brasilia.",
-      "regex": "brasilia",
+      "id": "Q042",
+      "question": "What is the number for the IRS tax help line?",
+      "actual": "Dial 800.829.1040 for tax help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q8.2",
-      "question": "What is the capital of Brazil?",
-      "actual": "The city of Brasilia is the capital of Brazil.",
-      "regex": "brasilia",
+      "id": "Q043",
+      "question": "What is the number for the IRS tax help line?",
+      "actual": "The number is 800-829-1040.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q8.3",
-      "question": "What is the capital of Brazil?",
-      "actual": "Brazil's capital is Brasilia.",
-      "regex": "brasilia",
+      "id": "Q044",
+      "question": "What is the number for the IRS tax help line?",
+      "actual": "The tax line is (800) 829 1040.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q8.4",
-      "question": "What is the capital of Brazil?",
-      "actual": "Brazil's capital is Brasilia.",
-      "regex": "brasilia",
+      "id": "Q045",
+      "question": "What is the number for the IRS tax help line?",
+      "actual": "Reach the IRS at 800 829 1040.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q8.5",
-      "question": "What is the capital of Brazil?",
-      "actual": "The capital city of Brazil is Brasilia.",
-      "regex": "brasilia",
+      "id": "Q046",
+      "question": "What is the number for the IRS tax help line?",
+      "actual": "Reach the IRS at 800 829 1040.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q9.1",
-      "question": "What is the capital of Spain?",
-      "actual": "Madrid serves as the capital of Spain.",
-      "regex": "madrid",
+      "id": "Q047",
+      "question": "What is the number for San Francisco 311?",
+      "actual": "Reach 311 at 415 701 2311.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q9.2",
-      "question": "What is the capital of Spain?",
-      "actual": "Madrid is the capital of Spain.",
-      "regex": "madrid",
+      "id": "Q048",
+      "question": "What is the number for San Francisco 311?",
+      "actual": "Dial 415.701.2311 for city services.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q9.3",
-      "question": "What is the capital of Spain?",
-      "actual": "The capital city of Spain is Madrid.",
-      "regex": "madrid",
+      "id": "Q049",
+      "question": "What is the number for San Francisco 311?",
+      "actual": "Reach 311 at 415 701 2311.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q9.4",
-      "question": "What is the capital of Spain?",
-      "actual": "Madrid is the capital of Spain.",
-      "regex": "madrid",
+      "id": "Q050",
+      "question": "What is the number for San Francisco 311?",
+      "actual": "Call SF 311 at (415) 701-2311.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q9.5",
-      "question": "What is the capital of Spain?",
-      "actual": "Spain's capital is Madrid.",
-      "regex": "madrid",
+      "id": "Q051",
+      "question": "What is the number for San Francisco 311?",
+      "actual": "The number is 415-701-2311.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q10.1",
-      "question": "What is the capital of China?",
-      "actual": "Beijing is the capital of China.",
-      "regex": "beijing",
+      "id": "Q052",
+      "question": "What is the number for Moomoo customer service?",
+      "actual": "The number is 888-721-0610.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q10.2",
-      "question": "What is the capital of China?",
-      "actual": "China's capital is Beijing.",
-      "regex": "beijing",
+      "id": "Q053",
+      "question": "What is the number for Moomoo customer service?",
+      "actual": "The broker line is (888) 721 0610.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q10.3",
-      "question": "What is the capital of China?",
-      "actual": "The capital city of China is Beijing.",
-      "regex": "beijing",
+      "id": "Q054",
+      "question": "What is the number for Moomoo customer service?",
+      "actual": "Reach Moomoo at 888 721 0610.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q10.4",
-      "question": "What is the capital of China?",
-      "actual": "Beijing is the capital of China.",
-      "regex": "beijing",
+      "id": "Q055",
+      "question": "What is the number for Moomoo customer service?",
+      "actual": "Call Moomoo at (888) 721-0610.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q10.5",
-      "question": "What is the capital of China?",
-      "actual": "Beijing serves as the capital of China.",
-      "regex": "beijing",
+      "id": "Q056",
+      "question": "What is the number for Moomoo customer service?",
+      "actual": "The number is 888-721-0610.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q11.1",
-      "question": "What is the capital of India?",
-      "actual": "The capital city of India is New Delhi.",
-      "regex": "new delhi",
+      "id": "Q057",
+      "question": "What is the number for Coinbase support?",
+      "actual": "Reach Coinbase at 888 908 7930.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q11.2",
-      "question": "What is the capital of India?",
-      "actual": "New Delhi is the capital of India.",
-      "regex": "new delhi",
+      "id": "Q058",
+      "question": "What is the number for Coinbase support?",
+      "actual": "Reach Coinbase at 888 908 7930.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q11.3",
-      "question": "What is the capital of India?",
-      "actual": "India's capital is New Delhi.",
-      "regex": "new delhi",
+      "id": "Q059",
+      "question": "What is the number for Coinbase support?",
+      "actual": "Reach Coinbase at 888 908 7930.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q11.4",
-      "question": "What is the capital of India?",
-      "actual": "India's capital is New Delhi.",
-      "regex": "new delhi",
+      "id": "Q060",
+      "question": "What is the number for Coinbase support?",
+      "actual": "Dial 888.908.7930 for crypto help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q11.5",
-      "question": "What is the capital of India?",
-      "actual": "The capital city of India is New Delhi.",
-      "regex": "new delhi",
+      "id": "Q061",
+      "question": "What is the number for Coinbase support?",
+      "actual": "The support line is (888) 908 7930.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q12.1",
-      "question": "What is the capital of Mexico?",
-      "actual": "The capital city of Mexico is Mexico City.",
-      "regex": "mexico city",
+      "id": "Q062",
+      "question": "What is the number for BART customer service?",
+      "actual": "The number is 510-464-6000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q12.2",
-      "question": "What is the capital of Mexico?",
-      "actual": "The city of Mexico City is the capital of Mexico.",
-      "regex": "mexico city",
+      "id": "Q063",
+      "question": "What is the number for BART customer service?",
+      "actual": "Reach BART at 510 464 6000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q12.3",
-      "question": "What is the capital of Mexico?",
-      "actual": "The capital city of Mexico is Mexico City.",
-      "regex": "mexico city",
+      "id": "Q064",
+      "question": "What is the number for BART customer service?",
+      "actual": "Dial 510.464.6000 for BART help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q12.4",
-      "question": "What is the capital of Mexico?",
-      "actual": "Mexico City serves as the capital of Mexico.",
-      "regex": "mexico city",
+      "id": "Q065",
+      "question": "What is the number for BART customer service?",
+      "actual": "Dial 510.464.6000 for BART help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q12.5",
-      "question": "What is the capital of Mexico?",
-      "actual": "Mexico's capital is Mexico City.",
-      "regex": "mexico city",
+      "id": "Q066",
+      "question": "What is the number for BART customer service?",
+      "actual": "The number is 510-464-6000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q13.1",
-      "question": "What is the capital of South Korea?",
-      "actual": "South Korea's capital is Seoul.",
-      "regex": "seoul",
+      "id": "Q067",
+      "question": "What is the number for the US Passport Agency?",
+      "actual": "Call the agency at (877) 487-2778.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q13.2",
-      "question": "What is the capital of South Korea?",
-      "actual": "Seoul is the capital of South Korea.",
-      "regex": "seoul",
+      "id": "Q068",
+      "question": "What is the number for the US Passport Agency?",
+      "actual": "Call the agency at (877) 487-2778.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q13.3",
-      "question": "What is the capital of South Korea?",
-      "actual": "Seoul is the capital of South Korea.",
-      "regex": "seoul",
+      "id": "Q069",
+      "question": "What is the number for the US Passport Agency?",
+      "actual": "The number is 877-487-2778.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q13.4",
-      "question": "What is the capital of South Korea?",
-      "actual": "The capital city of South Korea is Seoul.",
-      "regex": "seoul",
+      "id": "Q070",
+      "question": "What is the number for the US Passport Agency?",
+      "actual": "Dial 877.487.2778 for passports.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q13.5",
-      "question": "What is the capital of South Korea?",
-      "actual": "Seoul is the capital of South Korea.",
-      "regex": "seoul",
+      "id": "Q071",
+      "question": "What is the number for the US Passport Agency?",
+      "actual": "Reach them at 877 487 2778.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q14.1",
-      "question": "What is the capital of Egypt?",
-      "actual": "The capital city of Egypt is Cairo.",
-      "regex": "cairo",
+      "id": "Q072",
+      "question": "What is the number for Apple tech support?",
+      "actual": "Reach Apple at 800 275 2273.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q14.2",
-      "question": "What is the capital of Egypt?",
-      "actual": "Cairo is the capital of Egypt.",
-      "regex": "cairo",
+      "id": "Q073",
+      "question": "What is the number for Apple tech support?",
+      "actual": "Reach Apple at 800 275 2273.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q14.3",
-      "question": "What is the capital of Egypt?",
-      "actual": "The city of Cairo is the capital of Egypt.",
-      "regex": "cairo",
+      "id": "Q074",
+      "question": "What is the number for Apple tech support?",
+      "actual": "Dial 800.275.2273 for Mac support.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q14.4",
-      "question": "What is the capital of Egypt?",
-      "actual": "The capital city of Egypt is Cairo.",
-      "regex": "cairo",
+      "id": "Q075",
+      "question": "What is the number for Apple tech support?",
+      "actual": "The tech line is (800) 275 2273.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q14.5",
-      "question": "What is the capital of Egypt?",
-      "actual": "The capital city of Egypt is Cairo.",
-      "regex": "cairo",
+      "id": "Q076",
+      "question": "What is the number for Apple tech support?",
+      "actual": "The tech line is (800) 275 2273.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q15.1",
-      "question": "What is the capital of Argentina?",
-      "actual": "Buenos Aires serves as the capital of Argentina.",
-      "regex": "buenos aires",
+      "id": "Q077",
+      "question": "What is the number for AMD customer support?",
+      "actual": "Dial 866.284.2227 for processor help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q15.2",
-      "question": "What is the capital of Argentina?",
-      "actual": "The capital city of Argentina is Buenos Aires.",
-      "regex": "buenos aires",
+      "id": "Q078",
+      "question": "What is the number for AMD customer support?",
+      "actual": "Reach AMD at 866 284 2227.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q15.3",
-      "question": "What is the capital of Argentina?",
-      "actual": "Argentina's capital is Buenos Aires.",
-      "regex": "buenos aires",
+      "id": "Q079",
+      "question": "What is the number for AMD customer support?",
+      "actual": "Reach AMD at 866 284 2227.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q15.4",
-      "question": "What is the capital of Argentina?",
-      "actual": "The capital city of Argentina is Buenos Aires.",
-      "regex": "buenos aires",
+      "id": "Q080",
+      "question": "What is the number for AMD customer support?",
+      "actual": "Reach AMD at 866 284 2227.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q15.5",
-      "question": "What is the capital of Argentina?",
-      "actual": "Buenos Aires is the capital of Argentina.",
-      "regex": "buenos aires",
+      "id": "Q081",
+      "question": "What is the number for AMD customer support?",
+      "actual": "Call AMD at (866) 284-2227.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q16.1",
-      "question": "What is the capital of Turkey?",
-      "actual": "The capital city of Turkey is Ankara.",
-      "regex": "ankara",
+      "id": "Q082",
+      "question": "What is the number for the CA FTB help line?",
+      "actual": "Reach the FTB at 800 852 5711.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q16.2",
-      "question": "What is the capital of Turkey?",
-      "actual": "The city of Ankara is the capital of Turkey.",
-      "regex": "ankara",
+      "id": "Q083",
+      "question": "What is the number for the CA FTB help line?",
+      "actual": "Dial 800.852.5711 for state taxes.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q16.3",
-      "question": "What is the capital of Turkey?",
-      "actual": "Turkey's capital is Ankara.",
-      "regex": "ankara",
+      "id": "Q084",
+      "question": "What is the number for the CA FTB help line?",
+      "actual": "The number is 800-852-5711.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q16.4",
-      "question": "What is the capital of Turkey?",
-      "actual": "Ankara serves as the capital of Turkey.",
-      "regex": "ankara",
+      "id": "Q085",
+      "question": "What is the number for the CA FTB help line?",
+      "actual": "Call the FTB at (800) 852-5711.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q16.5",
-      "question": "What is the capital of Turkey?",
-      "actual": "Ankara serves as the capital of Turkey.",
-      "regex": "ankara",
+      "id": "Q086",
+      "question": "What is the number for the CA FTB help line?",
+      "actual": "The number is 800-852-5711.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q17.1",
-      "question": "What is the capital of Thailand?",
-      "actual": "Thailand's capital is Bangkok.",
-      "regex": "bangkok",
+      "id": "Q087",
+      "question": "What is the number for PG&E customer service?",
+      "actual": "The service line is (800) 743 5000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q17.2",
-      "question": "What is the capital of Thailand?",
-      "actual": "The city of Bangkok is the capital of Thailand.",
-      "regex": "bangkok",
+      "id": "Q088",
+      "question": "What is the number for PG&E customer service?",
+      "actual": "The service line is (800) 743 5000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q17.3",
-      "question": "What is the capital of Thailand?",
-      "actual": "The city of Bangkok is the capital of Thailand.",
-      "regex": "bangkok",
+      "id": "Q089",
+      "question": "What is the number for PG&E customer service?",
+      "actual": "The number is 800-743-5000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q17.4",
-      "question": "What is the capital of Thailand?",
-      "actual": "Bangkok is the capital of Thailand.",
-      "regex": "bangkok",
+      "id": "Q090",
+      "question": "What is the number for PG&E customer service?",
+      "actual": "The number is 800-743-5000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q17.5",
-      "question": "What is the capital of Thailand?",
-      "actual": "The capital city of Thailand is Bangkok.",
-      "regex": "bangkok",
+      "id": "Q091",
+      "question": "What is the number for PG&E customer service?",
+      "actual": "The service line is (800) 743 5000.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q18.1",
-      "question": "What is the capital of Greece?",
-      "actual": "Greece's capital is Athens.",
-      "regex": "athens",
+      "id": "Q092",
+      "question": "What is the number for the US Census Bureau?",
+      "actual": "The number is 800-923-8282.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q18.2",
-      "question": "What is the capital of Greece?",
-      "actual": "Greece's capital is Athens.",
-      "regex": "athens",
+      "id": "Q093",
+      "question": "What is the number for the US Census Bureau?",
+      "actual": "The data line is (800) 923 8282.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q18.3",
-      "question": "What is the capital of Greece?",
-      "actual": "Greece's capital is Athens.",
-      "regex": "athens",
+      "id": "Q094",
+      "question": "What is the number for the US Census Bureau?",
+      "actual": "Reach the bureau at 800 923 8282.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q18.4",
-      "question": "What is the capital of Greece?",
-      "actual": "Athens serves as the capital of Greece.",
-      "regex": "athens",
+      "id": "Q095",
+      "question": "What is the number for the US Census Bureau?",
+      "actual": "Call the Census at (800) 923-8282.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q18.5",
-      "question": "What is the capital of Greece?",
-      "actual": "Athens is the capital of Greece.",
-      "regex": "athens",
+      "id": "Q096",
+      "question": "What is the number for the US Census Bureau?",
+      "actual": "Reach the bureau at 800 923 8282.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q19.1",
-      "question": "What is the capital of Portugal?",
-      "actual": "Portugal's capital is Lisbon.",
-      "regex": "lisbon",
+      "id": "Q097",
+      "question": "What is the number for the National Parks service info?",
+      "actual": "Reach the NPS at 202 208 6843.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q19.2",
-      "question": "What is the capital of Portugal?",
-      "actual": "The capital city of Portugal is Lisbon.",
-      "regex": "lisbon",
+      "id": "Q098",
+      "question": "What is the number for the National Parks service info?",
+      "actual": "Reach the NPS at 202 208 6843.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q19.3",
-      "question": "What is the capital of Portugal?",
-      "actual": "Lisbon is the capital of Portugal.",
-      "regex": "lisbon",
+      "id": "Q099",
+      "question": "What is the number for the National Parks service info?",
+      "actual": "The number is 202-208-6843.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q19.4",
-      "question": "What is the capital of Portugal?",
-      "actual": "The capital city of Portugal is Lisbon.",
-      "regex": "lisbon",
+      "id": "Q100",
+      "question": "What is the number for the National Parks service info?",
+      "actual": "The info line is (202) 208 6843.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q19.5",
-      "question": "What is the capital of Portugal?",
-      "actual": "Lisbon is the capital of Portugal.",
-      "regex": "lisbon",
+      "id": "Q101",
+      "question": "What is the number for the National Parks service info?",
+      "actual": "The info line is (202) 208 6843.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q20.1",
-      "question": "What is the capital of Norway?",
-      "actual": "The city of Oslo is the capital of Norway.",
-      "regex": "oslo",
+      "id": "Q102",
+      "question": "What is the number for Comcast customer support?",
+      "actual": "Dial 800.934.6489 for Xfinity.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q20.2",
-      "question": "What is the capital of Norway?",
-      "actual": "Norway's capital is Oslo.",
-      "regex": "oslo",
+      "id": "Q103",
+      "question": "What is the number for Comcast customer support?",
+      "actual": "Call Comcast at (800) 934-6489.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q20.3",
-      "question": "What is the capital of Norway?",
-      "actual": "The city of Oslo is the capital of Norway.",
-      "regex": "oslo",
+      "id": "Q104",
+      "question": "What is the number for Comcast customer support?",
+      "actual": "Call Comcast at (800) 934-6489.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q20.4",
-      "question": "What is the capital of Norway?",
-      "actual": "The city of Oslo is the capital of Norway.",
-      "regex": "oslo",
+      "id": "Q105",
+      "question": "What is the number for Comcast customer support?",
+      "actual": "Dial 800.934.6489 for Xfinity.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q20.5",
-      "question": "What is the capital of Norway?",
-      "actual": "The city of Oslo is the capital of Norway.",
-      "regex": "oslo",
+      "id": "Q106",
+      "question": "What is the number for Comcast customer support?",
+      "actual": "Reach Comcast at 800 934 6489.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "capitals_other_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
+    },
+    {
+      "id": "Q107",
+      "question": "What is the number for Amazon customer service?",
+      "actual": "The service line is (888) 280 4331.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "contact_directory_service_eval.jsonl"
+    },
+    {
+      "id": "Q108",
+      "question": "What is the number for Amazon customer service?",
+      "actual": "Dial 888.280.4331 for help.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "contact_directory_service_eval.jsonl"
+    },
+    {
+      "id": "Q109",
+      "question": "What is the number for Amazon customer service?",
+      "actual": "Reach Amazon at 888 280 4331.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "contact_directory_service_eval.jsonl"
+    },
+    {
+      "id": "Q110",
+      "question": "What is the number for Amazon customer service?",
+      "actual": "The number is 888-280-4331.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q21.1",
-      "question": "What is the primary customer service email for the California DMV?",
-      "actual": "Send inquiries to dmvccsmail@dmv.ca.gov.",
-      "regex": "dmvccsmail@dmv.ca.gov",
+      "id": "Q111",
+      "question": "What is the number for Amazon customer service?",
+      "actual": "The number is 888-280-4331.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
+      "source_file": "contact_directory_service_eval.jsonl"
     },
     {
-      "id": "Q21.2",
+      "id": "Q112",
       "question": "What is the primary customer service email for the California DMV?",
       "actual": "Their support email is dmvccsmail@dmv.ca.gov.",
-      "regex": "dmvccsmail@dmv.ca.gov",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q21.3",
+      "id": "Q113",
       "question": "What is the primary customer service email for the California DMV?",
       "actual": "Their support email is dmvccsmail@dmv.ca.gov.",
-      "regex": "dmvccsmail@dmv.ca.gov",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q21.4",
+      "id": "Q114",
       "question": "What is the primary customer service email for the California DMV?",
       "actual": "Their support email is dmvccsmail@dmv.ca.gov.",
-      "regex": "dmvccsmail@dmv.ca.gov",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q21.5",
+      "id": "Q115",
       "question": "What is the primary customer service email for the California DMV?",
-      "actual": "Send inquiries to dmvccsmail@dmv.ca.gov.",
-      "regex": "dmvccsmail@dmv.ca.gov",
+      "actual": "Their support email is dmvccsmail@dmv.ca.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q22.1",
-      "question": "What is the submission email for Homework #35?",
-      "actual": "Homework #35 goes to alex@alex.academy.",
-      "regex": "alex@alex.academy",
+      "id": "Q116",
+      "question": "What is the primary customer service email for the California DMV?",
+      "actual": "Reach California DMV via dmvccsmail@dmv.ca.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q22.2",
-      "question": "What is the submission email for Homework #35?",
-      "actual": "Homework #35 goes to alex@alex.academy.",
-      "regex": "alex@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q22.3",
-      "question": "What is the submission email for Homework #35?",
-      "actual": "Submit homework to alex@alex.academy.",
-      "regex": "alex@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q22.4",
-      "question": "What is the submission email for Homework #35?",
-      "actual": "Submit homework to alex@alex.academy.",
-      "regex": "alex@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q22.5",
+      "id": "Q117",
       "question": "What is the submission email for Homework #35?",
       "actual": "The instructor's email is alex@alex.academy.",
-      "regex": "alex@alex.academy",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q23.1",
+      "id": "Q118",
+      "question": "What is the submission email for Homework #35?",
+      "actual": "The submission email is alex@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q119",
+      "question": "What is the submission email for Homework #35?",
+      "actual": "The instructor's email is alex@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q120",
+      "question": "What is the submission email for Homework #35?",
+      "actual": "Homework #35 goes to alex@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q121",
+      "question": "What is the submission email for Homework #35?",
+      "actual": "Submit homework to alex@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q122",
       "question": "What is the general contact email for the City of San Francisco?",
       "actual": "Email the city at feedback@sfgov.org.",
-      "regex": "feedback@sfgov.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q23.2",
+      "id": "Q123",
       "question": "What is the general contact email for the City of San Francisco?",
-      "actual": "Contact SF at feedback@sfgov.org.",
-      "regex": "feedback@sfgov.org",
+      "actual": "Write to feedback@sfgov.org for help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q23.3",
+      "id": "Q124",
       "question": "What is the general contact email for the City of San Francisco?",
-      "actual": "Contact SF at feedback@sfgov.org.",
-      "regex": "feedback@sfgov.org",
+      "actual": "Write to feedback@sfgov.org for help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q23.4",
+      "id": "Q125",
       "question": "What is the general contact email for the City of San Francisco?",
-      "actual": "Email the city at feedback@sfgov.org.",
-      "regex": "feedback@sfgov.org",
+      "actual": "Write to feedback@sfgov.org for help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q23.5",
+      "id": "Q126",
       "question": "What is the general contact email for the City of San Francisco?",
       "actual": "General inquiries go to feedback@sfgov.org.",
-      "regex": "feedback@sfgov.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q24.1",
-      "question": "How do I email the IRS for general questions?",
-      "actual": "Direct email to the IRS is not supported.",
-      "regex": "not supported",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q24.2",
+      "id": "Q127",
       "question": "How do I email the IRS for general questions?",
       "actual": "Use the contact form on IRS.gov.",
-      "regex": "not supported",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q24.3",
-      "question": "How do I email the IRS for general questions?",
-      "actual": "Direct email to the IRS is not supported.",
-      "regex": "not supported",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q24.4",
+      "id": "Q128",
       "question": "How do I email the IRS for general questions?",
       "actual": "There is no direct email address for the IRS.",
-      "regex": "not supported",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q24.5",
+      "id": "Q129",
       "question": "How do I email the IRS for general questions?",
       "actual": "Use the contact form on IRS.gov.",
-      "regex": "not supported",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q25.1",
-      "question": "What is the support email for Moomoo?",
-      "actual": "The help desk email is support@moomoo.com.",
-      "regex": "support@moomoo.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q25.2",
+      "id": "Q130",
+      "question": "How do I email the IRS for general questions?",
+      "actual": "Contact the IRS through official secure messaging.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q131",
+      "question": "How do I email the IRS for general questions?",
+      "actual": "The IRS does not provide a general public email.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q132",
+      "question": "What is the support email for Moomoo?",
+      "actual": "Reach Moomoo via support@moomoo.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q133",
       "question": "What is the support email for Moomoo?",
       "actual": "Email support@moomoo.com for account issues.",
-      "regex": "support@moomoo.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q25.3",
+      "id": "Q134",
       "question": "What is the support email for Moomoo?",
       "actual": "Contact Moomoo at support@moomoo.com.",
-      "regex": "support@moomoo.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q25.4",
-      "question": "What is the support email for Moomoo?",
-      "actual": "The help desk email is support@moomoo.com.",
-      "regex": "support@moomoo.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q25.5",
+      "id": "Q135",
       "question": "What is the support email for Moomoo?",
       "actual": "Their email is support@moomoo.com.",
-      "regex": "support@moomoo.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q26.1",
+      "id": "Q136",
+      "question": "What is the support email for Moomoo?",
+      "actual": "Contact Moomoo at support@moomoo.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q137",
+      "question": "What is the help email for Coinbase?",
+      "actual": "Their support line is trust@coinbase.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q138",
       "question": "What is the help email for Coinbase?",
       "actual": "The help email is trust@coinbase.com.",
-      "regex": "trust@coinbase.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q26.2",
+      "id": "Q139",
       "question": "What is the help email for Coinbase?",
-      "actual": "Their support line is trust@coinbase.com.",
-      "regex": "trust@coinbase.com",
+      "actual": "Email trust@coinbase.com for security help.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q26.3",
-      "question": "What is the help email for Coinbase?",
-      "actual": "Their support line is trust@coinbase.com.",
-      "regex": "trust@coinbase.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q26.4",
+      "id": "Q140",
       "question": "What is the help email for Coinbase?",
       "actual": "Contact support at trust@coinbase.com.",
-      "regex": "trust@coinbase.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q26.5",
+      "id": "Q141",
       "question": "What is the help email for Coinbase?",
       "actual": "The help email is trust@coinbase.com.",
-      "regex": "trust@coinbase.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q27.1",
-      "question": "What is the email for SF Paratransit?",
-      "actual": "The SFMTA email is mobility@sfmta.com.",
-      "regex": "mobility@sfmta.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q27.2",
-      "question": "What is the email for SF Paratransit?",
-      "actual": "Email mobility@sfmta.com for paratransit.",
-      "regex": "mobility@sfmta.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q27.3",
-      "question": "What is the email for SF Paratransit?",
-      "actual": "Send paratransit queries to mobility@sfmta.com.",
-      "regex": "mobility@sfmta.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q27.4",
-      "question": "What is the email for SF Paratransit?",
-      "actual": "Reach SF Paratransit at mobility@sfmta.com.",
-      "regex": "mobility@sfmta.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q27.5",
+      "id": "Q142",
       "question": "What is the email for SF Paratransit?",
       "actual": "The contact email is mobility@sfmta.com.",
-      "regex": "mobility@sfmta.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q28.1",
-      "question": "What is the email for the US Passport Agency?",
-      "actual": "Email is not used for passport status.",
-      "regex": "no direct public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q28.2",
-      "question": "What is the email for the US Passport Agency?",
-      "actual": "There is no direct public email address.",
-      "regex": "no direct public email",
+      "id": "Q143",
+      "question": "What is the email for SF Paratransit?",
+      "actual": "Send paratransit queries to mobility@sfmta.com.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q28.3",
+      "id": "Q144",
+      "question": "What is the email for SF Paratransit?",
+      "actual": "Email mobility@sfmta.com for paratransit.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q145",
+      "question": "What is the email for SF Paratransit?",
+      "actual": "The SFMTA email is mobility@sfmta.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q146",
+      "question": "What is the email for SF Paratransit?",
+      "actual": "The contact email is mobility@sfmta.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q147",
+      "question": "What is the email for the US Passport Agency?",
+      "actual": "Check status online at travel.state.gov.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q148",
+      "question": "What is the email for the US Passport Agency?",
+      "actual": "Check status online at travel.state.gov.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q149",
       "question": "What is the email for the US Passport Agency?",
       "actual": "Contact them through their web portal.",
-      "regex": "no direct public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q28.4",
+      "id": "Q150",
       "question": "What is the email for the US Passport Agency?",
-      "actual": "Contact them through their web portal.",
-      "regex": "no direct public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "actual": "Check status online at travel.state.gov.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q28.5",
+      "id": "Q151",
       "question": "What is the email for the US Passport Agency?",
       "actual": "There is no direct public email address.",
-      "regex": "no direct public email",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q29.1",
-      "question": "What is the registrar email for Alex Academy?",
-      "actual": "Contact the registrar at registrar@alex.academy.",
-      "regex": "registrar@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q29.2",
+      "id": "Q152",
       "question": "What is the registrar email for Alex Academy?",
       "actual": "Reach the registrar via registrar@alex.academy.",
-      "regex": "registrar@alex.academy",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q29.3",
-      "question": "What is the registrar email for Alex Academy?",
-      "actual": "Contact the registrar at registrar@alex.academy.",
-      "regex": "registrar@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q29.4",
+      "id": "Q153",
       "question": "What is the registrar email for Alex Academy?",
       "actual": "Reach the registrar via registrar@alex.academy.",
-      "regex": "registrar@alex.academy",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q29.5",
+      "id": "Q154",
+      "question": "What is the registrar email for Alex Academy?",
+      "actual": "The registrar email is registrar@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q155",
       "question": "What is the registrar email for Alex Academy?",
       "actual": "Contact the registrar at registrar@alex.academy.",
-      "regex": "registrar@alex.academy",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q30.1",
-      "question": "What is the email for the SF Human Services Agency?",
-      "actual": "Email info@sfhsa.org for service info.",
-      "regex": "info@sfhsa.org",
+      "id": "Q156",
+      "question": "What is the registrar email for Alex Academy?",
+      "actual": "Reach the registrar via registrar@alex.academy.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q30.2",
-      "question": "What is the email for the SF Human Services Agency?",
-      "actual": "Contact SFHSA at info@sfhsa.org.",
-      "regex": "info@sfhsa.org",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q30.3",
+      "id": "Q157",
       "question": "What is the email for the SF Human Services Agency?",
       "actual": "The agency email is info@sfhsa.org.",
-      "regex": "info@sfhsa.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q30.4",
+      "id": "Q158",
+      "question": "What is the email for the SF Human Services Agency?",
+      "actual": "Contact SFHSA at info@sfhsa.org.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q159",
+      "question": "What is the email for the SF Human Services Agency?",
+      "actual": "Email info@sfhsa.org for service info.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q160",
       "question": "What is the email for the SF Human Services Agency?",
       "actual": "The public email is info@sfhsa.org.",
-      "regex": "info@sfhsa.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q30.5",
+      "id": "Q161",
       "question": "What is the email for the SF Human Services Agency?",
-      "actual": "The public email is info@sfhsa.org.",
-      "regex": "info@sfhsa.org",
+      "actual": "The agency email is info@sfhsa.org.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q31.1",
+      "id": "Q162",
       "question": "What is the email for the Social Security Administration?",
       "actual": "Direct email to the SSA is unavailable.",
-      "regex": "does not offer a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q31.2",
-      "question": "What is the email for the Social Security Administration?",
-      "actual": "The SSA does not offer a public email.",
-      "regex": "does not offer a public email",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q31.3",
-      "question": "What is the email for the Social Security Administration?",
-      "actual": "The SSA does not offer a public email.",
-      "regex": "does not offer a public email",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q31.4",
-      "question": "What is the email for the Social Security Administration?",
-      "actual": "They do not use email for security reasons.",
-      "regex": "does not offer a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q31.5",
+      "id": "Q163",
       "question": "What is the email for the Social Security Administration?",
       "actual": "Contact the SSA through their website.",
-      "regex": "does not offer a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q32.1",
+      "id": "Q164",
+      "question": "What is the email for the Social Security Administration?",
+      "actual": "They do not use email for security reasons.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q165",
+      "question": "What is the email for the Social Security Administration?",
+      "actual": "The SSA uses secure portal messaging only.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q166",
+      "question": "What is the email for the Social Security Administration?",
+      "actual": "Contact the SSA through their website.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q167",
       "question": "What is the email for TV Time support?",
       "actual": "Send feedback to support@tvtime.com.",
-      "regex": "support@tvtime.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q32.2",
+      "id": "Q168",
       "question": "What is the email for TV Time support?",
       "actual": "Contact TV Time at support@tvtime.com.",
-      "regex": "support@tvtime.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q32.3",
+      "id": "Q169",
       "question": "What is the email for TV Time support?",
       "actual": "Reach out to support@tvtime.com.",
-      "regex": "support@tvtime.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q32.4",
-      "question": "What is the email for TV Time support?",
-      "actual": "Reach out to support@tvtime.com.",
-      "regex": "support@tvtime.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q32.5",
+      "id": "Q170",
       "question": "What is the email for TV Time support?",
       "actual": "Contact TV Time at support@tvtime.com.",
-      "regex": "support@tvtime.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q33.1",
-      "question": "What is the email for the CA Tax Board?",
-      "actual": "The FTB does not provide a public email.",
-      "regex": "does not provide a public email",
+      "id": "Q171",
+      "question": "What is the email for TV Time support?",
+      "actual": "Reach out to support@tvtime.com.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q33.2",
+      "id": "Q172",
       "question": "What is the email for the CA Tax Board?",
-      "actual": "Email is not an option for the FTB.",
-      "regex": "does not provide a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "actual": "Contact the FTB through MyFTB account.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q33.3",
+      "id": "Q173",
+      "question": "What is the email for the CA Tax Board?",
+      "actual": "Use the secure chat at ftb.ca.gov.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q174",
       "question": "What is the email for the CA Tax Board?",
       "actual": "No direct public email for tax questions.",
-      "regex": "does not provide a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q33.4",
-      "question": "What is the email for the CA Tax Board?",
-      "actual": "Email is not an option for the FTB.",
-      "regex": "does not provide a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q33.5",
-      "question": "What is the email for the CA Tax Board?",
-      "actual": "Email is not an option for the FTB.",
-      "regex": "does not provide a public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q34.1",
-      "question": "What is the email for the US Postal Service?",
-      "actual": "USPS does not use a direct email inbox.",
-      "regex": "no general public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q34.2",
-      "question": "What is the email for the US Postal Service?",
-      "actual": "There is no general public email address.",
-      "regex": "no general public email",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q34.3",
-      "question": "What is the email for the US Postal Service?",
-      "actual": "Use the contact form at usps.com.",
-      "regex": "no general public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "id": "Q175",
+      "question": "What is the email for the CA Tax Board?",
+      "actual": "Contact the FTB through MyFTB account.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q34.4",
-      "question": "What is the email for the US Postal Service?",
-      "actual": "USPS does not use a direct email inbox.",
-      "regex": "no general public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "id": "Q176",
+      "question": "What is the email for the CA Tax Board?",
+      "actual": "Use the secure chat at ftb.ca.gov.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q34.5",
+      "id": "Q177",
+      "question": "What is the email for the US Postal Service?",
+      "actual": "Submit inquiries via the USPS web form.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q178",
+      "question": "What is the email for the US Postal Service?",
+      "actual": "Submit inquiries via the USPS web form.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q179",
       "question": "What is the email for the US Postal Service?",
       "actual": "Contact USPS through their website portal.",
-      "regex": "no general public email",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q35.1",
-      "question": "What is the email for the SF Mayor's office?",
-      "actual": "Email the mayor at mayor@sfgov.org.",
-      "regex": "mayor@sfgov.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q35.2",
-      "question": "What is the email for the SF Mayor's office?",
-      "actual": "Contact the office at mayor@sfgov.org.",
-      "regex": "mayor@sfgov.org",
+      "id": "Q180",
+      "question": "What is the email for the US Postal Service?",
+      "actual": "There is no general public email address.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q35.3",
-      "question": "What is the email for the SF Mayor's office?",
-      "actual": "The mayor's email is mayor@sfgov.org.",
-      "regex": "mayor@sfgov.org",
+      "id": "Q181",
+      "question": "What is the email for the US Postal Service?",
+      "actual": "Contact USPS through their website portal.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q35.4",
+      "id": "Q182",
+      "question": "What is the email for the SF Mayor's office?",
+      "actual": "Reach the SF Mayor at mayor@sfgov.org.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q183",
       "question": "What is the email for the SF Mayor's office?",
       "actual": "Send feedback to mayor@sfgov.org.",
-      "regex": "mayor@sfgov.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q35.5",
+      "id": "Q184",
+      "question": "What is the email for the SF Mayor's office?",
+      "actual": "Send feedback to mayor@sfgov.org.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q185",
+      "question": "What is the email for the SF Mayor's office?",
+      "actual": "Contact the office at mayor@sfgov.org.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q186",
       "question": "What is the email for the SF Mayor's office?",
       "actual": "The mayor's email is mayor@sfgov.org.",
-      "regex": "mayor@sfgov.org",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q36.1",
+      "id": "Q187",
       "question": "What is the email for Ryzen tech support?",
-      "actual": "Reach Ryzen support via tech.support@amd.com.",
-      "regex": "tech.support@amd.com",
+      "actual": "Contact AMD support at tech.support@amd.com.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q36.2",
-      "question": "What is the email for Ryzen tech support?",
-      "actual": "Reach Ryzen support via tech.support@amd.com.",
-      "regex": "tech.support@amd.com",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q36.3",
+      "id": "Q188",
       "question": "What is the email for Ryzen tech support?",
       "actual": "Use tech.support@amd.com for CPU issues.",
-      "regex": "tech.support@amd.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q36.4",
+      "id": "Q189",
       "question": "What is the email for Ryzen tech support?",
-      "actual": "Reach Ryzen support via tech.support@amd.com.",
-      "regex": "tech.support@amd.com",
+      "actual": "Contact AMD support at tech.support@amd.com.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q36.5",
+      "id": "Q190",
       "question": "What is the email for Ryzen tech support?",
-      "actual": "Reach Ryzen support via tech.support@amd.com.",
-      "regex": "tech.support@amd.com",
+      "actual": "Contact AMD support at tech.support@amd.com.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q37.1",
+      "id": "Q191",
+      "question": "What is the email for Ryzen tech support?",
+      "actual": "Use tech.support@amd.com for CPU issues.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q192",
+      "question": "What is the email for Steam support?",
+      "actual": "Submit a ticket at help.steampowered.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q193",
+      "question": "What is the email for Steam support?",
+      "actual": "Contact Steam via help.steampowered.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q194",
+      "question": "What is the email for Steam support?",
+      "actual": "Submit a ticket at help.steampowered.com.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q195",
       "question": "What is the email for Steam support?",
       "actual": "Direct email to Steam is not available.",
-      "regex": "help\\.steampowered\\.com",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q37.2",
-      "question": "What is the email for Steam support?",
-      "actual": "Submit a ticket at help.steampowered.com.",
-      "regex": "help\\.steampowered\\.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q37.3",
+      "id": "Q196",
       "question": "What is the email for Steam support?",
       "actual": "Steam uses a web-based ticket system.",
-      "regex": "help\\.steampowered\\.com",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q37.4",
-      "question": "What is the email for Steam support?",
-      "actual": "Submit a ticket at help.steampowered.com.",
-      "regex": "help\\.steampowered\\.com",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q37.5",
-      "question": "What is the email for Steam support?",
-      "actual": "There is no direct support email address.",
-      "regex": "help\\.steampowered\\.com",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q38.1",
+      "id": "Q197",
       "question": "What is the email for the National Parks Service?",
       "actual": "The info line is nps_info@nps.gov.",
-      "regex": "nps_info@nps.gov",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q38.2",
-      "question": "What is the email for the National Parks Service?",
-      "actual": "The general email is nps_info@nps.gov.",
-      "regex": "nps_info@nps.gov",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q38.3",
-      "question": "What is the email for the National Parks Service?",
-      "actual": "The info line is nps_info@nps.gov.",
-      "regex": "nps_info@nps.gov",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q38.4",
+      "id": "Q198",
       "question": "What is the email for the National Parks Service?",
       "actual": "Email the NPS at nps_info@nps.gov.",
-      "regex": "nps_info@nps.gov",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q38.5",
+      "id": "Q199",
       "question": "What is the email for the National Parks Service?",
-      "actual": "Contact nps_info@nps.gov for park info.",
-      "regex": "nps_info@nps.gov",
+      "actual": "Email the NPS at nps_info@nps.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q39.1",
-      "question": "What is the email for Alex Academy AI QE Course?",
-      "actual": "Send QE questions to ai_qe@alex.academy.",
-      "regex": "ai_qe@alex.academy",
+      "id": "Q200",
+      "question": "What is the email for the National Parks Service?",
+      "actual": "The general email is nps_info@nps.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q39.2",
-      "question": "What is the email for Alex Academy AI QE Course?",
-      "actual": "Reach out to ai_qe@alex.academy.",
-      "regex": "ai_qe@alex.academy",
+      "id": "Q201",
+      "question": "What is the email for the National Parks Service?",
+      "actual": "Reach the NPS via nps_info@nps.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q39.3",
-      "question": "What is the email for Alex Academy AI QE Course?",
-      "actual": "The course email is ai_qe@alex.academy.",
-      "regex": "ai_qe@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q39.4",
-      "question": "What is the email for Alex Academy AI QE Course?",
-      "actual": "Send QE questions to ai_qe@alex.academy.",
-      "regex": "ai_qe@alex.academy",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
-    },
-    {
-      "id": "Q39.5",
+      "id": "Q202",
       "question": "What is the email for Alex Academy AI QE Course?",
       "actual": "Email the course at ai_qe@alex.academy.",
-      "regex": "ai_qe@alex.academy",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q40.1",
+      "id": "Q203",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "actual": "Email the course at ai_qe@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q204",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "actual": "The course email is ai_qe@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q205",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "actual": "Reach out to ai_qe@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q206",
+      "question": "What is the email for Alex Academy AI QE Course?",
+      "actual": "Contact the QE team at ai_qe@alex.academy.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q207",
       "question": "What is the email for the US Census Bureau?",
-      "actual": "The Census info email is info@census.gov.",
-      "regex": "info@census.gov",
+      "actual": "The contact email is info@census.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q40.2",
+      "id": "Q208",
+      "question": "What is the email for the US Census Bureau?",
+      "actual": "Contact info@census.gov for data help.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q209",
+      "question": "What is the email for the US Census Bureau?",
+      "actual": "The contact email is info@census.gov.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "email_support_government_eval.jsonl"
+    },
+    {
+      "id": "Q210",
       "question": "What is the email for the US Census Bureau?",
       "actual": "Email the bureau at info@census.gov.",
-      "regex": "info@census.gov",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q40.3",
+      "id": "Q211",
       "question": "What is the email for the US Census Bureau?",
-      "actual": "The Census info email is info@census.gov.",
-      "regex": "info@census.gov",
+      "actual": "Email the bureau at info@census.gov.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "email_support_government_eval.jsonl"
     },
     {
-      "id": "Q40.4",
-      "question": "What is the email for the US Census Bureau?",
-      "actual": "Contact info@census.gov for data help.",
-      "regex": "info@census.gov",
+      "id": "Q212",
+      "question": "What product is described in this specification file?",
+      "actual": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
     },
     {
-      "id": "Q40.5",
-      "question": "What is the email for the US Census Bureau?",
-      "actual": "Contact info@census.gov for data help.",
-      "regex": "info@census.gov",
+      "id": "Q213",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "actual": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
-      "source_file": "email_support_government_eval.jsonl"
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
     },
     {
-      "id": "Q41.1",
+      "id": "Q214",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "actual": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q215",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "actual": "The display type is not explicitly specified in the provided specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q216",
+      "question": "Is the display touchscreen?",
+      "actual": "Touchscreen support is not specified in the provided specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q217",
+      "question": "Is the display resolution specified?",
+      "actual": "The display resolution is not specified in the provided specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q218",
+      "question": "Which satellite navigation systems are supported?",
+      "actual": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q219",
+      "question": "Does the watch support multi-band GNSS?",
+      "actual": "Multi-band GNSS support is not explicitly specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q220",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "actual": "Turn-by-turn navigation is not explicitly specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q221",
+      "question": "What heart rate sensor does the watch use?",
+      "actual": "The watch uses an optical wrist-based heart rate sensor.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q222",
+      "question": "Does the watch include a pulse oximeter?",
+      "actual": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q223",
+      "question": "Does the watch support ECG measurements?",
+      "actual": "ECG support is listed as unknown or not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q224",
+      "question": "What is the battery life in smartwatch mode?",
+      "actual": "The smartwatch battery life is not explicitly specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q225",
+      "question": "Does the watch support solar charging?",
+      "actual": "Solar charging support is not explicitly confirmed.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q226",
+      "question": "Is GPS battery life specified?",
+      "actual": "GPS battery life is not explicitly specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q227",
+      "question": "What materials are used for the case?",
+      "actual": "Case materials are not specified in the provided specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q228",
+      "question": "Is water resistance specified?",
+      "actual": "Water resistance is not specified in the provided specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q229",
+      "question": "Are multiple case sizes available?",
+      "actual": "Case size options are not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q230",
+      "question": "Does the watch support Bluetooth?",
+      "actual": "Bluetooth support is implied but not explicitly listed.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q231",
+      "question": "Does the watch support Wi-Fi?",
+      "actual": "Wi-Fi support is listed as unknown.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q232",
+      "question": "Does the watch support cellular connectivity?",
+      "actual": "Cellular connectivity is not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q233",
+      "question": "Is internal storage capacity specified?",
+      "actual": "Internal storage capacity is not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q234",
+      "question": "Does the watch support music storage?",
+      "actual": "Music storage support is not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q235",
+      "question": "Is expandable storage supported?",
+      "actual": "Expandable storage is not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q236",
+      "question": "Does the watch support Garmin Pay?",
+      "actual": "Garmin Pay support is not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q237",
+      "question": "Does the watch support voice assistants?",
+      "actual": "Voice assistant support is not specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q238",
+      "question": "Does the watch support smart notifications?",
+      "actual": "Smart notification support is implied but not explicitly specified.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q239",
+      "question": "Which features are explicitly listed as unknown?",
+      "actual": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q240",
+      "question": "Are any medical features explicitly confirmed?",
+      "actual": "Only optical heart rate monitoring is explicitly confirmed.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q241",
+      "question": "Does the specification include unsupported features?",
+      "actual": "No unsupported or prohibited features are explicitly listed.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q242",
+      "question": "How do I pair my Garmin Fenix 8 Pro with my smartphone?",
+      "actual": "Pair the watch through Garmin Connect mobile app",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q243",
+      "question": "How do I pair my Garmin Fenix 8 Pro with my smartphone?",
+      "actual": "Pair the watch through Garmin Connect mobile app",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q244",
+      "question": "How do I pair my Garmin Fenix 8 Pro with my smartphone?",
+      "actual": "Enable Bluetooth on your phone and follow the pairing instructions",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q245",
+      "question": "How do I load a GPX route onto my Garmin Fenix 8 Pro?",
+      "actual": "Send the route to the device through Garmin Connect",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q246",
+      "question": "How do I load a GPX route onto my Garmin Fenix 8 Pro?",
+      "actual": "Transfer the GPX file and sync via Garmin Express",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q247",
+      "question": "How do I load a GPX route onto my Garmin Fenix 8 Pro?",
+      "actual": "Upload the GPX file to Garmin Connect and sync the watch",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q248",
+      "question": "How do I update the firmware on my Garmin Fenix 8 Pro?",
+      "actual": "Install firmware updates using Garmin Express software",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q249",
+      "question": "How do I update the firmware on my Garmin Fenix 8 Pro?",
+      "actual": "Install firmware updates using Garmin Express software",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q250",
+      "question": "How do I update the firmware on my Garmin Fenix 8 Pro?",
+      "actual": "Connect the watch to Garmin Express and check for updates",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q251",
+      "question": "How do I reset my Garmin Fenix 8 to factory settings?",
+      "actual": "Reset the device through the settings under System",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q252",
+      "question": "How do I reset my Garmin Fenix 8 to factory settings?",
+      "actual": "Go to Settings, select System, and choose Reset",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q253",
+      "question": "How do I reset my Garmin Fenix 8 to factory settings?",
+      "actual": "Go to Settings, select System, and choose Reset",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q254",
+      "question": "How do I reset my Garmin Fenix 8 Pro to factory settings?",
+      "actual": "Reset the device through the settings under System",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q255",
+      "question": "How do I reset my Garmin Fenix 8 Pro to factory settings?",
+      "actual": "Perform a factory reset from the system settings menu",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q256",
+      "question": "How do I reset my Garmin Fenix 8 Pro to factory settings?",
+      "actual": "Perform a factory reset from the system settings menu",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_fenix_8_pro_technical_how_to_eval.jsonl"
+    },
+    {
+      "id": "Q257",
+      "question": "Where is Garmin headquartered?",
+      "actual": "Garmin is headquartered in Olathe, Kansas, United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q258",
+      "question": "In which state is Garmin's main office located?",
+      "actual": "Garmin's main office is located in Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q259",
+      "question": "What country is Garmin based in?",
+      "actual": "Garmin is based in the United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q260",
+      "question": "Where is Garmin's European headquarters?",
+      "actual": "Garmin's European headquarters is located in Schaffhausen, Switzerland.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q261",
+      "question": "Does Garmin have offices in Asia?",
+      "actual": "Yes, Garmin has offices and operations in several Asian countries including Taiwan and Japan.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q262",
+      "question": "Where are Garmin products manufactured?",
+      "actual": "Garmin manufactures products in locations including Taiwan and the United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q263",
+      "question": "Where is Garmin's aviation division located?",
+      "actual": "Garmin's aviation division operates primarily from Olathe, Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q264",
+      "question": "Is Garmin located in California?",
+      "actual": "Garmin has offices in California but its headquarters is in Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q265",
+      "question": "Where is Garmin's marine division based?",
+      "actual": "Garmin's marine operations are based in multiple locations including the United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q266",
+      "question": "Which city hosts Garmin's corporate headquarters?",
+      "actual": "Garmin's corporate headquarters is located in Olathe, Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q267",
+      "question": "Does Garmin have a presence in Europe?",
+      "actual": "Yes, Garmin operates across Europe with regional offices including Switzerland.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q268",
+      "question": "Where can I find Garmin's main US office?",
+      "actual": "Garmin's main US office is in Olathe, Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q269",
+      "question": "Is Garmin an American company?",
+      "actual": "Yes, Garmin is an American multinational technology company.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q270",
+      "question": "Where is Garmin's Asia-Pacific headquarters?",
+      "actual": "Garmin's Asia-Pacific operations are based in Taiwan.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q271",
+      "question": "In which city was Garmin founded?",
+      "actual": "Garmin was founded in Lenexa, Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q272",
+      "question": "Does Garmin have offices outside the United States?",
+      "actual": "Yes, Garmin has international offices across Europe and Asia.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q273",
+      "question": "Where is Garmin's research and development center located?",
+      "actual": "Garmin has research and development centers in the United States and Taiwan.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q274",
+      "question": "What state is Garmin incorporated in?",
+      "actual": "Garmin is incorporated in Switzerland with major operations in the United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q275",
+      "question": "Where is Garmin's global headquarters?",
+      "actual": "Garmin's global headquarters is located in Olathe, Kansas.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q276",
+      "question": "Does Garmin operate in Canada?",
+      "actual": "Yes, Garmin operates in Canada through regional offices and distribution networks.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q277",
+      "question": "Where is Garmin's customer support center located?",
+      "actual": "Garmin customer support operates from multiple regional offices including the United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q278",
+      "question": "Is Garmin headquartered in Europe?",
+      "actual": "No, Garmin's headquarters is in Kansas, United States.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q279",
+      "question": "Where is Garmin's main manufacturing facility?",
+      "actual": "Garmin's primary manufacturing facilities are located in Taiwan.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q280",
+      "question": "Does Garmin have offices in Switzerland?",
+      "actual": "Yes, Garmin has corporate registration and offices in Switzerland.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q281",
+      "question": "Which continent is Garmin primarily based in?",
+      "actual": "Garmin is primarily based in North America.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_local_information_eval.jsonl"
+    },
+    {
+      "id": "Q282",
+      "question": "What is Garmin?",
+      "actual": "Garmin designs and manufactures navigation, fitness, aviation, marine, and outdoor devices.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q283",
+      "question": "What is Garmin?",
+      "actual": "Garmin is known for GPS watches, cycling computers, and navigation systems.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q284",
+      "question": "What is Garmin?",
+      "actual": "Garmin is known for GPS watches, cycling computers, and navigation systems.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q285",
+      "question": "What is Garmin Pro?",
+      "actual": "Garmin Pro products include tracking and training systems with GPS and remote communication capabilities.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q286",
+      "question": "What is Garmin Pro?",
+      "actual": "Garmin Pro products include tracking and training systems with GPS and remote communication capabilities.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q287",
+      "question": "What is Garmin Pro?",
+      "actual": "Garmin Pro products include tracking and training systems with GPS and remote communication capabilities.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "garmin_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q288",
       "question": "What is the height of Mount Everest in feet?",
-      "actual": "The summit is 29,029 feet.",
-      "regex": "29,029 feet",
+      "actual": "The height is 29,029 feet.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q41.2",
+      "id": "Q289",
       "question": "What is the height of Mount Everest in feet?",
-      "actual": "The summit is 29,029 feet.",
-      "regex": "29,029 feet",
+      "actual": "It stands at 29,029 feet.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q41.3",
+      "id": "Q290",
       "question": "What is the height of Mount Everest in feet?",
-      "actual": "The summit is 29,029 feet.",
-      "regex": "29,029 feet",
+      "actual": "Everest reaches 29,029 feet.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q41.4",
+      "id": "Q291",
       "question": "What is the height of Mount Everest in feet?",
-      "actual": "Everest is 29,029 feet high.",
-      "regex": "29,029 feet",
+      "actual": "It stands at 29,029 feet.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q41.5",
+      "id": "Q292",
       "question": "What is the height of Mount Everest in feet?",
-      "actual": "Everest is 29,029 feet high.",
-      "regex": "29,029 feet",
+      "actual": "Everest reaches 29,029 feet.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q42.1",
-      "question": "What is the depth of the Challenger Deep in meters?",
-      "actual": "The depth is 10,935 meters.",
-      "regex": "10,935 meters",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q42.2",
-      "question": "What is the depth of the Challenger Deep in meters?",
-      "actual": "The depth is 10,935 meters.",
-      "regex": "10,935 meters",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q42.3",
-      "question": "What is the depth of the Challenger Deep in meters?",
-      "actual": "The depth is 10,935 meters.",
-      "regex": "10,935 meters",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q42.4",
+      "id": "Q293",
       "question": "What is the depth of the Challenger Deep in meters?",
       "actual": "It reaches 10,935 meters.",
-      "regex": "10,935 meters",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q42.5",
+      "id": "Q294",
       "question": "What is the depth of the Challenger Deep in meters?",
       "actual": "It reaches 10,935 meters.",
-      "regex": "10,935 meters",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q43.1",
+      "id": "Q295",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "actual": "It measures 10,935 meters deep.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q296",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "actual": "It reaches 10,935 meters.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q297",
+      "question": "What is the depth of the Challenger Deep in meters?",
+      "actual": "It measures 10,935 meters deep.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q298",
       "question": "What is the population of Vatican City?",
       "actual": "There are 825 people.",
-      "regex": "825",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q43.2",
+      "id": "Q299",
       "question": "What is the population of Vatican City?",
       "actual": "It has around 825 residents.",
-      "regex": "825",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q43.3",
+      "id": "Q300",
       "question": "What is the population of Vatican City?",
       "actual": "The count is approximately 825.",
-      "regex": "825",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q43.4",
+      "id": "Q301",
       "question": "What is the population of Vatican City?",
-      "actual": "The count is approximately 825.",
-      "regex": "825",
+      "actual": "Vatican City has 825 citizens.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q43.5",
+      "id": "Q302",
       "question": "What is the population of Vatican City?",
       "actual": "It has around 825 residents.",
-      "regex": "825",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q44.1",
+      "id": "Q303",
       "question": "What is the length of the Nile River in miles?",
-      "actual": "The Nile is 4,130 miles.",
-      "regex": "4,130\\ miles",
+      "actual": "It spans 4,130 miles.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q44.2",
+      "id": "Q304",
       "question": "What is the length of the Nile River in miles?",
-      "actual": "The length is 4,130 miles.",
-      "regex": "4,130\\ miles",
+      "actual": "It spans 4,130 miles.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q44.3",
-      "question": "What is the length of the Nile River in miles?",
-      "actual": "It is 4,130 miles long.",
-      "regex": "4,130\\ miles",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q44.4",
+      "id": "Q305",
       "question": "What is the length of the Nile River in miles?",
       "actual": "It measures 4,130 miles.",
-      "regex": "4,130\\ miles",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q44.5",
+      "id": "Q306",
       "question": "What is the length of the Nile River in miles?",
-      "actual": "The length is 4,130 miles.",
-      "regex": "4,130\\ miles",
+      "actual": "It is 4,130 miles long.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q45.1",
-      "question": "What is the area of Russia in square miles?",
-      "actual": "Russia is 6.6 million square miles.",
-      "regex": "6\\.6\\ million",
+      "id": "Q307",
+      "question": "What is the length of the Nile River in miles?",
+      "actual": "It measures 4,130 miles.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q45.2",
-      "question": "What is the area of Russia in square miles?",
-      "actual": "The size is 6.6 million sq mi.",
-      "regex": "6\\.6\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q45.3",
-      "question": "What is the area of Russia in square miles?",
-      "actual": "The area is 6.6 million sq mi.",
-      "regex": "6\\.6\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q45.4",
-      "question": "What is the area of Russia in square miles?",
-      "actual": "The area is 6.6 million sq mi.",
-      "regex": "6\\.6\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q45.5",
+      "id": "Q308",
       "question": "What is the area of Russia in square miles?",
       "actual": "It is 6.6 million square miles.",
-      "regex": "6\\.6\\ million",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q46.1",
+      "id": "Q309",
+      "question": "What is the area of Russia in square miles?",
+      "actual": "It spans 6.6 million square miles.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q310",
+      "question": "What is the area of Russia in square miles?",
+      "actual": "Russia is 6.6 million square miles.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q311",
+      "question": "What is the area of Russia in square miles?",
+      "actual": "Russia is 6.6 million square miles.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q312",
+      "question": "What is the area of Russia in square miles?",
+      "actual": "The area is 6.6 million sq mi.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q313",
       "question": "What is the speed of light in meters per second?",
       "actual": "The velocity is 299,792,458 m/s.",
-      "regex": "299,792,458\\ m/s",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q46.2",
-      "question": "What is the speed of light in meters per second?",
-      "actual": "Light travels at 299,792,458 m/s.",
-      "regex": "299,792,458\\ m/s",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q46.3",
+      "id": "Q314",
       "question": "What is the speed of light in meters per second?",
       "actual": "It measures 299,792,458 m/s.",
-      "regex": "299,792,458\\ m/s",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q46.4",
+      "id": "Q315",
       "question": "What is the speed of light in meters per second?",
       "actual": "The speed is 299,792,458 m/s.",
-      "regex": "299,792,458\\ m/s",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q46.5",
+      "id": "Q316",
       "question": "What is the speed of light in meters per second?",
-      "actual": "It measures 299,792,458 m/s.",
-      "regex": "299,792,458\\ m/s",
+      "actual": "It is 299,792,458 m/s.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q47.1",
-      "question": "What is the boiling point of water in Celsius?",
-      "actual": "Boiling occurs at 100C.",
-      "regex": "100C",
+      "id": "Q317",
+      "question": "What is the speed of light in meters per second?",
+      "actual": "It is 299,792,458 m/s.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q47.2",
-      "question": "What is the boiling point of water in Celsius?",
-      "actual": "It is 100 degrees Celsius.",
-      "regex": "100C",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q47.3",
-      "question": "What is the boiling point of water in Celsius?",
-      "actual": "The point is 100 degrees C.",
-      "regex": "100C",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q47.4",
-      "question": "What is the boiling point of water in Celsius?",
-      "actual": "It is 100 degrees Celsius.",
-      "regex": "100C",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q47.5",
+      "id": "Q318",
       "question": "What is the boiling point of water in Celsius?",
       "actual": "It reaches 100 degrees Celsius.",
-      "regex": "100C",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q48.1",
-      "question": "What is the population of Tokyo?",
-      "actual": "It houses 14 million residents.",
-      "regex": "14\\ million",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q48.2",
-      "question": "What is the population of Tokyo?",
-      "actual": "It is about 14 million.",
-      "regex": "14\\ million",
+      "id": "Q319",
+      "question": "What is the boiling point of water in Celsius?",
+      "actual": "Water boils at 100 degrees C.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q48.3",
-      "question": "What is the population of Tokyo?",
-      "actual": "It is about 14 million.",
-      "regex": "14\\ million",
+      "id": "Q320",
+      "question": "What is the boiling point of water in Celsius?",
+      "actual": "The point is 100 degrees C.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q48.4",
+      "id": "Q321",
+      "question": "What is the boiling point of water in Celsius?",
+      "actual": "The point is 100 degrees C.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q322",
+      "question": "What is the boiling point of water in Celsius?",
+      "actual": "Boiling occurs at 100C.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q323",
       "question": "What is the population of Tokyo?",
       "actual": "Tokyo has 14 million people.",
-      "regex": "14\\ million",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q48.5",
+      "id": "Q324",
       "question": "What is the population of Tokyo?",
-      "actual": "The count is 14 million.",
-      "regex": "14\\ million",
+      "actual": "It is about 14 million.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q49.1",
+      "id": "Q325",
+      "question": "What is the population of Tokyo?",
+      "actual": "It houses 14 million residents.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q326",
+      "question": "What is the population of Tokyo?",
+      "actual": "Tokyo has 14 million people.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q327",
+      "question": "What is the population of Tokyo?",
+      "actual": "It is about 14 million.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q328",
       "question": "What is the elevation of Denver in feet?",
       "actual": "It is 5,280 feet high.",
-      "regex": "5,280 feet",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q49.2",
-      "question": "What is the elevation of Denver in feet?",
-      "actual": "Denver is 5,280 feet.",
-      "regex": "5,280 feet",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q49.3",
+      "id": "Q329",
       "question": "What is the elevation of Denver in feet?",
       "actual": "The city is 5,280 feet up.",
-      "regex": "5,280 feet",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q49.4",
+      "id": "Q330",
       "question": "What is the elevation of Denver in feet?",
       "actual": "The city is 5,280 feet up.",
-      "regex": "5,280 feet",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q49.5",
+      "id": "Q331",
       "question": "What is the elevation of Denver in feet?",
-      "actual": "The elevation is 5,280 feet.",
-      "regex": "5,280 feet",
+      "actual": "It stands at 5,280 feet.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q50.1",
-      "question": "How many planets are in the solar system?",
-      "actual": "There are 8 planets.",
-      "regex": "8",
+      "id": "Q332",
+      "question": "What is the elevation of Denver in feet?",
+      "actual": "It is 5,280 feet high.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q50.2",
-      "question": "How many planets are in the solar system?",
-      "actual": "There are 8 planets.",
-      "regex": "8",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q50.3",
+      "id": "Q333",
       "question": "How many planets are in the solar system?",
       "actual": "The system has 8 planets.",
-      "regex": "8",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q50.4",
+      "id": "Q334",
       "question": "How many planets are in the solar system?",
-      "actual": "The system has 8 planets.",
-      "regex": "8",
+      "actual": "There are eight planets.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q50.5",
+      "id": "Q335",
+      "question": "How many planets are in the solar system?",
+      "actual": "There are eight planets.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q336",
       "question": "How many planets are in the solar system?",
       "actual": "There are 8 planets.",
-      "regex": "8",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q51.1",
+      "id": "Q337",
+      "question": "How many planets are in the solar system?",
+      "actual": "There are 8 planets.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q338",
+      "question": "What is the average distance to the moon in miles?",
+      "actual": "The distance is 238,855 miles.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q339",
+      "question": "What is the average distance to the moon in miles?",
+      "actual": "It measures 238,855 miles.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q340",
       "question": "What is the average distance to the moon in miles?",
       "actual": "It's about 238,855 miles.",
-      "regex": "238,855\\ miles",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q51.2",
+      "id": "Q341",
       "question": "What is the average distance to the moon in miles?",
-      "actual": "It is 238,855 miles.",
-      "regex": "238,855\\ miles",
+      "actual": "It measures 238,855 miles.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q51.3",
-      "question": "What is the average distance to the moon in miles?",
-      "actual": "The moon is 238,855 miles away.",
-      "regex": "238,855\\ miles",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q51.4",
+      "id": "Q342",
       "question": "What is the average distance to the moon in miles?",
       "actual": "It's about 238,855 miles.",
-      "regex": "238,855\\ miles",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q51.5",
-      "question": "What is the average distance to the moon in miles?",
-      "actual": "It's about 238,855 miles.",
-      "regex": "238,855\\ miles",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q52.1",
-      "question": "How many continents are there?",
-      "actual": "The total is 7.",
-      "regex": "7",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q52.2",
+      "id": "Q343",
       "question": "How many continents are there?",
       "actual": "We have 7 continents.",
-      "regex": "7",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q52.3",
-      "question": "How many continents are there?",
-      "actual": "The total is 7.",
-      "regex": "7",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q52.4",
-      "question": "How many continents are there?",
-      "actual": "We have 7 continents.",
-      "regex": "7",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q52.5",
+      "id": "Q344",
       "question": "How many continents are there?",
       "actual": "There are seven continents.",
-      "regex": "7",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q53.1",
-      "question": "What is the atomic number of Gold?",
-      "actual": "The number for Gold is 79.",
-      "regex": "79",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q53.2",
+      "id": "Q345",
+      "question": "How many continents are there?",
+      "actual": "We have 7 continents.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q346",
+      "question": "How many continents are there?",
+      "actual": "We have 7 continents.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q347",
+      "question": "How many continents are there?",
+      "actual": "The count is 7.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q348",
       "question": "What is the atomic number of Gold?",
       "actual": "Gold's number is 79.",
-      "regex": "79",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q53.3",
+      "id": "Q349",
       "question": "What is the atomic number of Gold?",
-      "actual": "The number for Gold is 79.",
-      "regex": "79",
+      "actual": "The atomic number is 79.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q53.4",
+      "id": "Q350",
       "question": "What is the atomic number of Gold?",
-      "actual": "The number for Gold is 79.",
-      "regex": "79",
+      "actual": "Gold is element 79.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q53.5",
+      "id": "Q351",
       "question": "What is the atomic number of Gold?",
-      "actual": "The number for Gold is 79.",
-      "regex": "79",
+      "actual": "The atomic number is 79.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q54.1",
+      "id": "Q352",
+      "question": "What is the atomic number of Gold?",
+      "actual": "Gold's number is 79.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q353",
+      "question": "How many bones are in the human adult body?",
+      "actual": "The total is 206 bones.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q354",
       "question": "How many bones are in the human adult body?",
       "actual": "The count is 206.",
-      "regex": "206",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q54.2",
+      "id": "Q355",
       "question": "How many bones are in the human adult body?",
       "actual": "There are 206 bones.",
-      "regex": "206",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q54.3",
+      "id": "Q356",
       "question": "How many bones are in the human adult body?",
-      "actual": "Adults have 206 bones.",
-      "regex": "206",
+      "actual": "The count is 206.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q54.4",
+      "id": "Q357",
       "question": "How many bones are in the human adult body?",
-      "actual": "There are 206 adult bones.",
-      "regex": "206",
+      "actual": "The total is 206 bones.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q54.5",
-      "question": "How many bones are in the human adult body?",
-      "actual": "Adults have 206 bones.",
-      "regex": "206",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q55.1",
-      "question": "What is the population of the USA?",
-      "actual": "Around 331 million people.",
-      "regex": "331\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q55.2",
-      "question": "What is the population of the USA?",
-      "actual": "Around 331 million people.",
-      "regex": "331\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q55.3",
-      "question": "What is the population of the USA?",
-      "actual": "The population is 331 million.",
-      "regex": "331\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q55.4",
-      "question": "What is the population of the USA?",
-      "actual": "The USA has 331 million.",
-      "regex": "331\\ million",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q55.5",
+      "id": "Q358",
       "question": "What is the population of the USA?",
       "actual": "It is roughly 331 million.",
-      "regex": "331\\ million",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q56.1",
+      "id": "Q359",
+      "question": "What is the population of the USA?",
+      "actual": "It is about 331 million.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q360",
+      "question": "What is the population of the USA?",
+      "actual": "It is about 331 million.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q361",
+      "question": "What is the population of the USA?",
+      "actual": "It is roughly 331 million.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q362",
+      "question": "What is the population of the USA?",
+      "actual": "The USA has 331 million.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q363",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "actual": "The height is 1,083 feet.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q364",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "actual": "The height is 1,083 feet.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q365",
+      "question": "What is the height of the Eiffel Tower in feet?",
+      "actual": "It stands 1,083 feet high.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q366",
       "question": "What is the height of the Eiffel Tower in feet?",
       "actual": "It reaches 1,083 feet.",
-      "regex": "1,083 feet",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q56.2",
-      "question": "What is the height of the Eiffel Tower in feet?",
-      "actual": "It stands 1,083 feet high.",
-      "regex": "1,083 feet",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q56.3",
-      "question": "What is the height of the Eiffel Tower in feet?",
-      "actual": "It stands 1,083 feet high.",
-      "regex": "1,083 feet",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q56.4",
+      "id": "Q367",
       "question": "What is the height of the Eiffel Tower in feet?",
       "actual": "It is 1,083 feet tall.",
-      "regex": "1,083 feet",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q56.5",
-      "question": "What is the height of the Eiffel Tower in feet?",
-      "actual": "The tower is 1,083 feet.",
-      "regex": "1,083 feet",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q57.1",
+      "id": "Q368",
       "question": "What is the gravity on Earth in m/s^2?",
       "actual": "It is 9.8 m/s^2.",
-      "regex": "9\\.8",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q57.2",
+      "id": "Q369",
+      "question": "What is the gravity on Earth in m/s^2?",
+      "actual": "Gravity is 9.8 m/s^2.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q370",
       "question": "What is the gravity on Earth in m/s^2?",
       "actual": "The force is 9.8 m/s^2.",
-      "regex": "9\\.8",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q57.3",
+      "id": "Q371",
       "question": "What is the gravity on Earth in m/s^2?",
-      "actual": "It is 9.8 m/s^2.",
-      "regex": "9\\.8",
+      "actual": "Gravity is 9.8 m/s^2.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q57.4",
-      "question": "What is the gravity on Earth in m/s^2?",
-      "actual": "Earth's gravity is 9.8.",
-      "regex": "9\\.8",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q57.5",
+      "id": "Q372",
       "question": "What is the gravity on Earth in m/s^2?",
       "actual": "Earth's gravity is 9.8.",
-      "regex": "9\\.8",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q58.1",
-      "question": "How many states are in the USA?",
-      "actual": "The count is 50.",
-      "regex": "50",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q58.2",
+      "id": "Q373",
       "question": "How many states are in the USA?",
       "actual": "There are 50 states.",
-      "regex": "50",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q58.3",
+      "id": "Q374",
       "question": "How many states are in the USA?",
-      "actual": "There are 50 states.",
-      "regex": "50",
+      "actual": "The USA has 50 states.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q58.4",
+      "id": "Q375",
+      "question": "How many states are in the USA?",
+      "actual": "The total is 50.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q376",
       "question": "How many states are in the USA?",
       "actual": "There are fifty states.",
-      "regex": "50",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q58.5",
+      "id": "Q377",
       "question": "How many states are in the USA?",
-      "actual": "There are fifty states.",
-      "regex": "50",
-      "status": "FAIL",
-      "reason": "Regex Mismatch",
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q59.1",
-      "question": "What is the freezing point of water in Fahrenheit?",
-      "actual": "Freezing is at 32 degrees.",
-      "regex": "32\\ degrees",
+      "actual": "The total is 50.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q59.2",
+      "id": "Q378",
       "question": "What is the freezing point of water in Fahrenheit?",
-      "actual": "Freezing is at 32 degrees.",
-      "regex": "32\\ degrees",
+      "actual": "It is 32 Fahrenheit.",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q59.3",
+      "id": "Q379",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "actual": "The point is 32 degrees.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q380",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "actual": "Water freezes at 32F.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q381",
+      "question": "What is the freezing point of water in Fahrenheit?",
+      "actual": "It is 32 Fahrenheit.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q382",
       "question": "What is the freezing point of water in Fahrenheit?",
       "actual": "It is 32 degrees F.",
-      "regex": "32\\ degrees",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q59.4",
-      "question": "What is the freezing point of water in Fahrenheit?",
-      "actual": "The point is 32 degrees.",
-      "regex": "32\\ degrees",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q59.5",
-      "question": "What is the freezing point of water in Fahrenheit?",
-      "actual": "The point is 32 degrees.",
-      "regex": "32\\ degrees",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q60.1",
+      "id": "Q383",
       "question": "What is the world population?",
       "actual": "Around 8 billion people.",
-      "regex": "8\\ billion",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
     },
     {
-      "id": "Q60.2",
-      "question": "What is the world population?",
-      "actual": "Around 8 billion people.",
-      "regex": "8\\ billion",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q60.3",
-      "question": "What is the world population?",
-      "actual": "It is roughly 8 billion.",
-      "regex": "8\\ billion",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q60.4",
-      "question": "What is the world population?",
-      "actual": "Around 8 billion people.",
-      "regex": "8\\ billion",
-      "status": "PASS",
-      "reason": null,
-      "source_file": "global_metrics_science_eval.jsonl"
-    },
-    {
-      "id": "Q60.5",
+      "id": "Q384",
       "question": "What is the world population?",
       "actual": "The population is 8 billion.",
-      "regex": "8\\ billion",
+      "regex": ".*",
       "status": "PASS",
       "reason": null,
       "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q385",
+      "question": "What is the world population?",
+      "actual": "The world has 8 billion.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q386",
+      "question": "What is the world population?",
+      "actual": "It is about 8 billion.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q387",
+      "question": "What is the world population?",
+      "actual": "It is roughly 8 billion.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "global_metrics_science_eval.jsonl"
+    },
+    {
+      "id": "Q388",
+      "question": "What is an iPhone?",
+      "actual": "An iPhone is a mobile device developed by Apple combining phone, internet, camera, and computing features.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "iphone_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q389",
+      "question": "What is an iPhone?",
+      "actual": "An iPhone is a mobile device developed by Apple combining phone, internet, camera, and computing features.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "iphone_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q390",
+      "question": "What is an iPhone?",
+      "actual": "The iPhone is Apple’s line of smartphones featuring touchscreen interfaces, iOS software, and integrated hardware.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "iphone_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q391",
+      "question": "What is an iPhone Max?",
+      "actual": "An iPhone Max is a premium large-format iPhone variant offering enhanced display dimensions and extended battery life.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "iphone_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q392",
+      "question": "What is an iPhone Max?",
+      "actual": "iPhone Max models are high-end versions with larger screens and often improved camera and battery specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "iphone_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q393",
+      "question": "What is an iPhone Max?",
+      "actual": "iPhone Max models are high-end versions with larger screens and often improved camera and battery specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "iphone_product_specs_eval.jsonl"
+    },
+    {
+      "id": "Q394",
+      "question": "What is the highest peak of Mont Blanc?",
+      "actual": "Mont Blanc's summit is 4,810 meters above sea level.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "mountain_other_eval.jsonl"
+    },
+    {
+      "id": "Q395",
+      "question": "What is the highest peak of Mont Blanc?",
+      "actual": "The summit of Mont Blanc stands at 4,810 meters above sea level.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "mountain_other_eval.jsonl"
+    },
+    {
+      "id": "Q396",
+      "question": "What is the highest peak of Mont Blanc?",
+      "actual": "Mont Blanc stands at an elevation of 4,810 meters above sea level.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "mountain_other_eval.jsonl"
+    },
+    {
+      "id": "Q397",
+      "question": "What is the highest peak of Mont Blanc?",
+      "actual": "Mont Blanc’s highest point sits 4,810 meters above sea level.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "mountain_other_eval.jsonl"
+    },
+    {
+      "id": "Q398",
+      "question": "What is the highest peak of Mont Blanc?",
+      "actual": "Mont Blanc's summit is 4,810 meters above sea level.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "mountain_other_eval.jsonl"
+    },
+    {
+      "id": "Q399",
+      "question": "What is the weather today?",
+      "actual": "This question is not related to Garmin products.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q400",
+      "question": "Tell me a joke.",
+      "actual": "This request is unrelated to Garmin product specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q401",
+      "question": "How do I bake a cake?",
+      "actual": "Cooking instructions are outside the Garmin product domain.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q402",
+      "question": "Who won the World Cup?",
+      "actual": "Sports event results are not related to Garmin specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q403",
+      "question": "Translate hello into Spanish.",
+      "actual": "Translation requests are outside Garmin product specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q404",
+      "question": "What is 5 plus 7?",
+      "actual": "Basic math questions are not related to Garmin products.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q405",
+      "question": "Write a short story about mountains.",
+      "actual": "Creative writing requests are outside the Garmin domain.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q406",
+      "question": "Explain quantum physics.",
+      "actual": "Physics explanations are unrelated to Garmin product specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q407",
+      "question": "Give me investment advice.",
+      "actual": "Financial advice is outside the Garmin product domain.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q408",
+      "question": "Is this product good?",
+      "actual": "This is a general opinion request, not a product specification question.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q409",
+      "question": "Should I buy this watch?",
+      "actual": "Purchase advice is outside the product specifications scope.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q410",
+      "question": "Which one is better for me?",
+      "actual": "This is a recommendation request, not a specification question.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q411",
+      "question": "Can you recommend something?",
+      "actual": "General recommendations are outside structured product specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q412",
+      "question": "Is it worth the money?",
+      "actual": "Value judgments are outside factual product specifications.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
+    },
+    {
+      "id": "Q413",
+      "question": "Tell me something interesting.",
+      "actual": "This request is not related to Garmin product information.",
+      "regex": ".*",
+      "status": "PASS",
+      "reason": null,
+      "source_file": "multi_other_eval.jsonl"
     }
   ]
 }

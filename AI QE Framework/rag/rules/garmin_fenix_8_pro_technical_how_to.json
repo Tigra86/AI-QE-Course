@@ -1,0 +1,29 @@
+{
+  "fenix_8_pro_technical_how_to": {
+    "how do i pair my garmin fenix 8 pro with my smartphone?": [
+      "Enable Bluetooth on your phone and follow the pairing instructions",
+      "Open the Garmin Connect app and select Add Device",
+      "Pair the watch through Garmin Connect mobile app"
+    ],
+    "how do i load a gpx route onto my garmin fenix 8 pro?": [
+      "Send the route to the device through Garmin Connect",
+      "Transfer the GPX file and sync via Garmin Express",
+      "Upload the GPX file to Garmin Connect and sync the watch"
+    ],
+    "how do i update the firmware on my garmin fenix 8 pro?": [
+      "Connect the watch to Garmin Express and check for updates",
+      "Install firmware updates using Garmin Express software",
+      "Update the watch through Garmin Connect if an update is available"
+    ],
+    "how do i reset my garmin fenix 8 to factory settings?": [
+      "Go to Settings, select System, and choose Reset",
+      "Perform a factory reset from the system settings menu",
+      "Reset the device through the settings under System"
+    ],
+    "how do i reset my garmin fenix 8 pro to factory settings?": [
+      "Go to Settings, select System, and choose Reset",
+      "Perform a factory reset from the system settings menu",
+      "Reset the device through the settings under System"
+    ]
+  }
+}

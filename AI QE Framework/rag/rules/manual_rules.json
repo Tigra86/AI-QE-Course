@@ -1,480 +1,302 @@
 {
+  "local_information": {
+    "where is alameda?": [
+      "Alameda is a city located in Alameda County, California, on Alameda Island in the San Francisco Bay.",
+      "Alameda is a coastal city in Northern California, west of Oakland and south of Berkeley.",
+      "Alameda is in the San Francisco Bay Area of California, situated between Oakland and the San Francisco Bay."
+    ],
+    "where is san mateo?": [
+      "San Mateo is a city located in San Mateo County, California, on the San Francisco Peninsula.",
+      "San Mateo is in the Bay Area of California, south of San Francisco and north of Palo Alto.",
+      "San Mateo is situated between San Francisco and Silicon Valley along the western shore of the San Francisco Bay."
+    ],
+    "where is garmin headquartered?": [
+      "Garmin is headquartered in Olathe, Kansas, United States."
+    ],
+    "in which state is garmin's main office located?": [
+      "Garmin's main office is located in Kansas."
+    ],
+    "what country is garmin based in?": [
+      "Garmin is based in the United States."
+    ],
+    "where is garmin's european headquarters?": [
+      "Garmin's European headquarters is located in Schaffhausen, Switzerland."
+    ],
+    "does garmin have offices in asia?": [
+      "Yes, Garmin has offices and operations in several Asian countries including Taiwan and Japan."
+    ],
+    "where are garmin products manufactured?": [
+      "Garmin manufactures products in locations including Taiwan and the United States."
+    ],
+    "where is garmin's aviation division located?": [
+      "Garmin's aviation division operates primarily from Olathe, Kansas."
+    ],
+    "is garmin located in california?": [
+      "Garmin has offices in California but its headquarters is in Kansas."
+    ],
+    "where is garmin's marine division based?": [
+      "Garmin's marine operations are based in multiple locations including the United States."
+    ],
+    "which city hosts garmin's corporate headquarters?": [
+      "Garmin's corporate headquarters is located in Olathe, Kansas."
+    ],
+    "does garmin have a presence in europe?": [
+      "Yes, Garmin operates across Europe with regional offices including Switzerland."
+    ],
+    "where can i find garmin's main us office?": [
+      "Garmin's main US office is in Olathe, Kansas."
+    ],
+    "is garmin an american company?": [
+      "Yes, Garmin is an American multinational technology company."
+    ],
+    "where is garmin's asia-pacific headquarters?": [
+      "Garmin's Asia-Pacific operations are based in Taiwan."
+    ],
+    "in which city was garmin founded?": [
+      "Garmin was founded in Lenexa, Kansas."
+    ],
+    "does garmin have offices outside the united states?": [
+      "Yes, Garmin has international offices across Europe and Asia."
+    ],
+    "where is garmin's research and development center located?": [
+      "Garmin has research and development centers in the United States and Taiwan."
+    ],
+    "what state is garmin incorporated in?": [
+      "Garmin is incorporated in Switzerland with major operations in the United States."
+    ],
+    "where is garmin's global headquarters?": [
+      "Garmin's global headquarters is located in Olathe, Kansas."
+    ],
+    "does garmin operate in canada?": [
+      "Yes, Garmin operates in Canada through regional offices and distribution networks."
+    ],
+    "where is garmin's customer support center located?": [
+      "Garmin customer support operates from multiple regional offices including the United States."
+    ],
+    "is garmin headquartered in europe?": [
+      "No, Garmin's headquarters is in Kansas, United States."
+    ],
+    "where is garmin's main manufacturing facility?": [
+      "Garmin's primary manufacturing facilities are located in Taiwan."
+    ],
+    "does garmin have offices in switzerland?": [
+      "Yes, Garmin has corporate registration and offices in Switzerland."
+    ],
+    "which continent is garmin primarily based in?": [
+      "Garmin is primarily based in North America."
+    ]
+  },
   "other": {
     "what is the capital of france?": [
-      "France's capital is Paris.",
-      "Paris is the capital of France.",
-      "Paris serves as the capital of France.",
-      "The capital city of France is Paris.",
-      "The city of Paris is the capital of France."
+      "France's capital city is Paris.",
+      "Paris is the capital city of France.",
+      "Paris serves as France's capital.",
+      "The capital of France is Paris.",
+      "The city of Paris is France's capital."
     ],
-    "what is the capital of japan?": [
-      "Japan's capital is Tokyo.",
-      "The capital city of Japan is Tokyo.",
-      "The city of Tokyo is the capital of Japan.",
-      "Tokyo is the capital of Japan.",
-      "Tokyo serves as the capital of Japan."
+    "what is the highest peak of mont blanc?": [
+      "Mont Blanc reaches a height of 4,810 meters above sea level at its summit.",
+      "Mont Blanc stands at an elevation of 4,810 meters above sea level.",
+      "Mont Blanc's summit is 4,810 meters above sea level.",
+      "Mont Blanc’s highest point sits 4,810 meters above sea level.",
+      "The summit of Mont Blanc stands at 4,810 meters above sea level."
     ],
-    "what is the capital of germany?": [
-      "Berlin is the capital of Germany.",
-      "Berlin serves as the capital of Germany.",
-      "Germany's capital is Berlin.",
-      "The capital city of Germany is Berlin.",
-      "The city of Berlin is the capital of Germany."
+    "what is the weather today?": [
+      "This question is not related to Garmin products."
     ],
-    "what is the capital of italy?": [
-      "Italy's capital is Rome.",
-      "Rome is the capital of Italy.",
-      "Rome serves as the capital of Italy.",
-      "The capital city of Italy is Rome.",
-      "The city of Rome is the capital of Italy."
+    "tell me a joke.": [
+      "This request is unrelated to Garmin product specifications."
     ],
-    "what is the capital of the united kingdom?": [
-      "London is the capital of the UK.",
-      "London serves as the capital of the UK.",
-      "The UK's capital is London.",
-      "The capital city of the UK is London.",
-      "The city of London is the capital of the UK."
+    "how do i bake a cake?": [
+      "Cooking instructions are outside the Garmin product domain."
     ],
-    "what is the capital of canada?": [
-      "Canada's capital is Ottawa.",
-      "Ottawa is the capital of Canada.",
-      "Ottawa serves as the capital of Canada.",
-      "The capital city of Canada is Ottawa.",
-      "The city of Ottawa is the capital of Canada."
+    "who won the world cup?": [
+      "Sports event results are not related to Garmin specifications."
     ],
-    "what is the capital of australia?": [
-      "Australia's capital is Canberra.",
-      "Canberra is the capital of Australia.",
-      "Canberra serves as the capital of Australia.",
-      "The capital city of Australia is Canberra.",
-      "The city of Canberra is the capital of Australia."
+    "translate hello into spanish.": [
+      "Translation requests are outside Garmin product specifications."
     ],
-    "what is the capital of brazil?": [
-      "Brasilia is the capital of Brazil.",
-      "Brasilia serves as the capital of Brazil.",
-      "Brazil's capital is Brasilia.",
-      "The capital city of Brazil is Brasilia.",
-      "The city of Brasilia is the capital of Brazil."
+    "what is 5 plus 7?": [
+      "Basic math questions are not related to Garmin products."
     ],
-    "what is the capital of spain?": [
-      "Madrid is the capital of Spain.",
-      "Madrid serves as the capital of Spain.",
-      "Spain's capital is Madrid.",
-      "The capital city of Spain is Madrid.",
-      "The city of Madrid is the capital of Spain."
+    "write a short story about mountains.": [
+      "Creative writing requests are outside the Garmin domain."
     ],
-    "what is the capital of china?": [
-      "Beijing is the capital of China.",
-      "Beijing serves as the capital of China.",
-      "China's capital is Beijing.",
-      "The capital city of China is Beijing.",
-      "The city of Beijing is the capital of China."
+    "explain quantum physics.": [
+      "Physics explanations are unrelated to Garmin product specifications."
     ],
-    "what is the capital of india?": [
-      "India's capital is New Delhi.",
-      "New Delhi is the capital of India.",
-      "New Delhi serves as the capital of India.",
-      "The capital city of India is New Delhi.",
-      "The city of New Delhi is the capital of India."
+    "give me investment advice.": [
+      "Financial advice is outside the Garmin product domain."
     ],
-    "what is the capital of mexico?": [
-      "Mexico City is the capital of Mexico.",
-      "Mexico City serves as the capital of Mexico.",
-      "Mexico's capital is Mexico City.",
-      "The capital city of Mexico is Mexico City.",
-      "The city of Mexico City is the capital of Mexico."
+    "is this product good?": [
+      "This is a general opinion request, not a product specification question."
     ],
-    "what is the capital of south korea?": [
-      "Seoul is the capital of South Korea.",
-      "Seoul serves as the capital of South Korea.",
-      "South Korea's capital is Seoul.",
-      "The capital city of South Korea is Seoul.",
-      "The city of Seoul is the capital of South Korea."
+    "should i buy this watch?": [
+      "Purchase advice is outside the product specifications scope."
     ],
-    "what is the capital of egypt?": [
-      "Cairo is the capital of Egypt.",
-      "Cairo serves as the capital of Egypt.",
-      "Egypt's capital is Cairo.",
-      "The capital city of Egypt is Cairo.",
-      "The city of Cairo is the capital of Egypt."
+    "which one is better for me?": [
+      "This is a recommendation request, not a specification question."
     ],
-    "what is the capital of argentina?": [
-      "Argentina's capital is Buenos Aires.",
-      "Buenos Aires is the capital of Argentina.",
-      "Buenos Aires serves as the capital of Argentina.",
-      "The capital city of Argentina is Buenos Aires.",
-      "The city of Buenos Aires is the capital of Argentina."
+    "can you recommend something?": [
+      "General recommendations are outside structured product specifications."
     ],
-    "what is the capital of turkey?": [
-      "Ankara is the capital of Turkey.",
-      "Ankara serves as the capital of Turkey.",
-      "The capital city of Turkey is Ankara.",
-      "The city of Ankara is the capital of Turkey.",
-      "Turkey's capital is Ankara."
+    "is it worth the money?": [
+      "Value judgments are outside factual product specifications."
     ],
-    "what is the capital of thailand?": [
-      "Bangkok is the capital of Thailand.",
-      "Bangkok serves as the capital of Thailand.",
-      "Thailand's capital is Bangkok.",
-      "The capital city of Thailand is Bangkok.",
-      "The city of Bangkok is the capital of Thailand."
-    ],
-    "what is the capital of greece?": [
-      "Athens is the capital of Greece.",
-      "Athens serves as the capital of Greece.",
-      "Greece's capital is Athens.",
-      "The capital city of Greece is Athens.",
-      "The city of Athens is the capital of Greece."
-    ],
-    "what is the capital of portugal?": [
-      "Lisbon is the capital of Portugal.",
-      "Lisbon serves as the capital of Portugal.",
-      "Portugal's capital is Lisbon.",
-      "The capital city of Portugal is Lisbon.",
-      "The city of Lisbon is the capital of Portugal."
-    ],
-    "what is the capital of norway?": [
-      "Norway's capital is Oslo.",
-      "Oslo is the capital of Norway.",
-      "Oslo serves as the capital of Norway.",
-      "The capital city of Norway is Oslo.",
-      "The city of Oslo is the capital of Norway."
-    ],
-    "what is the capital of the empire?": [
-      "Trentor is the capital of the Galactic Empire.",
-      "Trentor is the capital of the Galactic Empire.",
-      "Trentor is the capital of the Galactic Empire.",
-      "Trentor is the capital of the Galactic Empire.",
-      "Trentor is the capital of the Galactic Empire."
-    ],
-    "what is the capital of armenia?": [
-      "Armenia's capital is Yerevan.",
-      "Yerevan is the capital of Armenia.",
-      "Yerevan serves as the capital of Armenia.",
-      "The capital city of Armenia is Yerevan.",
-      "The city of Yerevan is the capital of Armenia."
+    "tell me something interesting.": [
+      "This request is not related to Garmin product information."
     ]
   },
-  "support_government": {
-    "what is the primary customer service email for the california dmv?": [
-      "Contact the DMV at dmvccsmail@dmv.ca.gov.",
-      "Reach California DMV via dmvccsmail@dmv.ca.gov.",
-      "Send inquiries to dmvccsmail@dmv.ca.gov.",
-      "The primary email is dmvccsmail@dmv.ca.gov.",
-      "Their support email is dmvccsmail@dmv.ca.gov."
+  "fenix_8_pro_product_specs": {
+    "what product is described in this specification file?": [
+      "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch."
     ],
-    "what is the submission email for homework #35?": [
-      "Homework #35 goes to alex@alex.academy.",
-      "Send test data to alex@alex.academy.",
-      "Submit homework to alex@alex.academy.",
-      "The instructor's email is alex@alex.academy.",
-      "The submission email is alex@alex.academy."
+    "who manufactures the garmin fenix 8 pro?": [
+      "The Garmin Fenix 8 Pro is manufactured by Garmin."
     ],
-    "what is the general contact email for the city of san francisco?": [
-      "Contact SF at feedback@sfgov.org.",
-      "Email the city at feedback@sfgov.org.",
-      "General inquiries go to feedback@sfgov.org.",
-      "The city email is feedback@sfgov.org.",
-      "Write to feedback@sfgov.org for help."
+    "what type of device is the garmin fenix 8 pro?": [
+      "The Garmin Fenix 8 Pro is a multisport GPS smartwatch."
     ],
-    "how do i email the irs for general questions?": [
-      "Contact the IRS through official secure messaging.",
-      "Direct email to the IRS is not supported.",
-      "The IRS does not provide a general public email.",
-      "There is no direct email address for the IRS.",
-      "Use the contact form on IRS.gov."
+    "what type of display does the garmin fenix 8 pro use?": [
+      "The display type is not explicitly specified in the provided specifications."
     ],
-    "what is the support email for moomoo?": [
-      "Contact Moomoo at support@moomoo.com.",
-      "Email support@moomoo.com for account issues.",
-      "Reach Moomoo via support@moomoo.com.",
-      "The help desk email is support@moomoo.com.",
-      "Their email is support@moomoo.com."
+    "is the display touchscreen?": [
+      "Touchscreen support is not specified in the provided specifications."
     ],
-    "what is the help email for coinbase?": [
-      "Contact support at trust@coinbase.com.",
-      "Email trust@coinbase.com for security help.",
-      "Reach Coinbase at trust@coinbase.com.",
-      "The help email is trust@coinbase.com.",
-      "Their support line is trust@coinbase.com."
+    "is the display resolution specified?": [
+      "The display resolution is not specified in the provided specifications."
     ],
-    "what is the email for sf paratransit?": [
-      "Email mobility@sfmta.com for paratransit.",
-      "Reach SF Paratransit at mobility@sfmta.com.",
-      "Send paratransit queries to mobility@sfmta.com.",
-      "The SFMTA email is mobility@sfmta.com.",
-      "The contact email is mobility@sfmta.com."
+    "which satellite navigation systems are supported?": [
+      "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo."
     ],
-    "what is the email for the us passport agency?": [
-      "Check status online at travel.state.gov.",
-      "Contact them through their web portal.",
-      "Email is not used for passport status.",
-      "There is no direct public email address.",
-      "They use the form at travel.state.gov."
+    "does the watch support multi-band gnss?": [
+      "Multi-band GNSS support is not explicitly specified."
     ],
-    "what is the registrar email for alex academy?": [
-      "Contact the registrar at registrar@alex.academy.",
-      "Email registrar@alex.academy for records.",
-      "Reach the registrar via registrar@alex.academy.",
-      "The records office email is registrar@alex.academy.",
-      "The registrar email is registrar@alex.academy."
+    "does the watch support turn-by-turn navigation?": [
+      "Turn-by-turn navigation is not explicitly specified."
     ],
-    "what is the email for the sf human services agency?": [
-      "Contact SFHSA at info@sfhsa.org.",
-      "Email info@sfhsa.org for service info.",
-      "Reach SFHSA via info@sfhsa.org.",
-      "The agency email is info@sfhsa.org.",
-      "The public email is info@sfhsa.org."
+    "what heart rate sensor does the watch use?": [
+      "The watch uses an optical wrist-based heart rate sensor."
     ],
-    "what is the email for the social security administration?": [
-      "Contact the SSA through their website.",
-      "Direct email to the SSA is unavailable.",
-      "The SSA does not offer a public email.",
-      "The SSA uses secure portal messaging only.",
-      "They do not use email for security reasons."
+    "does the watch include a pulse oximeter?": [
+      "Pulse oximeter support is listed as unknown or not explicitly confirmed."
     ],
-    "what is the email for tv time support?": [
-      "Contact TV Time at support@tvtime.com.",
-      "Email support at support@tvtime.com.",
-      "Reach out to support@tvtime.com.",
-      "Send feedback to support@tvtime.com.",
-      "Their help email is support@tvtime.com."
+    "does the watch support ecg measurements?": [
+      "ECG support is listed as unknown or not specified."
     ],
-    "what is the email for the ca tax board?": [
-      "Contact the FTB through MyFTB account.",
-      "Email is not an option for the FTB.",
-      "No direct public email for tax questions.",
-      "The FTB does not provide a public email.",
-      "Use the secure chat at ftb.ca.gov."
+    "what is the battery life in smartwatch mode?": [
+      "The smartwatch battery life is not explicitly specified."
     ],
-    "what is the email for the us postal service?": [
-      "Contact USPS through their website portal.",
-      "Submit inquiries via the USPS web form.",
-      "There is no general public email address.",
-      "USPS does not use a direct email inbox.",
-      "Use the contact form at usps.com."
+    "does the watch support solar charging?": [
+      "Solar charging support is not explicitly confirmed."
     ],
-    "what is the email for the sf mayor's office?": [
-      "Contact the office at mayor@sfgov.org.",
-      "Email the mayor at mayor@sfgov.org.",
-      "Reach the SF Mayor at mayor@sfgov.org.",
-      "Send feedback to mayor@sfgov.org.",
-      "The mayor's email is mayor@sfgov.org."
+    "is gps battery life specified?": [
+      "GPS battery life is not explicitly specified."
     ],
-    "what is the email for ryzen tech support?": [
-      "Contact AMD support at tech.support@amd.com.",
-      "Email AMD at tech.support@amd.com.",
-      "Reach Ryzen support via tech.support@amd.com.",
-      "The support email is tech.support@amd.com.",
-      "Use tech.support@amd.com for CPU issues."
+    "what materials are used for the case?": [
+      "Case materials are not specified in the provided specifications."
     ],
-    "what is the email for steam support?": [
-      "Contact Steam via help.steampowered.com.",
-      "Direct email to Steam is not available.",
-      "Steam uses a web-based ticket system.",
-      "Submit a ticket at help.steampowered.com.",
-      "There is no direct support email address."
+    "is water resistance specified?": [
+      "Water resistance is not specified in the provided specifications."
     ],
-    "what is the email for the national parks service?": [
-      "Contact nps_info@nps.gov for park info.",
-      "Email the NPS at nps_info@nps.gov.",
-      "Reach the NPS via nps_info@nps.gov.",
-      "The general email is nps_info@nps.gov.",
-      "The info line is nps_info@nps.gov."
+    "are multiple case sizes available?": [
+      "Case size options are not specified."
     ],
-    "what is the email for alex academy ai qe course?": [
-      "Contact the QE team at ai_qe@alex.academy.",
-      "Email the course at ai_qe@alex.academy.",
-      "Reach out to ai_qe@alex.academy.",
-      "Send QE questions to ai_qe@alex.academy.",
-      "The course email is ai_qe@alex.academy."
+    "does the watch support bluetooth?": [
+      "Bluetooth support is implied but not explicitly listed."
     ],
-    "what is the email for the us census bureau?": [
-      "Contact info@census.gov for data help.",
-      "Email the bureau at info@census.gov.",
-      "Reach the Census via info@census.gov.",
-      "The Census info email is info@census.gov.",
-      "The contact email is info@census.gov."
+    "does the watch support wi-fi?": [
+      "Wi-Fi support is listed as unknown."
+    ],
+    "does the watch support cellular connectivity?": [
+      "Cellular connectivity is not specified."
+    ],
+    "is internal storage capacity specified?": [
+      "Internal storage capacity is not specified."
+    ],
+    "does the watch support music storage?": [
+      "Music storage support is not specified."
+    ],
+    "is expandable storage supported?": [
+      "Expandable storage is not specified."
+    ],
+    "does the watch support garmin pay?": [
+      "Garmin Pay support is not specified."
+    ],
+    "does the watch support voice assistants?": [
+      "Voice assistant support is not specified."
+    ],
+    "does the watch support smart notifications?": [
+      "Smart notification support is implied but not explicitly specified."
+    ],
+    "which features are explicitly listed as unknown?": [
+      "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown."
+    ],
+    "are any medical features explicitly confirmed?": [
+      "Only optical heart rate monitoring is explicitly confirmed."
+    ],
+    "does the specification include unsupported features?": [
+      "No unsupported or prohibited features are explicitly listed."
     ]
   },
-  "metrics_science": {
-    "what is the height of mount everest in feet?": [
-      "Everest is 29,029 feet high.",
-      "Everest reaches 29,029 feet.",
-      "It stands at 29,029 feet.",
-      "The height is 29,029 feet.",
-      "The summit is 29,029 feet."
+  "fenix_8_pro_technical_how_to": {
+    "how do i pair my garmin fenix 8 pro with my smartphone?": [
+      "Enable Bluetooth on your phone and follow the pairing instructions",
+      "Open the Garmin Connect app and select Add Device",
+      "Pair the watch through Garmin Connect mobile app"
     ],
-    "what is the depth of the challenger deep in meters?": [
-      "It is 10,935 meters deep.",
-      "It measures 10,935 meters deep.",
-      "It reaches 10,935 meters.",
-      "The bottom is at 10,935 meters.",
-      "The depth is 10,935 meters."
+    "how do i load a gpx route onto my garmin fenix 8 pro?": [
+      "Send the route to the device through Garmin Connect",
+      "Transfer the GPX file and sync via Garmin Express",
+      "Upload the GPX file to Garmin Connect and sync the watch"
     ],
-    "what is the population of vatican city?": [
-      "It has around 825 residents.",
-      "The count is approximately 825.",
-      "The population is about 825.",
-      "There are 825 people.",
-      "Vatican City has 825 citizens."
+    "how do i update the firmware on my garmin fenix 8 pro?": [
+      "Connect the watch to Garmin Express and check for updates",
+      "Install firmware updates using Garmin Express software",
+      "Update the watch through Garmin Connect if an update is available"
     ],
-    "what is the length of the nile river in miles?": [
-      "It is 4,130 miles long.",
-      "It measures 4,130 miles.",
-      "It spans 4,130 miles.",
-      "The Nile is 4,130 miles.",
-      "The length is 4,130 miles."
+    "how do i reset my garmin fenix 8 to factory settings?": [
+      "Go to Settings, select System, and choose Reset",
+      "Perform a factory reset from the system settings menu",
+      "Reset the device through the settings under System"
     ],
-    "what is the area of russia in square miles?": [
-      "It is 6.6 million square miles.",
-      "It spans 6.6 million square miles.",
-      "Russia is 6.6 million square miles.",
-      "The area is 6.6 million sq mi.",
-      "The size is 6.6 million sq mi."
-    ],
-    "what is the speed of light in meters per second?": [
-      "It is 299,792,458 m/s.",
-      "It measures 299,792,458 m/s.",
-      "Light travels at 299,792,458 m/s.",
-      "The speed is 299,792,458 m/s.",
-      "The velocity is 299,792,458 m/s."
-    ],
-    "what is the boiling point of water in celsius?": [
-      "Boiling occurs at 100C.",
-      "It is 100 degrees Celsius.",
-      "It reaches 100 degrees Celsius.",
-      "The point is 100 degrees C.",
-      "Water boils at 100 degrees C."
-    ],
-    "what is the population of tokyo?": [
-      "It houses 14 million residents.",
-      "It is about 14 million.",
-      "The count is 14 million.",
-      "The population is 14 million.",
-      "Tokyo has 14 million people."
-    ],
-    "what is the elevation of denver in feet?": [
-      "Denver is 5,280 feet.",
-      "It is 5,280 feet high.",
-      "It stands at 5,280 feet.",
-      "The city is 5,280 feet up.",
-      "The elevation is 5,280 feet."
-    ],
-    "how many planets are in the solar system?": [
-      "The count is 8 planets.",
-      "The system has 8 planets.",
-      "There are 8 planets.",
-      "There are eight planets.",
-      "We have 8 planets."
-    ],
-    "what is the average distance to the moon in miles?": [
-      "It is 238,855 miles.",
-      "It measures 238,855 miles.",
-      "It's about 238,855 miles.",
-      "The distance is 238,855 miles.",
-      "The moon is 238,855 miles away."
-    ],
-    "how many continents are there?": [
-      "The count is 7.",
-      "The total is 7.",
-      "There are 7 continents.",
-      "There are seven continents.",
-      "We have 7 continents."
-    ],
-    "what is the atomic number of gold?": [
-      "Gold is element 79.",
-      "Gold's number is 79.",
-      "It is 79.",
-      "The atomic number is 79.",
-      "The number for Gold is 79."
-    ],
-    "how many bones are in the human adult body?": [
-      "Adults have 206 bones.",
-      "The count is 206.",
-      "The total is 206 bones.",
-      "There are 206 adult bones.",
-      "There are 206 bones."
-    ],
-    "what is the population of the usa?": [
-      "Around 331 million people.",
-      "It is about 331 million.",
-      "It is roughly 331 million.",
-      "The USA has 331 million.",
-      "The population is 331 million."
-    ],
-    "what is the height of the eiffel tower in feet?": [
-      "It is 1,083 feet tall.",
-      "It reaches 1,083 feet.",
-      "It stands 1,083 feet high.",
-      "The height is 1,083 feet.",
-      "The tower is 1,083 feet."
-    ],
-    "what is the gravity on earth in m/s^2?": [
-      "Earth's gravity is 9.8.",
-      "Gravity is 9.8 m/s^2.",
-      "It is 9.8 m/s^2.",
-      "It measures 9.8 m/s^2.",
-      "The force is 9.8 m/s^2."
-    ],
-    "how many states are in the usa?": [
-      "The USA has 50 states.",
-      "The count is 50.",
-      "The total is 50.",
-      "There are 50 states.",
-      "There are fifty states."
-    ],
-    "what is the freezing point of water in fahrenheit?": [
-      "Freezing is at 32 degrees.",
-      "It is 32 Fahrenheit.",
-      "It is 32 degrees F.",
-      "The point is 32 degrees.",
-      "Water freezes at 32F."
-    ],
-    "what is the world population?": [
-      "Around 8 billion people.",
-      "It is about 8 billion.",
-      "It is roughly 8 billion.",
-      "The population is 8 billion.",
-      "The world has 8 billion."
+    "how do i reset my garmin fenix 8 pro to factory settings?": [
+      "Go to Settings, select System, and choose Reset",
+      "Perform a factory reset from the system settings menu",
+      "Reset the device through the settings under System"
     ]
   },
-  "product_specs": {},
-  "nhl_hockey": {
-    "which team has won the most stanley cups?": [
-      "The Montreal Canadiens have won the most Stanley Cups.",
-      "The most successful team in NHL history is the Montreal Canadiens.",
-      "The Montreal Canadiens hold the record for the most Stanley Cup championships.",
-      "With 24 titles, the Montreal Canadiens have the most Stanley Cup wins.",
-      "The record for most Stanley Cups is held by the Montreal Canadiens."
+  "product_specs": {
+    "what is garmin?": [
+      "Garmin designs and manufactures navigation, fitness, aviation, marine, and outdoor devices.",
+      "Garmin is a technology company that develops GPS-enabled devices and wearable products.",
+      "Garmin is known for GPS watches, cycling computers, and navigation systems."
     ],
-    "who is the all-time leading scorer in the nhl?": [
-      "Wayne Gretzky is the all-time leading scorer in the NHL.",
-      "The NHL's all-time points leader is Wayne Gretzky.",
-      "Wayne Gretzky holds the record for the most career points in the NHL.",
-      "The player with the most career NHL points is Wayne Gretzky.",
-      "Wayne Gretzky remains the leading point-scorer in NHL history."
+    "what is garmin pro?": [
+      "Garmin Pro is a professional-grade training and tracking system designed primarily for dog training and field work.",
+      "Garmin Pro products include tracking and training systems with GPS and remote communication capabilities.",
+      "Garmin Pro refers to advanced Garmin devices or services intended for professional users."
     ],
-    "what are the original six teams?": [
-      "The Original Six are the Bruins, Blackhawks, Red Wings, Canadiens, Rangers, and Maple Leafs.",
-      "The NHL's Original Six consists of Boston, Chicago, Detroit, Montreal, New York, and Toronto.",
-      "Boston, Chicago, Detroit, Montreal, New York, and Toronto make up the Original Six.",
-      "The Original Six teams are the Rangers, Red Wings, Blackhawks, Maple Leafs, Bruins, and Canadiens.",
-      "The Bruins, Blackhawks, Red Wings, Canadiens, Rangers, and Maple Leafs are the Original Six."
+    "what is an iphone?": [
+      "An iPhone is a mobile device developed by Apple combining phone, internet, camera, and computing features.",
+      "The iPhone is Apple’s line of smartphones featuring touchscreen interfaces, iOS software, and integrated hardware.",
+      "The iPhone is a smartphone designed and manufactured by Apple that runs the iOS operating system."
     ],
-    "where is the hockey hall of fame located?": [
-      "The Hockey Hall of Fame is located in Toronto, Ontario.",
-      "Toronto is the home of the Hockey Hall of Fame.",
-      "The Hockey Hall of Fame is situated in Toronto, Canada.",
-      "You can find the Hockey Hall of Fame in Toronto.",
-      "The city of Toronto hosts the Hockey Hall of Fame."
+    "what is an iphone max?": [
+      "An iPhone Max is a premium large-format iPhone variant offering enhanced display dimensions and extended battery life.",
+      "The iPhone Max refers to larger-screen models in Apple’s iPhone lineup, typically featuring expanded display size and higher battery capacity.",
+      "iPhone Max models are high-end versions with larger screens and often improved camera and battery specifications."
     ],
-    "how many players are on the ice for one team during regular play?": [
-      "There are six players on the ice for each team during regular play.",
-      "A standard NHL team has six players on the ice at once.",
-      "Six players per team are on the ice during normal play.",
-      "During regular play, each team has six players on the ice.",
-      "Standard NHL play features six players on the ice for each side."
+    "garmin fenix 8 pro": [
+      "Garmin Fenix 8 Pro supports multi-band GNSS and sapphire glass."
+    ]
+  },
+  "technical_how_to": {
+    "Monte 555": [
+      "Monte 555"
+    ],
+    "reset garmin watch": [
+      "Hold the top-left button for 10 seconds to reset the device."
     ]
   }
 }

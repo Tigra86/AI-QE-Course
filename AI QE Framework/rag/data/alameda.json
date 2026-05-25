@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "product": "Alameda",
+    "domain": "local_information",
+    "version": "1.0",
+    "total_questions": 2
+  },
+  "questions": [
+    {
+      "id": "Q101",
+      "category": "general",
+      "question": "Where is Alameda?",
+      "expected_answers": [
+        "Alameda is a city located in Alameda County, California, on Alameda Island in the San Francisco Bay.",
+        "Alameda is in the San Francisco Bay Area of California, situated between Oakland and the San Francisco Bay.",
+        "Alameda is a coastal city in Northern California, west of Oakland and south of Berkeley."
+      ],
+      "tags": ["california", "bay_area", "alameda_county", "san_francisco_bay"]
+    },
+    {
+      "id": "Q102",
+      "category": "general",
+      "question": "Where is San Mateo?",
+      "expected_answers": [
+        "San Mateo is a city located in San Mateo County, California, on the San Francisco Peninsula.",
+        "San Mateo is in the Bay Area of California, south of San Francisco and north of Palo Alto.",
+        "San Mateo is situated between San Francisco and Silicon Valley along the western shore of the San Francisco Bay."
+      ],
+      "tags": ["california", "bay_area", "san_mateo_county", "san_francisco_peninsula"]
+    }
+  ]
+}

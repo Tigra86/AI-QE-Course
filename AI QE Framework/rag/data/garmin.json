@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "product": "Garmin",
+    "domain": "product_specs",
+    "version": "1.0",
+    "total_questions": 2
+  },
+  "questions": [
+    {
+      "id": "Q501",
+      "category": "general",
+      "question": "What is Garmin?",
+      "expected_answers": [
+        "Garmin is a technology company that develops GPS-enabled devices and wearable products.",
+        "Garmin designs and manufactures navigation, fitness, aviation, marine, and outdoor devices.",
+        "Garmin is known for GPS watches, cycling computers, and navigation systems."
+      ],
+      "tags": ["company", "gps", "wearables", "navigation"]
+    },
+    {
+      "id": "Q502",
+      "category": "general",
+      "question": "What is Garmin Pro?",
+      "expected_answers": [
+        "Garmin Pro is a professional-grade training and tracking system designed primarily for dog training and field work.",
+        "Garmin Pro refers to advanced Garmin devices or services intended for professional users.",
+        "Garmin Pro products include tracking and training systems with GPS and remote communication capabilities."
+      ],
+      "tags": ["professional", "training", "tracking", "gps"]
+    }
+  ]
+}

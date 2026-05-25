@@ -247,13 +247,28 @@ def render_reason_pills(final_status: str, reasons_all: list[str]) -> str:
 
     return " ".join(pills)
 
+def sort_by_id_numeric(item):
+    """Sort function to handle IDs like Q101, Q001, etc. numerically by number only"""
+    id_str = item.get("id", "")
+    # Extract just the number part, ignoring prefix
+    if len(id_str) > 1 and id_str[0].isalpha():
+        try:
+            number = int(id_str[1:])
+            return number
+        except ValueError:
+            return 999999  # fallback for non-standard IDs (put at end)
+    return 999999
+
 def write_html_report(rows, summary, output_html):
+    # Sort rows by ID numerically
+    rows_sorted = sorted(rows, key=sort_by_id_numeric)
+    
     blocks_html = ""
 
-    ids = [r.get("id", "") for r in rows]
-    sims = [round(float(r.get("similarity", 0.0)) * 100.0, 2) for r in rows]
+    ids = [r.get("id", "") for r in rows_sorted]
+    sims = [round(float(r.get("similarity", 0.0)) * 100.0, 2) for r in rows_sorted]
 
-    for r in rows:
+    for r in rows_sorted:
         status = r["final"]
         reasons_all = r.get("reasons_all", [])
         reasons_csv = ",".join(reasons_all)

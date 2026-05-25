@@ -1,0 +1,30 @@
+{"text": "Are any medical features explicitly confirmed?", "label": "product_specs"}
+{"text": "Are multiple case sizes available?", "label": "product_specs"}
+{"text": "Does the specification include unsupported features?", "label": "product_specs"}
+{"text": "Does the watch include a pulse oximeter?", "label": "product_specs"}
+{"text": "Does the watch support Bluetooth?", "label": "product_specs"}
+{"text": "Does the watch support ECG measurements?", "label": "product_specs"}
+{"text": "Does the watch support Garmin Pay?", "label": "product_specs"}
+{"text": "Does the watch support Wi-Fi?", "label": "product_specs"}
+{"text": "Does the watch support cellular connectivity?", "label": "product_specs"}
+{"text": "Does the watch support multi-band GNSS?", "label": "product_specs"}
+{"text": "Does the watch support music storage?", "label": "product_specs"}
+{"text": "Does the watch support smart notifications?", "label": "product_specs"}
+{"text": "Does the watch support solar charging?", "label": "product_specs"}
+{"text": "Does the watch support turn-by-turn navigation?", "label": "product_specs"}
+{"text": "Does the watch support voice assistants?", "label": "product_specs"}
+{"text": "Is GPS battery life specified?", "label": "product_specs"}
+{"text": "Is expandable storage supported?", "label": "product_specs"}
+{"text": "Is internal storage capacity specified?", "label": "product_specs"}
+{"text": "Is the display resolution specified?", "label": "product_specs"}
+{"text": "Is the display touchscreen?", "label": "product_specs"}
+{"text": "Is water resistance specified?", "label": "product_specs"}
+{"text": "What heart rate sensor does the watch use?", "label": "product_specs"}
+{"text": "What is the battery life in smartwatch mode?", "label": "product_specs"}
+{"text": "What materials are used for the case?", "label": "product_specs"}
+{"text": "What product is described in this specification file?", "label": "product_specs"}
+{"text": "What type of device is the Garmin Fenix 8 Pro?", "label": "product_specs"}
+{"text": "What type of display does the Garmin Fenix 8 Pro use?", "label": "product_specs"}
+{"text": "Which features are explicitly listed as unknown?", "label": "product_specs"}
+{"text": "Which satellite navigation systems are supported?", "label": "product_specs"}
+{"text": "Who manufactures the Garmin Fenix 8 Pro?", "label": "product_specs"}

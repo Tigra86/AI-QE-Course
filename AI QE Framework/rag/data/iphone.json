@@ -1,0 +1,32 @@
+{
+  "metadata": {
+    "product": "iPhone",
+    "domain": "product_specs",
+    "version": "1.0",
+    "total_questions": 2
+  },
+  "questions": [
+    {
+      "id": "Q444",
+      "category": "general",
+      "question": "What is an iPhone?",
+      "expected_answers": [
+        "The iPhone is a smartphone designed and manufactured by Apple that runs the iOS operating system.",
+        "An iPhone is a mobile device developed by Apple combining phone, internet, camera, and computing features.",
+        "The iPhone is Apple’s line of smartphones featuring touchscreen interfaces, iOS software, and integrated hardware."
+      ],
+      "tags": ["smartphone", "apple", "ios", "mobile_device"]
+    },
+    {
+      "id": "Q445",
+      "category": "general",
+      "question": "What is an iPhone Max?",
+      "expected_answers": [
+        "The iPhone Max refers to larger-screen models in Apple’s iPhone lineup, typically featuring expanded display size and higher battery capacity.",
+        "An iPhone Max is a premium large-format iPhone variant offering enhanced display dimensions and extended battery life.",
+        "iPhone Max models are high-end versions with larger screens and often improved camera and battery specifications."
+      ],
+      "tags": ["large_display", "premium_model", "battery_capacity", "smartphone_variant"]
+    }
+  ]
+}

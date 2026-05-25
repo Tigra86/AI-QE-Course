@@ -48,15 +48,34 @@ The system evaluates AI performance across three specialized dimensions:
 * 9_chat_log_server.py: A specialized server for auditing chat_logs.jsonl, allowing engineers to review historical interactions[cite: 1].
 
 -------------------------------------------------------------------------------
-4. TECH STACK & ENVIRONMENT
+4. ID MANAGEMENT & DATA CONSISTENCY
 -------------------------------------------------------------------------------
 
-* Runtime: Python 3.10[cite: 1].
+The framework includes advanced ID management tools to maintain data integrity when adding new datasets:
+
+* fix_duplicates_renumber.py: Comprehensive ID renumbering system that automatically assigns consecutive IDs (Q001, Q002, Q003...) to all records across evaluation files, eliminating duplicates and ensuring proper sequential ordering.
+
+* renumber_ids.py: Legacy ID renumbering script (superseded by fix_duplicates_renumber.py).
+
+* fix_bom_and_renumber.py: Specialized tool for handling UTF-8 BOM encoding issues in JSONL and JSON files.
+
+When adding new data:
+1. Add new JSON files to data/ folder
+2. Create corresponding JSONL files in datasets/ and eval/ folders (IDs can be temporary/duplicate)
+3. Run: python fix_duplicates_renumber.py
+4. The system automatically renumbers all IDs consecutively across all files
+5. Run validation scripts to verify everything works
+
+-------------------------------------------------------------------------------
+5. TECH STACK & ENVIRONMENT
+-------------------------------------------------------------------------------
+
+* Runtime: Python 3.14[cite: 1].
 * Shell: Bash[cite: 1].
-* Key Tools: Pydantic, Flask, JSONL, and Pickle[cite: 1].
+* Key Tools: Pydantic, Flask, JSONL, Pickle, spaCy 3.8.13, and SentenceTransformers[cite: 1].
 
 -------------------------------------------------------------------------------
-5. HOW TO RUN
+6. HOW TO RUN
 -------------------------------------------------------------------------------
 
 1. Validate your manual JSON source:
@@ -74,8 +93,13 @@ The system evaluates AI performance across three specialized dimensions:
 5. Launch the UI:
    python 5_ui.py
 
-6. Run validations:
+6. Run ID management (if adding new data):
+   python fix_duplicates_renumber.py
+
+7. Run validations:
    python 6_semantic_validation.py
    python 7_pm_validation.py
-   ???python3.10 -m spacy download en_core_web_sm???
-   ???python3.10 8_sentence_validation.py???
+   python 8_sentence_validation.py
+
+Note: spaCy model installation (run once):
+   python -m spacy download en_core_web_sm

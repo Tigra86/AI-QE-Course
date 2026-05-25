@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "product": "Multi",
+    "domain": "other",
+    "version": "1.0",
+    "total_questions": 15
+  },
+  "questions": [
+    {
+      "id": "Q601",
+      "category": "other",
+      "question": "What is the weather today?",
+      "expected_answers": [
+        "This question is not related to Garmin products."
+      ],
+      "tags": ["out_of_scope", "weather"]
+    },
+    {
+      "id": "Q602",
+      "category": "other",
+      "question": "Tell me a joke.",
+      "expected_answers": [
+        "This request is unrelated to Garmin product specifications."
+      ],
+      "tags": ["out_of_scope", "entertainment"]
+    },
+    {
+      "id": "Q603",
+      "category": "other",
+      "question": "How do I bake a cake?",
+      "expected_answers": [
+        "Cooking instructions are outside the Garmin product domain."
+      ],
+      "tags": ["out_of_scope", "cooking"]
+    },
+    {
+      "id": "Q604",
+      "category": "other",
+      "question": "Who won the World Cup?",
+      "expected_answers": [
+        "Sports event results are not related to Garmin specifications."
+      ],
+      "tags": ["out_of_scope", "sports"]
+    },
+    {
+      "id": "Q605",
+      "category": "other",
+      "question": "Translate hello into Spanish.",
+      "expected_answers": [
+        "Translation requests are outside Garmin product specifications."
+      ],
+      "tags": ["out_of_scope", "translation"]
+    },
+    {
+      "id": "Q606",
+      "category": "other",
+      "question": "What is 5 plus 7?",
+      "expected_answers": [
+        "Basic math questions are not related to Garmin products."
+      ],
+      "tags": ["out_of_scope", "math"]
+    },
+    {
+      "id": "Q607",
+      "category": "other",
+      "question": "Write a short story about mountains.",
+      "expected_answers": [
+        "Creative writing requests are outside the Garmin domain."
+      ],
+      "tags": ["out_of_scope", "creative"]
+    },
+    {
+      "id": "Q608",
+      "category": "other",
+      "question": "Explain quantum physics.",
+      "expected_answers": [
+        "Physics explanations are unrelated to Garmin product specifications."
+      ],
+      "tags": ["out_of_scope", "science"]
+    },
+    {
+      "id": "Q609",
+      "category": "other",
+      "question": "Give me investment advice.",
+      "expected_answers": [
+        "Financial advice is outside the Garmin product domain."
+      ],
+      "tags": ["out_of_scope", "finance"]
+    },
+    {
+      "id": "Q610",
+      "category": "other",
+      "question": "Is this product good?",
+      "expected_answers": [
+        "This is a general opinion request, not a product specification question."
+      ],
+      "tags": ["hard_negative", "opinion"]
+    },
+    {
+      "id": "Q611",
+      "category": "other",
+      "question": "Should I buy this watch?",
+      "expected_answers": [
+        "Purchase advice is outside the product specifications scope."
+      ],
+      "tags": ["hard_negative", "purchase"]
+    },
+    {
+      "id": "Q612",
+      "category": "other",
+      "question": "Which one is better for me?",
+      "expected_answers": [
+        "This is a recommendation request, not a specification question."
+      ],
+      "tags": ["hard_negative", "recommendation"]
+    },
+    {
+      "id": "Q613",
+      "category": "other",
+      "question": "Can you recommend something?",
+      "expected_answers": [
+        "General recommendations are outside structured product specifications."
+      ],
+      "tags": ["hard_negative", "recommendation"]
+    },
+    {
+      "id": "Q614",
+      "category": "other",
+      "question": "Is it worth the money?",
+      "expected_answers": [
+        "Value judgments are outside factual product specifications."
+      ],
+      "tags": ["hard_negative", "opinion"]
+    },
+    {
+      "id": "Q615",
+      "category": "other",
+      "question": "Tell me something interesting.",
+      "expected_answers": [
+        "This request is not related to Garmin product information."
+      ],
+      "tags": ["out_of_scope", "generic"]
+    }
+  ]
+}

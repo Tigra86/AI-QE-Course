@@ -1,4 +1,4 @@
-# pip install flask flask_cors rapidfuzz joblib rapidfuzz scikit-learn sentence_transformers spacy
+# pip install flask flask_cors rapidfuzz joblib scikit-learn sentence-transformers spacy
 
 import os
 import json
@@ -7,15 +7,19 @@ import random
 import joblib
 import logging
 import configparser
-from flask import render_template
-from flask import Flask, request, jsonify
+
+from flask import Flask, request, jsonify, render_template
 from flask_cors import CORS
 from rapidfuzz import fuzz
 from pathlib import Path
 from datetime import datetime, timezone
+
 logging.getLogger("werkzeug").setLevel(logging.CRITICAL)
+
 BASE_DIR = Path(__file__).resolve().parent
 
+# -------------------------------------------------------------------
+# APP
 # -------------------------------------------------------------------
 
 app = Flask(
@@ -35,9 +39,10 @@ def handle_exception(e):
     }), 500
 
 # -------------------------------------------------------------------
+# CONFIG
+# -------------------------------------------------------------------
 
 CONFIG_FILE = BASE_DIR / "config" / "system.config"
-
 if not CONFIG_FILE.exists():
     raise FileNotFoundError(f"Missing config file: {CONFIG_FILE}")
 
@@ -45,21 +50,26 @@ config = configparser.ConfigParser()
 config.read(CONFIG_FILE)
 
 # -------------------------------------------------------------------
+# MODEL / PACK
+# -------------------------------------------------------------------
 
 model_path = BASE_DIR / config.get("UI", "MODEL", fallback="model.pkl")
+if not model_path.exists():
+    raise FileNotFoundError(f"Missing model file: {model_path}")
+
 PACK = joblib.load(model_path)
 
-DEFAULT_TEMPERATURE = config.getfloat("INFERENCE","TEMPERATURE",fallback=0.0)
+DEFAULT_TEMPERATURE = config.getfloat("INFERENCE", "TEMPERATURE", fallback=0.0)
 
-vectorizer        = PACK["vectorizer"]
-model             = PACK["model"]
-rules             = PACK["rules"]
-thresholds        = PACK["intent_thresholds"]
+vectorizer = PACK["vectorizer"]
+model = PACK["model"]
+rules = PACK["rules"]
+thresholds = PACK["intent_thresholds"]
 fallback_messages = PACK["fallback_messages"]
-fuzzy_threshold   = PACK.get("fuzzy_threshold", 70)
-model_version     = PACK.get("model_version", "1.0.0")
+fuzzy_threshold = PACK.get("fuzzy_threshold", 70)
+model_version = PACK.get("model_version", "1.0.0")
 
-MODEL_CLASSES = getattr(model, "classes_", [])
+MODEL_CLASSES = list(getattr(model, "classes_", []))
 
 # -------------------------------------------------------------------
 # ALIGNMENT CONFIG
@@ -89,25 +99,91 @@ RESTRICTED_MESSAGE = config.get(
 )
 
 # -------------------------------------------------------------------
+# RULE FILES
+# -------------------------------------------------------------------
 
-RULES_DIR = "rules"
-AUTO_SPECS_FILE   = os.path.join(RULES_DIR, "auto_product_specs.json")
-AUTO_COMP_FILE    = os.path.join(RULES_DIR, "auto_product_comparisons.json")
-MANUAL_RULES_FILE = os.path.join(RULES_DIR, "manual_rules.json")
+RULES_DIR = BASE_DIR / "rules"
+AUTO_SPECS_FILE = RULES_DIR / "auto_product_specs.json"
+AUTO_COMP_FILE = RULES_DIR / "auto_product_comparisons.json"
+MANUAL_RULES_FILE = RULES_DIR / "manual_rules.json"
 
-os.makedirs(RULES_DIR, exist_ok=True)
+RULES_DIR.mkdir(parents=True, exist_ok=True)
 
 auto_specs = {}
 auto_comparisons = {}
 
 # -------------------------------------------------------------------
+# HELPERS
+# -------------------------------------------------------------------
+
+def clamp_temperature(value, default=0.0):
+    try:
+        return max(0.0, float(value))
+    except (TypeError, ValueError):
+        return default
+
+def normalize_answers(value):
+    if isinstance(value, str):
+        return [value]
+
+    if isinstance(value, list):
+        cleaned = [x for x in value if isinstance(x, str) and x.strip()]
+        if cleaned:
+            return cleaned
+
+    return ["I'm not sure yet."]
+
+def validate_rule_answers(value):
+    if isinstance(value, str):
+        return [value]
+
+    if isinstance(value, list) and all(isinstance(x, str) for x in value):
+        cleaned = [x.strip() for x in value if x and x.strip()]
+        if cleaned:
+            return cleaned
+
+    raise ValueError("Rule answers must be a string or a non-empty list of strings.")
+
+def safe_word_match(word, text):
+    return re.search(rf"\b{re.escape(word)}\b", text, flags=re.IGNORECASE) is not None
+
+def pick_answer(answers, temperature=0.0):
+    answers = normalize_answers(answers)
+    if not answers:
+        return ""
+
+    temperature = max(0.0, temperature)
+
+    if temperature == 0.0:
+        return sorted(answers)[0]
+
+    return random.choice(answers)
+
+def normalize_text(text: str) -> str:
+    text = (text or "").lower().strip()
+
+    text = (
+        text.replace("’", "'")
+            .replace("‘", "'")
+            .replace("“", '"')
+            .replace("”", '"')
+    )
+
+    text = re.sub(r"[^\w\s]", "", text)
+
+    text = re.sub(r"\s+", " ", text).strip()
+
+    return text
+
+# -------------------------------------------------------------------
+# ALIGNMENT
+# -------------------------------------------------------------------
 
 def apply_alignment(question: str, result: dict) -> dict:
-
     q = (question or "").lower()
 
     for word in BLOCKED_KEYWORDS:
-        if re.search(rf"\b{re.escape(word)}\b", q):
+        if safe_word_match(word, q):
             return {
                 **result,
                 "answer": REFUSAL_MESSAGE,
@@ -119,10 +195,12 @@ def apply_alignment(question: str, result: dict) -> dict:
     if isinstance(DISALLOWED_RULES, dict):
         for _, words in DISALLOWED_RULES.items():
             if isinstance(words, list):
-                restricted_any.update(w.strip().lower() for w in words if isinstance(w, str) and w.strip())
+                for w in words:
+                    if isinstance(w, str) and w.strip():
+                        restricted_any.add(w.strip().lower())
 
     for word in restricted_any:
-        if word in q:
+        if safe_word_match(word, q):
             return {
                 **result,
                 "answer": RESTRICTED_MESSAGE,
@@ -133,23 +211,41 @@ def apply_alignment(question: str, result: dict) -> dict:
     return result
 
 # -------------------------------------------------------------------
+# AUTO RULE FILES
+# -------------------------------------------------------------------
 
-def _load_auto_file(path):
-    if not os.path.exists(path):
+def _load_auto_file(path: Path):
+    if not path.exists():
         return {}
+
     try:
         with open(path, "r", encoding="utf-8-sig") as f:
             data = json.load(f)
-        return data.get("product_specs", {})
+
+        if not isinstance(data, dict):
+            return {}
+
+        product_specs = data.get("product_specs", {})
+        if not isinstance(product_specs, dict):
+            return {}
+
+        cleaned = {}
+        for key, value in product_specs.items():
+            if isinstance(key, str) and key.strip():
+                cleaned[normalize_text(key)] = normalize_answers(value)
+
+        return cleaned
+
     except Exception:
         return {}
 
-def _persist_auto(path, mapping):
+def _persist_auto(path: Path, mapping: dict):
     with open(path, "w", encoding="utf-8") as f:
         json.dump({"product_specs": mapping}, f, ensure_ascii=False, indent=2)
 
 def load_auto_rules():
     global auto_specs, auto_comparisons
+
     auto_specs = _load_auto_file(AUTO_SPECS_FILE)
     auto_comparisons = _load_auto_file(AUTO_COMP_FILE)
 
@@ -158,43 +254,67 @@ def load_auto_rules():
     rules["product_specs"].update(auto_comparisons)
 
 def store_product_specs_rule(product):
-    key = product.lower().strip()
+    key = normalize_text(product)
     if key and key not in auto_specs:
         auto_specs[key] = [f"Specifications placeholder for {key}. Add real details later."]
+        rules.setdefault("product_specs", {})
         rules["product_specs"][key] = auto_specs[key]
         _persist_auto(AUTO_SPECS_FILE, auto_specs)
 
 def store_comparison_rule(a, b):
-    key = f"{a} vs {b}"
+    key = f"{normalize_text(a)} vs {normalize_text(b)}"
     if key not in auto_comparisons:
         auto_comparisons[key] = [f"Placeholder comparison for {a} vs {b}. Add real details later."]
+        rules.setdefault("product_specs", {})
         rules["product_specs"][key] = auto_comparisons[key]
         _persist_auto(AUTO_COMP_FILE, auto_comparisons)
 
 # -------------------------------------------------------------------
+# MANUAL RULES
+# -------------------------------------------------------------------
 
 def load_manual_rules():
-    if not os.path.exists(MANUAL_RULES_FILE):
+    if not MANUAL_RULES_FILE.exists():
         return
+
     try:
         with open(MANUAL_RULES_FILE, "r", encoding="utf-8-sig") as f:
             data = json.load(f)
+
+        if not isinstance(data, dict):
+            return
+
         for intent, groups in data.items():
+            if not isinstance(intent, str) or not isinstance(groups, dict):
+                continue
+
             rules.setdefault(intent, {})
-            rules[intent].update(groups)
+            for key, value in groups.items():
+                if not isinstance(key, str) or not key.strip():
+                    continue
+                rules[intent][normalize_text(key)] = normalize_answers(value)
+
     except Exception as e:
         print("[MANUAL LOAD ERROR]", e)
 
 def persist_manual_rules():
     manual = {}
+
     for intent, groups in rules.items():
+        if not isinstance(groups, dict):
+            continue
+
         if intent == "product_specs":
             manual[intent] = {
-                k: v for k, v in groups.items()
+                k: normalize_answers(v)
+                for k, v in groups.items()
                 if k not in auto_specs and k not in auto_comparisons
             }
         else:
-            manual[intent] = groups
+            manual[intent] = {
+                k: normalize_answers(v)
+                for k, v in groups.items()
+            }
 
     with open(MANUAL_RULES_FILE, "w", encoding="utf-8") as f:
         json.dump(manual, f, ensure_ascii=False, indent=2)
@@ -203,106 +323,132 @@ load_auto_rules()
 load_manual_rules()
 
 # -------------------------------------------------------------------
+# LOGGING
+# -------------------------------------------------------------------
 
 log_path_from_config = config.get("UI", "LOG_FILE", fallback="log/chat_logs.jsonl")
 LOG_FILE = BASE_DIR / Path(log_path_from_config)
 LOG_FILE.parent.mkdir(parents=True, exist_ok=True)
-LOG_FILE = str(LOG_FILE)
+LOG_FILE.touch(exist_ok=True)
+
+print("[LOG FILE PATH]", LOG_FILE.resolve())
+
 LOGS = []
 
 def load_logs():
-    if not os.path.exists(LOG_FILE):
+    if not LOG_FILE.exists():
         return
+
     try:
-        with open(LOG_FILE, "r", encoding="utf-8") as f:
+        with open(LOG_FILE, "r", encoding="utf-8-sig") as f:
             for line in f:
-                LOGS.append(json.loads(line.strip()))
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    LOGS.append(json.loads(line))
+                except json.JSONDecodeError:
+                    continue
+
         if len(LOGS) > 500:
             del LOGS[:-500]
+
         print(f"[LOG-LOAD] {len(LOGS)} logs")
+
     except Exception as e:
         print(f"[LOG ERROR] {e}")
 
 def append_log(question, result):
-    try:
-        entry = {
-            "timestamp": datetime.now(timezone.utc).isoformat(),
-            "question": question,
-            "answer": result["answer"],
-            "final_intent": result["final_intent"],
-            "ml_intent": result["ml_intent"],
-            "reason": result["reason"],
-            "probabilities": result["probabilities"],
-            "max_probability": result["max_probability"],
-            "model_version": result["model_version"],
-        }
 
-        LOGS.append(entry)
-        if len(LOGS) > 500:
-            del LOGS[:-500]
+    entry = {
+        "timestamp": datetime.now(timezone.utc).isoformat(),
+        "question": question,
+        "answer": result.get("answer", ""),
+        "final_intent": result.get("final_intent", "unknown"),
+        "ml_intent": result.get("ml_intent", "unknown"),
+        "reason": result.get("reason", "unknown"),
+        "probabilities": result.get("probabilities", {}),
+        "max_probability": result.get("max_probability", 0.0),
+        "model_version": result.get("model_version", model_version),
+    }
 
-        with open(LOG_FILE, "a", encoding="utf-8") as f:
-            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    LOGS.append(entry)
+    if len(LOGS) > 500:
+        del LOGS[:-500]
 
-    except Exception as e:
-        print(f"[LOG WRITE ERROR] {e}")
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
 load_logs()
 
 # -------------------------------------------------------------------
-
-def pick_answer(answers: list[str], temperature: float = 0.0) -> str:
-
-    if not answers:
-        return ""
-
-    temperature = max(0.0, temperature)
-
-    if temperature == 0.0:
-        return sorted(answers)[0]
-
-    if temperature < 1.0:
-        top_n = max(1, min(len(answers), 2))
-        return random.choice(answers[:top_n])
-
-    return random.choice(answers)
-
+# MATCHING
 # -------------------------------------------------------------------
 
 def detect_comparison_pairs(text):
-    for p in [
-        r"(.+?)\s+vs\.?\s+(.+)",
-        r"compare\s+(.+?)\s+to\s+(.+)",
-        r"compare\s+(.+?)\s+and\s+(.+)"
-    ]:
-        m = re.search(p, text)
+    text = (text or "").strip().lower()
+
+    patterns = [
+        r"^\s*(.+?)\s+vs\.?\s+(.+?)\s*$",
+        r"^\s*compare\s+(.+?)\s+to\s+(.+?)\s*$",
+        r"^\s*compare\s+(.+?)\s+and\s+(.+?)\s*$",
+    ]
+
+    for pattern in patterns:
+        m = re.match(pattern, text, flags=re.IGNORECASE)
         if m:
-            return m.group(1).strip(), m.group(2).strip()
+            a = m.group(1).strip()
+            b = m.group(2).strip()
+            if a and b:
+                return a, b
+
     return None, None
 
 def fuzzy_match(text, keyword):
-    score = fuzz.partial_ratio(text.lower(), keyword.lower())
+    if not keyword or len(keyword.strip()) < 3:
+        return False, 0
+
+    score = fuzz.token_set_ratio(text.lower(), keyword.lower())
     return score >= fuzzy_threshold, score
 
 def fuzzy_intent_match(q):
     best = (None, None, 0)
+
     for intent, groups in rules.items():
+        if not isinstance(groups, dict):
+            continue
+
         for keyword in groups:
+            if not isinstance(keyword, str):
+                continue
             if keyword == "default":
                 continue
-            penalty = 20 if " vs " in keyword else 0
+            if len(keyword.strip()) < 3:
+                continue
+
+            penalty = 20 if " vs " in keyword.lower() else 0
             matched, raw_score = fuzzy_match(q, keyword)
             score = raw_score - penalty
+
             if matched and score >= fuzzy_threshold and score > best[2]:
                 best = (intent, keyword, score)
+
     return best
 
 def select_keyword_answer(intent, q, temperature):
     groups = rules.get(intent, {})
+    if not isinstance(groups, dict):
+        return pick_answer(fallback_messages.get("other", ["I'm not sure yet."]), temperature)
+
     for k, v in groups.items():
-        matched, _ = fuzzy_match(q, k)
-        if matched and isinstance(v, list):
+        if not isinstance(k, str):
+            continue
+        matched, _ = fuzzy_match(normalize_text(q), normalize_text(k))
+        if matched:
             return pick_answer(v, temperature)
+
+    if "default" in groups:
+        return pick_answer(groups["default"], temperature)
 
     return pick_answer(
         fallback_messages.get("other", ["I'm not sure yet."]),
@@ -310,12 +456,21 @@ def select_keyword_answer(intent, q, temperature):
     )
 
 # -------------------------------------------------------------------
+# INFERENCE
+# -------------------------------------------------------------------
 
 def infer(question, temperature=DEFAULT_TEMPERATURE):
-    q = question.lower().strip()
+    q = normalize_text(question)
 
     for intent, groups in rules.items():
-        normalized_groups = {k.lower(): v for k, v in groups.items()}
+        if not isinstance(groups, dict):
+            continue
+
+        normalized_groups = {
+            normalize_text(str(k)): normalize_answers(v)
+            for k, v in groups.items()
+        }
+
         if q in normalized_groups:
             return {
                 "answer": pick_answer(normalized_groups[q], temperature),
@@ -327,12 +482,15 @@ def infer(question, temperature=DEFAULT_TEMPERATURE):
                 "max_probability": 1.0,
             }
 
-    if any(w in q for w in ("spec", "specs", "specifications", "features")):
-        cleaned = re.sub(r"\b(specs?|specifications?|features)\b", "", q).strip()
+    if any(w in q for w in ("spec", "specs", "specification", "specifications", "features")):
+        cleaned = re.sub(r"\b(spec|specs|specification|specifications|features)\b", "", q).strip()
+        cleaned = normalize_text(cleaned)
         ps = rules.get("product_specs", {})
 
-        cleaned = cleaned.lower()
-        ps_normalized = {k.lower(): v for k, v in ps.items()}
+        ps_normalized = {
+            normalize_text(str(k)): normalize_answers(v)
+            for k, v in ps.items()
+        }
 
         if cleaned in ps_normalized:
             return {
@@ -347,8 +505,9 @@ def infer(question, temperature=DEFAULT_TEMPERATURE):
 
     a, b = detect_comparison_pairs(q)
     if a and b:
-        key = f"{a.lower().strip()} vs {b.lower().strip()}"
+        key = f"{normalize_text(a)} vs {normalize_text(b)}"
         ps = rules.get("product_specs", {})
+
         if key in ps:
             answer = pick_answer(ps[key], temperature)
         else:
@@ -368,20 +527,26 @@ def infer(question, temperature=DEFAULT_TEMPERATURE):
         }
 
     X = vectorizer.transform([question])
-    probs = model.predict_proba(X)[0]
+
     ml_intent = model.predict(X)[0]
-    ml_prob = float(max(probs))
+
+    if hasattr(model, "predict_proba"):
+        probs = model.predict_proba(X)[0]
+        probabilities = dict(zip(MODEL_CLASSES, map(float, probs)))
+        ml_prob = float(max(probs))
+    else:
+        probabilities = {}
+        ml_prob = 1.0
 
     override, _, _ = fuzzy_intent_match(q)
-
     required = thresholds.get(ml_intent, 0.0)
 
-    if override:
-        final = override
-        reason = "fuzzy_override"
-    elif ml_prob >= required:
+    if ml_prob >= required:
         final = ml_intent
         reason = "ml_confident"
+    elif override:
+        final = override
+        reason = "fuzzy_override"
     else:
         final = "other"
         reason = "low_confidence"
@@ -391,11 +556,13 @@ def infer(question, temperature=DEFAULT_TEMPERATURE):
         "final_intent": final,
         "ml_intent": ml_intent,
         "reason": reason,
-        "probabilities": dict(zip(MODEL_CLASSES, map(float, probs))),
+        "probabilities": probabilities,
         "model_version": model_version,
         "max_probability": ml_prob,
     }
 
+# -------------------------------------------------------------------
+# API
 # -------------------------------------------------------------------
 
 @app.route("/api/predict", methods=["POST"])
@@ -406,11 +573,12 @@ def api_predict():
     if not question:
         return jsonify({"error": "Missing 'input' field"}), 400
 
-    temperature = max(0.0, float(data.get("temperature", DEFAULT_TEMPERATURE)))
+    temperature = clamp_temperature(data.get("temperature", DEFAULT_TEMPERATURE), DEFAULT_TEMPERATURE)
 
     result = infer(question, temperature)
     result = apply_alignment(question, result)
-    append_log(question, result) 
+    append_log(question, result)
+
     return jsonify({
         "input": question,
         "temperature": temperature,
@@ -419,18 +587,19 @@ def api_predict():
 
 @app.route("/api/chat", methods=["POST"])
 def api_chat():
-    data = request.get_json(force=True) or {}
-    question = data.get("message", "").strip()
+    data = request.get_json(silent=True) or {}
+
+    question = (data.get("message") or "").strip()
     if not question:
         return jsonify({"error": "Empty message"}), 400
 
-    temperature = max(0.0, float(data.get("temperature", DEFAULT_TEMPERATURE)))
+    temperature = clamp_temperature(data.get("temperature", DEFAULT_TEMPERATURE), DEFAULT_TEMPERATURE)
+
     result = infer(question, temperature)
     result = apply_alignment(question, result)
     append_log(question, result)
-    return jsonify(result)
 
-# -------------------------------------------------------------------
+    return jsonify(result)
 
 @app.route("/api/search_logs", methods=["POST"])
 def api_search_logs():
@@ -438,7 +607,12 @@ def api_search_logs():
 
     query = (data.get("query") or "").lower().strip()
     intent = data.get("intent")
-    limit = int(data.get("limit", 50))
+
+    try:
+        limit = int(data.get("limit", 50))
+        limit = max(1, min(limit, 500))
+    except (TypeError, ValueError):
+        return jsonify({"error": "Invalid 'limit'"}), 400
 
     if not query and not intent:
         return jsonify({"error": "Provide 'query' or 'intent'"}), 400
@@ -448,13 +622,13 @@ def api_search_logs():
     for log in reversed(LOGS):
         if query:
             if (
-                query not in log["question"].lower()
-                and query not in log["answer"].lower()
+                query not in str(log.get("question", "")).lower()
+                and query not in str(log.get("answer", "")).lower()
             ):
                 continue
 
         if intent:
-            if log["final_intent"] != intent:
+            if log.get("final_intent") != intent:
                 continue
 
         results.append(log)
@@ -469,22 +643,23 @@ def api_search_logs():
         "results": results
     })
 
-# -------------------------------------------------------------------
-
 @app.route("/api/upload_rules", methods=["POST"])
 def api_upload_rules():
     raw = None
+
     if request.is_json:
         try:
             raw = request.get_json()
         except Exception as e:
             return jsonify({"error": f"Invalid JSON body: {e}"}), 400
+
     elif "file" in request.files:
         try:
             content = request.files["file"].read().decode("utf-8-sig")
             raw = json.loads(content)
         except Exception as e:
             return jsonify({"error": f"Invalid JSON file: {e}"}), 400
+
     else:
         return jsonify({
             "error": "Provide rules either as JSON body or as multipart file"
@@ -504,32 +679,48 @@ def api_upload_rules():
     merged_intents = 0
     new_rules = 0
     updated_rules = 0
+    validation_errors = []
 
     for intent, groups in raw.items():
-        if not isinstance(groups, dict):
+        if not isinstance(intent, str) or not isinstance(groups, dict):
+            validation_errors.append(f"Intent '{intent}' must map to an object.")
             continue
 
         rules.setdefault(intent, {})
         merged_intents += 1
 
         for key, answers in groups.items():
-            if key not in rules[intent]:
+            if not isinstance(key, str) or not key.strip():
+                validation_errors.append(f"Invalid rule key under intent '{intent}'.")
+                continue
+
+            try:
+                normalized = validate_rule_answers(answers)
+            except ValueError as e:
+                validation_errors.append(f"{intent}.{key}: {e}")
+                continue
+
+            normalized_key = normalize_text(key)
+
+            if normalized_key not in rules[intent]:
                 new_rules += 1
-            elif rules[intent][key] != answers:
+            elif rules[intent][normalized_key] != normalized:
                 updated_rules += 1
 
-            rules[intent][key] = answers
+            rules[intent][normalized_key] = normalized
+
 
     persist_manual_rules()
 
     return jsonify({
-        "success": True,
+        "success": len(validation_errors) == 0,
         "message": (
             f"Merged {merged_intents} intents | "
             f"New rules: {new_rules} | "
             f"Updated rules: {updated_rules}"
         ),
-        "file": MANUAL_RULES_FILE
+        "validation_errors": validation_errors,
+        "file": str(MANUAL_RULES_FILE)
     })
 
 @app.route("/")
@@ -546,6 +737,8 @@ def health():
         "model_version": model_version
     })
 
+# -------------------------------------------------------------------
+# MAIN
 # -------------------------------------------------------------------
 
 if __name__ == "__main__":

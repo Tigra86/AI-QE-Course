@@ -1,0 +1,30 @@
+{
+  "metadata": {
+    "product": "Global Metrics",
+    "domain": "science",
+    "version": "1.1",
+    "total_questions": 20
+  },
+  "questions": [
+    {"id": "Q061", "category": "geography", "question": "What is the height of Mount Everest in feet?", "expected_answers": ["Everest is 29,029 feet high.", "The height is 29,029 feet.", "It stands at 29,029 feet.", "The summit is 29,029 feet.", "Everest reaches 29,029 feet."], "tags": ["metric"]},
+    {"id": "Q062", "category": "science", "question": "What is the depth of the Challenger Deep in meters?", "expected_answers": ["It is 10,935 meters deep.", "The depth is 10,935 meters.", "It reaches 10,935 meters.", "The bottom is at 10,935 meters.", "It measures 10,935 meters deep."], "tags": ["metric"]},
+    {"id": "Q063", "category": "demographics", "question": "What is the population of Vatican City?", "expected_answers": ["The population is about 825.", "It has around 825 residents.", "There are 825 people.", "Vatican City has 825 citizens.", "The count is approximately 825."], "tags": ["metric"]},
+    {"id": "Q064", "category": "geography", "question": "What is the length of the Nile River in miles?", "expected_answers": ["It is 4,130 miles long.", "The Nile is 4,130 miles.", "It measures 4,130 miles.", "The length is 4,130 miles.", "It spans 4,130 miles."], "tags": ["metric"]},
+    {"id": "Q065", "category": "geography", "question": "What is the area of Russia in square miles?", "expected_answers": ["It is 6.6 million square miles.", "The area is 6.6 million sq mi.", "Russia is 6.6 million square miles.", "It spans 6.6 million square miles.", "The size is 6.6 million sq mi."], "tags": ["metric"]},
+    {"id": "Q066", "category": "science", "question": "What is the speed of light in meters per second?", "expected_answers": ["It is 299,792,458 m/s.", "The speed is 299,792,458 m/s.", "Light travels at 299,792,458 m/s.", "It measures 299,792,458 m/s.", "The velocity is 299,792,458 m/s."], "tags": ["physics"]},
+    {"id": "Q067", "category": "science", "question": "What is the boiling point of water in Celsius?", "expected_answers": ["Water boils at 100 degrees C.", "It is 100 degrees Celsius.", "The point is 100 degrees C.", "Boiling occurs at 100C.", "It reaches 100 degrees Celsius."], "tags": ["physics"]},
+    {"id": "Q068", "category": "demographics", "question": "What is the population of Tokyo?", "expected_answers": ["It is about 14 million.", "Tokyo has 14 million people.", "The population is 14 million.", "It houses 14 million residents.", "The count is 14 million."], "tags": ["metric"]},
+    {"id": "Q069", "category": "geography", "question": "What is the elevation of Denver in feet?", "expected_answers": ["It is 5,280 feet high.", "Denver is 5,280 feet.", "The elevation is 5,280 feet.", "It stands at 5,280 feet.", "The city is 5,280 feet up."], "tags": ["metric"]},
+    {"id": "Q070", "category": "science", "question": "How many planets are in the solar system?", "expected_answers": ["There are 8 planets.", "The count is 8 planets.", "There are eight planets.", "The system has 8 planets.", "We have 8 planets."], "tags": ["space"]},
+    {"id": "Q071", "category": "science", "question": "What is the average distance to the moon in miles?", "expected_answers": ["It is 238,855 miles.", "The distance is 238,855 miles.", "It's about 238,855 miles.", "The moon is 238,855 miles away.", "It measures 238,855 miles."], "tags": ["space"]},
+    {"id": "Q072", "category": "geography", "question": "How many continents are there?", "expected_answers": ["There are 7 continents.", "The count is 7.", "There are seven continents.", "We have 7 continents.", "The total is 7."], "tags": ["metric"]},
+    {"id": "Q073", "category": "science", "question": "What is the atomic number of Gold?", "expected_answers": ["The atomic number is 79.", "Gold's number is 79.", "It is 79.", "The number for Gold is 79.", "Gold is element 79."], "tags": ["chemistry"]},
+    {"id": "Q074", "category": "science", "question": "How many bones are in the human adult body?", "expected_answers": ["There are 206 bones.", "The count is 206.", "Adults have 206 bones.", "The total is 206 bones.", "There are 206 adult bones."], "tags": ["biology"]},
+    {"id": "Q075", "category": "demographics", "question": "What is the population of the USA?", "expected_answers": ["It is about 331 million.", "The population is 331 million.", "Around 331 million people.", "The USA has 331 million.", "It is roughly 331 million."], "tags": ["metric"]},
+    {"id": "Q076", "category": "geography", "question": "What is the height of the Eiffel Tower in feet?", "expected_answers": ["It is 1,083 feet tall.", "The height is 1,083 feet.", "It stands 1,083 feet high.", "The tower is 1,083 feet.", "It reaches 1,083 feet."], "tags": ["metric"]},
+    {"id": "Q077", "category": "science", "question": "What is the gravity on Earth in m/s^2?", "expected_answers": ["It is 9.8 m/s^2.", "Gravity is 9.8 m/s^2.", "The force is 9.8 m/s^2.", "Earth's gravity is 9.8.", "It measures 9.8 m/s^2."], "tags": ["physics"]},
+    {"id": "Q078", "category": "geography", "question": "How many states are in the USA?", "expected_answers": ["There are 50 states.", "The count is 50.", "There are fifty states.", "The USA has 50 states.", "The total is 50."], "tags": ["metric"]},
+    {"id": "Q079", "category": "science", "question": "What is the freezing point of water in Fahrenheit?", "expected_answers": ["It is 32 degrees F.", "Water freezes at 32F.", "The point is 32 degrees.", "It is 32 Fahrenheit.", "Freezing is at 32 degrees."], "tags": ["physics"]},
+    {"id": "Q080", "category": "demographics", "question": "What is the world population?", "expected_answers": ["It is about 8 billion.", "The population is 8 billion.", "Around 8 billion people.", "The world has 8 billion.", "It is roughly 8 billion."], "tags": ["metric"]}
+  ]
+}

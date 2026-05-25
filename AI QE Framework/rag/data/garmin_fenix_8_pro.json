@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "product": "Garmin Fenix 8 Pro",
+    "domain": "technical_how_to",
+    "version": "1.0",
+    "total_questions": 5
+  },
+  "questions": [
+    {
+      "id": "Q301",
+      "category": "setup",
+      "question": "How do I pair my Garmin Fenix 8 Pro with my smartphone?",
+      "expected_answers": [
+        "Open the Garmin Connect app and select Add Device",
+        "Enable Bluetooth on your phone and follow the pairing instructions",
+        "Pair the watch through Garmin Connect mobile app"
+      ],
+      "tags": ["bluetooth", "pairing", "setup"]
+    },
+    {
+      "id": "Q302",
+      "category": "navigation",
+      "question": "How do I load a GPX route onto my Garmin Fenix 8 Pro?",
+      "expected_answers": [
+        "Upload the GPX file to Garmin Connect and sync the watch",
+        "Send the route to the device through Garmin Connect",
+        "Transfer the GPX file and sync via Garmin Express"
+      ],
+      "tags": ["gpx", "routes", "navigation"]
+    },
+    {
+      "id": "Q303",
+      "category": "firmware",
+      "question": "How do I update the firmware on my Garmin Fenix 8 Pro?",
+      "expected_answers": [
+        "Connect the watch to Garmin Express and check for updates",
+        "Update the watch through Garmin Connect if an update is available",
+        "Install firmware updates using Garmin Express software"
+      ],
+      "tags": ["firmware", "update", "software"]
+    },
+    {
+      "id": "Q304",
+      "category": "troubleshooting",
+      "question": "How do I reset my Garmin Fenix 8 to factory settings?",
+      "expected_answers": [
+        "Go to Settings, select System, and choose Reset",
+        "Perform a factory reset from the system settings menu",
+        "Reset the device through the settings under System"
+      ],
+      "tags": ["reset", "factory_reset", "troubleshooting"]
+    },
+    {
+      "id": "Q305",
+      "category": "troubleshooting",
+      "question": "How do I reset my Garmin Fenix 8 Pro to factory settings?",
+      "expected_answers": [
+        "Go to Settings, select System, and choose Reset",
+        "Perform a factory reset from the system settings menu",
+        "Reset the device through the settings under System"
+      ],
+      "tags": ["reset", "factory_reset", "troubleshooting"]
+    }
+  ]
+}

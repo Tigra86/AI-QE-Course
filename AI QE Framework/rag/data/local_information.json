@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "product": "Garmin",
+    "domain": "local_information",
+    "version": "1.0",
+    "total_questions": 25
+  },
+  "questions": [
+    {
+      "id": "Q701",
+      "category": "local_information",
+      "question": "Where is Garmin headquartered?",
+      "expected_answers": [
+        "Garmin is headquartered in Olathe, Kansas, United States."
+      ],
+      "tags": ["headquarters", "location", "company"]
+    },
+    {
+      "id": "Q702",
+      "category": "local_information",
+      "question": "In which state is Garmin's main office located?",
+      "expected_answers": [
+        "Garmin's main office is located in Kansas."
+      ],
+      "tags": ["state", "headquarters"]
+    },
+    {
+      "id": "Q703",
+      "category": "local_information",
+      "question": "What country is Garmin based in?",
+      "expected_answers": [
+        "Garmin is based in the United States."
+      ],
+      "tags": ["country", "company"]
+    },
+    {
+      "id": "Q704",
+      "category": "local_information",
+      "question": "Where is Garmin's European headquarters?",
+      "expected_answers": [
+        "Garmin's European headquarters is located in Schaffhausen, Switzerland."
+      ],
+      "tags": ["europe", "regional_office"]
+    },
+    {
+      "id": "Q705",
+      "category": "local_information",
+      "question": "Does Garmin have offices in Asia?",
+      "expected_answers": [
+        "Yes, Garmin has offices and operations in several Asian countries including Taiwan and Japan."
+      ],
+      "tags": ["asia", "regional_presence"]
+    },
+    {
+      "id": "Q706",
+      "category": "local_information",
+      "question": "Where are Garmin products manufactured?",
+      "expected_answers": [
+        "Garmin manufactures products in locations including Taiwan and the United States."
+      ],
+      "tags": ["manufacturing", "locations"]
+    },
+    {
+      "id": "Q707",
+      "category": "local_information",
+      "question": "Where is Garmin's aviation division located?",
+      "expected_answers": [
+        "Garmin's aviation division operates primarily from Olathe, Kansas."
+      ],
+      "tags": ["aviation", "division_location"]
+    },
+    {
+      "id": "Q708",
+      "category": "local_information",
+      "question": "Is Garmin located in California?",
+      "expected_answers": [
+        "Garmin has offices in California but its headquarters is in Kansas."
+      ],
+      "tags": ["us_locations", "offices"]
+    },
+    {
+      "id": "Q709",
+      "category": "local_information",
+      "question": "Where is Garmin's marine division based?",
+      "expected_answers": [
+        "Garmin's marine operations are based in multiple locations including the United States."
+      ],
+      "tags": ["marine", "operations"]
+    },
+    {
+      "id": "Q710",
+      "category": "local_information",
+      "question": "Which city hosts Garmin's corporate headquarters?",
+      "expected_answers": [
+        "Garmin's corporate headquarters is located in Olathe, Kansas."
+      ],
+      "tags": ["city", "hq"]
+    },
+    {
+      "id": "Q711",
+      "category": "local_information",
+      "question": "Does Garmin have a presence in Europe?",
+      "expected_answers": [
+        "Yes, Garmin operates across Europe with regional offices including Switzerland."
+      ],
+      "tags": ["europe", "global_presence"]
+    },
+    {
+      "id": "Q712",
+      "category": "local_information",
+      "question": "Where can I find Garmin's main US office?",
+      "expected_answers": [
+        "Garmin's main US office is in Olathe, Kansas."
+      ],
+      "tags": ["us_office", "hq"]
+    },
+    {
+      "id": "Q713",
+      "category": "local_information",
+      "question": "Is Garmin an American company?",
+      "expected_answers": [
+        "Yes, Garmin is an American multinational technology company."
+      ],
+      "tags": ["country", "corporate_origin"]
+    },
+    {
+      "id": "Q714",
+      "category": "local_information",
+      "question": "Where is Garmin's Asia-Pacific headquarters?",
+      "expected_answers": [
+        "Garmin's Asia-Pacific operations are based in Taiwan."
+      ],
+      "tags": ["asia_pacific", "regional_hq"]
+    },
+    {
+      "id": "Q715",
+      "category": "local_information",
+      "question": "In which city was Garmin founded?",
+      "expected_answers": [
+        "Garmin was founded in Lenexa, Kansas."
+      ],
+      "tags": ["founding", "history", "city"]
+    },
+    {
+      "id": "Q716",
+      "category": "local_information",
+      "question": "Does Garmin have offices outside the United States?",
+      "expected_answers": [
+        "Yes, Garmin has international offices across Europe and Asia."
+      ],
+      "tags": ["international", "offices"]
+    },
+    {
+      "id": "Q717",
+      "category": "local_information",
+      "question": "Where is Garmin's research and development center located?",
+      "expected_answers": [
+        "Garmin has research and development centers in the United States and Taiwan."
+      ],
+      "tags": ["r_and_d", "locations"]
+    },
+    {
+      "id": "Q718",
+      "category": "local_information",
+      "question": "What state is Garmin incorporated in?",
+      "expected_answers": [
+        "Garmin is incorporated in Switzerland with major operations in the United States."
+      ],
+      "tags": ["incorporation", "legal"]
+    },
+    {
+      "id": "Q719",
+      "category": "local_information",
+      "question": "Where is Garmin's global headquarters?",
+      "expected_answers": [
+        "Garmin's global headquarters is located in Olathe, Kansas."
+      ],
+      "tags": ["global_hq"]
+    },
+    {
+      "id": "Q720",
+      "category": "local_information",
+      "question": "Does Garmin operate in Canada?",
+      "expected_answers": [
+        "Yes, Garmin operates in Canada through regional offices and distribution networks."
+      ],
+      "tags": ["canada", "operations"]
+    },
+    {
+      "id": "Q721",
+      "category": "local_information",
+      "question": "Where is Garmin's customer support center located?",
+      "expected_answers": [
+        "Garmin customer support operates from multiple regional offices including the United States."
+      ],
+      "tags": ["support", "location"]
+    },
+    {
+      "id": "Q722",
+      "category": "local_information",
+      "question": "Is Garmin headquartered in Europe?",
+      "expected_answers": [
+        "No, Garmin's headquarters is in Kansas, United States."
+      ],
+      "tags": ["hq", "clarification"]
+    },
+    {
+      "id": "Q723",
+      "category": "local_information",
+      "question": "Where is Garmin's main manufacturing facility?",
+      "expected_answers": [
+        "Garmin's primary manufacturing facilities are located in Taiwan."
+      ],
+      "tags": ["manufacturing", "taiwan"]
+    },
+    {
+      "id": "Q724",
+      "category": "local_information",
+      "question": "Does Garmin have offices in Switzerland?",
+      "expected_answers": [
+        "Yes, Garmin has corporate registration and offices in Switzerland."
+      ],
+      "tags": ["switzerland", "corporate"]
+    },
+    {
+      "id": "Q725",
+      "category": "local_information",
+      "question": "Which continent is Garmin primarily based in?",
+      "expected_answers": [
+        "Garmin is primarily based in North America."
+      ],
+      "tags": ["continent", "geography"]
+    }
+  ]
+}

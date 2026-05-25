@@ -1,0 +1,23 @@
+{
+  "metadata": {
+    "product": "Capitals",
+    "domain": "other",
+    "version": "1.0",
+    "total_questions": 1
+  },
+  "questions": [
+    {
+      "id": "Q211",
+      "category": "general",
+      "question": "What is the capital of France?",
+      "expected_answers": [
+        "The capital of France is Paris.",
+        "France's capital city is Paris.",
+        "The city of Paris is France's capital.",
+        "Paris is the capital city of France.",
+        "Paris serves as France's capital."
+      ],
+      "tags": ["general"]
+    }
+  ]
+}

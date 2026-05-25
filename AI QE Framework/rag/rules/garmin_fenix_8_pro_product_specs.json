@@ -1,0 +1,94 @@
+{
+  "fenix_8_pro_product_specs": {
+    "what product is described in this specification file?": [
+      "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch."
+    ],
+    "who manufactures the garmin fenix 8 pro?": [
+      "The Garmin Fenix 8 Pro is manufactured by Garmin."
+    ],
+    "what type of device is the garmin fenix 8 pro?": [
+      "The Garmin Fenix 8 Pro is a multisport GPS smartwatch."
+    ],
+    "what type of display does the garmin fenix 8 pro use?": [
+      "The display type is not explicitly specified in the provided specifications."
+    ],
+    "is the display touchscreen?": [
+      "Touchscreen support is not specified in the provided specifications."
+    ],
+    "is the display resolution specified?": [
+      "The display resolution is not specified in the provided specifications."
+    ],
+    "which satellite navigation systems are supported?": [
+      "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo."
+    ],
+    "does the watch support multi-band gnss?": [
+      "Multi-band GNSS support is not explicitly specified."
+    ],
+    "does the watch support turn-by-turn navigation?": [
+      "Turn-by-turn navigation is not explicitly specified."
+    ],
+    "what heart rate sensor does the watch use?": [
+      "The watch uses an optical wrist-based heart rate sensor."
+    ],
+    "does the watch include a pulse oximeter?": [
+      "Pulse oximeter support is listed as unknown or not explicitly confirmed."
+    ],
+    "does the watch support ecg measurements?": [
+      "ECG support is listed as unknown or not specified."
+    ],
+    "what is the battery life in smartwatch mode?": [
+      "The smartwatch battery life is not explicitly specified."
+    ],
+    "does the watch support solar charging?": [
+      "Solar charging support is not explicitly confirmed."
+    ],
+    "is gps battery life specified?": [
+      "GPS battery life is not explicitly specified."
+    ],
+    "what materials are used for the case?": [
+      "Case materials are not specified in the provided specifications."
+    ],
+    "is water resistance specified?": [
+      "Water resistance is not specified in the provided specifications."
+    ],
+    "are multiple case sizes available?": [
+      "Case size options are not specified."
+    ],
+    "does the watch support bluetooth?": [
+      "Bluetooth support is implied but not explicitly listed."
+    ],
+    "does the watch support wi-fi?": [
+      "Wi-Fi support is listed as unknown."
+    ],
+    "does the watch support cellular connectivity?": [
+      "Cellular connectivity is not specified."
+    ],
+    "is internal storage capacity specified?": [
+      "Internal storage capacity is not specified."
+    ],
+    "does the watch support music storage?": [
+      "Music storage support is not specified."
+    ],
+    "is expandable storage supported?": [
+      "Expandable storage is not specified."
+    ],
+    "does the watch support garmin pay?": [
+      "Garmin Pay support is not specified."
+    ],
+    "does the watch support voice assistants?": [
+      "Voice assistant support is not specified."
+    ],
+    "does the watch support smart notifications?": [
+      "Smart notification support is implied but not explicitly specified."
+    ],
+    "which features are explicitly listed as unknown?": [
+      "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown."
+    ],
+    "are any medical features explicitly confirmed?": [
+      "Only optical heart rate monitoring is explicitly confirmed."
+    ],
+    "does the specification include unsupported features?": [
+      "No unsupported or prohibited features are explicitly listed."
+    ]
+  }
+}

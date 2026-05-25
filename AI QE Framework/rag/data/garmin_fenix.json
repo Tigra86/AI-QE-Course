@@ -1,0 +1,4510 @@
+{
+  "metadata": {
+    "product": "Garmin Fenix 8 Pro",
+    "domain": "product_specs",
+    "version": "1.0",
+    "total_questions": 500
+  },
+  "questions": [
+    {
+      "id": "Q001",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q002",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q003",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q004",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q005",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q006",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q007",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q008",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q009",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q010",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q011",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q012",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q013",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q014",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q015",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q016",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q017",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q018",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q019",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q020",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q021",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q022",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q023",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q024",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q025",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q026",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q027",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q028",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q029",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q030",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q031",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q032",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q033",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q034",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q035",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q036",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q037",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q038",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q039",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q040",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q041",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q042",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q043",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q044",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q045",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q046",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q047",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q048",
+      "category": "general",
+      "question": "What type of device is the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is a multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q049",
+      "category": "general",
+      "question": "What product is described in this specification file?",
+      "expected_answer": "The specifications describe the Garmin Fenix 8 Pro multisport GPS smartwatch.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q050",
+      "category": "general",
+      "question": "Who manufactures the Garmin Fenix 8 Pro?",
+      "expected_answer": "The Garmin Fenix 8 Pro is manufactured by Garmin.",
+      "tags": [
+        "general"
+      ]
+    },
+    {
+      "id": "Q051",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q052",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q053",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q054",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q055",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q056",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q057",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q058",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q059",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q060",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q061",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q062",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q063",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q064",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q065",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q066",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q067",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q068",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q069",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q070",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q071",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q072",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q073",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q074",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q075",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q076",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q077",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q078",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q079",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q080",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q081",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q082",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q083",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q084",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q085",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q086",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q087",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q088",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q089",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q090",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q091",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q092",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q093",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q094",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q095",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q096",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q097",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q098",
+      "category": "display",
+      "question": "Is the display resolution specified?",
+      "expected_answer": "The display resolution is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q099",
+      "category": "display",
+      "question": "What type of display does the Garmin Fenix 8 Pro use?",
+      "expected_answer": "The display type is not explicitly specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q100",
+      "category": "display",
+      "question": "Is the display touchscreen?",
+      "expected_answer": "Touchscreen support is not specified in the provided specifications.",
+      "tags": [
+        "display"
+      ]
+    },
+    {
+      "id": "Q101",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q102",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q103",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q104",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q105",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q106",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q107",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q108",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q109",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q110",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q111",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q112",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q113",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q114",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q115",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q116",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q117",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q118",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q119",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q120",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q121",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q122",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q123",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q124",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q125",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q126",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q127",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q128",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q129",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q130",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q131",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q132",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q133",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q134",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q135",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q136",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q137",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q138",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q139",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q140",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q141",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q142",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q143",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q144",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q145",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q146",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q147",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q148",
+      "category": "navigation",
+      "question": "Does the watch support turn-by-turn navigation?",
+      "expected_answer": "Turn-by-turn navigation is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q149",
+      "category": "navigation",
+      "question": "Which satellite navigation systems are supported?",
+      "expected_answer": "The Garmin Fenix 8 Pro supports GPS, GLONASS, and Galileo.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q150",
+      "category": "navigation",
+      "question": "Does the watch support multi-band GNSS?",
+      "expected_answer": "Multi-band GNSS support is not explicitly specified.",
+      "tags": [
+        "navigation"
+      ]
+    },
+    {
+      "id": "Q151",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q152",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q153",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q154",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q155",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q156",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q157",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q158",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q159",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q160",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q161",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q162",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q163",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q164",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q165",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q166",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q167",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q168",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q169",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q170",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q171",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q172",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q173",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q174",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q175",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q176",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q177",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q178",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q179",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q180",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q181",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q182",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q183",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q184",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q185",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q186",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q187",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q188",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q189",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q190",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q191",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q192",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q193",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q194",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q195",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q196",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q197",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q198",
+      "category": "health",
+      "question": "Does the watch support ECG measurements?",
+      "expected_answer": "ECG support is listed as unknown or not specified.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q199",
+      "category": "health",
+      "question": "What heart rate sensor does the watch use?",
+      "expected_answer": "The watch uses an optical wrist-based heart rate sensor.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q200",
+      "category": "health",
+      "question": "Does the watch include a pulse oximeter?",
+      "expected_answer": "Pulse oximeter support is listed as unknown or not explicitly confirmed.",
+      "tags": [
+        "health"
+      ]
+    },
+    {
+      "id": "Q201",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q202",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q203",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q204",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q205",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q206",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q207",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q208",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q209",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q210",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q211",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q212",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q213",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q214",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q215",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q216",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q217",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q218",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q219",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q220",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q221",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q222",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q223",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q224",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q225",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q226",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q227",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q228",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q229",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q230",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q231",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q232",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q233",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q234",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q235",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q236",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q237",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q238",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q239",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q240",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q241",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q242",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q243",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q244",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q245",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q246",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q247",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q248",
+      "category": "battery",
+      "question": "Is GPS battery life specified?",
+      "expected_answer": "GPS battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q249",
+      "category": "battery",
+      "question": "What is the battery life in smartwatch mode?",
+      "expected_answer": "The smartwatch battery life is not explicitly specified.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q250",
+      "category": "battery",
+      "question": "Does the watch support solar charging?",
+      "expected_answer": "Solar charging support is not explicitly confirmed.",
+      "tags": [
+        "battery"
+      ]
+    },
+    {
+      "id": "Q251",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q252",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q253",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q254",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q255",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q256",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q257",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q258",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q259",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q260",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q261",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q262",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q263",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q264",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q265",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q266",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q267",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q268",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q269",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q270",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q271",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q272",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q273",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q274",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q275",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q276",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q277",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q278",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q279",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q280",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q281",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q282",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q283",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q284",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q285",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q286",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q287",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q288",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q289",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q290",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q291",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q292",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q293",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q294",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q295",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q296",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q297",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q298",
+      "category": "build",
+      "question": "Are multiple case sizes available?",
+      "expected_answer": "Case size options are not specified.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q299",
+      "category": "build",
+      "question": "What materials are used for the case?",
+      "expected_answer": "Case materials are not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q300",
+      "category": "build",
+      "question": "Is water resistance specified?",
+      "expected_answer": "Water resistance is not specified in the provided specifications.",
+      "tags": [
+        "build"
+      ]
+    },
+    {
+      "id": "Q301",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q302",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q303",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q304",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q305",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q306",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q307",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q308",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q309",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q310",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q311",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q312",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q313",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q314",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q315",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q316",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q317",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q318",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q319",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q320",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q321",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q322",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q323",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q324",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q325",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q326",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q327",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q328",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q329",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q330",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q331",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q332",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q333",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q334",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q335",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q336",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q337",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q338",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q339",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q340",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q341",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q342",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q343",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q344",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q345",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q346",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q347",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q348",
+      "category": "connectivity",
+      "question": "Does the watch support cellular connectivity?",
+      "expected_answer": "Cellular connectivity is not specified.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q349",
+      "category": "connectivity",
+      "question": "Does the watch support Bluetooth?",
+      "expected_answer": "Bluetooth support is implied but not explicitly listed.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q350",
+      "category": "connectivity",
+      "question": "Does the watch support Wi-Fi?",
+      "expected_answer": "Wi-Fi support is listed as unknown.",
+      "tags": [
+        "connectivity"
+      ]
+    },
+    {
+      "id": "Q351",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q352",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q353",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q354",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q355",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q356",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q357",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q358",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q359",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q360",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q361",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q362",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q363",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q364",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q365",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q366",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q367",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q368",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q369",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q370",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q371",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q372",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q373",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q374",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q375",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q376",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q377",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q378",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q379",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q380",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q381",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q382",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q383",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q384",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q385",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q386",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q387",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q388",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q389",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q390",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q391",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q392",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q393",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q394",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q395",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q396",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q397",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q398",
+      "category": "storage",
+      "question": "Is expandable storage supported?",
+      "expected_answer": "Expandable storage is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q399",
+      "category": "storage",
+      "question": "Is internal storage capacity specified?",
+      "expected_answer": "Internal storage capacity is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q400",
+      "category": "storage",
+      "question": "Does the watch support music storage?",
+      "expected_answer": "Music storage support is not specified.",
+      "tags": [
+        "storage"
+      ]
+    },
+    {
+      "id": "Q401",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q402",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q403",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q404",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q405",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q406",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q407",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q408",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q409",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q410",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q411",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q412",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q413",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q414",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q415",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q416",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q417",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q418",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q419",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q420",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q421",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q422",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q423",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q424",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q425",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q426",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q427",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q428",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q429",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q430",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q431",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q432",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q433",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q434",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q435",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q436",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q437",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q438",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q439",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q440",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q441",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q442",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q443",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q444",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q445",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q446",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q447",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q448",
+      "category": "smart_features",
+      "question": "Does the watch support smart notifications?",
+      "expected_answer": "Smart notification support is implied but not explicitly specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q449",
+      "category": "smart_features",
+      "question": "Does the watch support Garmin Pay?",
+      "expected_answer": "Garmin Pay support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q450",
+      "category": "smart_features",
+      "question": "Does the watch support voice assistants?",
+      "expected_answer": "Voice assistant support is not specified.",
+      "tags": [
+        "smart_features"
+      ]
+    },
+    {
+      "id": "Q451",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q452",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q453",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q454",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q455",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q456",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q457",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q458",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q459",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q460",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q461",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q462",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q463",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q464",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q465",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q466",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q467",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q468",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q469",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q470",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q471",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q472",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q473",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q474",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q475",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q476",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q477",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q478",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q479",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q480",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q481",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q482",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q483",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q484",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q485",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q486",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q487",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q488",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q489",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q490",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q491",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q492",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q493",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q494",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q495",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q496",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q497",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q498",
+      "category": "summary",
+      "question": "Does the specification include unsupported features?",
+      "expected_answer": "No unsupported or prohibited features are explicitly listed.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q499",
+      "category": "summary",
+      "question": "Which features are explicitly listed as unknown?",
+      "expected_answer": "Several features such as display details, battery life, solar charging, ECG, and storage are listed as unknown.",
+      "tags": [
+        "summary"
+      ]
+    },
+    {
+      "id": "Q500",
+      "category": "summary",
+      "question": "Are any medical features explicitly confirmed?",
+      "expected_answer": "Only optical heart rate monitoring is explicitly confirmed.",
+      "tags": [
+        "summary"
+      ]
+    }
+  ]
+}
