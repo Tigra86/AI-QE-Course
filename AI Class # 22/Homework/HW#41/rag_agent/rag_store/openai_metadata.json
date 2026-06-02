@@ -1,0 +1,80 @@
+[
+  {
+    "chunk_id": "bikes.txt::chunk_0",
+    "source_file": "bikes.txt",
+    "chunk_index": 0,
+    "text": "A bicycle is a human-powered vehicle with two wheels."
+  },
+  {
+    "chunk_id": "bird.txt::chunk_0",
+    "source_file": "bird.txt",
+    "chunk_index": 0,
+    "text": "The peregrine falcon is a cosmopolitan bird of prey in the family Falconidae."
+  },
+  {
+    "chunk_id": "boat.txt::chunk_0",
+    "source_file": "boat.txt",
+    "chunk_index": 0,
+    "text": "A vessel propelled on water by sails or an engine."
+  },
+  {
+    "chunk_id": "cars.txt::chunk_0",
+    "source_file": "cars.txt",
+    "chunk_index": 0,
+    "text": "An automobile is a wheeled motor vehicle used for transportation."
+  },
+  {
+    "chunk_id": "country.txt::chunk_0",
+    "source_file": "country.txt",
+    "chunk_index": 0,
+    "text": "Japan is an island country in East Asia, located in the northwest Pacific Ocean."
+  },
+  {
+    "chunk_id": "flower.txt::chunk_0",
+    "source_file": "flower.txt",
+    "chunk_index": 0,
+    "text": "A rose is a woody perennial flowering plant of the genus Rosa, in the family Rosaceae."
+  },
+  {
+    "chunk_id": "fruit.txt::chunk_0",
+    "source_file": "fruit.txt",
+    "chunk_index": 0,
+    "text": "An apple is an edible fruit produced by an apple tree."
+  },
+  {
+    "chunk_id": "mammal.txt::chunk_0",
+    "source_file": "mammal.txt",
+    "chunk_index": 0,
+    "text": "An elephant is a large herbivorous mammal found in Africa and Asia."
+  },
+  {
+    "chunk_id": "musical_instrument.txt::chunk_0",
+    "source_file": "musical_instrument.txt",
+    "chunk_index": 0,
+    "text": "A guitar is a string instrument played primarily by strumming or plucking the strings."
+  },
+  {
+    "chunk_id": "nhl_team.txt::chunk_0",
+    "source_file": "nhl_team.txt",
+    "chunk_index": 0,
+    "text": "The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec."
+  },
+  {
+    "chunk_id": "ocean.txt::chunk_0",
+    "source_file": "ocean.txt",
+    "chunk_index": 0,
+    "text": "The Pacific Ocean is the largest and deepest of Earth's oceanic divisions."
+  },
+  {
+    "chunk_id": "planet.txt::chunk_0",
+    "source_file": "planet.txt",
+    "chunk_index": 0,
+    "text": "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System."
+  },
+  {
+    "chunk_id": "programming_language.txt::chunk_0",
+    "source_file": "programming_language.txt",
+    "chunk_index": 0,
+    "text": "Python is a high-level, general-purpose programming language."
+  }
+]

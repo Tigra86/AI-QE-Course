@@ -1,0 +1,166 @@
+python openai_rag_agent.py ask "What is an NHL team?" --mode bruteforce
+[rag_agent]: python openai_rag_agent.py ask "What is an NHL team?" --mode bruteforce
+
+
+================================================================================
+QUESTION
+================================================================================
+What is an NHL team?
+
+================================================================================
+RETRIEVED CHUNKS
+================================================================================
+
+[Source 1] score=0.4366 file=nhl_team.txt chunk=0
+The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec.
+
+[Source 2] score=0.1290 file=bird.txt chunk=0
+The peregrine falcon is a cosmopolitan bird of prey in the family Falconidae.
+
+[Source 3] score=0.1193 file=boat.txt chunk=0
+A vessel propelled on water by sails or an engine.
+
+[Source 4] score=0.1051 file=country.txt chunk=0
+Japan is an island country in East Asia, located in the northwest Pacific Ocean.
+
+================================================================================
+FINAL ANSWER
+================================================================================
+An NHL team is a professional ice hockey team that plays in the National Hockey League (NHL). For example, the Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec [Source 1].
+
+Mode: bruteforce
+Elapsed: 4.33s
+[rag_agent]: 
+[rag_agent]: 
+
+[rag_agent]: python openai_rag_agent.py ask "What is a large body of saltwater that covers most of the Earth?" --mode bruteforce
+
+================================================================================
+QUESTION
+================================================================================
+What is a large body of saltwater that covers most of the Earth?
+
+================================================================================
+RETRIEVED CHUNKS
+================================================================================
+
+[Source 1] score=0.4715 file=ocean.txt chunk=0
+The Pacific Ocean is the largest and deepest of Earth's oceanic divisions.
+
+[Source 2] score=0.2591 file=mammal.txt chunk=0
+An elephant is a large herbivorous mammal found in Africa and Asia.
+
+[Source 3] score=0.2455 file=country.txt chunk=0
+Japan is an island country in East Asia, located in the northwest Pacific Ocean.
+
+[Source 4] score=0.1660 file=planet.txt chunk=0
+Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System.
+
+================================================================================
+FINAL ANSWER
+================================================================================
+A large body of saltwater that covers most of the Earth is an **ocean** (for example, the **Pacific Ocean**, the largest of Earth’s oceans) [Source 1].
+
+Mode: bruteforce
+Elapsed: 2.85s
+[rag_agent]: 
+[rag_agent]: 
+
+[rag_agent]: python openai_rag_agent.py ask "What is an NHL team?" --mode faiss
+
+================================================================================
+QUESTION
+================================================================================
+What is an NHL team?
+
+================================================================================
+RETRIEVED CHUNKS
+================================================================================
+
+[Source 1] score=0.4366 file=nhl_team.txt chunk=0
+The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec.
+
+[Source 2] score=0.1290 file=bird.txt chunk=0
+The peregrine falcon is a cosmopolitan bird of prey in the family Falconidae.
+
+[Source 3] score=0.1193 file=boat.txt chunk=0
+A vessel propelled on water by sails or an engine.
+
+[Source 4] score=0.1051 file=country.txt chunk=0
+Japan is an island country in East Asia, located in the northwest Pacific Ocean.
+
+================================================================================
+FINAL ANSWER
+================================================================================
+An NHL team is a professional ice hockey team that competes in the National Hockey League (NHL). For example, the Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec [Source 1].
+
+Mode: faiss
+Elapsed: 1.95s
+
+
+[rag_agent]: python openai_rag_agent.py ask "what is the difference between an NHL team and Montréal Canadiens?" --mode faiss
+
+================================================================================
+QUESTION
+================================================================================
+what is the difference between an NHL team and Montréal Canadiens?
+
+================================================================================
+RETRIEVED CHUNKS
+================================================================================
+
+[Source 1] score=0.6215 file=nhl_team.txt chunk=0
+The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec.
+
+[Source 2] score=0.0856 file=cars.txt chunk=0
+An automobile is a wheeled motor vehicle used for transportation.
+
+[Source 3] score=0.0707 file=bird.txt chunk=0
+The peregrine falcon is a cosmopolitan bird of prey in the family Falconidae.
+
+[Source 4] score=0.0677 file=planet.txt chunk=0
+Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System.
+
+================================================================================
+FINAL ANSWER
+================================================================================
+An **NHL team** is any professional ice hockey team that plays in the National Hockey League. The **Montréal Canadiens** are **one specific NHL team**, based in Montreal, Quebec [Source 1]. The difference is that “NHL team” is a general category, while “Montréal Canadiens” is a particular member of that category; the retrieved context doesn’t provide more detail beyond that [Source 1].
+
+Mode: faiss
+Elapsed: 2.98s
+[rag_agent]: 
+
+
+[rag_agent]: python anthropic_rag_agent.py ask "What is an NHL team?" --mode hnsw
+
+================================================================================
+QUESTION
+================================================================================
+What is an NHL team?
+
+================================================================================
+RETRIEVED CHUNKS
+================================================================================
+
+[Source 1] score=0.5184 file=nhl_team.txt chunk=0
+The Montreal Canadiens are a professional ice hockey team based in Montreal, Quebec.
+
+[Source 2] score=0.2691 file=boat.txt chunk=0
+A vessel propelled on water by sails or an engine.
+
+[Source 3] score=0.2559 file=bird.txt chunk=0
+The peregrine falcon is a cosmopolitan bird of prey in the family Falconidae.
+
+[Source 4] score=0.2321 file=fruit.txt chunk=0
+An apple is an edible fruit produced by an apple tree.
+
+================================================================================
+FINAL ANSWER
+================================================================================
+## What Is an NHL Team?
+
+An NHL team is a professional ice hockey team that competes in the **National Hockey League (NHL)**. For example, the **Montreal Canadiens** are a professional ice hockey team based in Montreal, Quebec [Source 1]. NHL teams play in a league structure, competing against other professional ice hockey franchises across North America.
+
+Mode: hnsw
+Elapsed: 3.10s
+[rag_agent]: 

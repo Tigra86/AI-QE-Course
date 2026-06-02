@@ -1,0 +1,29 @@
+[rag_agent]: python benchmark_search.py
+Matplotlib is building the font cache; this may take a moment.
+FAISS available: True
+Base chunks: 13
+Dim: 1536
+
+original (13 chunks)
+  Brute-force: 0.005088 ms/query
+  FAISS Flat:  0.005792 ms/query
+  FAISS HNSW:  0.005983 ms/query
+
+x100 (1,300 chunks)
+  Brute-force: 0.067523 ms/query
+  FAISS Flat:  0.166295 ms/query
+  FAISS HNSW:  0.030233 ms/query
+
+x1,000 (13,000 chunks)
+  Brute-force: 3.068069 ms/query
+  FAISS Flat:  2.637483 ms/query
+  FAISS HNSW:  0.066227 ms/query
+
+x5,000 (65,000 chunks)
+  Brute-force: 15.386564 ms/query
+  FAISS Flat:  11.915451 ms/query
+  FAISS HNSW:  0.068693 ms/query
+
+CSV:   /Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 22/Homework/HW#41/rag_agent/benchmark_output/benchmark_results.csv
+Chart: /Users/Tigra/Education/Alex Academy/AI QE Course/AI Class # 22/Homework/HW#41/rag_agent/benchmark_output/benchmark_chart.png
+[rag_agent]: 
