@@ -15,3 +15,5 @@ env/
 *.wav
 *.csv
 *.html
+
+/Models/
